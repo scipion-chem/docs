@@ -16,7 +16,7 @@ install Scipion first in order to use Scipion-chem
 (https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html)
 
 Scipion-chem installation
---------------------------
+========================================
 Once Scipion is installed in your computer, you can install Scipion-chem as its plugin. Scipion-chem is the core for the
 rest of scipion-chem-\* plugins, so you would need to install it first. To do so, you can check the instructions in the
 `Scipion-chem README <https://github.com/scipion-chem/scipion-chem/blob/master/README.rst>`_
@@ -26,7 +26,7 @@ README files in each of the plugin repositories in case of doubt.
 
 
 Scipion-chem overview
----------------------
+========================================
 In this section, each of the scipion-chem plugins will be briefly presented, grouped by their main functionalities.
 We have mainly followed the workflow shown in the figure below, even though some included tools fall outside these
 groups. Further documentation will be written for each of them, together with case studies and workflow examples.
@@ -36,7 +36,7 @@ groups. Further documentation will be written for each of them, together with ca
 
 
 1) **Scipion-chem**
-~~~~~~~~~~~~~~~~~~~~
+---------------------
 As stated before, Scipion-chem is the core of the scipion-chem plugins and it includes several tools which
 are mainly oriented to virtual Drug Screening.
 
@@ -67,7 +67,7 @@ protein pockets, and for docking results.
 Further information about all these protocols can be found in the subsequent documentation.
 
 2) Receptor and ligand preparation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 The protocols for the protein (receptor) and the small molecule (ligand) preparation are actually included in other
 plugins and do not hold any plugin by themselves. As you will be able to read below, protocols for receptor preparation
@@ -75,7 +75,7 @@ can be performed with autodock, rosetta or lephar plugins; while protocols for l
 autodock, openbabel and rdkit (these last two included in Scipion-chem).
 
 3) Structural Regions Of Interest (ROIs)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 Usually, the VDS workflow from the target starts by defining onto the structure those regions where we are interested
 in exploring the druggability. This is, defining those places where we would like to perform the docking.
@@ -104,7 +104,7 @@ over a Molecular Dynamics simulation, MDPocket (in devel).
 we include its main functionality for protein pocket prediction.
 
 4) Ligand based approaches
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 This section is mainly included in the Scipion-chem core, and mainly consists on several rdkit functionalities that
 characterize small molecules which would later be used for docking. They are inspired on some of the
@@ -114,7 +114,7 @@ We included filters based on ADME or PAINS qualities; based on shape or fingerpr
 and finally tools for generating, managing and filtering by pharmacophores.
 
 5) Docking plugins
-~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 5.1) **Scipion-chem-autodock**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -157,7 +157,7 @@ found in the `scipion-chem-rosetta <https://github.com/scipion-chem/scipion-chem
 
 
 6) **Molecular Dynamics**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 Molecular Dynamics (MD) simulate the state and movement of some molecules through time by modelling the energy
 interactions of their atoms and calculating the coordinates and velocities of each of them during a fixed number of
@@ -213,7 +213,7 @@ Instruction for a proper installation can be found in the
 
 
 7) **Others**
-~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 Further functionalities outside the most common VDS workflow are included in Scipion-chem. They include:
 
@@ -237,7 +237,7 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
 
 
 Get in contact
---------------------------
+==================
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or
