@@ -66,10 +66,10 @@ Among them, we include consensus protocols for structural regions of interest (R
 protein pockets, and for docking results.
 Further information about all these protocols can be found in the subsequent documentation.
 
-2) Receptor and ligand preparation
+2) Target and ligand preparation
 ----------------------------------------
 
-The protocols for the protein (receptor) and the small molecule (ligand) preparation are actually included in other
+The protocols for the protein (target) and the small molecule (ligand) preparation are actually included in other
 plugins and do not hold any plugin by themselves. As you will be able to read below, protocols for receptor preparation
 can be performed with autodock, rosetta or lephar plugins; while protocols for ligand preparation can be performed using
 autodock, openbabel and rdkit (these last two included in Scipion-chem).
@@ -113,7 +113,7 @@ characterize small molecules which would later be used for docking. They are ins
 We included filters based on ADME or PAINS qualities; based on shape or fingerprint distance against a target ligand;
 and finally tools for generating, managing and filtering by pharmacophores.
 
-5) Docking plugins
+5) Docking
 ----------------------------------------
 
 5.1) **Scipion-chem-autodock**
