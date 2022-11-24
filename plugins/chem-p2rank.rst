@@ -1,7 +1,7 @@
 
 .. _docs-chem-p2rank:
 
-.. figure:: ../images/p2ranklogo.png
+.. figure:: ../images/p2rank_logo.png
    :alt: p2rank logo
 
 Welcome to Scipion-chem-p2rank's documentation!
