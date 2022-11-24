@@ -37,7 +37,7 @@ you can define the parameters you want to use for the modelling:
 
 4) **Alignment**: The alignment of the template sequences can be performed using external software included in Scipion-chem (Mafft, Clustal, Muscle), Modeller (AutoModeller) or inputting a custom alignment from a file or SetOfSequencesChem object (be aware that a custom alignment not properly prepared will lead to error).
 
-5) **Scoring**: Different scoring fucntions provided by Modeller can be checked to score the resulting model(s).
+5) **Scoring**: Different scoring functions provided by Modeller can be checked to score the resulting model(s).
 
 6) **Optimization**: The quality and number of cycles of modelling can also be tuned.
 
@@ -56,6 +56,33 @@ All parameters include a help button that gives further information on the param
 The result of this protocol is an AtomStruct object for each model generated. In the summary, you can check the score(s)
 obtained for each of them. Analyze Results will open all the output models in PyMol for visualization. You can open
 them one by one with right click over the object.
+
+|
+
+**Mutation modelling**
+-------------------------------
+This protocol follows the `Modeller manual <https://salilab.org/modeller/wiki/Mutate_model>`_ for single residue
+mutation modelling and energy optimization. The protocol includes different sections where
+you can define the parameters you want to use for the modelling:
+
+1) **Input**: It must be an AtomStruct object containing the protein structure you want to mutate
+
+2) **Define mutation**: You can define the residue in the structure you want to mutate. Using the wizards, you can choose the chain and position from the structure. The third wizard will save the mutation in the list and they will be performed sequentially.
+
+3) **Distance parameters**: The different distances using for determining the interactions can be tuned.
+
+4) **Energy restraints**: Define different restraints on the energy calculations.
+
+All parameters include a help button that gives further information on the parameter.
+
+|
+
+.. image:: ../images/modeller_form2_1.png
+   :alt: modeller prot2_1
+
+|
+
+The result of this protocol is an AtomStruct object with the mutated model.
 
 |
 
