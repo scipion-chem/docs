@@ -57,7 +57,7 @@ the surface points visualization they provide.
 
 .. |viewer| image:: ../images/p2rank_viewer.png
    :alt: p2rank viewer
-   :width: 50%
+   :width: 45%
 
 .. |surface| image:: ../images/p2rank_surface.png
    :alt: p2rank vmd
