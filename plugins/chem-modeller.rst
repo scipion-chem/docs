@@ -47,11 +47,9 @@ All parameters include a help button that gives further information on the param
 
 .. image:: ../images/modeller_form1_1.png
    :alt: modeller prot1_1
-   :width: 45%
 
 .. image:: ../images/modeller_form1_2.png
    :alt: modeller prot1_2
-   :width: 50%
 
 |
 
