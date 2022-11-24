@@ -41,7 +41,7 @@ you can define the parameters you want to use for the modelling:
 
 6) **Optimization**: The quality and number of cycles of modelling can also be tuned.
 
-All parameters include a help button that gives further information on the parameter.
+All parameters include a help button that gives further information for each of them.
 
 |
 
@@ -76,7 +76,7 @@ you can define the parameters you want to use for the modelling:
 
 4) **Energy restraints**: Define different restraints on the energy calculations.
 
-All parameters include a help button that gives further information on the parameter.
+All parameters include a help button that gives further information for each of them.
 
 |
 
