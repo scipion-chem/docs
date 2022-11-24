@@ -53,6 +53,9 @@ the alpha-spheres over the protein structure using VMD.
 .. figure:: fpocket_viewer.png
    :alt: fpocket viewer
 
+.. figure:: fpocket_vmd.png
+   :alt: fpocket vmd
+
 As for the rest of the Scipion object, you can also check **Table view** to visualize the stored parameters for each of
 the items in the set.
 
