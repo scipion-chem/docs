@@ -1,7 +1,7 @@
 
 .. _docs-chem-fpocket:
 
-.. figure:: fpocket_logo.png
+.. figure:: ../images/fpocket_logo.png
    :alt: fpocket logo
 
 Welcome to Scipion-chem-fpocket's documentation!
@@ -29,7 +29,7 @@ The main program of the FPocket package is fpocket and it is integrated in Scipi
 Once you have installed the plugin (you will need to restart Scipion), the protocol will appear in the list of
 protocols in the "Virtual Screening" view. The protocol is called **fpocket - Find pockets**.
 
-.. figure:: fpocket_protocol.png
+.. figure:: ../images/fpocket_protocol.png
    :alt: fpocket protocol
 
 The form of the protocol is relatively simple, it just need an input atomic structure (a protein structure).
@@ -37,7 +37,7 @@ Then, you can fine tune the different parameters that control the alpha spheres 
 You can check the meaning of this parameters in the help button for each of them, and if you need more information
 we recommend you to check the `FPocket documentation <https://github.com/Discngine/fpocket/blob/master/doc/MANUAL.md>`_.
 
-.. figure:: fpocket_form.png
+.. figure:: ../images/fpocket_form.png
    :alt: fpocket form
 
 The result of this protocol is a SetOfStructROIs object, containing the predicted pockets. You can inspect this pockets
@@ -52,11 +52,11 @@ the alpha-spheres over the protein structure using VMD.
 
 |viewer|  |vmd|
 
-.. |viewer| image:: fpocket_viewer.png
+.. |viewer| image:: ../images/fpocket_viewer.png
    :alt: fpocket viewer
    :width: 50%
 
-.. |vmd| image:: fpocket_vmd.png
+.. |vmd| image:: ../images/fpocket_vmd.png
    :alt: fpocket vmd
    :width: 45%
 

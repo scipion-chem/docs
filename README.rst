@@ -1,7 +1,7 @@
 
 .. _docs-chem_introduction:
 
-.. figure:: scipion-chem.gif
+.. figure:: images/scipion-chem.gif
    :alt: scipion logo
 
 Welcome to Scipion-chem's documentation!
@@ -12,8 +12,8 @@ You can find the complete list in https://github.com/scipion-chem
 
 Scipion-chem is itself built as a plugin of Scipion, a workflow engine mainly used for Cryo-Electron Microscopy.
 Therefore, most of its documentation (https://github.com/scipion-em) also applies to Scipion-chem and you will need to
-install Scipion first in order to use Scipion-chem
-(https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html)
+install `Scipion3 <https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html>`_ first
+in order to use Scipion-chem.
 
 Scipion-chem installation
 ========================================
@@ -31,7 +31,7 @@ In this section, each of the scipion-chem plugins will be briefly presented, gro
 We have mainly followed the workflow shown in the figure below, even though some included tools fall outside these
 groups. Further documentation will be written for each of them, together with case studies and workflow examples.
 
-.. figure:: vds-workflow.gif
+.. figure:: images/vds-workflow.gif
    :alt: vds workflow
 
 
