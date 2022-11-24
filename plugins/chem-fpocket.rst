@@ -50,7 +50,7 @@ Scipion-chem-fpocket viewer
 The viewer for fpocket results include the Pymol General Viewer for SetOfStructROIs objects plus an specific viewer of
 the alpha-spheres over the protein structure using VMD.
 
-|viewer| bla |vmd|
+|viewer|  |vmd|
 
 .. |viewer| image:: fpocket_viewer.png
    :alt: fpocket viewer
