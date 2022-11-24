@@ -7,7 +7,7 @@
 Welcome to Scipion-chem-fpocket's documentation!
 =================================================
 In order to use this plugin, you need to install first Scipion-chem.
-:doc:`Scipion-chem <../README.rst>`_
+`Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
 `Scipion-chem README <https://github.com/scipion-chem/scipion-chem/blob/master/README.rst>`_
 
