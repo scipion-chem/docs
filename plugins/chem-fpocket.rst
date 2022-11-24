@@ -10,7 +10,6 @@ In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
 `Scipion-chem README <https://github.com/scipion-chem/scipion-chem/blob/master/README.rst>`_
-
 Similarly, you can find the installation instructions of this plugin in
 `Scipion-chem-fpocket README <https://github.com/scipion-chem/scipion-chem-fpocket/blob/master/README.rst>`_
 
