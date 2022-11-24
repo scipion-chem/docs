@@ -29,19 +29,13 @@ This protocol follows the `Modeller manual <https://salilab.org/modeller/manual/
 modelling of a protein sequence using one or several structure templates. The protocol includes different sections where
 you can define the parameters you want to use for the modelling:
 
-1) **Input**: It can either be a protein Sequence (single chain) or a SetOfSequences (multiple chains). You can also
-input a initial structure model for the sequence(s).
+1) **Input**: It can either be a protein Sequence (single chain) or a SetOfSequences (multiple chains). You can also input a initial structure model for the sequence(s).
 
-2) **Output**: The number of output models and whether to model also the hydrogens can be specified
+2) **Output**: The number of output models and whether to model also the hydrogens can be specified.
 
-3) **Templates**: You can define the templates from AtomStruct objects in your project or directly from PDB codes. For
-each of them, you will need to define the chain(s) to use in the modelling and the sequence indexes to take into
-account. You must use the wizards included in the protocol in order to select the desired chains and positions.
-Once the chain(s) and positions are selected, use the third wizard to save the template in the list below.
+3) **Templates**: You can define the templates from AtomStruct objects in your project or directly from PDB codes. For each of them, you will need to define the chain(s) to use in the modelling and the sequence indexes to take into account. You must use the wizards included in the protocol in order to select the desired chains and positions. Once the chain(s) and positions are selected, use the third wizard to save the template in the list below.
 
-4) **Alignment**: The alignment of the template sequences can be performed using external software included in
-Scipion-chem (Mafft, Clustal, Muscle), Modeller (AutoModeller) or inputting a custom alignment from a file or
-SetOfSequencesChem object (be aware that a custom alignment not properly prepared will lead to error).
+4) **Alignment**: The alignment of the template sequences can be performed using external software included in Scipion-chem (Mafft, Clustal, Muscle), Modeller (AutoModeller) or inputting a custom alignment from a file or SetOfSequencesChem object (be aware that a custom alignment not properly prepared will lead to error).
 
 5) **Scoring**: Different scoring fucntions provided by Modeller can be checked to score the resulting model(s).
 
