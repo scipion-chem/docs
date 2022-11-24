@@ -26,11 +26,12 @@ over a Molecular Dynamics simulation, MDPocket (in devel).
 Scipion-chem-fpocket protocols
 ========================================
 
-1) **Protein pocket detection**
+**Protein pocket detection**
 -------------------------------
 The main program of the FPocket package is fpocket and it is integrated in Scipion-chem-fpocket as a protocol.
 Once you have installed the plugin (you will need to restart Scipion), the protocol will appear in the list of
 protocols in the "Virtual Screening" view. The protocol is called **fpocket - Find pockets**.
+You can also find this or any other protocol searching by keyword with "Ctrl+F".
 
 |
 

@@ -25,11 +25,12 @@ on machine learning. In this plugin we include the main tool for pocket predicti
 Scipion-chem-p2rank protocols
 ========================================
 
-1) **Protein pocket detection**
+**Protein pocket detection**
 -------------------------------
 The main program of the P2Rank package is p2rank and it is integrated in Scipion-chem-p2rank as a protocol.
 Once you have installed the plugin (you will need to restart Scipion), the protocol will appear in the list of
 protocols in the "Virtual Screening" view. The protocol is called **p2rank - Find pockets**.
+ou can also find this or any other protocol searching by keyword with "Ctrl+F".
 
 |
 
