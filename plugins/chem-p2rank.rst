@@ -61,7 +61,7 @@ the surface points visualization they provide.
 
 .. |surface| image:: ../images/p2rank_surface.png
    :alt: p2rank vmd
-   :width: 45%
+   :width: 50%
 
 As for the rest of the Scipion object, you can also check **Table view** to visualize the stored parameters for each of
 the items in the set.
