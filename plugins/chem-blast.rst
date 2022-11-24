@@ -38,6 +38,11 @@ All parameters include a help button that gives further information for each of 
 
 |
 
+.. figure:: ../images/blast_form1.png
+   :alt: blast form1
+
+|
+
 The result of this protocol is either a SetOfSequences (for protein or nucletides sequences) or a SetOfSmallMolecules
 for PubChem downloads.
 
@@ -61,6 +66,11 @@ A test for this protocol can be run using::
 
 |
 
+.. figure:: ../images/blast_form2.png
+   :alt: blast form2
+
+|
+
 **BLAST search**
 -------------------------------
 This protocol performs a BLAST search over a database, which can be local or a web-server BLAST database.
@@ -69,6 +79,11 @@ the type of search (blastp, blastn, blastx, ...).
 
 In the second parameters tab, different parameters for the search can be tuned. If you are
 not sure of which parameters to use, click on the wizard and the default parameters for the search type will be set.
+
+|
+
+.. figure:: ../images/blast_form3.png
+   :alt: blast form3
 
 |
 
