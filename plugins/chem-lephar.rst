@@ -24,7 +24,7 @@ only protocols for preparing the target and docking are integrated in Scipion-ch
 Scipion-chem-lephar protocols
 ========================================
 
-**LePro**
+**Receptor preparation**
 -------------------------------
 This protocol prepares the protein receptor for docking using LePro.
 LePro is designed to automatically add hydrogen atoms to proteins and/or nucleic acids by explicitely considering the
@@ -49,7 +49,7 @@ A test for this protocol can be run using::
 
 |
 
-**LeDock**
+**Docking**
 -------------------------------
 This protocol performs docking using LeDock. As for the rest of docking programs in Scipion-chem, the docking can be
 performed either in the whole structure or on a SetOfStructROIs. Then, the second part of the input is the
