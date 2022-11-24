@@ -31,6 +31,7 @@ protocols in the "Virtual Screening" view. The protocol is called **fpocket - Fi
 
 .. figure:: fpocket_protocol.png
    :alt: fpocket protocol
+   :align: center
 
 The form of the protocol is relatively simple, it just need an input atomic structure (a protein structure).
 Then, you can fine tune the different parameters that control the alpha spheres and clustering inside fpocket.
@@ -39,6 +40,7 @@ we recommend you to check the `FPocket documentation <https://github.com/Discngi
 
 .. figure:: fpocket_form.png
    :alt: fpocket form
+   :align: center
 
 The result of this protocol is a SetOfStructROIs object, containing the predicted pockets. You can inspect this pockets
 using the **Analyze results** button or if you want to directly see the related files you will be able to find them
@@ -54,7 +56,7 @@ the alpha-spheres over the protein structure using VMD.
 
 .. |viewer| image:: fpocket_viewer.png
    :alt: fpocket viewer
-   :width: 45%
+   :width: 50%
 
 .. |vmd| image:: fpocket_vmd.png
    :alt: fpocket vmd
