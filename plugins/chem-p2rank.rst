@@ -43,6 +43,9 @@ The result of this protocol is a SetOfStructROIs object, containing the predicte
 using the **Analyze results** button or if you want to directly see the related files you will be able to find them
 in the protocol's folder.
 
+A test for this protocol can be run using::
+    scipion3 tests p2rank.tests.test_p2rank.TestP2Rank
+
 |
 
 Scipion-chem-p2rank viewer

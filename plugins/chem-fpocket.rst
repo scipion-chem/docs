@@ -56,6 +56,9 @@ The result of this protocol is a SetOfStructROIs object, containing the predicte
 using the **Analyze results** button or if you want to directly see the related files you will be able to find them
 in the protocol's folder.
 
+A test for this protocol can be run using::
+    scipion3 tests fpocket.tests.test_fpocket.TestFPocket
+
 |
 
 Scipion-chem-fpocket viewer

@@ -57,11 +57,14 @@ The result of this protocol is an AtomStruct object for each model generated. In
 obtained for each of them. Analyze Results will open all the output models in PyMol for visualization. You can open
 them one by one with right click over the object.
 
+A test for this protocol can be run using::
+    scipion3 tests modellerScipion.tests.test_comparative_modelling.TestModellerComparativeModelling
+
 |
 
 **Mutation modelling**
 -------------------------------
-This protocol follows the `Modeller manual <https://salilab.org/modeller/wiki/Mutate_model>`_ for single residue
+This protocol follows the `Modeller wiki <https://salilab.org/modeller/wiki/Mutate_model>`_ for single residue
 mutation modelling and energy optimization. The protocol includes different sections where
 you can define the parameters you want to use for the modelling:
 
@@ -83,6 +86,9 @@ All parameters include a help button that gives further information on the param
 |
 
 The result of this protocol is an AtomStruct object with the mutated model.
+
+A test for this protocol can be run using::
+    scipion3 tests modellerScipion.tests.test_mutate_residue.TestModellerMutateRes
 
 |
 
