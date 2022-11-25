@@ -54,7 +54,7 @@ All parameters include a help button that gives further information for each of 
 |
 
 The result of this protocol is either a GromacsSystem, containing the Gromacs coordinates and topology files. The user
-can visualize the complex either with PyMol using **Analyze Results**.
+can visualize the complex with PyMol using **Analyze Results**.
 
 |
 
@@ -68,25 +68,77 @@ A test for this protocol can be run using::
 
 |
 
-**Create local database**
+**Run MD simulation**
 -------------------------------
-This protocol creates a local database in BLAST format and stores it in the plugin folder. The user can create
-databases either from a SetOfSequences or from default databases in BLAST. The user must be aware of this last option,
-since most of the BLAST databases are quite big and downloading them will expend high amounts of time and storage.
+This protocol takes the prepared Gromacs system and use it to run a defined simulation. In the form, the user can
+define different simulation stages that the protocol will run sequentially. The parameters of this protocol are grouped
+as:
+
+1) **Input**: The GromacsSystem product of the system preparation described above.
+
+Then, the user can define the different MD stages:
+
+2) **Ensemble**: Defines the type of simulation in the current stage. The user can choose from energy minimization, NVT
+or NPT. Then, for each of them other parameters will appear to further tune the simulation.
+
+3) **Simulation time**: Defines the length of the simulation in number of steps for the minimization and in time for
+NVT and NPT. In the case of NVT and NPT, the user can also specify whether the trajectory from the stage should be
+saved.
+
+4) **Restraints**: Energetic restraints can be defined during the stage for the principal groups of atoms present in the
+system (Protein, Backbone, C-alpha...)
+
+5) **Summary**: Once the user has defined the desired stage, a wizard can be used to save it to the list of stages, whose
+summary is also shown. However, this list is just a summary and manual modifications will not yield changes. In order to
+modify the stages, the user need to use the wizards in order to add, delete or watch the parameters of the desired stages,
+which can be specified in the wizard text input.
 
 |
 
-This protocol does not output any object, but it saves the database in the plugin folder.
+.. figure:: ../images/gromacs_form2.png
+   :alt: gromacs form2
+
+|
+
+The result of this protocol is either a GromacsSystem, this time also containing the concatenated trajectory of the
+last saved stages (If stages 2, 4 and 5 were saved, since we should not concatenate 2 to 4, only 4 and 5 will be saved).
+Using **Analyze Results**, a form with different visualization options will be displayed, where the user can:
+
+|
+
+.. figure:: ../images/gromacs_out2_1.png
+   :alt: gromacs out2_1
+
+|
+
+1) **Open Gromacs System**: Display the system (without trajectory) using PyMol
+
+2) **Open MD simulation**: Inspect the system trajectories of the different stages saved using either PyMol
+(not recommended for long trajectories) or VMD.
+
+|
+
+.. figure:: ../images/gromacs_out2_2.png
+   :alt: gromacs out2_2
+
+|
+
+3) **Gromacs Analysis**: Perform different `analysis of the trajectories <https://manual.gromacs.org/current/user-guide/cmdline.html#trajectory-analysis>`_ using Gromacs, which will be displayed with
+matplotlib. Among these analysis we included the variation of RMSD, SASA, Gyration... of the different atom groups
+through the trajectory.
+
+|
+
+.. figure:: ../images/gromacs_out2_3.png
+   :alt: gromacs out2_3
+
+|
 
 A test for this protocol can be run using::
-    scipion3 tests blast.tests.test_blast.TestDatabaseBLAST
+    scipion3 tests gromacs.tests.tests.TestGromacsRunSimulation
 
-|
+This test contains the test for System Preparation described above.
 
-.. figure:: ../images/blast_form2.png
-   :alt: blast form2
-
-|
 
 **BLAST search**
 -------------------------------
