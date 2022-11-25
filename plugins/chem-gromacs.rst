@@ -49,7 +49,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form1_2| image:: ../images/gromacs_form1_2.png
    :alt: gromacs form1_2
-   :width: 45%
+   :width: 50%
 
 |
 
@@ -58,7 +58,7 @@ can visualize the complex either with PyMol using **Analyze Results**.
 
 |
 
-.. figure:: ../images/gromacs_out1.png
+.. figure:: ../images/gromacs_out_1.png
    :alt: gromacs out1
 
 |
