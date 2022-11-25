@@ -78,20 +78,15 @@ as:
 
 Then, the user can define the different MD stages:
 
-2) **Ensemble**: Defines the type of simulation in the current stage. The user can choose from energy minimization, NVT
-or NPT. Then, for each of them other parameters will appear to further tune the simulation.
+2) **Ensemble**: Defines the type of simulation in the current stage. The user can choose from energy minimization, NVT or NPT. Then, for each of them other parameters will appear to further tune the simulation.
 
-3) **Simulation time**: Defines the length of the simulation in number of steps for the minimization and in time for
-NVT and NPT. In the case of NVT and NPT, the user can also specify whether the trajectory from the stage should be
-saved.
+3) **Simulation time**: Defines the length of the simulation in number of steps for the minimization and in time for NVT and NPT. In the case of NVT and NPT, the user can also specify whether the trajectory from the stage should be saved.
 
-4) **Restraints**: Energetic restraints can be defined during the stage for the principal groups of atoms present in the
-system (Protein, Backbone, C-alpha...)
+4) **Restraints**: Energetic restraints can be defined during the stage for the principal groups of atoms present in the system (Protein, Backbone, C-alpha...)
 
-5) **Summary**: Once the user has defined the desired stage, a wizard can be used to save it to the list of stages, whose
-summary is also shown. However, this list is just a summary and manual modifications will not yield changes. In order to
-modify the stages, the user need to use the wizards in order to add, delete or watch the parameters of the desired stages,
-which can be specified in the wizard text input.
+Then, the defined stage can be inserted into the workflow, whose summary is shown below.
+
+5) **Summary**: A summary of the added stages is shown. However, this list is just a summary and manual modifications will not yield changes. In order to modify the stages, the user need to use the wizards in order to add, delete or watch the parameters of the desired stages, which can be specified in the wizard text input.
 
 |
 
@@ -113,8 +108,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 1) **Open Gromacs System**: Display the system (without trajectory) using PyMol
 
-2) **Open MD simulation**: Inspect the system trajectories of the different stages saved using either PyMol
-(not recommended for long trajectories) or VMD.
+2) **Open MD simulation**: Inspect the system trajectories of the different stages saved using either PyMol (not recommended for long trajectories) or VMD. To facilitate the visualization, only the waters closer to the structure (in the first frame) will be shown.
 
 |
 
@@ -123,9 +117,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 |
 
-3) **Gromacs Analysis**: Perform different `analysis of the trajectories <https://manual.gromacs.org/current/user-guide/cmdline.html#trajectory-analysis>`_ using Gromacs, which will be displayed with
-matplotlib. Among these analysis we included the variation of RMSD, SASA, Gyration... of the different atom groups
-through the trajectory.
+3) **Gromacs Analysis**: Perform different `analysis of the trajectories <https://manual.gromacs.org/current/user-guide/cmdline.html#trajectory-analysis>`_ using Gromacs, which will be displayed with matplotlib. Among these analysis we included the variation of RMSD, SASA, Gyration... of the different atom groups through the trajectory.
 
 |
 
