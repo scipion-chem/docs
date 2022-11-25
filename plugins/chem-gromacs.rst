@@ -43,11 +43,11 @@ All parameters include a help button that gives further information for each of 
 
 |form1| |form1_2|
 
-.. |form1| figure:: ../images/gromacs_form1.png
+.. |form1| image:: ../images/gromacs_form1.png
    :alt: gromacs form1
    :width: 45%
 
-.. |form1_2| figure:: ../images/gromacs_form1_2.png
+.. |form1_2| image:: ../images/gromacs_form1_2.png
    :alt: gromacs form1_2
    :width: 45%
 
