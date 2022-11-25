@@ -117,7 +117,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 |
 
-3) **Gromacs Analysis**: Perform different `analysis of the trajectories <https://manual.gromacs.org/current/user-guide/cmdline.html#trajectory-analysis>`_ using Gromacs, which will be displayed with matplotlib. Among these analysis we included the variation of RMSD, SASA, Gyration... of the different atom groups through the trajectory.
+3) **Gromacs Analysis**: Perform different `analysis of the trajectories <https://manual.gromacs.org/current/reference-manual/analysis.html>`_ using Gromacs, which will be displayed with matplotlib. Among these analysis we included the variation of RMSD, SASA, Gyration... of the different atom groups through the trajectory.
 
 |
 
