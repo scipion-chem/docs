@@ -53,7 +53,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-The result of this protocol is either a GromacsSystem, containing the Gromacs coordinates and topology files. The user
+The result of this protocol is a GromacsSystem, containing the Gromacs coordinates and topology files. The user
 can visualize the complex with PyMol using **Analyze Results**.
 
 |
@@ -95,7 +95,7 @@ Then, the defined stage can be inserted into the workflow, whose summary is show
 
 |
 
-The result of this protocol is either a GromacsSystem, this time also containing the concatenated trajectory of the
+The result of this protocol is a GromacsSystem, this time also containing the concatenated trajectory of the
 last saved stages (If stages 2, 4 and 5 were saved, since we should not concatenate 2 to 4, only 4 and 5 will be saved).
 Using **Analyze Results**, a form with different visualization options will be displayed, where the user can:
 
@@ -132,27 +132,33 @@ A test for this protocol can be run using::
 This test contains the test for System Preparation described above.
 
 
-**BLAST search**
+**System modification**
 -------------------------------
-This protocol performs a BLAST search over a database, which can be local or a web-server BLAST database.
-The input of the protocol is a sequence, which can be from a protein or nucleotide, and the user will be able to define
-the type of search (blastp, blastn, blastx, ...).
+This protocol performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_
+over a Gromacs System, specially over its trajectory.
 
-In the second parameters tab, different parameters for the search can be tuned. If you are
-not sure of which parameters to use, click on the wizard and the default parameters for the search type will be set.
+The modifications include:
+    - **Cleaning**: removing waters and ions
+    - **Fitting**: Fit trajectory to initial structure
+    - **Dropping**: Cut a trajectory, saving only from first to last specified times
+    - **Subsampling**: Subsample trajectory frames
+    - **Filtering**: Perform low/high pass filters on trajectory frames
+
 
 |
 
-.. figure:: ../images/blast_form3.png
-   :alt: blast form3
+.. figure:: ../images/gromacs_form3.png
+   :alt: gromacs form3
 
 |
 
-The result of this protocol is a SetOfSequences containing the BLAST hits. The analyze results button will open these
-sequences in AliViewer.
+The result of this protocol is a GromacsSystem, containing the modified Gromacs files and trajectory. The user
+can visualize the complex using **Analyze Results**.
 
 A test for this protocol can be run using::
-    scipion3 tests blast.tests.test_blast.TestBLAST
+    scipion3 tests gromacs.tests.tests.TestGromacsTrajMod
+
+This test contains the tests for System Preparation and MD Simulation described above.
 
 |
 
