@@ -67,15 +67,15 @@ These protocols are:
 
 |
 
-|form1| |form2|
+|form2_1| |form2_2|
 
-.. |form1| image:: ../images/autodock_form2_1.png
+.. |form2_1| image:: ../images/autodock_form2_1.png
    :alt: autodock form2_1
    :width: 45%
 
-.. |form2| image:: ../images/autodock_form2_2.png
+.. |form2_2| image:: ../images/autodock_form2_2.png
    :alt: autodock form2_2
-   :width: 45%
+   :width: 50%
 
 |
 
@@ -91,21 +91,27 @@ Tests for these protocols can be run using::
 
 **Binding site identification**
 -------------------------------
-This protocol performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_
-over a Gromacs System, specially over its trajectory.
+In Scipion-chem-autodock, we offer 2 different protocols for binding site prediction. Both take an AtomStruct as
+input, which should be prepared, and predict the most promising binding sites on the structure.
 
-The modifications include:
-    - **Cleaning**: removing waters and ions
-    - **Fitting**: Fit trajectory to initial structure
-    - **Dropping**: Cut a trajectory, saving only from first to last specified times
-    - **Subsampling**: Subsample trajectory frames
-    - **Filtering**: Perform low/high pass filters on trajectory frames
+The included protocols are:
+
+1) `AutoLigand: <https://autodock.scripps.edu/resources/autoligand/>`_ It uses AutoLigand tool to predict the binding sites. The user must be aware that this method is deprecated and will soon be deleted so they should use AutoSite instead.
+
+2) `**AutoSite:** <https://ccsb.scripps.edu/autosite/>`_ It uses the new AutoSite functionality for binding site prediction.
 
 
 |
 
-.. figure:: ../images/gromacs_form3.png
-   :alt: gromacs form3
+|form3_1| |form3_2|
+
+.. |form3_1| image:: ../images/autodock_form3_1.png
+   :alt: autodock form3_1
+   :width: 47%
+
+.. |form3_2| image:: ../images/autodock_form3_2.png
+   :alt: autodock form3_2
+   :width: 47%
 
 |
 
