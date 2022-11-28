@@ -72,11 +72,11 @@ module.
 
 .. |form2_1| image:: ../images/autodock_form2_1.png
    :alt: autodock form2_1
-   :width: 43%
+   :height: 400
 
 .. |form2_2| image:: ../images/autodock_form2_2.png
    :alt: autodock form2_2
-   :width: 52%
+   :height: 400
 
 |
 
@@ -129,11 +129,11 @@ The included protocols are:
 
 .. |form3_1| image:: ../images/autodock_form3_1.png
    :alt: autodock form3_1
-   :width: 45%
+   :height: 400
 
 .. |form3_2| image:: ../images/autodock_form3_2.png
    :alt: autodock form3_2
-   :width: 50%
+   :height: 400
 
 |
 
@@ -189,11 +189,11 @@ The included protocols are:
 
 .. |form4_1| image:: ../images/autodock_form4_1.png
    :alt: autodock form4_1
-   :height: 400
+   :height: 420
 
 .. |form4_2| image:: ../images/autodock_form4_2.png
    :alt: autodock form4_2
-   :height: 400
+   :height: 420
 
 |
 
