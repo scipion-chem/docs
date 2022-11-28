@@ -72,11 +72,11 @@ module.
 
 .. |form2_1| image:: ../images/autodock_form2_1.png
    :alt: autodock form2_1
-   :width: 45%
+   :width: 43%
 
 .. |form2_2| image:: ../images/autodock_form2_2.png
    :alt: autodock form2_2
-   :width: 50%
+   :width: 52%
 
 |
 
@@ -100,7 +100,7 @@ The included protocols are:
 
 1) `AutoLigand: <https://autodock.scripps.edu/resources/autoligand/>`_ It uses AutoLigand tool to predict the binding sites. The user must be aware that this method is deprecated and will soon be deleted so they should use AutoSite instead.
 
-2) `**AutoSite:** <https://ccsb.scripps.edu/autosite/>`_ It uses the new AutoSite functionality for binding site prediction.
+2) `AutoSite: <https://ccsb.scripps.edu/autosite/>`_ It uses the new AutoSite functionality for binding site prediction.
 
 
 |
@@ -109,15 +109,15 @@ The included protocols are:
 
 .. |form3_1| image:: ../images/autodock_form3_1.png
    :alt: autodock form3_1
-   :width: 47%
+   :width: 45%
 
 .. |form3_2| image:: ../images/autodock_form3_2.png
    :alt: autodock form3_2
-   :width: 47%
+   :width: 50%
 
 |
 
-The results of these protocols are a SetOfStructROIs (Structural Regions Of Interest), containing the predictied binding
+The results of these protocols are a SetOfStructROIs (Structural Regions Of Interest), containing the predicted binding
 sites. The user can visualize them using **Analyze Results**, which will display the General StructROIs viewer.
 
 Tests for these protocols can be run using::
@@ -126,6 +126,47 @@ Tests for these protocols can be run using::
     scipion3 tests autodock.tests.test_autodock.TestAutoSite
 
 These tests contain the tests for Receptor Preparation described above.
+
+|
+
+**Docking**
+-------------------------------
+In Scipion-chem-autodock, we offer 2 different protocols for docking. Both take can take as input either an AtomStruct
+(to perform the docking on the whole protein) or a SetOfStructROIs (to perform the docking only on the Structural
+Regions Of Interest).
+
+The included protocols are:
+
+1) `AutoDock4: <https://autodock.scripps.edu/download-autodock4/>`_ It uses AutoDock4 tool to predict the binding poses for a set of small molecules over the receptor. Inside this same protocol, the `AutoDock-GPU <https://github.com/ccsb-scripps/AutoDock-GPU>`_ version is included, which is several times faster and includes many bug fixes and new features..
+
+2) `AutoDock Vina: <https://vina.scripps.edu/>`_ It uses the Vina docking engine to predict the binding poses for a set of small molecules over the receptor.
+
+
+|
+
+|form4_1| |form4_2|
+
+.. |form4_1| image:: ../images/autodock_form4_1.png
+   :alt: autodock form4_1
+   :width: 45%
+
+.. |form4_2| image:: ../images/autodock_form4_2.png
+   :alt: autodock form4_2
+   :width: 50%
+
+|
+
+The results of these protocols are a SetOfSmallMolecules, containing the predicted binding poses for the input
+molecules. The user can visualize them using **Analyze Results**, which will display the General SmallMolecules viewer.
+
+Tests for these protocols can be run using::
+    scipion3 tests autodock.tests.test_autodock.TestAutoDock
+
+    scipion3 tests autodock.tests.test_autodock.TestAutoDockGPU
+
+    scipion3 tests autodock.tests.test_autodock.TestVina
+
+These tests contain the tests for Receptor Preparation, Autosite and Ligand Preparation described above.
 
 |
 
