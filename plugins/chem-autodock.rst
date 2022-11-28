@@ -63,7 +63,8 @@ These protocols are:
 
 1) **Ligand preparation:** It uses the script *prepare_ligand4.py* in the utilities of AutoDock Tools.
 
-2) **Ligand preparation meeko:** It uses the new Meeko functionality as a Python module.
+2) **Ligand preparation meeko:** It uses the new `Meeko <https://github.com/forlilab/Meeko>`_ functionality as a Python
+module.
 
 |
 
@@ -85,6 +86,7 @@ The result of this protocol is a SetOfSmallMolecules, containing the prepared li
 
 Tests for these protocols can be run using::
     scipion3 tests autodock.tests.test_autodock.TestADPrepareLigands
+
     scipion3 tests autodock.tests.test_autodock.TestADMeekoLigands
 
 |
@@ -115,13 +117,15 @@ The included protocols are:
 
 |
 
-The result of this protocol is a GromacsSystem, containing the modified Gromacs files and trajectory. The user
-can visualize the complex using **Analyze Results**.
+The results of these protocols are a SetOfStructROIs (Structural Regions Of Interest), containing the predictied binding
+sites. The user can visualize them using **Analyze Results**, which will display the General StructROIs viewer.
 
-A test for this protocol can be run using::
-    scipion3 tests gromacs.tests.tests.TestGromacsTrajMod
+Tests for these protocols can be run using::
+    scipion3 tests autodock.tests.test_autodock.TestAutoLigand
 
-This test contains the tests for System Preparation and MD Simulation described above.
+    scipion3 tests autodock.tests.test_autodock.TestAutoSite
+
+These tests contain the tests for Receptor Preparation described above.
 
 |
 
