@@ -168,6 +168,8 @@ centers described in the AutoSite output.
 A test for this protocol can be run using::
     scipion3 tests autodock.tests.test_autodock.TestAutoSitePharmacophore
 
+These tests contain the tests for Receptor Preparation and AutoSite described above.
+
 |
 
 **Docking**
