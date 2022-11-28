@@ -129,11 +129,11 @@ The included protocols are:
 
 .. |form3_1| image:: ../images/autodock_form3_1.png
    :alt: autodock form3_1
-   :height: 400
+   :height: 390
 
 .. |form3_2| image:: ../images/autodock_form3_2.png
    :alt: autodock form3_2
-   :height: 400
+   :height: 390
 
 |
 
