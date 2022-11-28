@@ -189,11 +189,11 @@ The included protocols are:
 
 .. |form4_1| image:: ../images/autodock_form4_1.png
    :alt: autodock form4_1
-   :width: 45%
+   :height: 400
 
 .. |form4_2| image:: ../images/autodock_form4_2.png
    :alt: autodock form4_2
-   :width: 50%
+   :height: 400
 
 |
 
