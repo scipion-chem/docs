@@ -182,21 +182,36 @@ The included protocols are:
 
 1) `AutoDock4: <https://autodock.scripps.edu/download-autodock4/>`_ It uses AutoDock4 tool to predict the binding poses for a set of small molecules over the receptor.
 
+|form4_1| |form4_11|
+
 2) `AutoDock-GPU: <https://github.com/ccsb-scripps/AutoDock-GPU>`_ It uses the GPU implementation of AutoDock, which is several times faster and includes many bug fixes and new features. It actually includes different parameters than AutoDock4, so it has been moved to a new protocol.
+
+|form4_2| |form4_22|
 
 3) `AutoDock Vina: <https://vina.scripps.edu/>`_ It uses the Vina docking engine to predict the binding poses for a set of small molecules over the receptor.
 
+ |form4_3|
 
 |
-
-|form4_1| |form4_2|
 
 .. |form4_1| image:: ../images/autodock_form4_1.png
    :alt: autodock form4_1
    :height: 420
 
+.. |form4_11| image:: ../images/autodock_form4_11.png
+   :alt: autodock form4_11
+   :height: 420
+
 .. |form4_2| image:: ../images/autodock_form4_2.png
    :alt: autodock form4_2
+   :height: 420
+
+.. |form4_22| image:: ../images/autodock_form4_22.png
+   :alt: autodock form4_22
+   :height: 420
+
+.. |form4_3| image:: ../images/autodock_form4_3.png
+   :alt: autodock form4_3
    :height: 420
 
 |
