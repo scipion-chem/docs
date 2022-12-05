@@ -180,15 +180,15 @@ Regions Of Interest).
 
 The included protocols are:
 
-1) `AutoDock4: <https://autodock.scripps.edu/download-autodock4/>`_ It uses AutoDock4 tool to predict the binding poses for a set of small molecules over the receptor.
+1) `AutoDock4: <https://autodock.scripps.edu/download-autodock4/>`_ It uses AutoDock4 tool to predict the binding poses for a set of small molecules over the receptor. The search parameters can be modified to make a full use of the AutoDock4 options.
 
 |form4_1| |form4_11|
 
-2) `AutoDock-GPU: <https://github.com/ccsb-scripps/AutoDock-GPU>`_ It uses the GPU implementation of AutoDock, which is several times faster and includes many bug fixes and new features. It actually includes different parameters than AutoDock4, so it has been moved to a new protocol.
+2) `AutoDock-GPU: <https://github.com/ccsb-scripps/AutoDock-GPU>`_ It uses the GPU implementation of AutoDock, which is several times faster and includes many bug fixes and new features. It includes different parameters than AutoDock4, so it has been moved to a new protocol.
 
 |form4_2| |form4_22|
 
-3) `AutoDock Vina: <https://vina.scripps.edu/>`_ It uses the Vina docking engine to predict the binding poses for a set of small molecules over the receptor.
+3) `AutoDock Vina: <https://vina.scripps.edu/>`_ It uses the Vina docking engine to predict the binding poses for a set of small molecules over the receptor. Currently, `Vina 1.2 <https://github.com/ccsb-scripps/AutoDock-Vina>`_ is included.
 
  |form4_3|
 
@@ -218,6 +218,8 @@ The included protocols are:
 
 The results of these protocols are a SetOfSmallMolecules, containing the predicted binding poses for the input
 molecules. The user can visualize them using **Analyze Results**, which will display the General SmallMolecules viewer.
+
+A section for defining flexible receptor residues is included in these docking protocols.
 
 Tests for these protocols can be run using::
     scipion3 tests autodock.tests.test_autodock.TestAutoDock
