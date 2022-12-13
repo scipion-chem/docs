@@ -207,11 +207,11 @@ can visualize the complex with Maestro using **Analyze Results**.
 
 .. |out6_1| image:: ../images/schrodinger_out6_1.png
    :alt: schrodinger out6_1
-   :height: 440
+   :height: 430
 
 .. |out6_2| image:: ../images/schrodinger_out6_2.png
    :alt: schrodinger out6_2
-   :height: 440
+   :height: 430
 
 |
 
