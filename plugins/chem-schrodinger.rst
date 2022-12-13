@@ -145,11 +145,11 @@ structure or on specific sites, which can be defines as a SetOfStructROIs or as 
 
 .. |form5_1| image:: ../images/schrodinger_form5_1.png
    :alt: schrodinger form5_1
-   :height: 450
+   :height: 500
 
 .. |form5_2| image:: ../images/schrodinger_form5_2.png
    :alt: schrodinger form5_2
-   :height: 450
+   :height: 500
 
 
 |
@@ -207,11 +207,11 @@ can visualize the complex with Maestro using **Analyze Results**.
 
 .. |out6_1| image:: ../images/schrodinger_out6_1.png
    :alt: schrodinger out6_1
-   :height: 420
+   :height: 450
 
 .. |out6_2| image:: ../images/schrodinger_out6_2.png
    :alt: schrodinger out6_2
-   :height: 420
+   :height: 450
 
 |
 
@@ -279,11 +279,11 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 .. |out7_3| image:: ../images/schrodinger_out7_3.png
    :alt: schrodinger out7_3
-   :height: 420
+   :height: 470
 
 .. |out7_4| image:: ../images/schrodinger_out7_4.png
    :alt: schrodinger out7_4
-   :height: 420
+   :height: 470
 
 |
 
