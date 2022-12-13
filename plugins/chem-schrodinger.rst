@@ -247,15 +247,8 @@ The user can also choose from a set of default workflows that will automatically
 
 |
 
-|out7_1| |out7_2|
-
-.. |out7_1| image:: ../images/schrodinger_form7_1.png
-   :alt: schrodinger form7_1
-   :height: 470
-
-.. |out7_2| image:: ../images/schrodinger_form7_2.png
+.. image:: ../images/schrodinger_form7_2.png
    :alt: schrodinger form7_2
-   :height: 470
 
 |
 
