@@ -232,6 +232,26 @@ These tests contain the tests for Receptor Preparation, Autosite and Ligand Prep
 
 |
 
+**Score docked molecules**
+================================
+This protocol scores a SetOfSmallMolecules that has been already docked by any docking program using AutoDock4 scoring
+function. The necessary grid is built over the whole protein and the molecules are rescored.
+
+|
+
+.. image:: ../images/autodock_form_score.png
+   :alt: autodock score
+
+|
+
+The result of this protocol is a SetOfSmallMolecules, containing the rescored small molecules still docked in the same
+position.
+
+A test for this protocol can be run using::
+    scipion3 tests autodock.tests.test_autodock.TestAutoDockScoring
+
+|
+
 Get in contact
 ******************************************
 
