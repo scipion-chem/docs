@@ -64,8 +64,7 @@ These protocols are:
 
 1) **Ligand preparation:** It uses the script *prepare_ligand4.py* in the utilities of AutoDock Tools.
 
-2) **Ligand preparation meeko:** It uses the new `Meeko <https://github.com/forlilab/Meeko>`_ functionality as a Python
-module.
+2) **Ligand preparation meeko:** It uses the new `Meeko <https://github.com/forlilab/Meeko>`_ functionality as a Python module.
 
 |
 
