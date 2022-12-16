@@ -4,8 +4,9 @@
 .. figure:: ../images/modeller_logo.png
    :alt: modeller logo
 
+###############################################################
 Welcome to Scipion-chem-modeller's documentation!
-=================================================
+###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
@@ -17,15 +18,15 @@ Similarly, you can find the installation instructions of this plugin in
 |
 
 Scipion-chem-modeller overview
-========================================
+******************************************
 `Modeller <https://salilab.org/modeller/>`_ is a energy-based tool for homology or comparative modeling of protein
 three-dimensional structures.
 
 Scipion-chem-p2rank protocols
-========================================
+******************************************
 
 **Comparative modelling**
--------------------------------
+================================
 This protocol follows the `Modeller manual <https://salilab.org/modeller/manual/node15.html>`_ for comparative
 modelling of a protein sequence using one or several structure templates. The protocol includes different sections where
 you can define the parameters you want to use for the modelling:
@@ -64,7 +65,7 @@ A test for this protocol can be run using::
 |
 
 **Mutation modelling**
--------------------------------
+================================
 This protocol follows the `Modeller wiki <https://salilab.org/modeller/wiki/Mutate_model>`_ for single residue
 mutation modelling and energy optimization. The protocol includes different sections where
 you can define the parameters you want to use for the modelling:
@@ -94,7 +95,7 @@ A test for this protocol can be run using::
 |
 
 Get in contact
-==================
+******************************************
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or

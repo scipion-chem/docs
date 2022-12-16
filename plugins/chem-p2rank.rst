@@ -4,8 +4,9 @@
 .. figure:: ../images/p2rank_logo.png
    :alt: p2rank logo
 
+###############################################################
 Welcome to Scipion-chem-p2rank's documentation!
-=================================================
+###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
@@ -17,17 +18,17 @@ Similarly, you can find the installation instructions of this plugin in
 |
 
 Scipion-chem-p2rank overview
-========================================
+******************************************
 `P2Rank <https://github.com/rdk/p2rank>`_ is one of the most widely known programs for protein pocket detection based
 on machine learning. In this plugin we include the main tool for pocket prediction, P2Rank.
 
 |
 
 Scipion-chem-p2rank protocols
-========================================
+******************************************
 
 **Protein pocket detection**
--------------------------------
+================================
 The main program of the P2Rank package is p2rank and it is integrated in Scipion-chem-p2rank as a protocol.
 Once you have installed the plugin (you will need to restart Scipion), the protocol will appear in the list of
 protocols in the "Virtual Screening" view. The protocol is called **p2rank - Find pockets**.
@@ -74,7 +75,7 @@ the items in the set.
 |
 
 Get in contact
-==================
+******************************************
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or

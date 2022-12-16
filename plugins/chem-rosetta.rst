@@ -4,8 +4,9 @@
 .. figure:: ../images/rosetta_logo.png
    :alt: rosetta logo
 
+###############################################################
 Welcome to Scipion-chem-rosetta's documentation!
-=================================================
+###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
@@ -17,7 +18,7 @@ Similarly, you can find the installation instructions of this plugin in
 |
 
 Scipion-chem-rosetta overview
-========================================
+******************************************
 `Rosetta <https://www.rosettacommons.org/software/>`_ includes algorithms for computational modeling and analysis of
 protein structures. It has enabled notable scientific advances in computational biology, including de novo protein
 design, enzyme design, ligand docking, and structure prediction of biological macromolecules and macromolecular
@@ -27,10 +28,10 @@ From Scipion-chem, we have mainly integrated protocols for the preparation of th
 process, using `DARC <https://pubmed.ncbi.nlm.nih.gov/26181386/>`_.
 
 Scipion-chem-rosetta protocols
-========================================
+******************************************
 
 **Receptor preparation**
--------------------------------
+================================
 This protocol prepares an AtomStruct object containing a protein file for docking. It mainly adds the hydrogens and
 missing atoms.
 
@@ -55,7 +56,7 @@ A test for this protocol can be run using::
 |
 
 **Docking**
--------------------------------
+================================
 In Scipion-chem-rosetta, we offer a protocol for `DARC <https://pubmed.ncbi.nlm.nih.gov/26181386/>`_ docking.
 It can take as input either an AtomStruct (where you would need to define the residue(s) where the docking will be
 performed around) or a SetOfStructROIs (to directly define the region as a Structural Regions Of Interest).
@@ -84,7 +85,7 @@ Tests for these protocols can be run using::
 |
 
 **Electronic map modelling**
--------------------------------
+================================
 In Scipion-chem-rosetta, we offer a protocol for generating a set of possible atomic structures which fit an electronic
 density map. The protocol has been integrated as the first step for a
 `global and local Cryo-EM map quality assessment <https://www.sciencedirect.com/science/article/pii/S0969212618303642?via%3Dihub>`_.
@@ -116,7 +117,7 @@ amount of time to be run, including the test (even just generating 2 atomic mode
 
 
 Get in contact
-==================
+******************************************
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or

@@ -4,8 +4,9 @@
 .. figure:: ../images/gromacs_logo.png
    :alt: gromacs logo
 
+###############################################################
 Welcome to Scipion-chem-gromacs's documentation!
-=================================================
+###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
@@ -17,16 +18,16 @@ Similarly, you can find the installation instructions of this plugin in
 |
 
 Scipion-chem-gromacs overview
-========================================
+******************************************
 `Gromacs <https://www.gromacs.org/>`_ is a free and open-source software suite for high-performance Molecular
 Dynamics (MD) and output analysis. In Scipion-chem-gromacs, we have integrated tools for preparing MD systems,
 running simulations and modifying and analyzing the output trajectories.
 
 Scipion-chem-gromacs protocols
-========================================
+******************************************
 
 **System preparation**
--------------------------------
+================================
 This protocol prepares a Gromacs MD system prior to its simulation from a AtomStruct object. This protein must have
 all the atoms including hydrogens, we recommend you to prepare it first with any of our integrated protocols
 for receptor preparation.
@@ -69,7 +70,7 @@ A test for this protocol can be run using::
 |
 
 **Run MD simulation**
--------------------------------
+================================
 This protocol takes the prepared Gromacs system and use it to run a defined simulation. In the form, the user can
 define different simulation stages that the protocol will run sequentially. The parameters of this protocol are grouped
 as:
@@ -133,7 +134,7 @@ This test contains the test for System Preparation described above.
 
 
 **System modification**
--------------------------------
+================================
 This protocol performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_
 over a Gromacs System, specially over its trajectory.
 
@@ -163,7 +164,7 @@ This test contains the tests for System Preparation and MD Simulation described 
 |
 
 Get in contact
-==================
+******************************************
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or

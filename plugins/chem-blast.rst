@@ -4,8 +4,9 @@
 .. figure:: ../images/blast_logo.png
    :alt: blast logo
 
+###############################################################
 Welcome to Scipion-chem-blast's documentation!
-=================================================
+###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
@@ -17,16 +18,16 @@ Similarly, you can find the installation instructions of this plugin in
 |
 
 Scipion-chem-blast overview
-========================================
+******************************************
 `BLAST <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ is the well known program for finding regions of similarity between
 biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the
 statistical significance. In this plugin we incorporate functionalities both for local and web-server BLAST.
 
 Scipion-chem-blast protocols
-========================================
+******************************************
 
 **NCBI download**
--------------------------------
+================================
 This protocol access the NCBI API using the `Entrez module <https://biopython.org/docs/1.75/api/Bio.Entrez.html>`_
 of the Biopython package. The protocol is prepared to fetch protein or nucleotide sequences from the NCBI databases and
 small molecules from PubChem.
@@ -53,7 +54,7 @@ A test for this protocol can be run using::
 |
 
 **Create local database**
--------------------------------
+================================
 This protocol creates a local database in BLAST format and stores it in the plugin folder. The user can create
 databases either from a SetOfSequences or from default databases in BLAST. The user must be aware of this last option,
 since most of the BLAST databases are quite big and downloading them will expend high amounts of time and storage.
@@ -73,7 +74,7 @@ A test for this protocol can be run using::
 |
 
 **BLAST search**
--------------------------------
+================================
 This protocol performs a BLAST search over a database, which can be local or a web-server BLAST database.
 The input of the protocol is a sequence, which can be from a protein or nucleotide, and the user will be able to define
 the type of search (blastp, blastn, blastx, ...).
@@ -97,7 +98,7 @@ A test for this protocol can be run using::
 |
 
 Get in contact
-==================
+******************************************
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or
