@@ -4,8 +4,9 @@
 .. figure:: ../images/schrodinger_logo.png
    :alt: schrodinger logo
 
+###############################################################
 Welcome to Scipion-chem-schrodingerScipion's documentation!
-=================================================
+###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
 is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
@@ -20,16 +21,16 @@ we do not provide the software itself, which must be separately installed by the
 |
 
 Scipion-chem-schrodingerScipion overview
-========================================
+******************************************
 `Schrodinger <https://www.schrodinger.com/>`_ is a platform that platform leverages a deep understanding of physics,
 chemistry, and predictive modeling to accelerate innovation. It contains numerous tools for molecular modelling,
 including drug discovery and molecular dynamics.
 
 Scipion-chem-schrodingerScipion protocols
-========================================
+*******************************************
 
 **1) Virtual Drug Screening**
--------------------------------
+================================
 
 From Scipion-chem, we have included several tools from Schrodinger for Virtual Drug Screening in the following
 protocols. The user will be able to prepare both the target and the ligands, predict or define the binding sites and
@@ -175,7 +176,7 @@ described above.
 |
 
 **2) Molecular dynamics**
--------------------------------
+================================
 
 From Scipion-chem we added protocols able to handle Molecular Dynamics simulations in Schrodinger. The following
 protocols allow the user to prepare, run and analyze these simulations.
@@ -306,7 +307,7 @@ This test contains the test for System Preparation described above.
 
 
 **3) Utils**
-----------------
+================================
 
 **Format conversion**
 -------------------------------
@@ -370,7 +371,7 @@ Tests for this protocol can be run using::
 
 
 Get in contact
-==================
+*********************
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or
