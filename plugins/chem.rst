@@ -534,7 +534,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form17| image:: ../images/pwchem_form17.png
    :alt: pwchem form17
-   :height: 400
+   :height: 500
 
 |
 
@@ -590,7 +590,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form19| image:: ../images/pwchem_form19.png
    :alt: pwchem form19
-   :height: 400
+   :height: 500
 
 |
 
