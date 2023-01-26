@@ -48,10 +48,10 @@ Scipion-chem includes around 40 different protocols subdivided in 4 groups of pr
 The different protocols included in these subgroups will be defined in the following sections, including also a test
 for most of them.
 
-**1) General protocols**
+**A) General protocols**
 ================================
 
-**Convert structure**
+**A.1) Convert structure**
 ----------------------
 
 This protocol converts the format of the files stored for a set of Small Molecules, an Atom Structure or a Molecular
@@ -84,7 +84,7 @@ A test for this protocol can be run using::
 
 |
 
-**Operate set**
+**A.2) Operate set**
 ----------------------
 
 This protocol includes several functionalities to modify any Scipion Set inside the project. It handles the internal
@@ -125,7 +125,7 @@ A test for this protocol can be run using::
 
 |
 
-**Add attribute**
+**A.3) Add attribute**
 ----------------------
 
 This protocol allows the user to add an attribute to an item or set object inside Scipion. It has somehow a similar but
@@ -156,7 +156,7 @@ A test for this protocol can be run using::
 |
 
 
-**Export csv**
+**A.4) Export csv**
 ----------------------
 
 This protocol allows the user to export the SQLite table of a set as a csv file, containing the values of each attribute
@@ -181,10 +181,10 @@ A test for this protocol can be run using::
 
 |
 
-**2) Database protocols**
+**B) Database protocols**
 ================================
 
-**Import database IDs**
+**B.1) Import database IDs**
 ------------------------
 
 This protocol imports a set of database IDs from a file and stores them as a Scipion object. It save the ID and the
@@ -209,7 +209,7 @@ A test for this protocol can be run using::
 
 |
 
-**Identify ligands**
+**B.2) Identify ligands**
 ----------------------
 
 This protocol tries to identify a set of Small Molecules based on the SMILES string for each of them. To do so, it uses
@@ -237,7 +237,7 @@ A test for this protocol can be run using::
 
 |
 
-**UniProt CrossRef**
+**B.3) UniProt CrossRef**
 ----------------------
 
 This protocol searches in the UniProt cross reference database for related entries of a set of UniProt IDs for
@@ -264,7 +264,7 @@ A test for this protocol can be run using::
 
 |
 
-**ZINC filter**
+**B.4) ZINC filter**
 ----------------------
 
 This protocol filters a SetOfSmallMolecules by the presence/absence of each of the molecules in the specified ZINC
@@ -292,7 +292,7 @@ A test for this protocol can be run using::
 
 |
 
-**Fetch ligands**
+**B.5) Fetch ligands**
 ----------------------
 
 This protocol extracts the ligands related to a SetOfDatabaseIDs. It defines 3 levels of relation depending on the
