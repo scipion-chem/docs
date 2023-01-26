@@ -312,12 +312,12 @@ All parameters include a help button that gives further information for each of 
 
 |form9_1| |form9_2|
 
-.. |form9_1| image:: ../images/autodock_form9_1.png
-   :alt: autodock form9_1
+.. |form9_1| image:: ../images/pwchem_form9_1.png
+   :alt: pwchem form9_1
    :height: 500
 
-.. |form9_2| image:: ../images/autodock_form9_2.png
-   :alt: autodock form9_2
+.. |form9_2| image:: ../images/pwchem_form9_2.png
+   :alt: pwchem form9_2
    :height: 500
 
 |
