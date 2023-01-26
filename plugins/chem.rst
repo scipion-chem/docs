@@ -68,11 +68,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |form1_1| image:: ../images/pwchem_form1_1.png
    :alt: pwchem form1_1
-   :height: 400
+   :height: 390
 
 .. |form1_2| image:: ../images/pwchem_form1_2.png
    :alt: pwchem form1_2
-   :height: 400
+   :height: 390
 
 |
 
