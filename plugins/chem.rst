@@ -468,7 +468,6 @@ A test for this protocol can be run using::
 
 |
 
-
 **C.6) Generate variant sequences**
 -----------------------------------
 
@@ -491,6 +490,143 @@ the input.
 
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestGenerateSequences
+
+|
+
+**C.7) Import Sequence ROIs**
+-----------------------------------
+
+This protocol imports a SetOfSequenceROIs, meaning a set of Regions Of Interest (ROI) in a sequence. As for today,
+this protocol is oriented to epitopes defined in IEDB (https://www.iedb.org/ ). More origins of these ROIs will be
+added in the future.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form16|
+
+.. |form16| image:: ../images/pwchem_form16.png
+   :alt: pwchem form16
+   :height: 400
+
+|
+
+The result of this protocol are several SetOfSequenceROIs, one for each sequence defined in the input,
+where the defined ROIs are those epitopes defined in the input.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_imports.TestImportSeqROIs
+
+|
+
+**C.8) Define Sequence ROIs**
+-----------------------------------
+
+This protocol defines a SetOfSequenceROIs from a Sequence or SequenceVariants object. The user can define a list of
+Regions Of Interest from sequence segments, variants or mutations in the input.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form17|
+
+.. |form17| image:: ../images/pwchem_form17.png
+   :alt: pwchem form17
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSequenceROIs with the ROIs defined in the input.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_sequences.TestDefineSequenceROIs
+
+|
+
+**C.9) Operate Sequence ROIs**
+-----------------------------------
+
+This protocol allows the user to operate sets of sequence ROIs, similarly to the operate sets. In this protocol however,
+the overlap of the ROIs is the attribute taken into account for the set operations.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form18|
+
+.. |form18| image:: ../images/pwchem_form18.png
+   :alt: pwchem form18
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSequenceROIs with the operated regions.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_sequences.TestOperateSeqROIs
+
+|
+
+**C.10) Extract Sequence ROIs**
+-----------------------------------
+
+This protocol defines a SetOfSequenceROIs from an input set of sequences based on the conservation of each position
+in the alignment. If the user provides an input structure which can be aligned to the input sequences, the regions
+can also be mapped to the structure.
+
+The conserved / variable regions are defined based on a threshold. The user can preview the conservation values of
+the alignment in order to tune this threshold.
+
+At some point in the future, the user will be able to extract sequence ROIs from other attributes than conservation.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form19|
+
+.. |form19| image:: ../images/pwchem_form19.png
+   :alt: pwchem form19
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSequenceROIs with the regions whose the conservation values or over / below the
+threshold set. If the input structure is provided, an AtomStruct object is also output. Using analyze results,
+the user can visualize the conservation values over the structure.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_sequences.TestExtractSequenceROIs
+
+|
+
+**C.11) Map Sequence ROIs**
+-----------------------------------
+
+This protocol maps a set of sequence ROIs to an atomic structure where the sequence can be mapped. The alignment of the
+sequence that contains the ROIs and the one coming from the structure can be previewed. Then, those residues defined as
+sequence ROIs are mapped to the surface of the structure and those surface regions next to each other are clustered
+to build structural ROIs.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form20|
+
+.. |form20| image:: ../images/pwchem_form20.png
+   :alt: pwchem form20
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfStructROIs with the mapped sequence ROIs over the input structure.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_sequences.TestMapSeqROIs
 
 |
 
