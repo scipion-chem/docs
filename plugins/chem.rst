@@ -439,6 +439,61 @@ A test for this protocol can be run using::
 
 |
 
+**C.5) Import variants**
+---------------------------------
+
+This protocol imports a set of sequence variants. These can be imported either from the natural defined in a single
+UniProt ID or with a customized file defining single point mutations.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form14_1| |form14_2|
+
+.. |form14_1| image:: ../images/pwchem_form14_1.png
+   :alt: pwchem form14_1
+   :height: 400
+
+.. |form14_2| image:: ../images/pwchem_form14_2.png
+   :alt: pwchem form14_2
+   :height: 400
+
+|
+
+The result of this protocol is a SequenceVariants object containing the original sequence with the defined variants.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_imports.TestImportVariants
+
+|
+
+
+**C.6) Generate variant sequences**
+-----------------------------------
+
+This protocol generates a set of sequences from a list of specified variants from a SequenceVariants object.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form15|
+
+.. |form15| image:: ../images/pwchem_form15.png
+   :alt: pwchem form15
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSequences which contains all the defined variants or single mutations from
+the input.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_sequences.TestGenerateSequences
+
+|
+
 Get in contact
 ******************************************
 
