@@ -453,11 +453,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |form14_1| image:: ../images/pwchem_form14_1.png
    :alt: pwchem form14_1
-   :height: 365
+   :height: 350
 
 .. |form14_2| image:: ../images/pwchem_form14_2.png
    :alt: pwchem form14_2
-   :height: 365
+   :height: 350
 
 |
 
