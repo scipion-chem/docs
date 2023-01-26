@@ -140,11 +140,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |form3_1| image:: ../images/pwchem_form3_1.png
    :alt: pwchem form3_1
-   :height: 400
+   :height: 390
 
 .. |form3_2| image:: ../images/pwchem_form3_2.png
    :alt: pwchem form3_2
-   :height: 400
+   :height: 390
 
 |
 
@@ -280,7 +280,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form8| image:: ../images/pwchem_form8.png
    :alt: pwchem form8
-   :height: 400
+   :height: 500
 
 |
 
@@ -376,7 +376,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form11| image:: ../images/pwchem_form11.png
    :alt: pwchem form11
-   :height: 400
+   :height: 450
 
 |
 
@@ -402,7 +402,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form12| image:: ../images/pwchem_form12.png
    :alt: pwchem form12
-   :height: 400
+   :height: 500
 
 |
 
@@ -428,7 +428,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form13| image:: ../images/pwchem_form13.png
    :alt: pwchem form13
-   :height: 400
+   :height: 450
 
 |
 
@@ -481,7 +481,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form15| image:: ../images/pwchem_form15.png
    :alt: pwchem form15
-   :height: 400
+   :height: 450
 
 |
 
@@ -559,7 +559,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form18| image:: ../images/pwchem_form18.png
    :alt: pwchem form18
-   :height: 400
+   :height: 450
 
 |
 
@@ -590,7 +590,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form19| image:: ../images/pwchem_form19.png
    :alt: pwchem form19
-   :height: 500
+   :height: 550
 
 |
 
@@ -619,7 +619,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form20| image:: ../images/pwchem_form20.png
    :alt: pwchem form20
-   :height: 400
+   :height: 500
 
 |
 
