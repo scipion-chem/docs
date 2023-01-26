@@ -346,11 +346,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |form10_1| image:: ../images/pwchem_form10_1.png
    :alt: pwchem form10_1
-   :height: 350
+   :height: 330
 
 .. |form10_2| image:: ../images/pwchem_form10_2.png
    :alt: pwchem form10_2
-   :height: 350
+   :height: 330
 
 |
 
