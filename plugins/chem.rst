@@ -181,6 +181,154 @@ A test for this protocol can be run using::
 
 |
 
+**2) Database protocols**
+================================
+
+**Import database IDs**
+------------------------
+
+This protocol imports a set of database IDs from a file and stores them as a Scipion object. It save the ID and the
+origin database name.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form5|
+
+.. |form5| image:: ../images/pwchem_form5.png
+   :alt: pwchem form5
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfDatabaseIDs containing the databases that were defined in the input file.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_databases.TestImportDBIDs
+
+|
+
+**Identify ligands**
+----------------------
+
+This protocol tries to identify a set of Small Molecules based on the SMILES string for each of them. To do so, it uses
+the PubChem API (https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest). If no exact match is found, it looks for similar
+compounds (which are specified in a summary file) and outputs the most similar. The protocol further identifies the
+small molecule by using the PuChem cross references to extract the ID from other databases (currently ZINC and ChEMBL).
+All this identifiers are stored in the object, and the user can choose to switch the main molecule name by one of them.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form6|
+
+.. |form6| image:: ../images/pwchem_form6.png
+   :alt: pwchem form6
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules which includes the found identifiers for each molecule.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_databases.TestIdentifyLigands
+
+|
+
+**UniProt CrossRef**
+----------------------
+
+This protocol searches in the UniProt cross reference database for related entries of a set of UniProt IDs for
+specified databases. The user can choose whether to store the cross reference as a secondary or the main ID and
+whether to store also additional properties stored in those IDs.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form7|
+
+.. |form7| image:: ../images/pwchem_form7.png
+   :alt: pwchem form7
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfDatabaseIDs containing the information of the cross references. This can also
+be checked in a summary file.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_databases.TestUniProtCrossRef
+
+|
+
+**ZINC filter**
+----------------------
+
+This protocol filters a SetOfSmallMolecules by the presence/absence of each of the molecules in the specified ZINC
+subset(s). To do so, the molecules must have a ZINC ID, either in the MolName or in a ZINC_ID attribute
+(easy to get using the Identify ligands protocol).
+You can find the different defined ZINC subsets in https://zinc15.docking.org/substances/subsets/ .
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form8|
+
+.. |form8| image:: ../images/pwchem_form8.png
+   :alt: pwchem form8
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules where those molecules in the input that did not match the subgroup
+filters have been removed.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_databases.TestZINCFilter
+
+|
+
+**Fetch ligands**
+----------------------
+
+This protocol extracts the ligands related to a SetOfDatabaseIDs. It defines 3 levels of relation depending on the
+database IDs:
+
+- *UniProt IDs*: using their cross references with an specified database, it will relate each UniProt ID to a number of target structures and extract their ligands.
+- *Target IDs*: the IDs refer to a protein target. The protocol will extract all ligands found in the structure.
+- *Ligand IDs*: the IDs refer directly to the IDs of the ligands in the specified database.
+
+In a second section, you can define several filters for the extracted ligands, from general ones according to the
+ligand structure to more specific depending on the chose database.
+
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|form9_1| |form9_2|
+
+.. |form9_1| image:: ../images/autodock_form9_1.png
+   :alt: autodock form9_1
+   :height: 500
+
+.. |form9_2| image:: ../images/autodock_form9_2.png
+   :alt: autodock form9_2
+   :height: 500
+
+|
+
+The result of this protocol is a SetOfSmallMolecules with the extracted ligands.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_databases.TestFetchLigands
+
+|
+
 Get in contact
 ******************************************
 
