@@ -168,11 +168,11 @@ After:
 
 .. |out3_1| image:: ../images/pwchem_out3_1.png
    :alt: pwchem out3_1
-   :height: 200
+   :height: 180
 
 .. |out3_2| image:: ../images/pwchem_out3_2.png
    :alt: pwchem out3_2
-   :height: 200
+   :height: 180
 
 |
 
@@ -196,7 +196,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |form4| image:: ../images/pwchem_form4.png
    :alt: pwchem form4
-   :height: 200
+   :height: 400
 
 |
 
@@ -208,7 +208,7 @@ The result of this protocol is a csv file in the protocol folder. It has no Scip
 
 .. |out4| image:: ../images/pwchem_out4.png
    :alt: pwchem out4
-   :height: 400
+   :height: 200
 
 |
 
