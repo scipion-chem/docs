@@ -156,6 +156,20 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a Set of the same type of the input, with the added attribute.
 
+|
+
+|out3_1| |out3_2|
+
+.. |out3_1| image:: ../images/pwchem_out3_1.png
+   :alt: pwchem out3_1
+   :height: 390
+
+.. |out3_2| image:: ../images/pwchem_out3_2.png
+   :alt: pwchem out3_2
+   :height: 390
+
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_attributes.TestAddAttribute
 
@@ -181,6 +195,16 @@ All parameters include a help button that gives further information for each of 
 |
 
 The result of this protocol is a csv file in the protocol folder. It has no Scipion output object.
+
+|
+
+|out4|
+
+.. |out4| image:: ../images/pwchem_out4.png
+   :alt: pwchem out4
+   :height: 400
+
+|
 
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_general.TestExportcsv
