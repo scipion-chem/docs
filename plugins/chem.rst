@@ -29,6 +29,7 @@ To do so, Scipion-chem automatically installs the following external software:
 - **MGLTools**: additional utils for small molecules, docking, ... (includes AutoDockTools)
 - **JChemPaint**: Java program to manually draw small molecules.
 - **PyMol**: main viewer of Scipion-Chem for small molecules and structures
+- **VMD**: secondary viewer of Scipion-Chem for structures and Molecular Dynamics
 - **AliView**: main viewer for sequences
 - **PLIP**: specialized viewer for docking interactions in PyMol
 
@@ -168,11 +169,11 @@ After:
 
 .. |out3_1| image:: ../images/pwchem_out3_1.png
    :alt: pwchem out3_1
-   :height: 180
+   :height: 150
 
 .. |out3_2| image:: ../images/pwchem_out3_2.png
    :alt: pwchem out3_2
-   :height: 180
+   :height: 150
 
 |
 
@@ -208,7 +209,7 @@ The result of this protocol is a csv file in the protocol folder. It has no Scip
 
 .. |out4| image:: ../images/pwchem_out4.png
    :alt: pwchem out4
-   :height: 200
+   :height: 170
 
 |
 
@@ -267,6 +268,16 @@ All parameters include a help button that gives further information for each of 
 |
 
 The result of this protocol is a SetOfSmallMolecules which includes the found identifiers for each molecule.
+
+|
+
+|out6|
+
+.. |out6| image:: ../images/pwchem_out6.png
+   :alt: pwchem out10
+   :height: 200
+
+|
 
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_databases.TestIdentifyLigands
@@ -392,6 +403,16 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSequences with the specified sequences.
 
+|
+
+|out10|
+
+.. |out10| image:: ../images/pwchem_out10.png
+   :alt: pwchem out10
+   :height: 200
+
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_imports.TestImportSequences
 
@@ -418,6 +439,16 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSequences with the two input sequences aligned.
 
+|
+
+|out11|
+
+.. |out11| image:: ../images/pwchem_out11.png
+   :alt: pwchem out11
+   :height: 200
+
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestPairwiseAlign
 
@@ -443,6 +474,16 @@ All parameters include a help button that gives further information for each of 
 |
 
 The result of this protocol is a SetOfSequences with the two input sequences aligned.
+
+|
+
+|out12|
+
+.. |out12| image:: ../images/pwchem_out12.png
+   :alt: pwchem out12
+   :height: 200
+
+|
 
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestMultipleAlignSequences
@@ -499,6 +540,16 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SequenceVariants object containing the original sequence with the defined variants.
 
+|
+
+|out14|
+
+.. |out14| image:: ../images/pwchem_out14.png
+   :alt: pwchem out14
+   :height: 400
+
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_imports.TestImportVariants
 
@@ -523,6 +574,16 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSequences which contains all the defined variants or single mutations from
 the input.
+
+|
+
+|out14|
+
+.. |out14| image:: ../images/pwchem_out14.png
+   :alt: pwchem out14
+   :height: 400
+
+|
 
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestGenerateSequences
