@@ -581,7 +581,7 @@ the input.
 
 .. |out15| image:: ../images/pwchem_out15.png
    :alt: pwchem out15
-   :height: 400
+   :height: 200
 
 |
 
@@ -637,6 +637,16 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSequenceROIs with the ROIs defined in the input.
 
+|
+
+|out17|
+
+.. |out17| image:: ../images/pwchem_out17.png
+   :alt: pwchem out17
+   :height: 200
+
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestDefineSequenceROIs
 
@@ -676,6 +686,16 @@ can also be mapped to the structure.
 
 The conserved / variable regions are defined based on a threshold. The user can preview the conservation values of
 the alignment in order to tune this threshold.
+
+|
+
+|out17|
+
+.. |out17| image:: ../images/pwchem_out17.png
+   :alt: pwchem out17
+   :height: 200
+
+|
 
 At some point in the future, the user will be able to extract sequence ROIs from other attributes than conservation.
 
@@ -721,6 +741,16 @@ All parameters include a help button that gives further information for each of 
 |
 
 The result of this protocol is a SetOfStructROIs with the mapped sequence ROIs over the input structure.
+
+|
+
+|ou20|
+
+.. |ou20| image:: ../images/pwchem_ou20.png
+   :alt: pwchem ou20
+   :height: 200
+
+|
 
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestMapSeqROIs
