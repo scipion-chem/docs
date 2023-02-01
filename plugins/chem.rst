@@ -1091,6 +1091,49 @@ A test for this protocol can be run using::
 
 |
 
+**D.11) Pharmacophore generation**
+-----------------------------------
+
+This protocol generate a Pharmacophore object that can be parse by RDKit from a SetOfSmallMolecules. If the input
+molecules are docked to a structure, the output pharmacophore keeps that structure too. The different features that
+can be captured by the pharmacophore are defined in the BaseFeatures.def file of RDKit. Scipion-chem uses the
+families of those features as own features (Donor, Acceptor, Hydrophobe, Aromatic...).
+
+Different cluster parameters can be chosen to generate the pharmacophore, they control the clustering method and how
+conserved the feature must be among the docked small molecules.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD11_1| |formD11_2|
+
+.. |formD11_1| image:: ../images/pwchem_formD11_1.png
+   :alt: pwchem formD11_1
+   :height: 400
+
+.. |formD11_2| image:: ../images/pwchem_formD11_2.png
+   :alt: pwchem formD11_2
+   :height: 400
+
+|
+
+The result of this protocol is an AtomStruct cleaned with the form specifications.
+
+|
+
+|outD11|
+
+.. |outD11| image:: ../images/pwchem_outD11.png
+   :alt: pwchem outD11
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmGeneration
+
+|
 
 Get in contact
 ******************************************
