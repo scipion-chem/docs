@@ -1345,6 +1345,107 @@ A test for this protocol can be run using::
 |
 
 
+**D.16) Score docking positions**
+---------------------------------------------
+
+This protocol allows the user to rescore a SetOfSmallMolecules docked to a receptor using several
+`ODDT <https://github.com/oddt/oddt>`_ scoring functions. The user may even use several of these functions together
+and average them, checking first if they correlate.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD16|
+
+.. |formD16| image:: ../images/pwchem_formD16.png
+   :alt: pwchem formD16
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules with the calculated ODDT score.
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_docking.TestScoreDocking
+
+|
+
+
+**D.17) RMSD docking**
+---------------------------------------------
+
+This protocol allows the user to calculate the RMSD between a SetOfSmallMolecules to a reference molecule docked to the
+same receptor. The reference molecule can come either from a AtomStruct or a SetOfSmallMolecules.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD17_1| |formD17_2|
+
+.. |formD17_1| image:: ../images/pwchem_formD17_1.png
+   :alt: pwchem formD17_1
+   :height: 375
+
+.. |formD17_2| image:: ../images/pwchem_formD17_2.png
+   :alt: pwchem formD17_2
+   :height: 375
+
+|
+
+The result of this protocol is a SetOfSmallMolecules with the calculated RMSD to the reference molecule.
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_docking.TestRMSDDocking
+
+|
+
+
+**D.18) Consensus docking**
+---------------------------------------------
+
+This protocol performs a consensus operation over several docked SetOfSmallMolecules, studying which positions are
+shared among all or a subset of the input sets. Similarly to the Consensus structural ROIs protocol, it might be used
+to obtain the most robust results, this time out of different docking protocols.
+
+The clustering of the positions is performed based on their RMSD and different options can be chosen. The default option
+will use scipy package for the clustering, allowing parallelization and using an optimized code. However, due to the
+quadratic nature of the problem, this might be too computationally expensive, so we offer another option where the
+clusters are formed calculating only the distance to each cluster representative. This representative is the molecule
+of the cluster that has the smallest energy or biggest score. The clustering using this method is not as robust and will
+depend on the molecules order, but the problem will no longer be quadratic. Choose your best option wisely.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD18_1| |formD18_2|
+
+.. |formD18_1| image:: ../images/pwchem_formD18_1.png
+   :alt: pwchem formD18_1
+   :height: 375
+
+.. |formD18_2| image:: ../images/pwchem_formD18_2.png
+   :alt: pwchem formD18_2
+   :height: 375
+
+|
+
+The result of this protocol is a SetOfSmallMolecules with the consensus docking positions.
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_docking.TestConsensusDocking
+
+|
+
+
 Get in contact
 ******************************************
 
