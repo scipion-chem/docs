@@ -983,9 +983,9 @@ A test for this protocol can be run using::
 **D.7) ADME Small Molecules filter**
 ------------------------------------
 
-This protocol filters a SetOfSmallMolecules object by applying the ADME (Absortion, Distribution, Metabolism, Excretion)
-filter to each of the small molecules stored. The user can choose whether to use the Lipinski's rule of five or the Rule
-of three (https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five ).
+This protocol uses RDKit to filter a SetOfSmallMolecules by applying the ADME (Absortion, Distribution,
+Metabolism, Excretion) filter to each of the small molecules stored. The user can choose whether to use the Lipinski's
+rule of five or the Rule of three (https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five ).
 
 All parameters include a help button that gives further information for each of them.
 
@@ -1005,6 +1005,92 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_ligand_filtering.TestADMEFiltering
 
 |
+
+**D.8) PAINS Small Molecules filter**
+---------------------------------------
+
+This protocol uses RDKit to filter a SetOfSmallMolecules by applying the PAINS (Pan-assay interference compounds)
+filter (https://en.wikipedia.org/wiki/Pan-assay_interference_compounds ) to each of the small molecules stored.
+The user can choose whether to use RDKit default PAINS substructures or to provide a custom PAINS file where each line
+must contain a first column with a SMARTS string and a second column with a short description.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD8|
+
+.. |formD8| image:: ../images/pwchem_formD8.png
+   :alt: pwchem formD8
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_ligand_filtering.TestPAINSFiltering
+
+|
+
+**D.9) Shape Small Molecules filter**
+---------------------------------------
+
+This protocol uses RDKit to filter a SetOfSmallMolecules by applying shape filters to each of the small molecules
+stored. The user can choose whether to use RDKit or Shape-it (currently not automatically installed) to calculate the
+molecules shape and different shape distance options like Tanimoto, Protrude or RMSD distances.
+
+Other parameters include the prealignment of the molecules or to trying atom reordering in order to improve the filter
+performance.
+
+Currently, `Shape-it <https://github.com/rdkit/shape-it>`_ is not automatically installed with Scipion-chem.
+If the user wants to use it, they must install it manually and define its path in the scipion.conf file as SHAPEIT_HOME.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD9|
+
+.. |formD9| image:: ../images/pwchem_formD9.png
+   :alt: pwchem formD9
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_ligand_filtering.TestShapeFiltering
+
+|
+
+**D.10) FingerPrint Small Molecules filter**
+---------------------------------------------
+
+This protocol uses RDKit to filter a SetOfSmallMolecules by applying fingerprint filters to each of the small molecules
+stored. The user can choose whether to use Morgan or MACCS fingerprints and whether to use Tanimoto or Dice
+similarity coefficients.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD10|
+
+.. |formD10| image:: ../images/pwchem_formD10.png
+   :alt: pwchem formD10
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_ligand_filtering.TestFingerprintFiltering
+
+|
+
 
 Get in contact
 ******************************************
