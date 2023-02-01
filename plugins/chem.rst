@@ -86,10 +86,13 @@ All parameters include a help button that gives further information for each of 
 The result of this protocol is object equal to the one in the input, but this time the files inside this object are in
 the desired format.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_general.TestConverter
 
 |
+
 
 **A.2) Operate set**
 ----------------------
@@ -127,10 +130,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a Set of the same type of the input, modified with the specified operation.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_general.TestOperateSet
 
 |
+
 
 **A.3) Add attribute**
 ----------------------
@@ -218,6 +224,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **B) Database protocols**
 ================================
 
@@ -241,10 +248,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfDatabaseIDs containing the databases that were defined in the input file.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_databases.TestImportDBIDs
 
 |
+
 
 **B.2) Identify ligands**
 ----------------------
@@ -284,6 +294,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **B.3) UniProt CrossRef**
 ----------------------
 
@@ -306,10 +317,13 @@ All parameters include a help button that gives further information for each of 
 The result of this protocol is a SetOfDatabaseIDs containing the information of the cross references. This can also
 be checked in a summary file.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_databases.TestUniProtCrossRef
 
 |
+
 
 **B.4) ZINC filter**
 ----------------------
@@ -334,10 +348,13 @@ All parameters include a help button that gives further information for each of 
 The result of this protocol is a SetOfSmallMolecules where those molecules in the input that did not match the subgroup
 filters have been removed.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_databases.TestZINCFilter
 
 |
+
 
 **B.5) Fetch ligands**
 ----------------------
@@ -371,10 +388,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSmallMolecules with the extracted ligands.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_databases.TestFetchLigands
 
 |
+
 
 **C) Sequence protocols**
 ================================
@@ -418,6 +438,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **C.2) Pairwise Alignment**
 ---------------------------------
 
@@ -453,6 +474,7 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestPairwiseAlign
 
 |
+
 
 **C.3) Multiple Sequence Alignment**
 -------------------------------------
@@ -490,6 +512,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **C.4) Define set of sequences**
 -------------------------------------
 
@@ -511,10 +534,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSequences with each of the defined sequences in the input.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestDefineSetSequences
 
 |
+
 
 **C.5) Import variants**
 ---------------------------------
@@ -555,6 +581,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **C.6) Generate variant sequences**
 -----------------------------------
 
@@ -590,6 +617,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **C.7) Import Sequence ROIs**
 -----------------------------------
 
@@ -612,10 +640,13 @@ All parameters include a help button that gives further information for each of 
 The result of this protocol are several SetOfSequenceROIs, one for each sequence defined in the input,
 where the defined ROIs are those epitopes defined in the input.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_imports.TestImportSeqROIs
 
 |
+
 
 **C.8) Define Sequence ROIs**
 -----------------------------------
@@ -652,6 +683,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **C.9) Operate Sequence ROIs**
 -----------------------------------
 
@@ -672,10 +704,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSequenceROIs with the operated regions.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestOperateSeqROIs
 
 |
+
 
 **C.10) Extract Sequence ROIs**
 -----------------------------------
@@ -715,10 +750,13 @@ The result of this protocol is a SetOfSequenceROIs with the regions whose the co
 threshold set. If the input structure is provided, an AtomStruct object is also output. Using analyze results,
 the user can visualize the conservation values over the structure.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestExtractSequenceROIs
 
 |
+
 
 **C.11) Map Sequence ROIs**
 -----------------------------------
@@ -756,6 +794,7 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestMapSeqROIs
 
 |
+
 
 **D) Virtual Drug Screening protocols**
 ================================
@@ -872,6 +911,7 @@ them.
 
 |
 
+
 **D.4) OpenBabel Prepare Small Molecules**
 ---------------------------------
 
@@ -907,6 +947,7 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_preparations.TestOBLigandPreparation
 
 |
+
 
 **D.5) RDKit Prepare Small Molecules**
 ---------------------------------
@@ -944,6 +985,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **D.6) Prepare Receptor**
 ---------------------------------
 
@@ -980,6 +1022,7 @@ A test for this protocol can be run using::
 
 |
 
+
 **D.7) ADME Small Molecules filter**
 ------------------------------------
 
@@ -1001,10 +1044,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_ligand_filtering.TestADMEFiltering
 
 |
+
 
 **D.8) PAINS Small Molecules filter**
 ---------------------------------------
@@ -1028,10 +1074,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_ligand_filtering.TestPAINSFiltering
 
 |
+
 
 **D.9) Shape Small Molecules filter**
 ---------------------------------------
@@ -1060,10 +1109,13 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
 
+|
+
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_ligand_filtering.TestShapeFiltering
 
 |
+
 
 **D.10) FingerPrint Small Molecules filter**
 ---------------------------------------------
@@ -1090,6 +1142,7 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_ligand_filtering.TestFingerprintFiltering
 
 |
+
 
 **D.11) Pharmacophore generation**
 -----------------------------------
@@ -1135,6 +1188,7 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmGeneration
 
 |
+
 
 **D.12) Pharmacophore modification**
 ---------------------------------------------
@@ -1210,6 +1264,86 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmFiltering
 
 |
+
+
+**D.14) Define Structural ROIs**
+---------------------------------------------
+
+This protocol allows the user to manually define a SetOfStructROIs from AtomStruct objects. The user can define this
+structural ROIs in different ways:
+
+- **Coordinates**: directly specify the coordinates of the ROI over the structure
+- **Residues**: specify those residues in the protein structure that are ROIs
+- **Ligands**: existing ligands in the input structure or external (from another input) small molecules docked to the same structure
+- **Protein-Protein Interfaces**: specify the interface of a pair of chains in the structure
+- **Near Residues**: specify a pattern of residues that have to exist nearby
+
+The list of input ROI definitions are mapped to actual coordinates, which can optionally be mapped to the protein
+surface. These resulting points are clustered to yield the final structural ROIs.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD14|
+
+.. |formD14| image:: ../images/pwchem_formD14.png
+   :alt: pwchem formD14
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfStructROIs containing those regions listed in the form.
+
+|
+
+|outD14|
+
+.. |outD14| image:: ../images/pwchem_outD14.png
+   :alt: pwchem outD14
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_structROIs.TestDefineStructROIs
+
+|
+
+
+**D.15) Consensus Structural ROIs**
+---------------------------------------------
+
+This protocol performs a consensus operation over several SetOfStructROIs, studying which of them are shared among all
+or a subset of the input sets. The protocol can be used for example to extract the most relevant and robust results
+from different methods that predict protein pockets, or to extract which pockets predicted by a certain software overlap
+with some interesting regions defined manually.
+
+The protocol works by clustering the structural ROIs from the different inputs and filtering those that are not repeated
+sufficiently among the inputs. For a pair of structural ROIs to be considered overlapping, they must share a certain
+proportion of their involved residues.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD15|
+
+.. |formD15| image:: ../images/pwchem_formD15.png
+   :alt: pwchem formD15
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfStructROIs containing the consensus structural ROIs.
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_structROIs.TestConsensusStructROIs
+
+|
+
 
 Get in contact
 ******************************************
