@@ -409,7 +409,7 @@ The result of this protocol is a SetOfSequences with the specified sequences.
 
 .. |out10| image:: ../images/pwchem_out10.png
    :alt: pwchem out10
-   :height: 200
+   :height: 150
 
 |
 
@@ -445,7 +445,7 @@ The result of this protocol is a SetOfSequences with the two input sequences ali
 
 .. |out11| image:: ../images/pwchem_out11.png
    :alt: pwchem out11
-   :height: 200
+   :height: 150
 
 |
 
@@ -481,7 +481,7 @@ The result of this protocol is a SetOfSequences with the two input sequences ali
 
 .. |out12| image:: ../images/pwchem_out12.png
    :alt: pwchem out12
-   :height: 200
+   :height: 150
 
 |
 
@@ -577,10 +577,10 @@ the input.
 
 |
 
-|out14|
+|out15|
 
-.. |out14| image:: ../images/pwchem_out14.png
-   :alt: pwchem out14
+.. |out15| image:: ../images/pwchem_out15.png
+   :alt: pwchem out15
    :height: 400
 
 |
