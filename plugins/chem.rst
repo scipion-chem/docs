@@ -1110,11 +1110,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD11_1| image:: ../images/pwchem_formD11_1.png
    :alt: pwchem formD11_1
-   :height: 400
+   :height: 375
 
 .. |formD11_2| image:: ../images/pwchem_formD11_2.png
    :alt: pwchem formD11_2
-   :height: 400
+   :height: 375
 
 |
 
