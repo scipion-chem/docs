@@ -46,6 +46,8 @@ Scipion-chem includes around 40 different protocols subdivided in 4 groups of pr
 - **C) Sequences**: It incorporates protocols for managing biological sequences, including tools for defining sequence regions of interest.
 - **D) VirtualDrugScreening**: main group of protocols that incorporates most of the functionalities related to the VDS workflow.
 
+.. _RST D.17) RMSD docking:
+
 The different protocols included in these subgroups will be defined in the following sections, including also a test
 for most of them.
 
@@ -59,7 +61,7 @@ protocols, it is even compulsory) since inappropriate use of the parameters migh
 ================================
 
 **A.1) Convert structure**
-----------------------
+---------------------------
 
 This protocol converts the format of the files stored for a set of Small Molecules, an Atom Structure or a Molecular
 dynamics system (either coordinates, topology or trajectory files).
@@ -229,7 +231,7 @@ A test for this protocol can be run using::
 ================================
 
 **B.1) Import database IDs**
-------------------------
+------------------------------
 
 This protocol imports a set of database IDs from a file and stores them as a Scipion object. It save the ID and the
 origin database name.
@@ -257,7 +259,7 @@ A test for this protocol can be run using::
 
 
 **B.2) Identify ligands**
-----------------------
+--------------------------
 
 This protocol tries to identify a set of Small Molecules based on the SMILES string for each of them. To do so, it uses
 the PubChem API (https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest). If no exact match is found, it looks for similar
@@ -296,7 +298,7 @@ A test for this protocol can be run using::
 
 
 **B.3) UniProt CrossRef**
-----------------------
+--------------------------
 
 This protocol searches in the UniProt cross reference database for related entries of a set of UniProt IDs for
 specified databases. The user can choose whether to store the cross reference as a secondary or the main ID and
@@ -797,7 +799,7 @@ A test for this protocol can be run using::
 
 
 **D) Virtual Drug Screening protocols**
-================================
+=======================================
 
 **D.1) Import Small Molecules**
 ---------------------------------
@@ -913,7 +915,7 @@ them.
 
 
 **D.4) OpenBabel Prepare Small Molecules**
----------------------------------
+-------------------------------------------
 
 This protocol prepares a SetOfSmallMolecules using OpenBabel. The user can choose several methods for the charge
 assignment and conformer generation.
@@ -950,7 +952,7 @@ A test for this protocol can be run using::
 
 
 **D.5) RDKit Prepare Small Molecules**
----------------------------------
+--------------------------------------
 
 This protocol prepares a SetOfSmallMolecules using RDKit. The user can choose several methods for the charge
 assignment and conformer generation.
