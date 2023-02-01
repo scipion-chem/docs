@@ -1392,7 +1392,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD17_2| image:: ../images/pwchem_formD17_2.png
    :alt: pwchem formD17_2
-   :height: 350
+   :height: 340
 
 |
 
