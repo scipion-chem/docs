@@ -71,14 +71,14 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form1_1| |form1_2|
+|formA1_1| |formA1_2|
 
-.. |form1_1| image:: ../images/pwchem_form1_1.png
-   :alt: pwchem form1_1
+.. |formA1_1| image:: ../images/pwchem_formA1_1.png
+   :alt: pwchem formA1_1
    :height: 400
 
-.. |form1_2| image:: ../images/pwchem_form1_2.png
-   :alt: pwchem form1_2
+.. |formA1_2| image:: ../images/pwchem_formA1_2.png
+   :alt: pwchem formA1_2
    :height: 400
 
 |
@@ -113,14 +113,14 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form2_1| |form2_2|
+|formA2_1| |formA2_2|
 
-.. |form2_1| image:: ../images/pwchem_form2_1.png
-   :alt: pwchem form2_1
+.. |formA2_1| image:: ../images/pwchem_formA2_1.png
+   :alt: pwchem formA2_1
    :height: 400
 
-.. |form2_2| image:: ../images/pwchem_form2_2.png
-   :alt: pwchem form2_2
+.. |formA2_2| image:: ../images/pwchem_formA2_2.png
+   :alt: pwchem formA2_2
    :height: 400
 
 |
@@ -143,14 +143,14 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form3_1| |form3_2|
+|formA3_1| |formA3_2|
 
-.. |form3_1| image:: ../images/pwchem_form3_1.png
-   :alt: pwchem form3_1
+.. |formA3_1| image:: ../images/pwchem_formA3_1.png
+   :alt: pwchem formA3_1
    :height: 390
 
-.. |form3_2| image:: ../images/pwchem_form3_2.png
-   :alt: pwchem form3_2
+.. |formA3_2| image:: ../images/pwchem_formA3_2.png
+   :alt: pwchem formA3_2
    :height: 390
 
 |
@@ -161,18 +161,18 @@ The result of this protocol is a Set of the same type of the input, with the add
 
 Before:
 
-|out3_1|
+|outA3_1|
 
 After:
 
-|out3_2|
+|outA3_2|
 
-.. |out3_1| image:: ../images/pwchem_out3_1.png
-   :alt: pwchem out3_1
+.. |outA3_1| image:: ../images/pwchem_outA3_1.png
+   :alt: pwchem Aout3_1
    :height: 150
 
-.. |out3_2| image:: ../images/pwchem_out3_2.png
-   :alt: pwchem out3_2
+.. |outA3_2| image:: ../images/pwchem_outA3_2.png
+   :alt: pwchem outA3_2
    :height: 150
 
 |
@@ -193,10 +193,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form4|
+|formA4|
 
-.. |form4| image:: ../images/pwchem_form4.png
-   :alt: pwchem form4
+.. |formA4| image:: ../images/pwchem_formA4.png
+   :alt: pwchem formA4
    :height: 400
 
 |
@@ -205,10 +205,10 @@ The result of this protocol is a csv file in the protocol folder. It has no Scip
 
 |
 
-|out4|
+|outA4|
 
-.. |out4| image:: ../images/pwchem_out4.png
-   :alt: pwchem out4
+.. |outA4| image:: ../images/pwchem_outA4.png
+   :alt: pwchem Aout4
    :height: 170
 
 |
@@ -231,10 +231,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form5|
+|formB1|
 
-.. |form5| image:: ../images/pwchem_form5.png
-   :alt: pwchem form5
+.. |formB1| image:: ../images/pwchem_formB1.png
+   :alt: pwchem formB1
    :height: 400
 
 |
@@ -259,10 +259,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form6|
+|formB2|
 
-.. |form6| image:: ../images/pwchem_form6.png
-   :alt: pwchem form6
+.. |formB2| image:: ../images/pwchem_formB2.png
+   :alt: pwchem formB2
    :height: 400
 
 |
@@ -271,10 +271,10 @@ The result of this protocol is a SetOfSmallMolecules which includes the found id
 
 |
 
-|out6|
+|outB2|
 
-.. |out6| image:: ../images/pwchem_out6.png
-   :alt: pwchem out10
+.. |outB2| image:: ../images/pwchem_outB2.png
+   :alt: pwchem outB2
    :height: 200
 
 |
@@ -295,10 +295,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form7|
+|formB3|
 
-.. |form7| image:: ../images/pwchem_form7.png
-   :alt: pwchem form7
+.. |formB3| image:: ../images/pwchem_formB3.png
+   :alt: pwchem formB3
    :height: 400
 
 |
@@ -323,10 +323,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form8|
+|formB4|
 
-.. |form8| image:: ../images/pwchem_form8.png
-   :alt: pwchem form8
+.. |formB4| image:: ../images/pwchem_formB4.png
+   :alt: pwchem formB4
    :height: 500
 
 |
@@ -357,14 +357,14 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form9_1| |form9_2|
+|formB5_1| |formB5_2|
 
-.. |form9_1| image:: ../images/pwchem_form9_1.png
-   :alt: pwchem form9_1
+.. |formB5_1| image:: ../images/pwchem_formB5_1.png
+   :alt: pwchem formB5_1
    :height: 450
 
-.. |form9_2| image:: ../images/pwchem_form9_2.png
-   :alt: pwchem form9_2
+.. |formB5_2| image:: ../images/pwchem_formB5_2.png
+   :alt: pwchem formB5_2
    :height: 450
 
 |
@@ -389,14 +389,14 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form10_1| |form10_2|
+|formC1_1| |formC1_2|
 
-.. |form10_1| image:: ../images/pwchem_form10_1.png
-   :alt: pwchem form10_1
+.. |formC1_1| image:: ../images/pwchem_formC1_1.png
+   :alt: pwchem formC1_1
    :height: 330
 
-.. |form10_2| image:: ../images/pwchem_form10_2.png
-   :alt: pwchem form10_2
+.. |formC1_2| image:: ../images/pwchem_formC1_2.png
+   :alt: pwchem formC1_2
    :height: 330
 
 |
@@ -405,10 +405,10 @@ The result of this protocol is a SetOfSequences with the specified sequences.
 
 |
 
-|out10|
+|outC1|
 
-.. |out10| image:: ../images/pwchem_out10.png
-   :alt: pwchem out10
+.. |outC1| image:: ../images/pwchem_outC1.png
+   :alt: pwchem outC1
    :height: 150
 
 |
@@ -429,10 +429,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form11|
+|formC2|
 
-.. |form11| image:: ../images/pwchem_form11.png
-   :alt: pwchem form11
+.. |formC2| image:: ../images/pwchem_formC2.png
+   :alt: pwchem formC2
    :height: 450
 
 |
@@ -441,10 +441,10 @@ The result of this protocol is a SetOfSequences with the two input sequences ali
 
 |
 
-|out11|
+|outC2|
 
-.. |out11| image:: ../images/pwchem_out11.png
-   :alt: pwchem out11
+.. |out11| image:: ../images/pwchem_outC2.png
+   :alt: pwchem outC2
    :height: 150
 
 |
@@ -465,10 +465,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form12|
+|formC3|
 
-.. |form12| image:: ../images/pwchem_form12.png
-   :alt: pwchem form12
+.. |formC3| image:: ../images/pwchem_formC3.png
+   :alt: pwchem formC3
    :height: 500
 
 |
@@ -477,10 +477,10 @@ The result of this protocol is a SetOfSequences with the two input sequences ali
 
 |
 
-|out12|
+|outC3|
 
-.. |out12| image:: ../images/pwchem_out12.png
-   :alt: pwchem out12
+.. |outC3| image:: ../images/pwchem_outC3.png
+   :alt: pwchem outC3
    :height: 150
 
 |
@@ -501,10 +501,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form13|
+|formC4|
 
-.. |form13| image:: ../images/pwchem_form13.png
-   :alt: pwchem form13
+.. |formC4| image:: ../images/pwchem_formC4.png
+   :alt: pwchem formC4
    :height: 450
 
 |
@@ -526,14 +526,14 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form14_1| |form14_2|
+|formC5_1| |formC5_2|
 
-.. |form14_1| image:: ../images/pwchem_form14_1.png
-   :alt: pwchem form14_1
+.. |formC5_1| image:: ../images/pwchem_formC5_1.png
+   :alt: pwchem formC5_1
    :height: 320
 
-.. |form14_2| image:: ../images/pwchem_form14_2.png
-   :alt: pwchem form14_2
+.. |formC5_2| image:: ../images/pwchem_formC5_2.png
+   :alt: pwchem formC5_2
    :height: 320
 
 |
@@ -542,10 +542,10 @@ The result of this protocol is a SequenceVariants object containing the original
 
 |
 
-|out14|
+|outC5|
 
-.. |out14| image:: ../images/pwchem_out14.png
-   :alt: pwchem out14
+.. |outC5| image:: ../images/pwchem_outC5.png
+   :alt: pwchem outC5
    :height: 400
 
 |
@@ -564,10 +564,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form15|
+|formC6|
 
-.. |form15| image:: ../images/pwchem_form15.png
-   :alt: pwchem form15
+.. |formC6| image:: ../images/pwchem_formC6.png
+   :alt: pwchem formC6
    :height: 450
 
 |
@@ -577,10 +577,10 @@ the input.
 
 |
 
-|out15|
+|outC6|
 
-.. |out15| image:: ../images/pwchem_out15.png
-   :alt: pwchem out15
+.. |outC6| image:: ../images/pwchem_outC6.png
+   :alt: pwchem outC6
    :height: 200
 
 |
@@ -601,10 +601,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form16|
+|formC7|
 
-.. |form16| image:: ../images/pwchem_form16.png
-   :alt: pwchem form16
+.. |formC7| image:: ../images/pwchem_formC7.png
+   :alt: pwchem formC7
    :height: 400
 
 |
@@ -627,10 +627,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form17|
+|formC8|
 
-.. |form17| image:: ../images/pwchem_form17.png
-   :alt: pwchem form17
+.. |formC8| image:: ../images/pwchem_formC8.png
+   :alt: pwchem formC8
    :height: 500
 
 |
@@ -639,10 +639,10 @@ The result of this protocol is a SetOfSequenceROIs with the ROIs defined in the 
 
 |
 
-|out17|
+|outC8|
 
-.. |out17| image:: ../images/pwchem_out17.png
-   :alt: pwchem out17
+.. |outC8| image:: ../images/pwchem_outC8.png
+   :alt: pwchem outC8
    :height: 200
 
 |
@@ -662,10 +662,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form18|
+|formC9|
 
-.. |form18| image:: ../images/pwchem_form18.png
-   :alt: pwchem form18
+.. |formC9| image:: ../images/pwchem_formC9.png
+   :alt: pwchem formC9
    :height: 450
 
 |
@@ -689,10 +689,10 @@ the alignment in order to tune this threshold.
 
 |
 
-|out19|
+|outC10|
 
-.. |out19| image:: ../images/pwchem_out19.png
-   :alt: pwchem out19
+.. |outC10| image:: ../images/pwchem_outC10.png
+   :alt: pwchem outC10
    :height: 400
 
 |
@@ -703,10 +703,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form19|
+|formC10|
 
-.. |form19| image:: ../images/pwchem_form19.png
-   :alt: pwchem form19
+.. |formC10| image:: ../images/pwchem_formC10.png
+   :alt: pwchem formC10
    :height: 550
 
 |
@@ -732,10 +732,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|form20|
+|formC11|
 
-.. |form20| image:: ../images/pwchem_form20.png
-   :alt: pwchem form20
+.. |formC11| image:: ../images/pwchem_formC11.png
+   :alt: pwchem formC11
    :height: 500
 
 |
@@ -744,10 +744,10 @@ The result of this protocol is a SetOfStructROIs with the mapped sequence ROIs o
 
 |
 
-|out20|
+|outC11|
 
-.. |out20| image:: ../images/pwchem_out20.png
-   :alt: pwchem out20
+.. |outC11| image:: ../images/pwchem_outC11.png
+   :alt: pwchem outC11
    :height: 600
 
 |
@@ -756,6 +756,50 @@ A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_sequences.TestMapSeqROIs
 
 |
+
+**D) Virtual Drug Screening protocols**
+================================
+
+**D.1) Import Small Molecules**
+---------------------------------
+
+This protocol imports a set of small molecules from one or several files or from default database libraries like ECBL
+or ZINC.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD1_1| |formD1_2|
+
+.. |formD1_1| image:: ../images/pwchem_formD1_1.png
+   :alt: pwchem formD1_1
+   :height: 330
+
+.. |formD1_2| image:: ../images/pwchem_formD1_2.png
+   :alt: pwchem formD1_2
+   :height: 330
+
+|
+
+The result of this protocol is a SetOfSmallMolecules, in 2D or 3D conformations depending on the source and whether
+the user specified 3D optimization.
+
+|
+
+|outD1|
+
+.. |outD1| image:: ../images/pwchem_outD1.png
+   :alt: pwchem outD1
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_imports.TestImportSequences
+
+|
+
 
 Get in contact
 ******************************************
