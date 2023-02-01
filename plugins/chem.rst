@@ -1360,7 +1360,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD16| image:: ../images/pwchem_formD16.png
    :alt: pwchem formD16
-   :height: 400
+   :height: 500
 
 |
 
@@ -1388,11 +1388,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD17_1| image:: ../images/pwchem_formD17_1.png
    :alt: pwchem formD17_1
-   :height: 375
+   :height: 350
 
 .. |formD17_2| image:: ../images/pwchem_formD17_2.png
    :alt: pwchem formD17_2
-   :height: 375
+   :height: 350
 
 |
 
@@ -1428,11 +1428,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD18_1| image:: ../images/pwchem_formD18_1.png
    :alt: pwchem formD18_1
-   :height: 375
+   :height: 425
 
 .. |formD18_2| image:: ../images/pwchem_formD18_2.png
    :alt: pwchem formD18_2
-   :height: 375
+   :height: 425
 
 |
 
@@ -1459,11 +1459,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD19_1| image:: ../images/pwchem_formD19_1.png
    :alt: pwchem formD19_1
-   :height: 375
+   :height: 425
 
 .. |formD19_2| image:: ../images/pwchem_formD19_2.png
    :alt: pwchem formD19_2
-   :height: 375
+   :height: 425
 
 |
 
@@ -1476,7 +1476,7 @@ visualized in the Analyzed results.
 
 .. |outD19_1| image:: ../images/pwchem_outD19_1.png
    :alt: pwchem outD19_1
-   :height: 400
+   :height: 500
 
 |
 
@@ -1489,7 +1489,7 @@ threshold. The user can preview the SASA values in the protocol to define the th
 
 .. |outD19_2| image:: ../images/pwchem_outD19_2.png
    :alt: pwchem outD19_2
-   :height: 400
+   :height: 200
 
 |
 
