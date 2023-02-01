@@ -1428,7 +1428,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD18_1| image:: ../images/pwchem_formD18_1.png
    :alt: pwchem formD18_1
-   :height: 425
+   :height: 600
 
 |
 
