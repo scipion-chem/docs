@@ -689,10 +689,10 @@ the alignment in order to tune this threshold.
 
 |
 
-|out17|
+|out19|
 
-.. |out17| image:: ../images/pwchem_out17.png
-   :alt: pwchem out17
+.. |out19| image:: ../images/pwchem_out19.png
+   :alt: pwchem out19
    :height: 200
 
 |
@@ -744,10 +744,10 @@ The result of this protocol is a SetOfStructROIs with the mapped sequence ROIs o
 
 |
 
-|ou20|
+|out20|
 
-.. |ou20| image:: ../images/pwchem_ou20.png
-   :alt: pwchem ou20
+.. |out20| image:: ../images/pwchem_out20.png
+   :alt: pwchem out20
    :height: 200
 
 |
