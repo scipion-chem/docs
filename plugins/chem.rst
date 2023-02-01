@@ -1446,6 +1446,58 @@ A test for this protocol can be run using::
 |
 
 
+**D.19) SASA calculation**
+---------------------------------------------
+
+This protocol uses BioPython to calculate the SASA (Solvent-Accessible Surface Area) for each residue in an AtomStruct.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD19_1| |formD19_2|
+
+.. |formD19_1| image:: ../images/pwchem_formD19_1.png
+   :alt: pwchem formD19_1
+   :height: 375
+
+.. |formD19_2| image:: ../images/pwchem_formD19_2.png
+   :alt: pwchem formD19_2
+   :height: 375
+
+|
+
+The result of this protocol is an AtomStruct containing the SASA value for each reside of the receptor, which can be
+visualized in the Analyzed results.
+
+|
+
+|outD19_1|
+
+.. |outD19_1| image:: ../images/pwchem_outD19_1.png
+   :alt: pwchem outD19_1
+   :height: 400
+
+|
+
+Additionally, the protocol can also output a SetOfSequenceROIs with those residues with SASA values higher/lower than a
+threshold. The user can preview the SASA values in the protocol to define the threshold.
+
+|
+
+|outD19_2|
+
+.. |outD19_2| image:: ../images/pwchem_outD19_2.png
+   :alt: pwchem outD19_2
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_attributes.TestCalculateSASA
+
+|
+
 Get in contact
 ******************************************
 
