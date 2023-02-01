@@ -693,7 +693,7 @@ the alignment in order to tune this threshold.
 
 .. |out19| image:: ../images/pwchem_out19.png
    :alt: pwchem out19
-   :height: 200
+   :height: 400
 
 |
 
@@ -748,7 +748,7 @@ The result of this protocol is a SetOfStructROIs with the mapped sequence ROIs o
 
 .. |out20| image:: ../images/pwchem_out20.png
    :alt: pwchem out20
-   :height: 200
+   :height: 600
 
 |
 
