@@ -1424,14 +1424,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-|formD18_1| |formD18_2|
+|formD18_1|
 
 .. |formD18_1| image:: ../images/pwchem_formD18_1.png
    :alt: pwchem formD18_1
-   :height: 425
-
-.. |formD18_2| image:: ../images/pwchem_formD18_2.png
-   :alt: pwchem formD18_2
    :height: 425
 
 |
