@@ -1118,7 +1118,8 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-The result of this protocol is an AtomStruct cleaned with the form specifications.
+The result of this protocol is a PharmacophoreChem object containing the extracted features from the set of small molecules
+with the specified clustering parameters.
 
 |
 
@@ -1132,6 +1133,81 @@ The result of this protocol is an AtomStruct cleaned with the form specification
 
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmGeneration
+
+|
+
+**D.12) Pharmacophore modification**
+---------------------------------------------
+
+This protocol modifies the properties of the features inside a Pharmacophore object. The user can design a list of
+actions involving removal or modification of present features or the addition of new ones. The user can specify the
+coordinates, size and type  of each of the modified features.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD12|
+
+.. |formD12| image:: ../images/pwchem_formD12.png
+   :alt: pwchem formD12
+   :height: 400
+
+|
+
+The result of this protocol is a PharmacophoreChem object with the modified features.
+
+|
+
+|outD12|
+
+.. |outD12| image:: ../images/pwchem_outD12.png
+   :alt: pwchem outD12
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmModification
+
+|
+
+
+**D.13) Pharmacophore filtering**
+---------------------------------------------
+
+This protocol uses RDKit for filtering a SetOfSmallMolecules by matching them with a Pharmacophore.
+For each molecule to pass, its own features must match those of the pharmacophore with a certain maximum deviation.
+Several different molecule-pharmacophore alignments can be tried to match them.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD13|
+
+.. |formD13| image:: ../images/pwchem_formD13.png
+   :alt: pwchem formD13
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules containing only those small molecules that match the Pharmacophore.
+In case the Pharmacophore included a receptor structure, the output molecules will be docked to it.
+In Analyze results, the user can visualize how the molecules and the pharmacophore match.
+
+|
+
+|outD13|
+
+.. |outD13| image:: ../images/pwchem_outD13.png
+   :alt: pwchem outD13
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmFiltering
 
 |
 
