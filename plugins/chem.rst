@@ -11,14 +11,10 @@ Welcome to Scipion-chem's documentation!
 In order to use this plugin, you need to install first `Scipion-em <https://github.com/scipion-em>`_
 This plugin, Scipion-chem, is the core for the rest of scipion-chem-\* plugins.
 
-|
-
-.. contents:: The tiny table of contents
-
-|
-
+==========================================
 Scipion-chem overview
-******************************************
+==========================================
+
 `Scipion-chem <https://github.com/scipion-chem/scipion-chem>`_ is the core plugin for Virtual Drug Screening (VDS) in
 the Scipion platform. It is designed to manage and make interoperable all the the satellite plugins
 (Autodock, fpocket,...). It also includes several tools for:
@@ -42,8 +38,10 @@ These programs are managed through conda environments, which also includes diffe
 
 |
 
+==========================================
 Scipion-chem protocols
-******************************************
+==========================================
+
 Scipion-chem includes around 40 different protocols subdivided in 4 groups of protocols according to their function:
 
 
@@ -63,10 +61,10 @@ protocols, it is even compulsory) since inappropriate use of the parameters migh
 
 
 **A) General protocols**
-================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **A.1) Convert structure**
----------------------------
+============================
 
 This protocol converts the format of the files stored for a set of Small Molecules, an Atom Structure or a Molecular
 dynamics system (either coordinates, topology or trajectory files).
@@ -102,7 +100,7 @@ A test for this protocol can be run using::
 
 
 **A.2) Operate set**
-----------------------
+============================
 
 This protocol includes several functionalities to modify any Scipion Set inside the project. It handles the internal
 SQLite representation to modify the set object. The user must define a reference attribute of the items which will
@@ -146,7 +144,7 @@ A test for this protocol can be run using::
 
 
 **A.3) Add attribute**
-----------------------
+============================
 
 This protocol allows the user to add an attribute to an item or set object inside Scipion. It has somehow a similar but
 contrary function than the "Remove column" operation of the "Operate set" protocol, but the definition of the input can
@@ -197,7 +195,7 @@ A test for this protocol can be run using::
 
 
 **A.4) Export csv**
-----------------------
+============================
 
 This protocol allows the user to export the SQLite table of a set as a csv file, containing the values of each attribute
 for each column and each item in a row. This protocol might be useful for further exploring the attributes of a Set.
@@ -232,10 +230,10 @@ A test for this protocol can be run using::
 |
 
 **B) Database protocols**
-================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **B.1) Import database IDs**
-------------------------------
+============================
 
 This protocol imports a set of database IDs from a file and stores them as a Scipion object. It save the ID and the
 origin database name.
@@ -263,7 +261,7 @@ A test for this protocol can be run using::
 
 
 **B.2) Identify ligands**
---------------------------
+============================
 
 This protocol tries to identify a set of Small Molecules based on the SMILES string for each of them. To do so, it uses
 the PubChem API (https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest). If no exact match is found, it looks for similar
@@ -302,7 +300,7 @@ A test for this protocol can be run using::
 
 
 **B.3) UniProt CrossRef**
---------------------------
+============================
 
 This protocol searches in the UniProt cross reference database for related entries of a set of UniProt IDs for
 specified databases. The user can choose whether to store the cross reference as a secondary or the main ID and
@@ -332,7 +330,7 @@ A test for this protocol can be run using::
 
 
 **B.4) ZINC filter**
-----------------------
+============================
 
 This protocol filters a SetOfSmallMolecules by the presence/absence of each of the molecules in the specified ZINC
 subset(s). To do so, the molecules must have a ZINC ID, either in the MolName or in a ZINC_ID attribute
@@ -363,7 +361,7 @@ A test for this protocol can be run using::
 
 
 **B.5) Fetch ligands**
-----------------------
+============================
 
 This protocol extracts the ligands related to a SetOfDatabaseIDs. It defines 3 levels of relation depending on the
 database IDs:
@@ -403,10 +401,10 @@ A test for this protocol can be run using::
 
 
 **C) Sequence protocols**
-================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **C.1) Import SetOfSequences**
----------------------------------
+===============================
 
 This protocol imports a set of sequences from one or several fasta files or from a database like UniProt using a
 SetOfDatabaseIDs as input.
@@ -446,7 +444,7 @@ A test for this protocol can be run using::
 
 
 **C.2) Pairwise Alignment**
----------------------------------
+===============================
 
 This protocol perform a pairwise alignment using clustal omega over two input sequences.
 These sequences can be input either from a Sequence or an AtomStruct objects, in the later,
@@ -483,7 +481,7 @@ A test for this protocol can be run using::
 
 
 **C.3) Multiple Sequence Alignment**
--------------------------------------
+=====================================
 
 This protocol perform a multiple sequence alignment (MSA) over a set of input sequences.
 The alignment can be performed using either Clustal Omega, Muscle or Mafft, which are automatically installed in the
@@ -520,7 +518,7 @@ A test for this protocol can be run using::
 
 
 **C.4) Define set of sequences**
--------------------------------------
+=====================================
 
 This protocol allows the user to manually build a set of small molecules from individual elements, which can be either
 Sequence, AtomStruct objects or even PDB codes. In the case of structures and PDB, the chain must be specified. Also,
@@ -549,7 +547,7 @@ A test for this protocol can be run using::
 
 
 **C.5) Import variants**
----------------------------------
+=====================================
 
 This protocol imports a set of sequence variants. These can be imported either from the natural defined in a single
 UniProt ID or with a customized file defining single point mutations.
@@ -589,7 +587,7 @@ A test for this protocol can be run using::
 
 
 **C.6) Generate variant sequences**
------------------------------------
+=====================================
 
 This protocol generates a set of sequences from a list of specified variants from a SequenceVariants object.
 
@@ -625,7 +623,7 @@ A test for this protocol can be run using::
 
 
 **C.7) Import Sequence ROIs**
------------------------------------
+=====================================
 
 This protocol imports a SetOfSequenceROIs, meaning a set of Regions Of Interest (ROI) in a sequence. As for today,
 this protocol is oriented to epitopes defined in IEDB (https://www.iedb.org/ ). More origins of these ROIs will be
@@ -655,7 +653,7 @@ A test for this protocol can be run using::
 
 
 **C.8) Define Sequence ROIs**
------------------------------------
+=====================================
 
 This protocol defines a SetOfSequenceROIs from a Sequence or SequenceVariants object. The user can define a list of
 Regions Of Interest from sequence segments, variants or mutations in the input.
@@ -691,7 +689,7 @@ A test for this protocol can be run using::
 
 
 **C.9) Operate Sequence ROIs**
------------------------------------
+=====================================
 
 This protocol allows the user to operate sets of sequence ROIs, similarly to the operate sets. In this protocol however,
 the overlap of the ROIs is the attribute taken into account for the set operations.
@@ -719,7 +717,7 @@ A test for this protocol can be run using::
 
 
 **C.10) Extract Sequence ROIs**
------------------------------------
+=====================================
 
 This protocol defines a SetOfSequenceROIs from an input set of sequences based on the conservation of each position
 in the alignment. If the user provides an input structure which can be aligned to the input sequences, the regions
@@ -765,7 +763,7 @@ A test for this protocol can be run using::
 
 
 **C.11) Map Sequence ROIs**
------------------------------------
+=====================================
 
 This protocol maps a set of sequence ROIs to an atomic structure where the sequence can be mapped. The alignment of the
 sequence that contains the ROIs and the one coming from the structure can be previewed. Then, those residues defined as
@@ -803,10 +801,10 @@ A test for this protocol can be run using::
 
 
 **D) Virtual Drug Screening protocols**
-=======================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **D.1) Import Small Molecules**
----------------------------------
+=====================================
 
 This protocol imports a set of small molecules from one or several files or from default database libraries like ECBL
 or ZINC.
@@ -847,7 +845,7 @@ A test for this protocol can be run using::
 
 
 **D.2) Extract Small Molecules**
----------------------------------
+=====================================
 
 This protocol extract the small molecules present in a AtomStruct object.
 
@@ -883,7 +881,7 @@ A test for this protocol can be run using::
 
 
 **D.3) Draw Small Molecules**
----------------------------------
+=====================================
 
 This protocol runs JChemPaint java program and allows the user to draw their own molecules.
 
@@ -919,7 +917,7 @@ them.
 
 
 **D.4) OpenBabel Prepare Small Molecules**
--------------------------------------------
+==========================================
 
 This protocol prepares a SetOfSmallMolecules using OpenBabel. The user can choose several methods for the charge
 assignment and conformer generation.
@@ -956,7 +954,7 @@ A test for this protocol can be run using::
 
 
 **D.5) RDKit Prepare Small Molecules**
---------------------------------------
+==========================================
 
 This protocol prepares a SetOfSmallMolecules using RDKit. The user can choose several methods for the charge
 assignment and conformer generation.
@@ -993,7 +991,7 @@ A test for this protocol can be run using::
 
 
 **D.6) Prepare Receptor**
----------------------------------
+==========================================
 
 This protocol provides a simple AtomStruct preparation with BioPython where the user can choose different cleaning
 options like removing waters, heteroatoms, keep only specific chains... Its functionality is included in several other
@@ -1030,7 +1028,7 @@ A test for this protocol can be run using::
 
 
 **D.7) ADME Small Molecules filter**
-------------------------------------
+==========================================
 
 This protocol uses RDKit to filter a SetOfSmallMolecules by applying the ADME (Absortion, Distribution,
 Metabolism, Excretion) filter to each of the small molecules stored. The user can choose whether to use the Lipinski's
@@ -1059,7 +1057,7 @@ A test for this protocol can be run using::
 
 
 **D.8) PAINS Small Molecules filter**
----------------------------------------
+==========================================
 
 This protocol uses RDKit to filter a SetOfSmallMolecules by applying the PAINS (Pan-assay interference compounds)
 filter (https://en.wikipedia.org/wiki/Pan-assay_interference_compounds ) to each of the small molecules stored.
@@ -1089,7 +1087,7 @@ A test for this protocol can be run using::
 
 
 **D.9) Shape Small Molecules filter**
----------------------------------------
+==========================================
 
 This protocol uses RDKit to filter a SetOfSmallMolecules by applying shape filters to each of the small molecules
 stored. The user can choose whether to use RDKit or Shape-it (currently not automatically installed) to calculate the
@@ -1124,7 +1122,7 @@ A test for this protocol can be run using::
 
 
 **D.10) FingerPrint Small Molecules filter**
----------------------------------------------
+=============================================
 
 This protocol uses RDKit to filter a SetOfSmallMolecules by applying fingerprint filters to each of the small molecules
 stored. The user can choose whether to use Morgan or MACCS fingerprints and whether to use Tanimoto or Dice
@@ -1151,7 +1149,7 @@ A test for this protocol can be run using::
 
 
 **D.11) Pharmacophore generation**
------------------------------------
+=============================================
 
 This protocol generate a Pharmacophore object that can be parse by RDKit from a SetOfSmallMolecules. If the input
 molecules are docked to a structure, the output pharmacophore keeps that structure too. The different features that
@@ -1197,7 +1195,7 @@ A test for this protocol can be run using::
 
 
 **D.12) Pharmacophore modification**
----------------------------------------------
+=============================================
 
 This protocol modifies the properties of the features inside a Pharmacophore object. The user can design a list of
 actions involving removal or modification of present features or the addition of new ones. The user can specify the
@@ -1234,7 +1232,7 @@ A test for this protocol can be run using::
 
 
 **D.13) Pharmacophore filtering**
----------------------------------------------
+=============================================
 
 This protocol uses RDKit for filtering a SetOfSmallMolecules by matching them with a Pharmacophore.
 For each molecule to pass, its own features must match those of the pharmacophore with a certain maximum deviation.
@@ -1273,7 +1271,7 @@ A test for this protocol can be run using::
 
 
 **D.14) Define Structural ROIs**
----------------------------------------------
+=============================================
 
 This protocol allows the user to manually define a SetOfStructROIs from AtomStruct objects. The user can define this
 structural ROIs in different ways:
@@ -1318,7 +1316,7 @@ A test for this protocol can be run using::
 
 
 **D.15) Consensus Structural ROIs**
----------------------------------------------
+=============================================
 
 This protocol performs a consensus operation over several SetOfStructROIs, studying which of them are shared among all
 or a subset of the input sets. The protocol can be used for example to extract the most relevant and robust results
@@ -1352,7 +1350,7 @@ A test for this protocol can be run using::
 
 
 **D.16) Score docking positions**
----------------------------------------------
+=============================================
 
 This protocol allows the user to rescore a SetOfSmallMolecules docked to a receptor using several
 `ODDT <https://github.com/oddt/oddt>`_ scoring functions. The user may even use several of these functions together
@@ -1381,7 +1379,7 @@ A test for this protocol can be run using::
 
 
 **D.17) RMSD docking**
----------------------------------------------
+=============================================
 
 This protocol allows the user to calculate the RMSD between a SetOfSmallMolecules to a reference molecule docked to the
 same receptor. The reference molecule can come either from a AtomStruct or a SetOfSmallMolecules.
@@ -1413,7 +1411,7 @@ A test for this protocol can be run using::
 
 
 **D.18) Consensus docking**
----------------------------------------------
+=============================================
 
 This protocol performs a consensus operation over several docked SetOfSmallMolecules, studying which positions are
 shared among all or a subset of the input sets. Similarly to the Consensus structural ROIs protocol, it might be used
@@ -1449,7 +1447,7 @@ A test for this protocol can be run using::
 
 
 **D.19) SASA calculation**
----------------------------------------------
+=============================================
 
 This protocol uses BioPython to calculate the SASA (Solvent-Accessible Surface Area) for each residue in an AtomStruct.
 
@@ -1500,8 +1498,9 @@ A test for this protocol can be run using::
 
 |
 
+================
 Get in contact
-******************************************
+================
 
 From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or
