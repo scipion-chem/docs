@@ -774,11 +774,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD1_1| image:: ../images/pwchem_formD1_1.png
    :alt: pwchem formD1_1
-   :height: 330
+   :height: 400
 
 .. |formD1_2| image:: ../images/pwchem_formD1_2.png
    :alt: pwchem formD1_2
-   :height: 330
+   :height: 400
 
 |
 
@@ -814,7 +814,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD2| image:: ../images/pwchem_formD2.png
    :alt: pwchem formD2
-   :height: 330
+   :height: 400
 
 |
 
@@ -850,11 +850,11 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD3_1| image:: ../images/pwchem_formD3_1.png
    :alt: pwchem formD3_1
-   :height: 330
+   :height: 400
 
 .. |formD3_2| image:: ../images/pwchem_formD3_2.png
    :alt: pwchem formD3_2
-   :height: 330
+   :height: 400
 
 |
 
@@ -886,7 +886,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD4| image:: ../images/pwchem_formD4.png
    :alt: pwchem formD4
-   :height: 330
+   :height: 400
 
 |
 
@@ -922,7 +922,7 @@ All parameters include a help button that gives further information for each of 
 
 .. |formD5| image:: ../images/pwchem_formD5.png
    :alt: pwchem formD5
-   :height: 330
+   :height: 400
 
 |
 
