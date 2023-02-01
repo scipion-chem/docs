@@ -944,6 +944,67 @@ A test for this protocol can be run using::
 
 |
 
+**D.6) Prepare Receptor**
+---------------------------------
+
+This protocol provides a simple AtomStruct preparation with BioPython where the user can choose different cleaning
+options like removing waters, heteroatoms, keep only specific chains... Its functionality is included in several other
+protocols that manage AtomStruct objects.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD6|
+
+.. |formD6| image:: ../images/pwchem_formD6.png
+   :alt: pwchem formD6
+   :height: 400
+
+|
+
+The result of this protocol is an AtomStruct cleaned with the form specifications.
+
+|
+
+|outD6|
+
+.. |outD6| image:: ../images/pwchem_outD6.png
+   :alt: pwchem outD6
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_preparations.TestPrepareReceptor
+
+|
+
+**D.7) ADME Small Molecules filter**
+------------------------------------
+
+This protocol filters a SetOfSmallMolecules object by applying the ADME (Absortion, Distribution, Metabolism, Excretion)
+filter to each of the small molecules stored. The user can choose whether to use the Lipinski's rule of five or the Rule
+of three (https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five ).
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD7|
+
+.. |formD7| image:: ../images/pwchem_formD7.png
+   :alt: pwchem formD7
+   :height: 400
+
+|
+
+The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_ligand_filtering.TestADMEFiltering
+
+|
 
 Get in contact
 ******************************************
