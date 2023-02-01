@@ -443,7 +443,7 @@ The result of this protocol is a SetOfSequences with the two input sequences ali
 
 |outC2|
 
-.. |out11| image:: ../images/pwchem_outC2.png
+.. |outC2| image:: ../images/pwchem_outC2.png
    :alt: pwchem outC2
    :height: 150
 
@@ -796,7 +796,151 @@ the user specified 3D optimization.
 |
 
 A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_imports.TestImportSequences
+    scipion3 tests pwchem.tests.tests_imports.TestImportSmallMolecules
+
+|
+
+
+**D.2) Extract Small Molecules**
+---------------------------------
+
+This protocol extract the small molecules present in a AtomStruct object.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD2|
+
+.. |formD2| image:: ../images/pwchem_formD2.png
+   :alt: pwchem formD2
+   :height: 330
+
+|
+
+The result of this protocol is a SetOfSmallMolecules, docked to the original protein structure, which can be
+cleaned.
+
+|
+
+|outD2|
+
+.. |outD2| image:: ../images/pwchem_outD2.png
+   :alt: pwchem outD2
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_docking.TestExtractLigand
+
+|
+
+
+**D.3) Draw Small Molecules**
+---------------------------------
+
+This protocol runs JChemPaint java program and allows the user to draw their own molecules.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD3_1| |formD3_2|
+
+.. |formD3_1| image:: ../images/pwchem_formD3_1.png
+   :alt: pwchem formD3_1
+   :height: 330
+
+.. |formD3_2| image:: ../images/pwchem_formD3_2.png
+   :alt: pwchem formD3_2
+   :height: 330
+
+|
+
+If the molecules are saved in the protocol folder and mol (default) format, Scipion3 will automatically detect the files
+and generate a SetOfSmallMolecules as output. If the molecules are saved somewhere else, the user will have to import
+them.
+
+|
+
+|outD3|
+
+.. |outD3| image:: ../images/pwchem_outD3.png
+   :alt: pwchem outD3
+   :height: 400
+
+|
+
+**D.4) OpenBabel Prepare Small Molecules**
+---------------------------------
+
+This protocol prepares a SetOfSmallMolecules using OpenBabel. The user can choose several methods for the charge
+assignment and conformer generation.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD4|
+
+.. |formD4| image:: ../images/pwchem_formD4.png
+   :alt: pwchem formD4
+   :height: 330
+
+|
+
+The result of this protocol is a SetOfSmallMolecules prepared by OpenBabel. If the option for generating conformers
+was chosen, different conformations for each input molecule will be accessible.
+
+|
+
+|outD4|
+
+.. |outD4| image:: ../images/pwchem_outD4.png
+   :alt: pwchem outD4
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_preparations.TestOBLigandPreparation
+
+|
+
+**D.5) RDKit Prepare Small Molecules**
+---------------------------------
+
+This protocol prepares a SetOfSmallMolecules using RDKit. The user can choose several methods for the charge
+assignment and conformer generation.
+
+All parameters include a help button that gives further information for each of them.
+
+|
+
+|formD5|
+
+.. |formD5| image:: ../images/pwchem_formD5.png
+   :alt: pwchem formD5
+   :height: 330
+
+|
+
+The result of this protocol is a SetOfSmallMolecules prepared by RDKit. If the option for generating conformers
+was chosen, different conformations for each input molecule will be accessible.
+
+|
+
+|outD5|
+
+.. |outD5| image:: ../images/pwchem_outD5.png
+   :alt: pwchem outD5
+   :height: 400
+
+|
+
+A test for this protocol can be run using::
+    scipion3 tests pwchem.tests.tests_preparations.TestRDKitLigandPreparation
 
 |
 
