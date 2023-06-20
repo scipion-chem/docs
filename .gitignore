@@ -1,0 +1,7 @@
+# Text editors and IDEs
+.idea
+.project
+.cproject
+.pydevproject
+.classpath
+.vscode
