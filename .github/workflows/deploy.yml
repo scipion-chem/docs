@@ -10,4 +10,4 @@ jobs:
     - uses: actions/checkout@main
     - uses: ammaraskar/sphinx-action@master
       with:
-        docs-folder: "docs/"
+        docs-folder: "/"
