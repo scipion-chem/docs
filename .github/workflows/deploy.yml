@@ -11,3 +11,5 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: ${{ github.workspace }}
+    - name: Test
+      run: sudo apt-get install tree -y && tree
