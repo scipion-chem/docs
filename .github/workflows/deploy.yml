@@ -33,7 +33,7 @@ jobs:
           # Move to html directory
           cd docs/build/html/
           # Copy custom css and images
-          cp ${{ github.workspace }}/_static/* .
+          cp ${{ github.workspace }}/_static/* _static/
           cp -r ${{ github.workspace }}/images .
           # Initialize repository, and commit changes
           git init
