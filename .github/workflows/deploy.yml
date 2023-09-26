@@ -31,7 +31,7 @@ jobs:
       - name: Init new repo in dist folder and commit generated files
         run: |
           # Move to html directory
-          cd docs/build/html/
+          cd docs/_build/html/
           # Copy README file
           cp ${{ github.workspace }}/README.rst .
           # Copy custom css and images
