@@ -34,8 +34,9 @@ jobs:
           cd docs/_build/html/
           # Copy README file
           cp ${{ github.workspace }}/README.rst .
-          # Copy custom css and images
+          # Copy custom css, templates, and images
           cp -r ${{ github.workspace }}/_static/* _static/
+          cp -r ${{ github.workspace }}/_templates/* _templates/
           cp -r ${{ github.workspace }}/images .
           # Initialize repository, and commit changes
           git init
