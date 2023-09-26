@@ -25,13 +25,17 @@ jobs:
 
       - name: make the sphinx docs
         run: |
-          make -C docs clean 
-          # sphinx-apidoc -f -o docs/source . -H Test -e -t docs/source/_templates
+          make -C docs clean
           make -C docs html
 
       - name: Init new repo in dist folder and commit generated files
         run: |
+          # Move to html directory
           cd docs/build/html/
+          # Copy custom css and images
+          cp ${{ github.workspace }}/_static/* .
+          cp -r ${{ github.workspace }}/images .
+          # Initialize repository, and commit changes
           git init
           touch .nojekyll
           git add -A
