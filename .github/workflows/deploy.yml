@@ -3,7 +3,7 @@ name: Generate documentation in GitHub Pages
 # Execute this workflow automatically for every push to master
 on:
   push:
-    branches: [master]
+    branches: [main]
  
 jobs:
   build_docs:
