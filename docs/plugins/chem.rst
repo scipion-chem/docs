@@ -1,7 +1,7 @@
 
 .. _docs-chem:
 
-.. figure:: ../images/pwchem_logo.png
+.. figure:: ../../images/pwchem/pwchem_logo.png
    :alt: pwchem logo
 
 
@@ -78,11 +78,11 @@ All parameters include a help button that gives further information for each of 
 
 |formA1_1| |formA1_2|
 
-.. |formA1_1| image:: ../images/pwchem_formA1_1.png
+.. |formA1_1| image:: ../../images/pwchem/pwchem_formA1_1.png
    :alt: pwchem formA1_1
    :height: 400
 
-.. |formA1_2| image:: ../images/pwchem_formA1_2.png
+.. |formA1_2| image:: ../../images/pwchem/pwchem_formA1_2.png
    :alt: pwchem formA1_2
    :height: 400
 
@@ -123,11 +123,11 @@ All parameters include a help button that gives further information for each of 
 
 |formA2_1| |formA2_2|
 
-.. |formA2_1| image:: ../images/pwchem_formA2_1.png
+.. |formA2_1| image:: ../../images/pwchem/pwchem_formA2_1.png
    :alt: pwchem formA2_1
    :height: 400
 
-.. |formA2_2| image:: ../images/pwchem_formA2_2.png
+.. |formA2_2| image:: ../../images/pwchem/pwchem_formA2_2.png
    :alt: pwchem formA2_2
    :height: 400
 
@@ -156,11 +156,11 @@ All parameters include a help button that gives further information for each of 
 
 |formA3_1| |formA3_2|
 
-.. |formA3_1| image:: ../images/pwchem_formA3_1.png
+.. |formA3_1| image:: ../../images/pwchem/pwchem_formA3_1.png
    :alt: pwchem formA3_1
    :height: 390
 
-.. |formA3_2| image:: ../images/pwchem_formA3_2.png
+.. |formA3_2| image:: ../../images/pwchem/pwchem_formA3_2.png
    :alt: pwchem formA3_2
    :height: 390
 
@@ -178,11 +178,11 @@ After:
 
 |outA3_2|
 
-.. |outA3_1| image:: ../images/pwchem_outA3_1.png
+.. |outA3_1| image:: ../../images/pwchem/pwchem_outA3_1.png
    :alt: pwchem Aout3_1
    :height: 150
 
-.. |outA3_2| image:: ../images/pwchem_outA3_2.png
+.. |outA3_2| image:: ../../images/pwchem/pwchem_outA3_2.png
    :alt: pwchem outA3_2
    :height: 150
 
@@ -206,7 +206,7 @@ All parameters include a help button that gives further information for each of 
 
 |formA4|
 
-.. |formA4| image:: ../images/pwchem_formA4.png
+.. |formA4| image:: ../../images/pwchem/pwchem_formA4.png
    :alt: pwchem formA4
    :height: 400
 
@@ -218,7 +218,7 @@ The result of this protocol is a csv file in the protocol folder. It has no Scip
 
 |outA4|
 
-.. |outA4| image:: ../images/pwchem_outA4.png
+.. |outA4| image:: ../../images/pwchem/pwchem_outA4.png
    :alt: pwchem Aout4
    :height: 170
 
@@ -244,7 +244,7 @@ All parameters include a help button that gives further information for each of 
 
 |formB1|
 
-.. |formB1| image:: ../images/pwchem_formB1.png
+.. |formB1| image:: ../../images/pwchem/pwchem_formB1.png
    :alt: pwchem formB1
    :height: 400
 
@@ -275,7 +275,7 @@ All parameters include a help button that gives further information for each of 
 
 |formB2|
 
-.. |formB2| image:: ../images/pwchem_formB2.png
+.. |formB2| image:: ../../images/pwchem/pwchem_formB2.png
    :alt: pwchem formB2
    :height: 400
 
@@ -287,7 +287,7 @@ The result of this protocol is a SetOfSmallMolecules which includes the found id
 
 |outB2|
 
-.. |outB2| image:: ../images/pwchem_outB2.png
+.. |outB2| image:: ../../images/pwchem/pwchem_outB2.png
    :alt: pwchem outB2
    :height: 200
 
@@ -312,7 +312,7 @@ All parameters include a help button that gives further information for each of 
 
 |formB3|
 
-.. |formB3| image:: ../images/pwchem_formB3.png
+.. |formB3| image:: ../../images/pwchem/pwchem_formB3.png
    :alt: pwchem formB3
    :height: 400
 
@@ -343,7 +343,7 @@ All parameters include a help button that gives further information for each of 
 
 |formB4|
 
-.. |formB4| image:: ../images/pwchem_formB4.png
+.. |formB4| image:: ../../images/pwchem/pwchem_formB4.png
    :alt: pwchem formB4
    :height: 500
 
@@ -380,11 +380,11 @@ All parameters include a help button that gives further information for each of 
 
 |formB5_1| |formB5_2|
 
-.. |formB5_1| image:: ../images/pwchem_formB5_1.png
+.. |formB5_1| image:: ../../images/pwchem/pwchem_formB5_1.png
    :alt: pwchem formB5_1
    :height: 450
 
-.. |formB5_2| image:: ../images/pwchem_formB5_2.png
+.. |formB5_2| image:: ../../images/pwchem/pwchem_formB5_2.png
    :alt: pwchem formB5_2
    :height: 450
 
@@ -415,11 +415,11 @@ All parameters include a help button that gives further information for each of 
 
 |formC1_1| |formC1_2|
 
-.. |formC1_1| image:: ../images/pwchem_formC1_1.png
+.. |formC1_1| image:: ../../images/pwchem/pwchem_formC1_1.png
    :alt: pwchem formC1_1
    :height: 330
 
-.. |formC1_2| image:: ../images/pwchem_formC1_2.png
+.. |formC1_2| image:: ../../images/pwchem/pwchem_formC1_2.png
    :alt: pwchem formC1_2
    :height: 330
 
@@ -431,7 +431,7 @@ The result of this protocol is a SetOfSequences with the specified sequences.
 
 |outC1|
 
-.. |outC1| image:: ../images/pwchem_outC1.png
+.. |outC1| image:: ../../images/pwchem/pwchem_outC1.png
    :alt: pwchem outC1
    :height: 150
 
@@ -456,7 +456,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC2|
 
-.. |formC2| image:: ../images/pwchem_formC2.png
+.. |formC2| image:: ../../images/pwchem/pwchem_formC2.png
    :alt: pwchem formC2
    :height: 450
 
@@ -468,7 +468,7 @@ The result of this protocol is a SetOfSequences with the two input sequences ali
 
 |outC2|
 
-.. |outC2| image:: ../images/pwchem_outC2.png
+.. |outC2| image:: ../../images/pwchem/pwchem_outC2.png
    :alt: pwchem outC2
    :height: 150
 
@@ -493,7 +493,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC3|
 
-.. |formC3| image:: ../images/pwchem_formC3.png
+.. |formC3| image:: ../../images/pwchem/pwchem_formC3.png
    :alt: pwchem formC3
    :height: 500
 
@@ -505,7 +505,7 @@ The result of this protocol is a SetOfSequences with the two input sequences ali
 
 |outC3|
 
-.. |outC3| image:: ../images/pwchem_outC3.png
+.. |outC3| image:: ../../images/pwchem/pwchem_outC3.png
    :alt: pwchem outC3
    :height: 150
 
@@ -530,7 +530,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC4|
 
-.. |formC4| image:: ../images/pwchem_formC4.png
+.. |formC4| image:: ../../images/pwchem/pwchem_formC4.png
    :alt: pwchem formC4
    :height: 450
 
@@ -558,11 +558,11 @@ All parameters include a help button that gives further information for each of 
 
 |formC5_1| |formC5_2|
 
-.. |formC5_1| image:: ../images/pwchem_formC5_1.png
+.. |formC5_1| image:: ../../images/pwchem/pwchem_formC5_1.png
    :alt: pwchem formC5_1
    :height: 320
 
-.. |formC5_2| image:: ../images/pwchem_formC5_2.png
+.. |formC5_2| image:: ../../images/pwchem/pwchem_formC5_2.png
    :alt: pwchem formC5_2
    :height: 320
 
@@ -574,7 +574,7 @@ The result of this protocol is a SequenceVariants object containing the original
 
 |outC5|
 
-.. |outC5| image:: ../images/pwchem_outC5.png
+.. |outC5| image:: ../../images/pwchem/pwchem_outC5.png
    :alt: pwchem outC5
    :height: 400
 
@@ -597,7 +597,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC6|
 
-.. |formC6| image:: ../images/pwchem_formC6.png
+.. |formC6| image:: ../../images/pwchem/pwchem_formC6.png
    :alt: pwchem formC6
    :height: 450
 
@@ -610,7 +610,7 @@ the input.
 
 |outC6|
 
-.. |outC6| image:: ../images/pwchem_outC6.png
+.. |outC6| image:: ../../images/pwchem/pwchem_outC6.png
    :alt: pwchem outC6
    :height: 200
 
@@ -635,7 +635,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC7|
 
-.. |formC7| image:: ../images/pwchem_formC7.png
+.. |formC7| image:: ../../images/pwchem/pwchem_formC7.png
    :alt: pwchem formC7
    :height: 400
 
@@ -664,7 +664,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC8|
 
-.. |formC8| image:: ../images/pwchem_formC8.png
+.. |formC8| image:: ../../images/pwchem/pwchem_formC8.png
    :alt: pwchem formC8
    :height: 500
 
@@ -676,7 +676,7 @@ The result of this protocol is a SetOfSequenceROIs with the ROIs defined in the 
 
 |outC8|
 
-.. |outC8| image:: ../images/pwchem_outC8.png
+.. |outC8| image:: ../../images/pwchem/pwchem_outC8.png
    :alt: pwchem outC8
    :height: 200
 
@@ -700,7 +700,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC9|
 
-.. |formC9| image:: ../images/pwchem_formC9.png
+.. |formC9| image:: ../../images/pwchem/pwchem_formC9.png
    :alt: pwchem formC9
    :height: 450
 
@@ -730,7 +730,7 @@ the alignment in order to tune this threshold.
 
 |outC10|
 
-.. |outC10| image:: ../images/pwchem_outC10.png
+.. |outC10| image:: ../../images/pwchem/pwchem_outC10.png
    :alt: pwchem outC10
    :height: 400
 
@@ -744,7 +744,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC10|
 
-.. |formC10| image:: ../images/pwchem_formC10.png
+.. |formC10| image:: ../../images/pwchem/pwchem_formC10.png
    :alt: pwchem formC10
    :height: 550
 
@@ -776,7 +776,7 @@ All parameters include a help button that gives further information for each of 
 
 |formC11|
 
-.. |formC11| image:: ../images/pwchem_formC11.png
+.. |formC11| image:: ../../images/pwchem/pwchem_formC11.png
    :alt: pwchem formC11
    :height: 500
 
@@ -788,7 +788,7 @@ The result of this protocol is a SetOfStructROIs with the mapped sequence ROIs o
 
 |outC11|
 
-.. |outC11| image:: ../images/pwchem_outC11.png
+.. |outC11| image:: ../../images/pwchem/pwchem_outC11.png
    :alt: pwchem outC11
    :height: 600
 
@@ -815,11 +815,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD1_1| |formD1_2|
 
-.. |formD1_1| image:: ../images/pwchem_formD1_1.png
+.. |formD1_1| image:: ../../images/pwchem/pwchem_formD1_1.png
    :alt: pwchem formD1_1
    :height: 400
 
-.. |formD1_2| image:: ../images/pwchem_formD1_2.png
+.. |formD1_2| image:: ../../images/pwchem/pwchem_formD1_2.png
    :alt: pwchem formD1_2
    :height: 400
 
@@ -832,7 +832,7 @@ the user specified 3D optimization.
 
 |outD1|
 
-.. |outD1| image:: ../images/pwchem_outD1.png
+.. |outD1| image:: ../../images/pwchem/pwchem_outD1.png
    :alt: pwchem outD1
    :height: 400
 
@@ -855,7 +855,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD2|
 
-.. |formD2| image:: ../images/pwchem_formD2.png
+.. |formD2| image:: ../../images/pwchem/pwchem_formD2.png
    :alt: pwchem formD2
    :height: 400
 
@@ -868,7 +868,7 @@ cleaned.
 
 |outD2|
 
-.. |outD2| image:: ../images/pwchem_outD2.png
+.. |outD2| image:: ../../images/pwchem/pwchem_outD2.png
    :alt: pwchem outD2
    :height: 400
 
@@ -891,11 +891,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD3_1| |formD3_2|
 
-.. |formD3_1| image:: ../images/pwchem_formD3_1.png
+.. |formD3_1| image:: ../../images/pwchem/pwchem_formD3_1.png
    :alt: pwchem formD3_1
    :height: 400
 
-.. |formD3_2| image:: ../images/pwchem_formD3_2.png
+.. |formD3_2| image:: ../../images/pwchem/pwchem_formD3_2.png
    :alt: pwchem formD3_2
    :height: 400
 
@@ -909,7 +909,7 @@ them.
 
 |outD3|
 
-.. |outD3| image:: ../images/pwchem_outD3.png
+.. |outD3| image:: ../../images/pwchem/pwchem_outD3.png
    :alt: pwchem outD3
    :height: 400
 
@@ -928,7 +928,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD4|
 
-.. |formD4| image:: ../images/pwchem_formD4.png
+.. |formD4| image:: ../../images/pwchem/pwchem_formD4.png
    :alt: pwchem formD4
    :height: 400
 
@@ -941,7 +941,7 @@ was chosen, different conformations for each input molecule will be accessible.
 
 |outD4|
 
-.. |outD4| image:: ../images/pwchem_outD4.png
+.. |outD4| image:: ../../images/pwchem/pwchem_outD4.png
    :alt: pwchem outD4
    :height: 400
 
@@ -965,7 +965,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD5|
 
-.. |formD5| image:: ../images/pwchem_formD5.png
+.. |formD5| image:: ../../images/pwchem/pwchem_formD5.png
    :alt: pwchem formD5
    :height: 400
 
@@ -978,7 +978,7 @@ was chosen, different conformations for each input molecule will be accessible.
 
 |outD5|
 
-.. |outD5| image:: ../images/pwchem_outD5.png
+.. |outD5| image:: ../../images/pwchem/pwchem_outD5.png
    :alt: pwchem outD5
    :height: 400
 
@@ -1003,7 +1003,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD6|
 
-.. |formD6| image:: ../images/pwchem_formD6.png
+.. |formD6| image:: ../../images/pwchem/pwchem_formD6.png
    :alt: pwchem formD6
    :height: 400
 
@@ -1015,7 +1015,7 @@ The result of this protocol is an AtomStruct cleaned with the form specification
 
 |outD6|
 
-.. |outD6| image:: ../images/pwchem_outD6.png
+.. |outD6| image:: ../../images/pwchem/pwchem_outD6.png
    :alt: pwchem outD6
    :height: 400
 
@@ -1040,7 +1040,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD7|
 
-.. |formD7| image:: ../images/pwchem_formD7.png
+.. |formD7| image:: ../../images/pwchem/pwchem_formD7.png
    :alt: pwchem formD7
    :height: 400
 
@@ -1070,7 +1070,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD8|
 
-.. |formD8| image:: ../images/pwchem_formD8.png
+.. |formD8| image:: ../../images/pwchem/pwchem_formD8.png
    :alt: pwchem formD8
    :height: 400
 
@@ -1105,7 +1105,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD9|
 
-.. |formD9| image:: ../images/pwchem_formD9.png
+.. |formD9| image:: ../../images/pwchem/pwchem_formD9.png
    :alt: pwchem formD9
    :height: 400
 
@@ -1134,7 +1134,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD10|
 
-.. |formD10| image:: ../images/pwchem_formD10.png
+.. |formD10| image:: ../../images/pwchem/pwchem_formD10.png
    :alt: pwchem formD10
    :height: 400
 
@@ -1165,11 +1165,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD11_1| |formD11_2|
 
-.. |formD11_1| image:: ../images/pwchem_formD11_1.png
+.. |formD11_1| image:: ../../images/pwchem/pwchem_formD11_1.png
    :alt: pwchem formD11_1
    :height: 375
 
-.. |formD11_2| image:: ../images/pwchem_formD11_2.png
+.. |formD11_2| image:: ../../images/pwchem/pwchem_formD11_2.png
    :alt: pwchem formD11_2
    :height: 375
 
@@ -1182,7 +1182,7 @@ with the specified clustering parameters.
 
 |outD11|
 
-.. |outD11| image:: ../images/pwchem_outD11.png
+.. |outD11| image:: ../../images/pwchem/pwchem_outD11.png
    :alt: pwchem outD11
    :height: 400
 
@@ -1207,7 +1207,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD12|
 
-.. |formD12| image:: ../images/pwchem_formD12.png
+.. |formD12| image:: ../../images/pwchem/pwchem_formD12.png
    :alt: pwchem formD12
    :height: 400
 
@@ -1219,7 +1219,7 @@ The result of this protocol is a PharmacophoreChem object with the modified feat
 
 |outD12|
 
-.. |outD12| image:: ../images/pwchem_outD12.png
+.. |outD12| image:: ../../images/pwchem/pwchem_outD12.png
    :alt: pwchem outD12
    :height: 400
 
@@ -1244,7 +1244,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD13|
 
-.. |formD13| image:: ../images/pwchem_formD13.png
+.. |formD13| image:: ../../images/pwchem/pwchem_formD13.png
    :alt: pwchem formD13
    :height: 400
 
@@ -1258,7 +1258,7 @@ In Analyze results, the user can visualize how the molecules and the pharmacopho
 
 |outD13|
 
-.. |outD13| image:: ../images/pwchem_outD13.png
+.. |outD13| image:: ../../images/pwchem/pwchem_outD13.png
    :alt: pwchem outD13
    :height: 400
 
@@ -1291,7 +1291,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD14|
 
-.. |formD14| image:: ../images/pwchem_formD14.png
+.. |formD14| image:: ../../images/pwchem/pwchem_formD14.png
    :alt: pwchem formD14
    :height: 600
 
@@ -1303,7 +1303,7 @@ The result of this protocol is a SetOfStructROIs containing those regions listed
 
 |outD14|
 
-.. |outD14| image:: ../images/pwchem_outD14.png
+.. |outD14| image:: ../../images/pwchem/pwchem_outD14.png
    :alt: pwchem outD14
    :height: 400
 
@@ -1333,7 +1333,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD15|
 
-.. |formD15| image:: ../images/pwchem_formD15.png
+.. |formD15| image:: ../../images/pwchem/pwchem_formD15.png
    :alt: pwchem formD15
    :height: 400
 
@@ -1362,7 +1362,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD16|
 
-.. |formD16| image:: ../images/pwchem_formD16.png
+.. |formD16| image:: ../../images/pwchem/pwchem_formD16.png
    :alt: pwchem formD16
    :height: 500
 
@@ -1390,11 +1390,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD17_1| |formD17_2|
 
-.. |formD17_1| image:: ../images/pwchem_formD17_1.png
+.. |formD17_1| image:: ../../images/pwchem/pwchem_formD17_1.png
    :alt: pwchem formD17_1
    :height: 340
 
-.. |formD17_2| image:: ../images/pwchem_formD17_2.png
+.. |formD17_2| image:: ../../images/pwchem/pwchem_formD17_2.png
    :alt: pwchem formD17_2
    :height: 330
 
@@ -1430,7 +1430,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD18_1|
 
-.. |formD18_1| image:: ../images/pwchem_formD18_1.png
+.. |formD18_1| image:: ../../images/pwchem/pwchem_formD18_1.png
    :alt: pwchem formD18_1
    :height: 600
 
@@ -1457,11 +1457,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD19_1| |formD19_2|
 
-.. |formD19_1| image:: ../images/pwchem_formD19_1.png
+.. |formD19_1| image:: ../../images/pwchem/pwchem_formD19_1.png
    :alt: pwchem formD19_1
    :height: 425
 
-.. |formD19_2| image:: ../images/pwchem_formD19_2.png
+.. |formD19_2| image:: ../../images/pwchem/pwchem_formD19_2.png
    :alt: pwchem formD19_2
    :height: 425
 
@@ -1474,7 +1474,7 @@ visualized in the Analyzed results.
 
 |outD19_1|
 
-.. |outD19_1| image:: ../images/pwchem_outD19_1.png
+.. |outD19_1| image:: ../../images/pwchem/pwchem_outD19_1.png
    :alt: pwchem outD19_1
    :height: 500
 
@@ -1487,7 +1487,7 @@ threshold. The user can preview the SASA values in the protocol to define the th
 
 |outD19_2|
 
-.. |outD19_2| image:: ../images/pwchem_outD19_2.png
+.. |outD19_2| image:: ../../images/pwchem/pwchem_outD19_2.png
    :alt: pwchem outD19_2
    :height: 200
 

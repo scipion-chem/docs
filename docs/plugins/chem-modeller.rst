@@ -1,7 +1,7 @@
 
 .. _docs-chem-modeller:
 
-.. figure:: ../images/modeller_logo.png
+.. figure:: ../../images/modeller/modeller_logo.png
    :alt: modeller logo
 
 ###############################################################
@@ -47,10 +47,10 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. image:: ../images/modeller_form1_1.png
+.. image:: ../../images/modeller/modeller_form1_1.png
    :alt: modeller prot1_1
 
-.. image:: ../images/modeller_form1_2.png
+.. image:: ../../images/modeller/modeller_form1_2.png
    :alt: modeller prot1_2
 
 |
@@ -82,7 +82,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. image:: ../images/modeller_form2_1.png
+.. image:: ../../images/modeller/modeller_form2_1.png
    :alt: modeller prot2_1
 
 |

@@ -1,7 +1,7 @@
 
 .. _docs-chem-blast:
 
-.. figure:: ../images/blast_logo.png
+.. figure:: ../../images/blast/blast_logo.png
    :alt: blast logo
 
 ###############################################################
@@ -40,7 +40,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. figure:: ../images/blast_form1.png
+.. figure:: ../../images/blast/blast_form1.png
    :alt: blast form1
 
 |
@@ -68,7 +68,7 @@ A test for this protocol can be run using::
 
 |
 
-.. figure:: ../images/blast_form2.png
+.. figure:: ../../images/blast/blast_form2.png
    :alt: blast form2
 
 |
@@ -84,7 +84,7 @@ not sure of which parameters to use, click on the wizard and the default paramet
 
 |
 
-.. figure:: ../images/blast_form3.png
+.. figure:: ../../images/blast/blast_form3.png
    :alt: blast form3
 
 |

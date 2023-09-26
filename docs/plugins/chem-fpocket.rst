@@ -1,7 +1,7 @@
 
 .. _docs-chem-fpocket:
 
-.. figure:: ../images/fpocket_logo.png
+.. figure:: ../../images/fpocket/fpocket_logo.png
    :alt: fpocket logo
 
 ###############################################################
@@ -37,7 +37,7 @@ You can also find this or any other protocol searching by keyword with "Ctrl+F".
 
 |
 
-.. figure:: ../images/fpocket_protocol.png
+.. figure:: ../../images/fpocket/fpocket_protocol.png
    :alt: fpocket protocol
 
 |
@@ -49,7 +49,7 @@ we recommend you to check the `FPocket documentation <https://github.com/Discngi
 
 |
 
-.. figure:: ../images/fpocket_form.png
+.. figure:: ../../images/fpocket/fpocket_form.png
    :alt: fpocket form
 
 |
@@ -74,11 +74,11 @@ the alpha-spheres over the protein structure using VMD.
 
 |
 
-.. |viewer| image:: ../images/fpocket_viewer.png
+.. |viewer| image:: ../../images/fpocket/fpocket_viewer.png
    :alt: fpocket viewer
    :width: 50%
 
-.. |vmd| image:: ../images/fpocket_vmd.png
+.. |vmd| image:: ../../images/fpocket/fpocket_vmd.png
    :alt: fpocket vmd
    :width: 45%
 
