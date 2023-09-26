@@ -1,2 +1,4 @@
 sphinx
-docutils
+sphinx-rtd-theme
+sphinx-autoapi
+sphinxcontrib-bibtex
