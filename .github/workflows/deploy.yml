@@ -27,7 +27,7 @@ jobs:
           python -m pip install sphinx-rtd-theme
           # python -m pip install sphinxcontrib-apidoc
           python -m pip install sphinx-autoapi
-          cd /home/runner/
+          cd /home/runner/work/
           sudo apt-get install tree
           tree
 
