@@ -32,8 +32,10 @@ jobs:
         run: |
           # Move to html directory
           cd docs/build/html/
+          # Copy README file
+          cp ${{ github.workspace }}/README.rst .
           # Copy custom css and images
-          cp ${{ github.workspace }}/_static/* _static/
+          cp -r ${{ github.workspace }}/_static/* _static/
           cp -r ${{ github.workspace }}/images .
           # Initialize repository, and commit changes
           git init
