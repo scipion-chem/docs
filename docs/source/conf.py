@@ -3,7 +3,6 @@ import os
 import sys
 # Need this so sphinx can find lumache.py. Change is .py files are elsewhere than root.
 sys.path.insert(0, os.path.abspath('../..'))
-sys.path.insert(0, os.path.abspath('../../src'))
 
 # -- Project information
 
@@ -27,9 +26,7 @@ extensions = [
 ]
 
 autoapi_type = 'python'
-autoapi_dirs = ['../../src']
 
-#apidoc_module_dir = '../../src'
 #apidoc_output_dir = '.'
 #apidoc_excluded_paths = ['tests']
 #apidoc_separate_modules = True
