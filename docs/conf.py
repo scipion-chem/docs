@@ -165,7 +165,7 @@ html_theme_options = {
 html_static_path = ['_static']
 
 # Favicon
-html_favicon = 'images/favicon.ico'
+html_favicon = '../images/favicon.ico'
 
 # Style
 
