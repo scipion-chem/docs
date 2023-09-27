@@ -1,7 +1,7 @@
 .. _contact-us:
 
 ==========
-Contact Us
+Contact us
 ==========
 From the Scipion Chem team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or

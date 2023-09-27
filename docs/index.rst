@@ -256,3 +256,4 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     :caption: Others
 
     contact
+    license
