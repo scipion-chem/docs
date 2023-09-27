@@ -23,16 +23,16 @@ rest of scipion-chem-\* plugins, so you would need to install it first. To do so
 `scipion-chem README <https://github.com/scipion-chem/scipion-chem/blob/master/README.rst>`_
 
 Then, you are free to install any subsequent plugin you are interested in. The procedure is very similar, you will find
-README files in each of the plugin repositories in case of doubt.
+README files in each of the plugin repositories in case of doubt, appart from a more exhaustive documentation within this pages. 
 
 .. toctree::
     :maxdepth: 1
     :caption: Plugins
 
-Scipion Chem is aimed to perform a wide variety of Virtual Drug Screening tasks, and, for such purpose, 
-additional plugins have been developed to take on some of the tasks involved in the process.
+  Scipion Chem is aimed to perform a wide variety of Virtual Drug Screening tasks, and, for such purpose, 
+  additional plugins have been developed to take on some of the tasks involved in the process.
 
-This are the plugins currently offered by Scipion Chem:
+  This are the plugins currently offered by Scipion Chem:
 
     plugins/pwchem/index
     plugins/fpocket/index
