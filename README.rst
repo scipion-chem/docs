@@ -1,7 +1,7 @@
 
 .. _docs-chem_introduction:
 
-.. figure:: images/scipion-chem.gif
+.. figure:: _static/images/scipion-chem.gif
    :alt: scipion logo
 
 Scipion Chem
