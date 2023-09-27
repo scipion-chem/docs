@@ -25,22 +25,6 @@ rest of scipion-chem-\* plugins, so you would need to install it first. To do so
 Then, you are free to install any subsequent plugin you are interested in. The procedure is very similar, you will find
 README files in each of the plugin repositories in case of doubt, appart from a more exhaustive documentation within this pages. 
 
-  .. toctree::
-    :maxdepth: 1
-    :hidden:
-    :caption: Plugins
-
-    plugins/pwchem/index
-    plugins/fpocket/index
-    plugins/p2rank/index
-    plugins/autodock/index
-    plugins/lephar/index
-    plugins/rosetta/index
-    plugins/gromacs/index
-    plugins/schrodinger/index
-    plugins/modeller/index
-    plugins/blast/index
-
 Scipion-chem overview
 ========================================
 In this section, each of the scipion-chem plugins will be briefly presented, grouped by their main functionalities.
@@ -259,3 +243,19 @@ contact us by mail.
 If the question is related to the Scipion framework, try the `contact us <https://scipion.i2pc.es/contact>`_ page.
 If it is related to some scipion-chem plugin or functionality, you can send a mail to
 the developer at `ddelhoyo@cnb.csic.es <mailto:ddelhoyo@cnb.csic.es>`_.
+
+  .. toctree::
+    :maxdepth: 1
+    :hidden:
+    :caption: Plugins
+
+    plugins/pwchem/index
+    plugins/fpocket/index
+    plugins/p2rank/index
+    plugins/autodock/index
+    plugins/lephar/index
+    plugins/rosetta/index
+    plugins/gromacs/index
+    plugins/schrodinger/index
+    plugins/modeller/index
+    plugins/blast/index
