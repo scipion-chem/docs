@@ -247,7 +247,7 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     plugins/gromacs/index
     plugins/schrodinger/index
     plugins/modeller/index
-      `Modeller <https://salilab.org/modeller/>`_ is a tool used for protein homology modelling.
+`Modeller <https://salilab.org/modeller/>`_ is a tool used for protein homology modelling.
     plugins/blast/index
 
 Get in contact
