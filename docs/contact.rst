@@ -1,7 +1,3 @@
-.. figure:: ../_static/images/scipion-chem.gif
-   :width: 250
-   :alt: scipion logo
-
 .. _contact-us:
 
 ==========
