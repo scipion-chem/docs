@@ -1,7 +1,7 @@
 
 .. _docs-chem-autodock:
 
-.. figure:: ../../../_static/images/autodock_logo.png
+.. figure:: ../../../_static/images/autodock/autodock_logo.png
    :alt: autodock logo
 
 ###############################################################
@@ -39,7 +39,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. image:: ../../_static/images/autodock_form1.png
+.. image:: ../../_static/images/autodock/autodock_form1.png
    :alt: autodock form1
 
 |
@@ -70,11 +70,11 @@ These protocols are:
 
 |form2_1| |form2_2|
 
-.. |form2_1| image:: ../../_static/images/autodock_form2_1.png
+.. |form2_1| image:: ../../_static/images/autodock/autodock_form2_1.png
    :alt: autodock form2_1
    :height: 400
 
-.. |form2_2| image:: ../../_static/images/autodock_form2_2.png
+.. |form2_2| image:: ../../_static/images/autodock/autodock_form2_2.png
    :alt: autodock form2_2
    :height: 400
 
@@ -101,7 +101,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. image:: ../../_static/images/autodock_form2_grid.png
+.. image:: ../../_static/images/autodock/autodock_form2_grid.png
    :alt: autodock form2_grid
 
 |
@@ -127,11 +127,11 @@ The included protocols are:
 
 |form3_1| |form3_2|
 
-.. |form3_1| image:: ../../_static/images/autodock_form3_1.png
+.. |form3_1| image:: ../../_static/images/autodock/autodock_form3_1.png
    :alt: autodock form3_1
    :height: 390
 
-.. |form3_2| image:: ../../_static/images/autodock_form3_2.png
+.. |form3_2| image:: ../../_static/images/autodock/autodock_form3_2.png
    :alt: autodock form3_2
    :height: 390
 
@@ -157,7 +157,7 @@ Scipion-chem protocols.
 
 |
 
-.. image:: ../../_static/images/autodock_form_pharm.png
+.. image:: ../../_static/images/autodock/autodock_form_pharm.png
    :alt: autodock pharm
 
 |
@@ -194,23 +194,23 @@ The included protocols are:
 
 |
 
-.. |form4_1| image:: ../../_static/images/autodock_form4_1.png
+.. |form4_1| image:: ../../_static/images/autodock/autodock_form4_1.png
    :alt: autodock form4_1
    :height: 420
 
-.. |form4_11| image:: ../../_static/images/autodock_form4_11.png
+.. |form4_11| image:: ../../_static/images/autodock/autodock_form4_11.png
    :alt: autodock form4_11
    :height: 420
 
-.. |form4_2| image:: ../../_static/images/autodock_form4_2.png
+.. |form4_2| image:: ../../_static/images/autodock/autodock_form4_2.png
    :alt: autodock form4_2
    :height: 420
 
-.. |form4_22| image:: ../../_static/images/autodock_form4_22.png
+.. |form4_22| image:: ../../_static/images/autodock/autodock_form4_22.png
    :alt: autodock form4_22
    :height: 420
 
-.. |form4_3| image:: ../../_static/images/autodock_form4_3.png
+.. |form4_3| image:: ../../_static/images/autodock/autodock_form4_3.png
    :alt: autodock form4_3
    :height: 420
 
@@ -239,7 +239,7 @@ function. The necessary grid is built over the whole protein and the molecules a
 
 |
 
-.. image:: ../../_static/images/autodock_form_score.png
+.. image:: ../../_static/images/autodock/autodock_form_score.png
    :alt: autodock score
 
 |

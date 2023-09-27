@@ -1,7 +1,7 @@
 
 .. _docs-chem-lephar:
 
-.. figure:: ../../_static/images/lephar/lephar_logo.jpg
+.. figure:: ../../../_static/images/lephar/lephar_logo.jpg
    :alt: lephar logo
 
 ###############################################################
@@ -38,7 +38,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. figure:: ../../_static/images/lephar/lephar_form1.png
+.. figure:: ../../../_static/images/lephar/lephar_form1.png
    :alt: lephar form1
 
 |
@@ -59,7 +59,7 @@ over the StructROIs). Also, an RMSD threshold can be set to automatically discar
 
 |
 
-.. figure:: ../../_static/images/lephar/lephar_form2.png
+.. figure:: ../../../_static/images/lephar/lephar_form2.png
    :alt: lephar form2
 
 |

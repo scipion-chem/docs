@@ -1,7 +1,7 @@
 
 .. _docs-chem-p2rank:
 
-.. figure:: ../../_static/images/p2rank/p2rank_logo.png
+.. figure:: ../../../_static/images/p2rank/p2rank_logo.png
    :alt: p2rank logo
 
 ###############################################################
@@ -36,7 +36,7 @@ ou can also find this or any other protocol searching by keyword with "Ctrl+F".
 
 |
 
-.. figure:: ../../_static/images/p2rank/p2rank_protocol.png
+.. figure:: ../../../_static/images/p2rank/p2rank_protocol.png
    :alt: p2rank protocol
 
 |
@@ -61,11 +61,11 @@ the surface points visualization they provide.
 
 |
 
-.. |viewer| image:: ../../_static/images/p2rank/p2rank_viewer.png
+.. |viewer| image:: ../../../_static/images/p2rank/p2rank_viewer.png
    :alt: p2rank viewer
    :width: 45%
 
-.. |surface| image:: ../../_static/images/p2rank/p2rank_surface.png
+.. |surface| image:: ../../../_static/images/p2rank/p2rank_surface.png
    :alt: p2rank vmd
    :width: 50%
 

@@ -1,7 +1,7 @@
 
 .. _docs-chem-schrodinger:
 
-.. figure:: ../../_static/images/schrodinger/schrodinger_logo.png
+.. figure:: ../../../_static/images/schrodinger/schrodinger_logo.png
    :alt: schrodinger logo
 
 ###############################################################
@@ -53,7 +53,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form1.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form1.png
    :alt: schrodinger form1
 
 |
@@ -75,7 +75,7 @@ for ionization, building conformers and energy optimization. Internally, it uses
 |
 
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form2.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form2.png
    :alt: schrodinger form2
 
 |
@@ -97,7 +97,7 @@ This protocol predicts the most promising binding sites on the structure using
 
 |
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form3.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form3.png
    :alt: schrodinger form3
    :height: 400
 
@@ -126,7 +126,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form4.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form4.png
    :alt: schrodinger form4
 
 |
@@ -135,7 +135,7 @@ The result of this protocol is a SetOfSchrodingerGrids, around the specified sit
 grid, where the center of mass of the ligand must be docked; and an outer grid, which must contains all the atoms of
 the ligand. The user can visualize these grids using **Analyze Results**.
 
-.. figure:: ../../_static/images/schrodinger/schrodinger_out1_4.png
+.. figure:: ../../../_static/images/schrodinger/schrodinger_out1_4.png
    :alt: schrodinger out1_4
 
 A test for this protocol can be run using::
@@ -153,11 +153,11 @@ structure or on specific sites, which can be defines as a SetOfStructROIs or as 
 
 |form5_1| |form5_2|
 
-.. |form5_1| image:: ../../_static/images/schrodinger/schrodinger_form5_1.png
+.. |form5_1| image:: ../../../_static/images/schrodinger/schrodinger_form5_1.png
    :alt: schrodinger form5_1
    :height: 490
 
-.. |form5_2| image:: ../../_static/images/schrodinger/schrodinger_form5_2.png
+.. |form5_2| image:: ../../../_static/images/schrodinger/schrodinger_form5_2.png
    :alt: schrodinger form5_2
    :height: 490
 
@@ -200,11 +200,11 @@ All parameters include a help button that gives further information for each of 
 
 |form6_1| |form6_2|
 
-.. |form6_1| image:: ../../_static/images/schrodinger/schrodinger_form6_1.png
+.. |form6_1| image:: ../../../_static/images/schrodinger/schrodinger_form6_1.png
    :alt: schrodinger form6_1
    :height: 420
 
-.. |form6_2| image:: ../../_static/images/schrodinger/schrodinger_form6_2.png
+.. |form6_2| image:: ../../../_static/images/schrodinger/schrodinger_form6_2.png
    :alt: schrodinger form6_2
    :height: 420
 
@@ -218,11 +218,11 @@ can visualize the complex with Maestro using **Analyze Results**.
 
 |out6_1| |out6_2|
 
-.. |out6_1| image:: ../../_static/images/schrodinger/schrodinger_out6_1.png
+.. |out6_1| image:: ../../../_static/images/schrodinger/schrodinger_out6_1.png
    :alt: schrodinger out6_1
    :height: 425
 
-.. |out6_2| image:: ../../_static/images/schrodinger/schrodinger_out6_2.png
+.. |out6_2| image:: ../../../_static/images/schrodinger/schrodinger_out6_2.png
    :alt: schrodinger out6_2
    :height: 425
 
@@ -260,7 +260,7 @@ The user can also choose from a set of default workflows that will automatically
 
 |
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form7_2.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form7_2.png
    :alt: schrodinger form7_2
 
 |
@@ -271,7 +271,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 |
 
-.. figure:: ../../_static/images/schrodinger/schrodinger_out7_1.png
+.. figure:: ../../../_static/images/schrodinger/schrodinger_out7_1.png
    :alt: schrodinger out7_1
 
 |
@@ -279,7 +279,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 1) **Open MD simulation**: Inspect the system trajectories of the different stages saved using Maestro.
 |
 
-.. figure:: ../../_static/images/schrodinger/schrodinger_out7_2.png
+.. figure:: ../../../_static/images/schrodinger/schrodinger_out7_2.png
    :alt: schrodinger out7_2
 
 |
@@ -290,11 +290,11 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 |out7_3| |out7_4|
 
-.. |out7_3| image:: ../../_static/images/schrodinger/schrodinger_out7_3.png
+.. |out7_3| image:: ../../../_static/images/schrodinger/schrodinger_out7_3.png
    :alt: schrodinger out7_3
    :height: 470
 
-.. |out7_4| image:: ../../_static/images/schrodinger/schrodinger_out7_4.png
+.. |out7_4| image:: ../../../_static/images/schrodinger/schrodinger_out7_4.png
    :alt: schrodinger out7_4
    :height: 470
 
@@ -317,7 +317,7 @@ but it might be used to generate some files that will be used externally.
 
 |
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form8.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form8.png
    :alt: schrodinger form8
    :height: 400
 
@@ -339,7 +339,7 @@ in the two former options.
 
 |
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form9.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form9.png
    :alt: schrodinger form9
    :height: 400
 
@@ -358,7 +358,7 @@ split proteins, ligands or different chains inside the structure.
 
 |
 
-.. image:: ../../_static/images/schrodinger/schrodinger_form10.png
+.. image:: ../../../_static/images/schrodinger/schrodinger_form10.png
    :alt: schrodinger form10
    :height: 400
 
