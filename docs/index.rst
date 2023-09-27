@@ -29,11 +29,13 @@ README files in each of the plugin repositories in case of doubt, appart from a 
     :maxdepth: 1
     :caption: Plugins
 
-  Scipion Chem is aimed to perform a wide variety of Virtual Drug Screening tasks, and, for such purpose, 
-  additional plugins have been developed to take on some of the tasks involved in the process.
+    intro
+    Scipion Chem is aimed to perform a wide variety of Virtual Drug Screening tasks, and, for such purpose, 
+    additional plugins have been developed to take on some of the tasks involved in the process.
 
-  This are the plugins currently offered by Scipion Chem:
+    This are the plugins currently offered by Scipion Chem:
 
+    :hidden:
     plugins/pwchem/index
     plugins/fpocket/index
     plugins/p2rank/index
