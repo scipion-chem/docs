@@ -7,6 +7,8 @@ From the Scipion Chem team we would be happy to hear your doubts and suggestions
 time. To do so, you can either open an issue in the Github repository related to your question or
 contact us by mail.
 
+Mail
+=======================
 If the question is related to the Scipion framework, try the `contact us <https://scipion.i2pc.es/contact>`_ page.
 If it is related to some scipion-chem plugin or functionality, you can send a mail to
 the developer at `ddelhoyo@cnb.csic.es <mailto:ddelhoyo@cnb.csic.es>`_.
