@@ -16,19 +16,19 @@ install `Scipion3 <https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-
 in order to use Scipion-chem.
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Set up
+    :maxdepth: 1
+    :caption: Plugins
 
-   plugins/chem
-   plugins/fpocket
-   plugins/p2rank
-   plugins/autodock
-   plugins/lephar
-   plugins/rosetta
-   plugins/gromacs
-   plugins/schrodinger
-   plugins/modeller
-   plugins/blast
+    plugins/chem
+    plugins/fpocket
+    plugins/p2rank
+    plugins/autodock
+    plugins/lephar
+    plugins/rosetta
+    plugins/gromacs
+    plugins/schrodinger
+    plugins/modeller
+    plugins/blast
 
 Scipion-chem installation
 ========================================
