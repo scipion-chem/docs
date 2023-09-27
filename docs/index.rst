@@ -15,6 +15,21 @@ Therefore, most of its documentation (https://github.com/scipion-em) also applie
 install `Scipion3 <https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html>`_ first
 in order to use Scipion-chem.
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Set up
+
+   plugins/chem
+   plugins/fpocket
+   plugins/p2rank
+   plugins/autodock
+   plugins/lephar
+   plugins/rosetta
+   plugins/gromacs
+   plugins/schrodinger
+   plugins/modeller
+   plugins/blast
+
 Scipion-chem installation
 ========================================
 Once Scipion is installed in your computer, you can install Scipion-chem as its plugin. Scipion-chem is the core for the
