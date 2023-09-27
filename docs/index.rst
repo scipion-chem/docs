@@ -22,7 +22,7 @@ in order to use Scipion-chem.
     plugins/chem
     plugins/fpocket
     plugins/p2rank
-    plugins/autodock
+    plugins/autodock/index
     plugins/lephar
     plugins/rosetta
     plugins/gromacs
