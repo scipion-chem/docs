@@ -5,7 +5,7 @@
    :alt: schrodinger logo
 
 ###############################################################
-Welcome to Scipion-chem-schrodingerScipion's documentation!
+scipion-chem-schrodinger
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_

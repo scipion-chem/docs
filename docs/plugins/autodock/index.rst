@@ -5,7 +5,7 @@
    :alt: autodock logo
 
 ###############################################################
-Welcome to Scipion-chem-autodock's documentation!
+scipion-chem-autodock
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_

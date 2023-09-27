@@ -5,7 +5,7 @@
    :alt: rosetta logo
 
 ###############################################################
-Welcome to Scipion-chem-rosetta's documentation!
+scipion-chem-rosetta
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_

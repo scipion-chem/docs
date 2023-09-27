@@ -5,7 +5,7 @@
    :alt: p2rank logo
 
 ###############################################################
-Welcome to Scipion-chem-p2rank's documentation!
+scipion-chem-p2rank
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_

@@ -5,7 +5,7 @@
    :alt: blast logo
 
 ###############################################################
-Welcome to Scipion-chem-blast's documentation!
+scipion-chem-blast
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_

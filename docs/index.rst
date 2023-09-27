@@ -19,16 +19,16 @@ in order to use Scipion-chem.
     :maxdepth: 1
     :caption: Plugins
 
-    plugins/chem
-    plugins/fpocket
-    plugins/p2rank
+    plugins/pwchem/index
+    plugins/fpocket/index
+    plugins/p2rank/index
     plugins/autodock/index
-    plugins/lephar
-    plugins/rosetta
-    plugins/gromacs
-    plugins/schrodinger
-    plugins/modeller
-    plugins/blast
+    plugins/lephar/index
+    plugins/rosetta/index
+    plugins/gromacs/index
+    plugins/schrodinger/index
+    plugins/modeller/index
+    plugins/blast/index
 
 Scipion-chem installation
 ========================================

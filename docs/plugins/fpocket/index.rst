@@ -5,7 +5,7 @@
    :alt: fpocket logo
 
 ###############################################################
-Welcome to Scipion-chem-fpocket's documentation!
+scipion-chem-fpocket
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_

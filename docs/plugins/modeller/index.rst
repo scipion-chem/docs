@@ -5,7 +5,7 @@
    :alt: modeller logo
 
 ###############################################################
-Welcome to Scipion-chem-modeller's documentation!
+scipion-chem-modeller
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_

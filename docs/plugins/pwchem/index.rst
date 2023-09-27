@@ -6,7 +6,7 @@
 
 
 ###############################################################
-Welcome to Scipion-chem's documentation!
+scipion-chem
 ###############################################################
 In order to use this plugin, you need to install first `Scipion-em <https://github.com/scipion-em>`_
 This plugin, Scipion-chem, is the core for the rest of scipion-chem-\* plugins.

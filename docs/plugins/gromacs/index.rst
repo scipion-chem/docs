@@ -5,7 +5,7 @@
    :alt: gromacs logo
 
 ###############################################################
-Welcome to Scipion-chem-gromacs's documentation!
+scipion-chem-gromacs
 ###############################################################
 In order to use this plugin, you need to install first Scipion-chem.
 `Scipion-chem <https://github.com/scipion-chem/docs>`_
