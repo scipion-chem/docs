@@ -2,43 +2,28 @@
 .. _docs-chem_introduction:
 
 .. figure:: ../_static/images/scipion-chem.gif
-   :alt: scipion logo
+   :alt: Scipion Chem logo
 
-Welcome to Scipion-chem's documentation!
+Welcome to Scipion Chem's documentation!
 ========================================
-In the following documents, you will find all the necessary information for installing and using Scipion-chem and all
+In the following documents, you will find all the necessary information for installing and using scipion-chem and all
 the related plugins (called scipion-chem-\*). These plugins integrate mainly software for Virtual Drug Screening (VDS).
 You can find the complete list in https://github.com/scipion-chem
 
-Scipion-chem is itself built as a plugin of Scipion, a workflow engine mainly used for Cryo-Electron Microscopy.
-Therefore, most of its documentation (https://github.com/scipion-em) also applies to Scipion-chem and you will need to
-install `Scipion3 <https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html>`_ first
+Scipion Chem is itself built as a plugin of `Scipion <https://scipion-em.github.io/docs/release-3.0.0/index.html>`_, 
+a workflow engine mainly used for Cryo-Electron Microscopy.
+Therefore, most of its documentation also applies to Scipion-chem and you will need to install 
+`Scipion3 <https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html>`_ first
 in order to use Scipion-chem.
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Plugins
-
-    plugins/pwchem/index
-    plugins/fpocket/index
-    plugins/p2rank/index
-    plugins/autodock/index
-    plugins/lephar/index
-    plugins/rosetta/index
-    plugins/gromacs/index
-    plugins/schrodinger/index
-    plugins/modeller/index
-    plugins/blast/index
-
-Scipion-chem installation
+Installation
 ========================================
 Once Scipion is installed in your computer, you can install Scipion-chem as its plugin. Scipion-chem is the core for the
 rest of scipion-chem-\* plugins, so you would need to install it first. To do so, you can check the instructions in the
-`Scipion-chem README <https://github.com/scipion-chem/scipion-chem/blob/master/README.rst>`_
+`scipion-chem README <https://github.com/scipion-chem/scipion-chem/blob/master/README.rst>`_
 
 Then, you are free to install any subsequent plugin you are interested in. The procedure is very similar, you will find
 README files in each of the plugin repositories in case of doubt.
-
 
 Scipion-chem overview
 ========================================
@@ -249,17 +234,28 @@ sequences.
 In this plugin, we include tools for managing and configuring blast searchs, creating local BLAST databases and
 easily downloading NCBI data (protein/nucleotide sequences or small molecules) from their IDs
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Plugins
 
+    plugins/pwchem/index
+    plugins/fpocket/index
+    plugins/p2rank/index
+    plugins/autodock/index
+    plugins/lephar/index
+    plugins/rosetta/index
+    plugins/gromacs/index
+    plugins/schrodinger/index
+    plugins/modeller/index
+      `Modeller <https://salilab.org/modeller/>`_ is a tool used for protein homology modelling.
+    plugins/blast/index
 
 Get in contact
 ==================
-
-From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
+From the Scipion Chem team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
 time. To do so, you can either open an issue in the Github repository related to your question or
 contact us by mail.
 
 If the question is related to the Scipion framework, try the `contact us <https://scipion.i2pc.es/contact>`_ page.
-If it is related to some Scipion-chem plugin or functionality, you can send a mail to
-the developer at ddelhoyo@cnb.csic.es
-
-
+If it is related to some scipion-chem plugin or functionality, you can send a mail to
+the developer at `ddelhoyo@cnb.csic.es <mailto:ddelhoyo@cnb.csic.es>`_.
