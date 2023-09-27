@@ -25,6 +25,26 @@ rest of scipion-chem-\* plugins, so you would need to install it first. To do so
 Then, you are free to install any subsequent plugin you are interested in. The procedure is very similar, you will find
 README files in each of the plugin repositories in case of doubt.
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Plugins
+
+Scipion Chem is aimed to perform a wide variety of Virtual Drug Screening tasks, and, for such purpose, 
+additional plugins have been developed to take on some of the tasks involved in the process.
+
+This are the plugins currently offered by Scipion Chem:
+
+    plugins/pwchem/index
+    plugins/fpocket/index
+    plugins/p2rank/index
+    plugins/autodock/index
+    plugins/lephar/index
+    plugins/rosetta/index
+    plugins/gromacs/index
+    plugins/schrodinger/index
+    plugins/modeller/index
+    plugins/blast/index
+
 Scipion-chem overview
 ========================================
 In this section, each of the scipion-chem plugins will be briefly presented, grouped by their main functionalities.
@@ -90,14 +110,14 @@ We can address this task from multiple angles and Scipion-chem tries to offer a 
   | We included several plugins including programs which predict the most promising pockets in the protein structure, based on variable factors. These are shown below.
 
 
-3.1) **Scipion-chem-fpocket**
+3.1) **scipion-chem-fpocket**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `FPocket <https://github.com/Discngine/fpocket>`_ is one of the most widely known programs for protein pocket detection.
 In this plugin we include the main tool for pocket prediction, FPocket, together with the tool for predicting pockets
 over a Molecular Dynamics simulation, MDPocket (in devel).
 
-3.2) **Scipion-chem-p2rank**
+3.2) **scipion-chem-p2rank**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `P2Rank <https://github.com/rdk/p2rank>`_ is a ligand binding site predictor based on machine learning. In this plugin
@@ -116,7 +136,7 @@ and finally tools for generating, managing and filtering by pharmacophores.
 5) Docking
 ----------------------------------------
 
-5.1) **Scipion-chem-autodock**
+5.1) **scipion-chem-autodock**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 One of the main plugins in the Scipion-chem framework is the one for AutoDock. Here, we include the main docking
@@ -131,14 +151,14 @@ file formats when necessary using openbabel or AutoDockTools when necessary. Thi
 VDS tools can be achieved.
 
 
-5.2) **Scipion-chem-lephar**
+5.2) **scipion-chem-lephar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 With this plugin from `Lephar <http://www.lephar.com/software.htm>`_, we include yet another tool for docking, LeDock.
 Together with the main docking tool, we include another protocol for target preparation using LePro.
 
 
-5.3) **Scipion-chem-rosetta**
+5.3) **scipion-chem-rosetta**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Rosetta <https://www.rosettacommons.org/>`_ is widely known as one of the main software for molecular modelling.
@@ -172,7 +192,7 @@ computational studies to check whether the predicted interaction will be maintai
 This can be achieved using molecular dynamics on the receptor-ligand complex.
 
 
-6.1) **Scipion-chem-amber**
+6.1) **scipion-chem-amber**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Amber <https://ambermd.org/>`_ is a suite of biomolecular simulation programs. It contains open software for preparing
@@ -184,7 +204,7 @@ AmberTools also include cpptraj, a tool for managing and analyzing the resulting
 being integrated in Scipion-chem-amber.
 
 
-6.2) **Scipion-chem-gromacs**
+6.2) **scipion-chem-gromacs**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Gromacs <https://www.gromacs.org/>`_ A free and open-source software suite for high-performance MD and
@@ -195,7 +215,7 @@ parametrization of small molecules for simulating complexes will be handled and 
 Different Gromacs tools are also included to manage and analyze the resulting trajectories.
 
 
-6.3) **Scipion-chem-schrodingerScipion**
+6.3) **scipion-chem-schrodingerScipion**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Schrodinger <https://www.schrodinger.com/>`_ is a full platform itself devoted to drug discovery and materials design.
@@ -217,7 +237,7 @@ Instruction for a proper installation can be found in the
 
 Further functionalities outside the most common VDS workflow are included in Scipion-chem. They include:
 
-7.1) **Scipion-chem-modeller**
+7.1) **scipion-chem-modeller**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Modeller <https://salilab.org/modeller/>`_ is a tool used for protein homology modelling. In this plugin,
@@ -226,28 +246,13 @@ based on the sequence alignment of reference structures; and a protocol for `mod
 mutations <https://salilab.org/modeller/wiki/Mutate_model>`_ in the protein sequence.
 
 
-7.2) **Scipion-chem-blast**
+7.2) **scipion-chem-blast**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ is the NCBI widely known program for searching biological
 sequences.
 In this plugin, we include tools for managing and configuring blast searchs, creating local BLAST databases and
 easily downloading NCBI data (protein/nucleotide sequences or small molecules) from their IDs
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Plugins
-
-    plugins/pwchem/index
-    plugins/fpocket/index
-    plugins/p2rank/index
-    plugins/autodock/index
-    plugins/lephar/index
-    plugins/rosetta/index
-    plugins/gromacs/index
-    plugins/schrodinger/index
-    plugins/modeller/index
-    plugins/blast/index
 
 Get in contact
 ==================
