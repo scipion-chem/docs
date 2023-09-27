@@ -10,4 +10,5 @@ Scipion Chem is a `Scipion3 <https://scipion-em.github.io/docs/release-3.0.0/ind
 whose purpose is to develop a wide variety of tasks within the Virtual Drug Screening process.
 
 You can find the full documentation to this plugin and all of the available within the Scipion Chem suite in 
-the `Scipion Chem documentation <https://scipion-chem.github.io/docs/index.html>`_.
+the `Scipion Chem documentation <https://scipion-chem.github.io/docs/index.html>`_, as well as some other information, 
+such as licensing and contact.
