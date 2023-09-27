@@ -1,7 +1,7 @@
 
 .. _docs-chem-gromacs:
 
-.. figure:: ../../images/gromacs/gromacs_logo.png
+.. figure:: ../../_static/images/gromacs/gromacs_logo.png
    :alt: gromacs logo
 
 ###############################################################
@@ -44,11 +44,11 @@ All parameters include a help button that gives further information for each of 
 
 |form1| |form1_2|
 
-.. |form1| image:: ../../images/gromacs/gromacs_form1.png
+.. |form1| image:: ../../_static/images/gromacs/gromacs_form1.png
    :alt: gromacs form1
    :width: 45%
 
-.. |form1_2| image:: ../../images/gromacs/gromacs_form1_2.png
+.. |form1_2| image:: ../../_static/images/gromacs/gromacs_form1_2.png
    :alt: gromacs form1_2
    :width: 50%
 
@@ -59,7 +59,7 @@ can visualize the complex with PyMol using **Analyze Results**.
 
 |
 
-.. figure:: ../../images/gromacs/gromacs_out_1.png
+.. figure:: ../../_static/images/gromacs/gromacs_out_1.png
    :alt: gromacs out1
 
 |
@@ -91,7 +91,7 @@ Then, the defined stage can be inserted into the workflow, whose summary is show
 
 |
 
-.. figure:: ../../images/gromacs/gromacs_form2.png
+.. figure:: ../../_static/images/gromacs/gromacs_form2.png
    :alt: gromacs form2
 
 |
@@ -102,7 +102,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 |
 
-.. figure:: ../../images/gromacs/gromacs_out2_1.png
+.. figure:: ../../_static/images/gromacs/gromacs_out2_1.png
    :alt: gromacs out2_1
 
 |
@@ -113,7 +113,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 |
 
-.. figure:: ../../images/gromacs/gromacs_out2_2.png
+.. figure:: ../../_static/images/gromacs/gromacs_out2_2.png
    :alt: gromacs out2_2
 
 |
@@ -122,7 +122,7 @@ Using **Analyze Results**, a form with different visualization options will be d
 
 |
 
-.. figure:: ../../images/gromacs/gromacs_out2_3.png
+.. figure:: ../../_static/images/gromacs/gromacs_out2_3.png
    :alt: gromacs out2_3
 
 |
@@ -148,7 +148,7 @@ The modifications include:
 
 |
 
-.. figure:: ../../images/gromacs/gromacs_form3.png
+.. figure:: ../../_static/images/gromacs/gromacs_form3.png
    :alt: gromacs form3
 
 |

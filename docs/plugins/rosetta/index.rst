@@ -1,7 +1,7 @@
 
 .. _docs-chem-rosetta:
 
-.. figure:: ../../images/rosetta/rosetta_logo.png
+.. figure:: ../../_static/images/rosetta/rosetta_logo.png
    :alt: rosetta logo
 
 ###############################################################
@@ -42,7 +42,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. image:: ../../images/rosetta/rosetta_form1.png
+.. image:: ../../_static/images/rosetta/rosetta_form1.png
    :alt: rosetta form1
 
 |
@@ -68,7 +68,7 @@ grid built by AutoDock to take into account also electrostatics, which might sub
 
 |
 
-.. |form2_1| image:: ../../images/rosetta/rosetta_form2.png
+.. |form2_1| image:: ../../_static/images/rosetta/rosetta_form2.png
    :alt: rosetta form2
    :height: 420
 
@@ -98,7 +98,7 @@ the method you can read `this article <https://elifesciences.org/articles/17219>
 
 |
 
-.. |form3_1| image:: ../../images/rosetta/rosetta_form3.png
+.. |form3_1| image:: ../../_static/images/rosetta/rosetta_form3.png
    :alt: rosetta form3
    :height: 420
 

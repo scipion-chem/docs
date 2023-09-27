@@ -1,7 +1,7 @@
 
 .. _docs-chem_introduction:
 
-.. figure:: images/scipion-chem.gif
+.. figure:: ../_static/images/scipion-chem.gif
    :alt: scipion logo
 
 Welcome to Scipion-chem's documentation!
@@ -46,7 +46,7 @@ In this section, each of the scipion-chem plugins will be briefly presented, gro
 We have mainly followed the workflow shown in the figure below, even though some included tools fall outside these
 groups. Further documentation will be written for each of them, together with case studies and workflow examples.
 
-.. figure:: images/vds-workflow.gif
+.. figure:: ../_static/images/vds-workflow.gif
    :alt: vds workflow
 
 

@@ -37,7 +37,6 @@ jobs:
           # Copy custom css, templates, and images
           cp -r ${{ github.workspace }}/_static/* _static/
           cp -r ${{ github.workspace }}/_templates .
-          cp -r ${{ github.workspace }}/images .
           # Initialize repository, and commit changes
           git init
           touch .nojekyll
