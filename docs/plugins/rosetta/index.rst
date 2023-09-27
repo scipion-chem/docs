@@ -114,17 +114,3 @@ The user must be aware that this protocol is quite expensive, computationally sp
 amount of time to be run, including the test (even just generating 2 atomic models).
 
 |
-
-
-Get in contact
-******************************************
-
-From the Scipion team we would be happy to hear your doubts and suggestions, do not hesitate to contact us at any
-time. To do so, you can either open an issue in the Github repository related to your question or
-contact us by mail.
-
-If the question is related to the Scipion framework, try the `contact us <https://scipion.i2pc.es/contact>`_ page.
-If it is related to some Scipion-chem plugin or functionality, you can send a mail to
-the developer at ddelhoyo@cnb.csic.es
-
-
