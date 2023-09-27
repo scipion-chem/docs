@@ -2,7 +2,7 @@
 
 License
 ========
-All Scipion Chem code and plugins, are licensed under the `GPL3 License<http://www.gnu.org/licenses/gpl-3.0.html>`_.
+All Scipion Chem code and plugins, are licensed under the `GPL3 License <http://www.gnu.org/licenses/gpl-3.0.html>`_.
 
 Now, Scipion Chem interacts, and in some cases installs 3rd party software with its own license that must be observed.
 
