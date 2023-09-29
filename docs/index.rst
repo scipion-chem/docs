@@ -33,7 +33,7 @@ groups. Further documentation will be written for each of them, together with ca
 .. figure:: ../_static/images/vds-workflow.gif
    :alt: vds workflow
 
-1) **`scipion-chem <plugins/pwchem/index>`_**
+1) `scipion-chem <plugins/pwchem/index>`_
 ---------------------
 As stated before, scipion-chem is the core of the Scipion Chem plugins and it includes several tools which
 are mainly oriented to virtual Drug Screening.
