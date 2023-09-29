@@ -41,13 +41,13 @@ are mainly oriented to virtual Drug Screening.
 scipion-chem automatically installs several util third-party software for the management and visualization of the
 tasks in a typical bioinformatics and VDS workflow. These include:
 
-  - **`OpenBabel <https://github.com/openbabel/openbabel>`_** and **`RDKIT <https://github.com/rdkit/rdkit>`_**: the main small molecule handlers and converters.
-  - **`MGLTools <https://ccsb.scripps.edu/mgltools/>`_**: utadditional utils for small molecules, docking, ... (includes `AutoDockTools <https://autodocksuite.scripps.edu/adt/>`_).
-  - **`JChemPaint <https://jchempaint.github.io/>`_**: Java program to manually draw small molecules.
-  - **`Pymol <https://pymol.org/2/>`_**: main viewer of Scipion Chem for small molecules and structures.
-  - **`VMD <https://www.ks.uiuc.edu/Research/vmd/>`_**: secondary viewer of Scipion-Chem for structures and Molecular Dynamics.
-  - **`AliView <https://github.com/AliView/AliView>`_**: main viewer for sequences.
-  - **`PLIP <https://github.com/pharmai/plip>`_**: specialized viewer for docking interactions in `Pymol <https://pymol.org/2/>`_.
+  - `OpenBabel <https://github.com/openbabel/openbabel>`_ and `RDKIT <https://github.com/rdkit/rdkit>`_: the main small molecule handlers and converters.
+  - `MGLTools <https://ccsb.scripps.edu/mgltools/>`_: utadditional utils for small molecules, docking, ... (includes `AutoDockTools <https://autodocksuite.scripps.edu/adt/>`_).
+  - `JChemPaint <https://jchempaint.github.io/>`_: Java program to manually draw small molecules.
+  - `Pymol <https://pymol.org/2/>`_: main viewer of Scipion Chem for small molecules and structures.
+  - `VMD <https://www.ks.uiuc.edu/Research/vmd/>`_: secondary viewer of Scipion-Chem for structures and Molecular Dynamics.
+  - `AliView <https://github.com/AliView/AliView>`_: main viewer for sequences.
+  - `PLIP <https://github.com/pharmai/plip>`_: specialized viewer for docking interactions in `Pymol <https://pymol.org/2/>`_.
 
 Some of these programs are managed through conda environments in order to meet their requirements. This way,
 scipion-chem creates and uses some environments:
