@@ -1,9 +1,7 @@
-
 .. _docs-chem:
 
 .. figure:: ../../../_static/images/pwchem/pwchem_logo.png
    :alt: pwchem logo
-
 
 ###############################################################
 scipion-chem
