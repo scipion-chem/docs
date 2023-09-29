@@ -1,4 +1,3 @@
-.. |images| replace:: ../../../../_static/images/pwchem/
 .. _docs-convert-structure:
 
 ###############################################################
@@ -13,19 +12,17 @@ and `MDTraj <https://www.mdtraj.org/1.9.8.dev0/index.html>`_ for Molecular Dynam
 
 All parameters include a help button that gives further information for each of them.
 
-|
-
-|formA1_1| |formA1_2|
-
-.. |formA1_1| image:: \ |images|\ pwchem_formA1_1.png
+.. image:: /_static/images/pwchem/pwchem_formA1_1.png
    :alt: pwchem formA1_1
    :height: 400
-
-.. |formA1_2| image:: \ |images|\ pwchem_formA1_2.png
-   :alt: pwchem formA1_2
-   :height: 400
+   :align: center
 
 |
+
+.. image:: /_static/images/pwchem/pwchem_formA1_2.png
+   :alt: pwchem formA1_2
+   :height: 400
+   :align: center
 
 The result of this protocol is object equal to the one in the input, but this time the files inside this object are in
 the desired format.
