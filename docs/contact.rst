@@ -20,5 +20,4 @@ you can `Open a New Issue <https://github.com/scipion-chem/scipion-chem/issues>`
 
 Join us on Discord
 ================
-We have a Discord server where our most active members keep in touch daily. You can request access on
-`scipion@cnb.csic.es <mailto:scipion@cnb.csic.es>`_.
+We have a `Discord server <https://discord.gg/U6muhsBsKR>`_ where our most active members keep in touch daily.
