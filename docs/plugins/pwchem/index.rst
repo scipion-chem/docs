@@ -1327,4 +1327,12 @@ threshold. The user can preview the SASA values in the protocol to define the th
 A test for this protocol can be run using::
     scipion3 tests pwchem.tests.tests_attributes.TestCalculateSASA
 
-|
+  .. toctree::
+    :maxdepth: 1
+    :hidden:
+    :caption: General
+
+    protocols/general/convert-structure
+    protocols/general/operate-set
+    protocols/general/add-attribute
+    protocols/general/export-csv
