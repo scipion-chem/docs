@@ -43,6 +43,8 @@ After:
    :alt: Add attribute output 2
    :align: center
 
+|
+
 Test
 ----------------------------------------
 This protocol has an integrated test that can be run using the following command:
