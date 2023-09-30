@@ -44,6 +44,7 @@ Scipion-chem includes around 40 different protocols subdivided in 4 groups of pr
    - `Convert structure <protocols/general/convert-structure>`_: Converts the format of the files stored for a set of Small Molecules, an Atom Structure or a Molecular dynamics system.
    - `Operate set <protocols/general/operate-set>`_: Includes several functionalities to modify any Scipion Set inside the project.
    - `Add attribute <protocols/general/add-attribute>`_: Allows the user to add an attribute to an item or set object inside Scipion.
+   - `Export CSV <protocols/general/export-csv>`_: Allows the user to export the SQLite table of a set as a CSV file, containing the values of each attribute for each column and each item in a row.
 - **B) Databases**: It includes protocols related to the main databases for protein sequences, structures or small molecules.
 - **C) Sequences**: It incorporates protocols for managing biological sequences, including tools for defining sequence regions of interest.
 - **D) VirtualDrugScreening**: main group of protocols that incorporates most of the functionalities related to the VDS workflow.
@@ -58,41 +59,6 @@ protocols, it is even compulsory) since inappropriate use of the parameters migh
 
 A) General protocols
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**A.4) Export csv**
-============================
-
-This protocol allows the user to export the SQLite table of a set as a csv file, containing the values of each attribute
-for each column and each item in a row. This protocol might be useful for further exploring the attributes of a Set.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formA4|
-
-.. |formA4| image:: ../../../_static/images/pwchem/pwchem_formA4.png
-   :alt: pwchem formA4
-   :height: 400
-
-|
-
-The result of this protocol is a csv file in the protocol folder. It has no Scipion output object.
-
-|
-
-|outA4|
-
-.. |outA4| image:: ../../../_static/images/pwchem/pwchem_outA4.png
-   :alt: pwchem Aout4
-   :height: 170
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_general.TestExportcsv
-
-|
 
 **B) Database protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
