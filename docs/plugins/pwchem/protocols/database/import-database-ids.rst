@@ -10,7 +10,7 @@ Input
 ----------------------------------------
 All parameters include a help button that gives further information for each of them.
 
-.. image:: ../../../../../_static/images/pwchem/general/import-database-ids/form.png
+.. image:: ../../../../../_static/images/pwchem/database/import-database-ids/form.png
    :alt: Import database IDs form
    :height: 400
    :align: center
