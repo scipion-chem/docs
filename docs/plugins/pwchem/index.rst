@@ -13,7 +13,7 @@ This plugin, Scipion-chem, is the core for the rest of scipion-chem-\* plugins.
 Scipion Chem overview
 ==========================================
 
-`Scipion-chem <https://github.com/scipion-chem/scipion-chem>`_ is the core plugin for Virtual Drug Screening (VDS) in
+`scipion-chem <https://github.com/scipion-chem/scipion-chem>`_ is the core plugin for Virtual Drug Screening (VDS) in
 the Scipion platform. It is designed to manage and make interoperable all the the satellite plugins
 (Autodock, fpocket,...). It also includes several tools for:
 
