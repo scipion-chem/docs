@@ -12,14 +12,14 @@ and `MDTraj <https://www.mdtraj.org/1.9.8.dev0/index.html>`_ for Molecular Dynam
 
 All parameters include a help button that gives further information for each of them.
 
-.. image:: ../../../../_static/images/pwchem/pwchem_formA1_1.png
+.. image:: ../../../../_static/images/pwchem/convert-structure/form_2.png
    :alt: pwchem formA1_1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../_static/images/pwchem/pwchem_formA1_2.png
+.. image:: ../../../../_static/images/pwchem/convert-structure/form_1.png
    :alt: pwchem formA1_2
    :height: 400
    :align: center
