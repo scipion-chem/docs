@@ -40,10 +40,13 @@ scipion-chem protocols
 scipion-chem includes around 40 different protocols subdivided in 4 groups of protocols according to their function:
 
 .. note::
-   The user will notice that many protocols have a wand icon next to some of the parameters. We call this button wizard and
-   they are designed to help the user to use the protocol. One of the most common types of wizard will help the user to
-   fill a parameter with the proper string. We strongly recommend to use the wizards to fill these parameters (for some
-   protocols, it is even compulsory) since inappropriate use of the parameters might lead the protocol to fail.
+   The user will notice that many protocols have a wand icon next to some of the parameters. 
+   We call this button ``wizard`` and they are designed to help the user to use the protocol.
+   
+   One of the most common types of wizard will help the user to fill a parameter with the proper string.
+   
+   We strongly recommend to use the wizards to fill these parameters (for some protocols, it is even compulsory), 
+   since inappropriate use of the parameters might lead the protocol to fail.
 
 A) General protocols
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
