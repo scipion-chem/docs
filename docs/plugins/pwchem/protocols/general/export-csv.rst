@@ -25,15 +25,6 @@ The result of this protocol is a csv file in the protocol folder. It has no Scip
 
 |
 
-|formA4|
-
-.. |formA4| image:: ../../../_static/images/pwchem/pwchem_formA4.png
-   :alt: pwchem formA4
-
-|
-
-The result of this protocol is a csv file in the protocol folder. It has no Scipion output object.
-
 Test
 ----------------------------------------
 This protocol has an integrated test that can be run using the following command:
