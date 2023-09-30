@@ -64,6 +64,7 @@ It includes protocols related to the main databases for protein sequences, struc
 
 - `Import database IDs <protocols/database/import-database-ids>`_: Imports a set of database IDs from a file and stores them as a Scipion object.
 - `Identify ligands <protocols/database/identify-ligands>`_: Tries to identify a set of Small Molecules based on the SMILES string for each of them.
+- `UniProt CrossRef <protocols/database/uniprot-crossref>`_: Searches in the `UniProt <https://www.uniprot.org/>`_ cross reference database for related entries of a set of UniProt IDs for specified databases.
 
 **C) Sequence protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
