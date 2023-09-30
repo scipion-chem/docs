@@ -25,12 +25,14 @@ All parameters include a help button that gives further information for each of 
 .. image:: ../../../../../_static/images/pwchem/operate-set/form_1.png
    :alt: Operate set form 1
    :height: 400
+   :align: center
 
 |
 
 .. image:: ../../../../../_static/images/pwchem/operate-set/form_2.png
    :alt: Operate set form 2
    :height: 400
+   :align: center
 
 |
 
