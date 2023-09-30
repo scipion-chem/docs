@@ -74,36 +74,6 @@ It incorporates protocols for managing biological sequences, including tools for
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
 
-**B.3) UniProt CrossRef**
-============================
-
-This protocol searches in the UniProt cross reference database for related entries of a set of UniProt IDs for
-specified databases. The user can choose whether to store the cross reference as a secondary or the main ID and
-whether to store also additional properties stored in those IDs.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formB3|
-
-.. |formB3| image:: ../../../_static/images/pwchem/pwchem_formB3.png
-   :alt: pwchem formB3
-   :height: 400
-
-|
-
-The result of this protocol is a SetOfDatabaseIDs containing the information of the cross references. This can also
-be checked in a summary file.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_databases.TestUniProtCrossRef
-
-|
-
-
 **B.4) ZINC filter**
 ============================
 
