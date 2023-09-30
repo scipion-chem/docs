@@ -22,15 +22,16 @@ the Scipion platform. It is designed to manage and make interoperable all the th
 - Visualization of the results for each of the VDS steps.
 - Filter and operate the different sets obtained at each step of the workflow.
 
-To do so, Scipion-chem automatically installs the following external software:
+To do so, scipion-chem automatically installs several util third-party software for the management and visualization of the
+tasks in a typical bioinformatics and VDS workflow. These include:
 
-- **OpenBabel and RDKit**: the main small molecule handlers and converters
-- **MGLTools**: additional utils for small molecules, docking, ... (includes AutoDockTools)
-- **JChemPaint**: Java program to manually draw small molecules.
-- **PyMol**: main viewer of Scipion-Chem for small molecules and structures
-- **VMD**: secondary viewer of Scipion-Chem for structures and Molecular Dynamics
-- **AliView**: main viewer for sequences
-- **PLIP**: specialized viewer for docking interactions in PyMol
+  - `OpenBabel <https://github.com/openbabel/openbabel>`_ and `RDKIT <https://github.com/rdkit/rdkit>`_: the main small molecule handlers and converters.
+  - `MGLTools <https://ccsb.scripps.edu/mgltools/>`_: utadditional utils for small molecules, docking, ... (includes `AutoDockTools <https://autodocksuite.scripps.edu/adt/>`_).
+  - `JChemPaint <https://jchempaint.github.io/>`_: Java program to manually draw small molecules.
+  - `Pymol <https://pymol.org/2/>`_: main viewer of Scipion Chem for small molecules and structures.
+  - `VMD <https://www.ks.uiuc.edu/Research/vmd/>`_: secondary viewer of Scipion-Chem for structures and Molecular Dynamics.
+  - `AliView <https://github.com/AliView/AliView>`_: main viewer for sequences.
+  - `PLIP <https://github.com/pharmai/plip>`_: specialized viewer for docking interactions in `Pymol <https://pymol.org/2/>`_.
 
 These programs are managed through conda environments, which also includes different util Python modules.
 
