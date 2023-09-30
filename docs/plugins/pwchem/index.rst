@@ -37,7 +37,6 @@ These programs are managed through conda environments, which also includes diffe
 ==========================================
 scipion-chem protocols
 ==========================================
-
 scipion-chem includes around 40 different protocols subdivided in 4 groups of protocols according to their function:
 
 .. note::
