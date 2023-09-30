@@ -17,7 +17,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-The result of this protocol is a csv file in the protocol folder. It has no Scipion output object.
+The result of this protocol is a ``CSV`` file in the protocol folder. It has no Scipion output object.
 
 .. image:: ../../../../../_static/images/pwchem/general/export-csv/output.png
    :alt: Export CSV output
