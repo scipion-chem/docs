@@ -24,6 +24,8 @@ All parameters include a help button that gives further information for each of 
    :height: 400
    :align: center
 
+|
+
 The result of this protocol is object equal to the one in the input, but this time the files inside this object are in
 the desired format.
 
