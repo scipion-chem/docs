@@ -22,8 +22,6 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a ``SetOfSmallMolecules`` which includes the found identifiers for each molecule.
 
-|
-
 .. image:: ../../../../../_static/images/pwchem/database/identify-ligands/output.png
    :alt: Identify ligands output
    :align: center
