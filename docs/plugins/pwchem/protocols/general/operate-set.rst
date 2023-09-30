@@ -22,14 +22,14 @@ Input
 ----------------------------------------
 All parameters include a help button that gives further information for each of them.
 
-.. image:: ../../../../../_static/images/pwchem/operate-set/form_1.png
+.. image:: ../../../../../_static/images/pwchem/general/operate-set/form_1.png
    :alt: Operate set form 1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/operate-set/form_2.png
+.. image:: ../../../../../_static/images/pwchem/general/operate-set/form_2.png
    :alt: Operate set form 2
    :height: 400
    :align: center
