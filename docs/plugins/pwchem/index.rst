@@ -77,46 +77,11 @@ It incorporates protocols for managing biological sequences, including tools for
 - `Multiple Sequence Alignment <protocols/sequence/multiple-sequence-alignment>`_: Performs a multiple sequence alignment (MSA) over a set of input sequences.
 - `Define set of sequences <protocols/sequence/define-set-of-sequences>`_: Allows the user to manually build a set of small molecules from individual elements.
 - `Import variants <protocols/sequence/import-variants>`_: Imports a set of sequence variants.
+- `Generate variant sequences <protocols/sequence/generate-variant-sequences>`_: Generates a set of sequences from a list of specified variants from a ``SequenceVariants`` object.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.6) Generate variant sequences**
-=====================================
-
-This protocol generates a set of sequences from a list of specified variants from a SequenceVariants object.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC6|
-
-.. |formC6| image:: ../../../_static/images/pwchem/pwchem_formC6.png
-   :alt: pwchem formC6
-   :height: 450
-
-|
-
-The result of this protocol is a SetOfSequences which contains all the defined variants or single mutations from
-the input.
-
-|
-
-|outC6|
-
-.. |outC6| image:: ../../../_static/images/pwchem/pwchem_outC6.png
-   :alt: pwchem outC6
-   :height: 200
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_sequences.TestGenerateSequences
-
-|
-
 
 **C.7) Import Sequence ROIs**
 =====================================
