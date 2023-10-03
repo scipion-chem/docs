@@ -3,7 +3,7 @@
 ###############################################################
 Identify ligands
 ###############################################################
-This protocol tries to identify a set of Small Molecules based on the `SMILES <https://es.wikipedia.org/wiki/SMILES>`_string for each of them. To do so, it uses
+This protocol tries to identify a set of Small Molecules based on the `SMILES <https://es.wikipedia.org/wiki/SMILES>`_ string for each of them. To do so, it uses
 the `PubChem API <https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest>`_. If no exact match is found, it looks for similar
 compounds (which are specified in a summary file) and outputs the most similar. The protocol further identifies the
 small molecule by using the PuChem cross references to extract the ID from other databases (currently ZINC and ChEMBL).
