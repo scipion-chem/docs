@@ -37,3 +37,6 @@ This protocol has an integrated test that can be run using the following command
 .. code-block::
 
    scipion3 tests pwchem.tests.tests_imports.TestImportSequences
+
+.. |test-command| replace:: pwchem.tests.tests_imports.TestImportSequences
+.. include:: ../../../../templates/plugins/protocol-test.rst
