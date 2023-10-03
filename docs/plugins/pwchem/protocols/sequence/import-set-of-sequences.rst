@@ -11,7 +11,7 @@ Input
 .. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/form_1.png
-   :alt: Import SetOfSequences form 1
+   :alt: Import set of sequences form 1
    :height: 400
    :align: center
 

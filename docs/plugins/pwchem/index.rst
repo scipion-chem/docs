@@ -73,47 +73,11 @@ It includes protocols related to the main databases for protein sequences, struc
 It incorporates protocols for managing biological sequences, including tools for defining sequence regions of interest.
 
 - `Import set of sequences <protocols/sequence/import-set-of-sequences>`_: Imports a set of sequences from one or several fasta files or from a database like `UniProt <https://www.uniprot.org/>`_ using a ``SetOfDatabaseIDs`` as input.
+- `Pairwise Alignment <protocols/sequence/pairwise-alignment>`_: Performs a pairwise alignment using clustal omega over two input sequences.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.2) Pairwise Alignment**
-===============================
-
-This protocol perform a pairwise alignment using clustal omega over two input sequences.
-These sequences can be input either from a Sequence or an AtomStruct objects, in the later,
-the chain must also be specified.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC2|
-
-.. |formC2| image:: ../../../_static/images/pwchem/pwchem_formC2.png
-   :alt: pwchem formC2
-   :height: 450
-
-|
-
-The result of this protocol is a SetOfSequences with the two input sequences aligned.
-
-|
-
-|outC2|
-
-.. |outC2| image:: ../../../_static/images/pwchem/pwchem_outC2.png
-   :alt: pwchem outC2
-   :height: 150
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_sequences.TestPairwiseAlign
-
-|
-
 
 **C.3) Multiple Sequence Alignment**
 =====================================
