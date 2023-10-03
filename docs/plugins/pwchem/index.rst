@@ -72,7 +72,7 @@ It includes protocols related to the main databases for protein sequences, struc
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 It incorporates protocols for managing biological sequences, including tools for defining sequence regions of interest.
 
-- `Import SetOfSequences <protocols/sequence/import-set-of-sequences>`_: Imports a set of sequences from one or several fasta files or from a database like `UniProt <https://www.uniprot.org/>`_ using a ``SetOfDatabaseIDs`` as input.
+- `Import set of sequences <protocols/sequence/import-set-of-sequences>`_: Imports a set of sequences from one or several fasta files or from a database like `UniProt <https://www.uniprot.org/>`_ using a ``SetOfDatabaseIDs`` as input.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
