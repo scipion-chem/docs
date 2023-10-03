@@ -75,39 +75,11 @@ It incorporates protocols for managing biological sequences, including tools for
 - `Import set of sequences <protocols/sequence/import-set-of-sequences>`_: Imports a set of sequences from one or several fasta files or from a database like `UniProt <https://www.uniprot.org/>`_ using a ``SetOfDatabaseIDs`` as input.
 - `Pairwise Alignment <protocols/sequence/pairwise-alignment>`_: Performs a pairwise alignment using clustal omega over two input sequences.
 - `Multiple Sequence Alignment <protocols/sequence/multiple-sequence-alignment>`_: Performs a multiple sequence alignment (MSA) over a set of input sequences.
+- `Define set of sequences <protocols/sequence/define-set-of-sequences>`_: Allows the user to manually build a set of small molecules from individual elements.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.4) Define set of sequences**
-=====================================
-
-This protocol allows the user to manually build a set of small molecules from individual elements, which can be either
-Sequence, AtomStruct objects or even PDB codes. In the case of structures and PDB, the chain must be specified. Also,
-the user can always select just a segment of the total sequence to be added.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC4|
-
-.. |formC4| image:: ../../../_static/images/pwchem/pwchem_formC4.png
-   :alt: pwchem formC4
-   :height: 450
-
-|
-
-The result of this protocol is a SetOfSequences with each of the defined sequences in the input.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_sequences.TestDefineSetSequences
-
-|
-
 
 **C.5) Import variants**
 =====================================
