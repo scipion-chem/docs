@@ -3,6 +3,6 @@ Test
 ----------------------------------------
 This protocol has an integrated test that can be run using the following command:
 
-.. code-block::
+.. parsed-literal::
 
    scipion3 tests \ |testCommand|\ 
