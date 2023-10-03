@@ -81,6 +81,7 @@ It incorporates protocols for managing biological sequences, including tools for
 - `Import Sequence ROIs <protocols/sequence/import-sequence-rois>`_: Imports a ``SetOfSequenceROIs``, meaning a set of Regions Of Interest (ROI) in a sequence.
 - `Define Sequence ROIs <protocols/sequence/define-sequence-rois>`_: Defines a ``SetOfSequenceROIs`` from a ``Sequence`` or ``SequenceVariants`` object.
 - `Operate Sequence ROIs <protocols/sequence/operate-sequence-rois>`_: Allows the user to operate sets of sequence ROIs, similarly to the operate sets.
+- `Extract Sequence ROIs <protocols/sequence/extract-sequence-rois>`_: Defines a ``SetOfSequenceROIs`` from an input set of sequences based on the conservation of each position in the alignment.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
