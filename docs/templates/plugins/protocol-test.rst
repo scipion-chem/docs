@@ -1,8 +1,8 @@
-.. |test-command| replace:: teeest
+.. |testCommand| replace:: teeest
 Test
 ----------------------------------------
 This protocol has an integrated test that can be run using the following command:
 
 .. code-block::
 
-   scipion3 tests \ |test-command|\ 
+   scipion3 tests \ |testCommand|\ 
