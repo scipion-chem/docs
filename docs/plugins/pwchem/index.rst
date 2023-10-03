@@ -72,49 +72,11 @@ It includes protocols related to the main databases for protein sequences, struc
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 It incorporates protocols for managing biological sequences, including tools for defining sequence regions of interest.
 
+- `Import SetOfSequences <protocols/sequence/import-set-of-sequences>`_: Imports a set of sequences from one or several fasta files or from a database like `UniProt <https://www.uniprot.org/>`_ using a ``SetOfDatabaseIDs`` as input.
+
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.1) Import SetOfSequences**
-===============================
-
-This protocol imports a set of sequences from one or several fasta files or from a database like UniProt using a
-SetOfDatabaseIDs as input.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC1_1| |formC1_2|
-
-.. |formC1_1| image:: ../../../_static/images/pwchem/pwchem_formC1_1.png
-   :alt: pwchem formC1_1
-   :height: 330
-
-.. |formC1_2| image:: ../../../_static/images/pwchem/pwchem_formC1_2.png
-   :alt: pwchem formC1_2
-   :height: 330
-
-|
-
-The result of this protocol is a SetOfSequences with the specified sequences.
-
-|
-
-|outC1|
-
-.. |outC1| image:: ../../../_static/images/pwchem/pwchem_outC1.png
-   :alt: pwchem outC1
-   :height: 150
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_imports.TestImportSequences
-
-|
-
 
 **C.2) Pairwise Alignment**
 ===============================
