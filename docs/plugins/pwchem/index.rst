@@ -88,7 +88,8 @@ D) Virtual Drug Screening protocols
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
 
-- `Import Small Molecules <protocols/sequence/import-small-molecules>`_: Imports a set of small molecules from one or several files or from default database libraries like `ECBL <https://www.eu-openscreen.eu/services/compound-collection/european-chemical-biology-library-ecbl-diversity-library.html>`_ or `ZINC <https://zinc.docking.org/>`_.
+- `Import Small Molecules <protocols/virtual-drug-screening/import-small-molecules>`_: Imports a set of small molecules from one or several files or from default database libraries like `ECBL <https://www.eu-openscreen.eu/services/compound-collection/european-chemical-biology-library-ecbl-diversity-library.html>`_ or `ZINC <https://zinc.docking.org/>`_.
+- `Extract Small Molecules <protocols/virtual-drug-screening/extract-small-molecules>`_: Extract the small molecules present in a ``AtomStruct`` object.
 
 **D.2) Extract Small Molecules**
 =====================================
