@@ -94,35 +94,7 @@ Main group of protocols that incorporates most of the functionalities related to
 - `OpenBabel Prepare Small Molecules <protocols/virtual-drug-screening/openbabel-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `OpenBabel <https://github.com/openbabel/openbabel>`_.
 - `RDKit Prepare Small Molecules <protocols/virtual-drug-screening/rdkit-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `RDKIT <https://github.com/rdkit/rdkit>`_.
 - `Prepare Receptor <protocols/virtual-drug-screening/prepare-receptor>`_: Provides a simple ``AtomStruct`` preparation with `BioPython <https://biopython.org/>`_ where the user can choose different cleaning options like removing waters, heteroatoms, keep only specific chains...
-
-**D.7) ADME Small Molecules filter**
-==========================================
-
-This protocol uses RDKit to filter a SetOfSmallMolecules by applying the ADME (Absortion, Distribution,
-Metabolism, Excretion) filter to each of the small molecules stored. The user can choose whether to use the Lipinski's
-rule of five or the Rule of three (https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five ).
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formD7|
-
-.. |formD7| image:: ../../../_static/images/pwchem/pwchem_formD7.png
-   :alt: pwchem formD7
-   :height: 400
-
-|
-
-The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_ligand_filtering.TestADMEFiltering
-
-|
-
+- `ADME Small Molecules filter <protocols/virtual-drug-screening/adme-small-molecules-filter>`_: uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the ADME (Absortion, Distribution, Metabolism, Excretion) filter to each of the small molecules stored.
 
 **D.8) PAINS Small Molecules filter**
 ==========================================
