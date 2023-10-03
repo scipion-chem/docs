@@ -66,58 +66,15 @@ It includes protocols related to the main databases for protein sequences, struc
 - `Identify ligands <protocols/database/identify-ligands>`_: Tries to identify a set of Small Molecules based on the `SMILES <https://es.wikipedia.org/wiki/SMILES>`_ string for each of them.
 - `UniProt CrossRef <protocols/database/uniprot-crossref>`_: Searches in the `UniProt <https://www.uniprot.org/>`_ cross reference database for related entries of a set of UniProt IDs for specified databases.
 - `ZINC filter <protocols/general/zinc-filter>`_: Filters a ``SetOfSmallMolecules`` by the presence/absence of each of the molecules in the specified ZINC subset(s).
+- `Fetch ligands <protocols/database/fetch-ligands>`_: Extracts the ligands related to a ``SetOfDatabaseIDs``.
 
 **C) Sequence protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 It incorporates protocols for managing biological sequences, including tools for defining sequence regions of interest.
 
-
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**B.5) Fetch ligands**
-============================
-
-This protocol extracts the ligands related to a SetOfDatabaseIDs. It defines 3 levels of relation depending on the
-database IDs:
-
-- *UniProt IDs*: using their cross references with an specified database, it will relate each UniProt ID to a number of target structures and extract their ligands.
-- *Target IDs*: the IDs refer to a protein target. The protocol will extract all ligands found in the structure.
-- *Ligand IDs*: the IDs refer directly to the IDs of the ligands in the specified database.
-
-In a second section, you can define several filters for the extracted ligands, from general ones according to the
-ligand structure to more specific depending on the chose database.
-
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formB5_1| |formB5_2|
-
-.. |formB5_1| image:: ../../../_static/images/pwchem/pwchem_formB5_1.png
-   :alt: pwchem formB5_1
-   :height: 450
-
-.. |formB5_2| image:: ../../../_static/images/pwchem/pwchem_formB5_2.png
-   :alt: pwchem formB5_2
-   :height: 450
-
-|
-
-The result of this protocol is a SetOfSmallMolecules with the extracted ligands.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_databases.TestFetchLigands
-
-|
-
-
-**C) Sequence protocols**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **C.1) Import SetOfSequences**
 ===============================
