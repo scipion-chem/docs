@@ -97,33 +97,7 @@ Main group of protocols that incorporates most of the functionalities related to
 - `ADME Small Molecules filter <protocols/virtual-drug-screening/adme-small-molecules-filter>`_: uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `ADME (Absortion, Distribution, Metabolism, Excretion) filter <https://en.wikipedia.org/wiki/ADME>`_ to each of the small molecules stored.
 - `PAINS Small Molecules filter <protocols/virtual-drug-screening/pains-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `PAINS (Pan-assay interference compounds) filter <https://en.wikipedia.org/wiki/Pan-assay_interference_compounds>`_ to each of the small molecules stored.
 - `Shape Small Molecules filter <protocols/virtual-drug-screening/shape-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying shape filters to each of the small molecules stored.
-
-**D.10) FingerPrint Small Molecules filter**
-=============================================
-
-This protocol uses RDKit to filter a SetOfSmallMolecules by applying fingerprint filters to each of the small molecules
-stored. The user can choose whether to use Morgan or MACCS fingerprints and whether to use Tanimoto or Dice
-similarity coefficients.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formD10|
-
-.. |formD10| image:: ../../../_static/images/pwchem/pwchem_formD10.png
-   :alt: pwchem formD10
-   :height: 400
-
-|
-
-The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_ligand_filtering.TestFingerprintFiltering
-
-|
-
+- `FingerPrint Small Molecules filter <protocols/virtual-drug-screening/fingerprint-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying fingerprint filters to each of the small molecules stored.
 
 **D.11) Pharmacophore generation**
 =============================================
