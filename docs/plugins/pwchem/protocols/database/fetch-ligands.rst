@@ -6,9 +6,9 @@ Fetch ligands
 This protocol extracts the ligands related to a ``SetOfDatabaseIDs``. It defines 3 levels of relation depending on the
 database IDs:
 
-- *UniProt IDs*: using their cross references with an specified database, it will relate each UniProt ID to a number of target structures and extract their ligands.
-- *Target IDs*: the IDs refer to a protein target. The protocol will extract all ligands found in the structure.
-- *Ligand IDs*: the IDs refer directly to the IDs of the ligands in the specified database.
+- **UniProt IDs**: using their cross references with an specified database, it will relate each UniProt ID to a number of target structures and extract their ligands.
+- **Target IDs**: the IDs refer to a protein target. The protocol will extract all ligands found in the structure.
+- **Ligand IDs**: the IDs refer directly to the IDs of the ligands in the specified database.
 
 .. note::
    In a second section, you can define several filters for the extracted ligands, from general ones according to the
