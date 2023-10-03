@@ -79,6 +79,7 @@ It incorporates protocols for managing biological sequences, including tools for
 - `Import variants <protocols/sequence/import-variants>`_: Imports a set of sequence variants.
 - `Generate variant sequences <protocols/sequence/generate-variant-sequences>`_: Generates a set of sequences from a list of specified variants from a ``SequenceVariants`` object.
 - `Import Sequence ROIs <protocols/sequence/import-sequence-rois>`_: Imports a ``SetOfSequenceROIs``, meaning a set of Regions Of Interest (ROI) in a sequence.
+- `Define Sequence ROIs <protocols/sequence/define-sequence-rois>`_: Defines a ``SetOfSequenceROIs`` from a ``Sequence`` or ``SequenceVariants`` object.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
