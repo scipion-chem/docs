@@ -93,43 +93,7 @@ Main group of protocols that incorporates most of the functionalities related to
 - `Draw Small Molecules <protocols/virtual-drug-screening/draw-small-molecules>`_: Runs `JChemPaint <https://jchempaint.github.io/>`_ java program and allows the user to draw their own molecules.
 - `OpenBabel Prepare Small Molecules <protocols/virtual-drug-screening/openbabel-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `OpenBabel <https://github.com/openbabel/openbabel>`_.
 - `RDKit Prepare Small Molecules <protocols/virtual-drug-screening/rdkit-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `RDKIT <https://github.com/rdkit/rdkit>`_.
-
-**D.6) Prepare Receptor**
-==========================================
-
-This protocol provides a simple AtomStruct preparation with BioPython where the user can choose different cleaning
-options like removing waters, heteroatoms, keep only specific chains... Its functionality is included in several other
-protocols that manage AtomStruct objects.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formD6|
-
-.. |formD6| image:: ../../../_static/images/pwchem/pwchem_formD6.png
-   :alt: pwchem formD6
-   :height: 400
-
-|
-
-The result of this protocol is an AtomStruct cleaned with the form specifications.
-
-|
-
-|outD6|
-
-.. |outD6| image:: ../../../_static/images/pwchem/pwchem_outD6.png
-   :alt: pwchem outD6
-   :height: 400
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_preparations.TestPrepareReceptor
-
-|
-
+- `Prepare Receptor <protocols/virtual-drug-screening/prepare-receptor>`_: Provides a simple ``AtomStruct`` preparation with `BioPython <https://biopython.org/>`_ where the user can choose different cleaning options like removing waters, heteroatoms, keep only specific chains...
 
 **D.7) ADME Small Molecules filter**
 ==========================================
