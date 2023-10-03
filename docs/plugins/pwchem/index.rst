@@ -65,7 +65,7 @@ It includes protocols related to the main databases for protein sequences, struc
 - `Import database IDs <protocols/database/import-database-ids>`_: Imports a set of database IDs from a file and stores them as a Scipion object.
 - `Identify ligands <protocols/database/identify-ligands>`_: Tries to identify a set of Small Molecules based on the `SMILES <https://es.wikipedia.org/wiki/SMILES>`_ string for each of them.
 - `UniProt CrossRef <protocols/database/uniprot-crossref>`_: Searches in the `UniProt <https://www.uniprot.org/>`_ cross reference database for related entries of a set of UniProt IDs for specified databases.
-- `ZINC filter <protocols/general/zinc-filter>`_: Filters a ``SetOfSmallMolecules`` by the presence/absence of each of the molecules in the specified ZINC subset(s).
+- `ZINC filter <protocols/database/zinc-filter>`_: Filters a ``SetOfSmallMolecules`` by the presence/absence of each of the molecules in the specified ZINC subset(s).
 - `Fetch ligands <protocols/database/fetch-ligands>`_: Extracts the ligands related to a ``SetOfDatabaseIDs``.
 
 **C) Sequence protocols**
