@@ -78,40 +78,11 @@ It incorporates protocols for managing biological sequences, including tools for
 - `Define set of sequences <protocols/sequence/define-set-of-sequences>`_: Allows the user to manually build a set of small molecules from individual elements.
 - `Import variants <protocols/sequence/import-variants>`_: Imports a set of sequence variants.
 - `Generate variant sequences <protocols/sequence/generate-variant-sequences>`_: Generates a set of sequences from a list of specified variants from a ``SequenceVariants`` object.
+- `Import Sequence ROIs <protocols/sequence/import-sequence-rois>`_: Imports a ``SetOfSequenceROIs``, meaning a set of Regions Of Interest (ROI) in a sequence.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.7) Import Sequence ROIs**
-=====================================
-
-This protocol imports a SetOfSequenceROIs, meaning a set of Regions Of Interest (ROI) in a sequence. As for today,
-this protocol is oriented to epitopes defined in IEDB (https://www.iedb.org/ ). More origins of these ROIs will be
-added in the future.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC7|
-
-.. |formC7| image:: ../../../_static/images/pwchem/pwchem_formC7.png
-   :alt: pwchem formC7
-   :height: 400
-
-|
-
-The result of this protocol are several SetOfSequenceROIs, one for each sequence defined in the input,
-where the defined ROIs are those epitopes defined in the input.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_imports.TestImportSeqROIs
-
-|
-
 
 **C.8) Define Sequence ROIs**
 =====================================
