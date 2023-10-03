@@ -76,50 +76,11 @@ It incorporates protocols for managing biological sequences, including tools for
 - `Pairwise Alignment <protocols/sequence/pairwise-alignment>`_: Performs a pairwise alignment using clustal omega over two input sequences.
 - `Multiple Sequence Alignment <protocols/sequence/multiple-sequence-alignment>`_: Performs a multiple sequence alignment (MSA) over a set of input sequences.
 - `Define set of sequences <protocols/sequence/define-set-of-sequences>`_: Allows the user to manually build a set of small molecules from individual elements.
+- `Import variants <protocols/sequence/import-variants>`_: Imports a set of sequence variants.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.5) Import variants**
-=====================================
-
-This protocol imports a set of sequence variants. These can be imported either from the natural defined in a single
-UniProt ID or with a customized file defining single point mutations.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC5_1| |formC5_2|
-
-.. |formC5_1| image:: ../../../_static/images/pwchem/pwchem_formC5_1.png
-   :alt: pwchem formC5_1
-   :height: 320
-
-.. |formC5_2| image:: ../../../_static/images/pwchem/pwchem_formC5_2.png
-   :alt: pwchem formC5_2
-   :height: 320
-
-|
-
-The result of this protocol is a SequenceVariants object containing the original sequence with the defined variants.
-
-|
-
-|outC5|
-
-.. |outC5| image:: ../../../_static/images/pwchem/pwchem_outC5.png
-   :alt: pwchem outC5
-   :height: 400
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_imports.TestImportVariants
-
-|
-
 
 **C.6) Generate variant sequences**
 =====================================
