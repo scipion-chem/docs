@@ -23,6 +23,8 @@ Input
    :height: 400
    :align: center
 
+|
+
 .. image:: ../../../../../_static/images/pwchem/database/fetch-ligands/form_2.png
    :alt: Fetch ligands form 2
    :height: 400
