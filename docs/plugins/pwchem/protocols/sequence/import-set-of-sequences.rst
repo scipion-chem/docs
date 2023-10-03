@@ -10,10 +10,12 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/form_1.png
+.. image:: ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/form_1.png
    :alt: Import SetOfSequences form 1
    :height: 400
    :align: center
+
+|
 
 .. image:: ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/form_2.png
    :alt: Import SetOfSequences form 2
