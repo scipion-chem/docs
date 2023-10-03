@@ -96,41 +96,7 @@ Main group of protocols that incorporates most of the functionalities related to
 - `Prepare Receptor <protocols/virtual-drug-screening/prepare-receptor>`_: Provides a simple ``AtomStruct`` preparation with `BioPython <https://biopython.org/>`_ where the user can choose different cleaning options like removing waters, heteroatoms, keep only specific chains...
 - `ADME Small Molecules filter <protocols/virtual-drug-screening/adme-small-molecules-filter>`_: uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `ADME (Absortion, Distribution, Metabolism, Excretion) filter <https://en.wikipedia.org/wiki/ADME>`_ to each of the small molecules stored.
 - `PAINS Small Molecules filter <protocols/virtual-drug-screening/pains-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `PAINS (Pan-assay interference compounds) filter <https://en.wikipedia.org/wiki/Pan-assay_interference_compounds>`_ to each of the small molecules stored.
-
-**D.9) Shape Small Molecules filter**
-==========================================
-
-This protocol uses RDKit to filter a SetOfSmallMolecules by applying shape filters to each of the small molecules
-stored. The user can choose whether to use RDKit or Shape-it (currently not automatically installed) to calculate the
-molecules shape and different shape distance options like Tanimoto, Protrude or RMSD distances.
-
-Other parameters include the prealignment of the molecules or to trying atom reordering in order to improve the filter
-performance.
-
-Currently, `Shape-it <https://github.com/rdkit/shape-it>`_ is not automatically installed with Scipion-chem.
-If the user wants to use it, they must install it manually and define its path in the scipion.conf file as SHAPEIT_HOME.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formD9|
-
-.. |formD9| image:: ../../../_static/images/pwchem/pwchem_formD9.png
-   :alt: pwchem formD9
-   :height: 400
-
-|
-
-The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_ligand_filtering.TestShapeFiltering
-
-|
-
+- `Shape Small Molecules filter <protocols/virtual-drug-screening/shape-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying shape filters to each of the small molecules stored.
 
 **D.10) FingerPrint Small Molecules filter**
 =============================================
