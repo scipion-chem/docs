@@ -8,7 +8,7 @@ for each column and each item in a row. This protocol might be useful for furthe
 
 Input
 ----------------------------------------
-All parameters include a help button that gives further information for each of them.
+.. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/pwchem/general/export-csv/form.png
    :alt: Export CSV form

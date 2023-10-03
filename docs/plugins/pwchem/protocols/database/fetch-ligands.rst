@@ -16,7 +16,7 @@ database IDs:
 
 Input
 ----------------------------------------
-All parameters include a help button that gives further information for each of them.
+.. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/pwchem/database/fetch-ligands/form_1.png
    :alt: Fetch ligands form 1

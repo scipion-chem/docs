@@ -10,7 +10,7 @@ You can find the different defined ZINC subsets in https://zinc15.docking.org/su
 
 Input
 ----------------------------------------
-All parameters include a help button that gives further information for each of them.
+.. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/pwchem/database/zinc-filter/form.png
    :alt: ZINC filter form

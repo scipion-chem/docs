@@ -8,7 +8,7 @@ using a ``SetOfDatabaseIDs`` as input.
 
 Input
 ----------------------------------------
-All parameters include a help button that gives further information for each of them.
+.. include:: ../../../../templates/plugins/input-help.rst
 
 .. ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/form_1.png
    :alt: Import SetOfSequences form 1

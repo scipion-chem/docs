@@ -12,7 +12,7 @@ and `MDTraj <https://www.mdtraj.org/1.9.8.dev0/index.html>`_ for Molecular Dynam
 
 Input
 ----------------------------------------
-All parameters include a help button that gives further information for each of them.
+.. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/pwchem/general/convert-structure/form_1.png
    :alt: Convert structure form 1

@@ -8,7 +8,7 @@ origin database name.
 
 Input
 ----------------------------------------
-All parameters include a help button that gives further information for each of them.
+.. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/pwchem/database/import-database-ids/form.png
    :alt: Import database IDs form

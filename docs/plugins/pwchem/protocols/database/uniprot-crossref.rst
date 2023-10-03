@@ -9,7 +9,7 @@ whether to store also additional properties stored in those IDs.
 
 Input
 ----------------------------------------
-All parameters include a help button that gives further information for each of them.
+.. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/pwchem/database/uniprot-crossref/form.png
    :alt: UniProt CrossRef form
