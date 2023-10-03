@@ -25,10 +25,5 @@ The result of this protocol is a ``CSV`` file in the protocol folder. It has no 
 
 |
 
-Test
-----------------------------------------
-This protocol has an integrated test that can be run using the following command:
-
-.. code-block::
-
-   scipion3 tests pwchem.tests.tests_general.TestExportcsv
+.. |testCommand| replace:: pwchem.tests.tests_general.TestExportcsv
+.. include:: ../../../../templates/plugins/protocol-test.rst

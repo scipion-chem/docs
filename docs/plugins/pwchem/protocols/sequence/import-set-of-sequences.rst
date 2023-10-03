@@ -30,13 +30,5 @@ The result of this protocol is a ``SetOfSequences`` with the specified sequences
 
 |
 
-Test
-----------------------------------------
-This protocol has an integrated test that can be run using the following command:
-
-.. code-block::
-
-   scipion3 tests pwchem.tests.tests_imports.TestImportSequences
-
 .. |testCommand| replace:: pwchem.tests.tests_imports.TestImportSequences
 .. include:: ../../../../templates/plugins/protocol-test.rst

@@ -22,10 +22,5 @@ All parameters include a help button that gives further information for each of 
 The result of this protocol is a ``SetOfSmallMolecules`` where those molecules in the input that did not match the subgroup
 filters have been removed.
 
-Test
-----------------------------------------
-This protocol has an integrated test that can be run using the following command:
-
-.. code-block::
-
-   scipion3 tests pwchem.tests.tests_databases.TestZINCFilter
+.. |testCommand| replace:: pwchem.tests.tests_databases.TestZINCFilter
+.. include:: ../../../../templates/plugins/protocol-test.rst

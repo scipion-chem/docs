@@ -45,10 +45,5 @@ After:
 
 |
 
-Test
-----------------------------------------
-This protocol has an integrated test that can be run using the following command:
-
-.. code-block::
-
-   scipion3 tests pwchem.tests.tests_attributes.TestAddAttribute
+.. |testCommand| replace:: pwchem.tests.tests_attributes.TestAddAttribute
+.. include:: ../../../../templates/plugins/protocol-test.rst

@@ -19,10 +19,5 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a ``SetOfDatabaseIDs`` containing the databases that were defined in the input file.
 
-Test
-----------------------------------------
-This protocol has an integrated test that can be run using the following command:
-
-.. code-block::
-
-   scipion3 tests pwchem.tests.tests_databases.TestImportDBIDs
+.. |testCommand| replace:: pwchem.tests.tests_databases.TestImportDBIDs
+.. include:: ../../../../templates/plugins/protocol-test.rst

@@ -29,10 +29,5 @@ The result of this protocol is a ``SetOfSmallMolecules`` which includes the foun
 
 |
 
-Test
-----------------------------------------
-This protocol has an integrated test that can be run using the following command:
-
-.. code-block::
-
-   scipion3 tests pwchem.tests.tests_databases.TestIdentifyLigands
+.. |testCommand| replace:: pwchem.tests.tests_databases.TestIdentifyLigands
+.. include:: ../../../../templates/plugins/protocol-test.rst

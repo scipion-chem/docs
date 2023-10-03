@@ -32,10 +32,5 @@ All parameters include a help button that gives further information for each of 
 
 The result of this protocol is a ``SetOfSmallMolecules`` with the extracted ligands.
 
-Test
-----------------------------------------
-This protocol has an integrated test that can be run using the following command:
-
-.. code-block::
-
-   scipion3 tests pwchem.tests.tests_databases.TestFetchLigands
+.. |testCommand| replace:: pwchem.tests.tests_databases.TestFetchLigands
+.. include:: ../../../../templates/plugins/protocol-test.rst
