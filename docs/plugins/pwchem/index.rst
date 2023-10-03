@@ -94,37 +94,8 @@ Main group of protocols that incorporates most of the functionalities related to
 - `OpenBabel Prepare Small Molecules <protocols/virtual-drug-screening/openbabel-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `OpenBabel <https://github.com/openbabel/openbabel>`_.
 - `RDKit Prepare Small Molecules <protocols/virtual-drug-screening/rdkit-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `RDKIT <https://github.com/rdkit/rdkit>`_.
 - `Prepare Receptor <protocols/virtual-drug-screening/prepare-receptor>`_: Provides a simple ``AtomStruct`` preparation with `BioPython <https://biopython.org/>`_ where the user can choose different cleaning options like removing waters, heteroatoms, keep only specific chains...
-- `ADME Small Molecules filter <protocols/virtual-drug-screening/adme-small-molecules-filter>`_: uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the ADME (Absortion, Distribution, Metabolism, Excretion) filter to each of the small molecules stored.
-
-**D.8) PAINS Small Molecules filter**
-==========================================
-
-This protocol uses RDKit to filter a SetOfSmallMolecules by applying the PAINS (Pan-assay interference compounds)
-filter (https://en.wikipedia.org/wiki/Pan-assay_interference_compounds ) to each of the small molecules stored.
-The user can choose whether to use RDKit default PAINS substructures or to provide a custom PAINS file where each line
-must contain a first column with a SMARTS string and a second column with a short description.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formD8|
-
-.. |formD8| image:: ../../../_static/images/pwchem/pwchem_formD8.png
-   :alt: pwchem formD8
-   :height: 400
-
-|
-
-The result of this protocol is a SetOfSmallMolecules containing only those small molecules that pass the filter.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_ligand_filtering.TestPAINSFiltering
-
-|
-
+- `ADME Small Molecules filter <protocols/virtual-drug-screening/adme-small-molecules-filter>`_: uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `ADME (Absortion, Distribution, Metabolism, Excretion) filter <https://en.wikipedia.org/wiki/ADME>`_ to each of the small molecules stored.
+- `PAINS Small Molecules filter <protocols/virtual-drug-screening/pains-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `PAINS (Pan-assay interference compounds) filter <https://en.wikipedia.org/wiki/Pan-assay_interference_compounds>`_ to each of the small molecules stored.
 
 **D.9) Shape Small Molecules filter**
 ==========================================
