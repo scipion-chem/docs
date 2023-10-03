@@ -80,74 +80,11 @@ It incorporates protocols for managing biological sequences, including tools for
 - `Generate variant sequences <protocols/sequence/generate-variant-sequences>`_: Generates a set of sequences from a list of specified variants from a ``SequenceVariants`` object.
 - `Import Sequence ROIs <protocols/sequence/import-sequence-rois>`_: Imports a ``SetOfSequenceROIs``, meaning a set of Regions Of Interest (ROI) in a sequence.
 - `Define Sequence ROIs <protocols/sequence/define-sequence-rois>`_: Defines a ``SetOfSequenceROIs`` from a ``Sequence`` or ``SequenceVariants`` object.
+- `Operate Sequence ROIs <protocols/sequence/operate-sequence-rois>`_: Allows the user to operate sets of sequence ROIs, similarly to the operate sets.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.8) Define Sequence ROIs**
-=====================================
-
-This protocol defines a SetOfSequenceROIs from a Sequence or SequenceVariants object. The user can define a list of
-Regions Of Interest from sequence segments, variants or mutations in the input.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC8|
-
-.. |formC8| image:: ../../../_static/images/pwchem/pwchem_formC8.png
-   :alt: pwchem formC8
-   :height: 500
-
-|
-
-The result of this protocol is a SetOfSequenceROIs with the ROIs defined in the input.
-
-|
-
-|outC8|
-
-.. |outC8| image:: ../../../_static/images/pwchem/pwchem_outC8.png
-   :alt: pwchem outC8
-   :height: 200
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_sequences.TestDefineSequenceROIs
-
-|
-
-
-**C.9) Operate Sequence ROIs**
-=====================================
-
-This protocol allows the user to operate sets of sequence ROIs, similarly to the operate sets. In this protocol however,
-the overlap of the ROIs is the attribute taken into account for the set operations.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC9|
-
-.. |formC9| image:: ../../../_static/images/pwchem/pwchem_formC9.png
-   :alt: pwchem formC9
-   :height: 450
-
-|
-
-The result of this protocol is a SetOfSequenceROIs with the operated regions.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_sequences.TestOperateSeqROIs
-
-|
-
 
 **C.10) Extract Sequence ROIs**
 =====================================
