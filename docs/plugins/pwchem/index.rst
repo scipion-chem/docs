@@ -65,6 +65,7 @@ It includes protocols related to the main databases for protein sequences, struc
 - `Import database IDs <protocols/database/import-database-ids>`_: Imports a set of database IDs from a file and stores them as a Scipion object.
 - `Identify ligands <protocols/database/identify-ligands>`_: Tries to identify a set of Small Molecules based on the `SMILES <https://es.wikipedia.org/wiki/SMILES>`_ string for each of them.
 - `UniProt CrossRef <protocols/database/uniprot-crossref>`_: Searches in the `UniProt <https://www.uniprot.org/>`_ cross reference database for related entries of a set of UniProt IDs for specified databases.
+- `ZINC filter <protocols/general/zinc-filter>`_: Filters a ``SetOfSmallMolecules`` by the presence/absence of each of the molecules in the specified ZINC subset(s).
 
 **C) Sequence protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,37 +75,6 @@ It incorporates protocols for managing biological sequences, including tools for
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**B.4) ZINC filter**
-============================
-
-This protocol filters a SetOfSmallMolecules by the presence/absence of each of the molecules in the specified ZINC
-subset(s). To do so, the molecules must have a ZINC ID, either in the MolName or in a ZINC_ID attribute
-(easy to get using the Identify ligands protocol).
-You can find the different defined ZINC subsets in https://zinc15.docking.org/substances/subsets/ .
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formB4|
-
-.. |formB4| image:: ../../../_static/images/pwchem/pwchem_formB4.png
-   :alt: pwchem formB4
-   :height: 500
-
-|
-
-The result of this protocol is a SetOfSmallMolecules where those molecules in the input that did not match the subgroup
-filters have been removed.
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_databases.TestZINCFilter
-
-|
-
 
 **B.5) Fetch ligands**
 ============================
