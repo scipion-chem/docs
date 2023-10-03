@@ -74,47 +74,11 @@ It incorporates protocols for managing biological sequences, including tools for
 
 - `Import set of sequences <protocols/sequence/import-set-of-sequences>`_: Imports a set of sequences from one or several fasta files or from a database like `UniProt <https://www.uniprot.org/>`_ using a ``SetOfDatabaseIDs`` as input.
 - `Pairwise Alignment <protocols/sequence/pairwise-alignment>`_: Performs a pairwise alignment using clustal omega over two input sequences.
+- `Multiple Sequence Alignment <protocols/sequence/multiple-sequence-alignment>`_: Performs a multiple sequence alignment (MSA) over a set of input sequences.
 
 **D) Virtual Drug Screening protocols**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Main group of protocols that incorporates most of the functionalities related to the VDS workflow.
-
-**C.3) Multiple Sequence Alignment**
-=====================================
-
-This protocol perform a multiple sequence alignment (MSA) over a set of input sequences.
-The alignment can be performed using either Clustal Omega, Muscle or Mafft, which are automatically installed in the
-Scipion-chem plugin. Additional parameters for each of the programs can be manually input.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formC3|
-
-.. |formC3| image:: ../../../_static/images/pwchem/pwchem_formC3.png
-   :alt: pwchem formC3
-   :height: 500
-
-|
-
-The result of this protocol is a SetOfSequences with the two input sequences aligned.
-
-|
-
-|outC3|
-
-.. |outC3| image:: ../../../_static/images/pwchem/pwchem_outC3.png
-   :alt: pwchem outC3
-   :height: 150
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_sequences.TestMultipleAlignSequences
-
-|
-
 
 **C.4) Define set of sequences**
 =====================================
