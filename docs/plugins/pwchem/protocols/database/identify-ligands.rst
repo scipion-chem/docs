@@ -14,7 +14,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/database/identify-ligands/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/database/identify-ligands/form.png
    :alt: Identify ligands form
    :height: 400
    :align: center
@@ -23,7 +23,7 @@ Input
 
 The result of this protocol is a ``SetOfSmallMolecules`` which includes the found identifiers for each molecule.
 
-.. image:: ../../../../../_static/images/pwchem/database/identify-ligands/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/database/identify-ligands/output.png
    :alt: Identify ligands output
    :align: center
 

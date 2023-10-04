@@ -11,7 +11,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/define-set-of-sequences/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/define-set-of-sequences/form.png
    :alt: Define set of sequences form
    :height: 400
    :align: center

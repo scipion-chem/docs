@@ -14,14 +14,14 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/general/convert-structure/form_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/convert-structure/form_1.png
    :alt: Convert structure form 1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/general/convert-structure/form_2.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/convert-structure/form_2.png
    :alt: Convert structure form 2
    :height: 400
    :align: center

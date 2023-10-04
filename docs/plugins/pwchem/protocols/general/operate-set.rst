@@ -22,14 +22,14 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/general/operate-set/form_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/operate-set/form_1.png
    :alt: Operate set form 1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/general/operate-set/form_2.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/operate-set/form_2.png
    :alt: Operate set form 2
    :height: 400
    :align: center

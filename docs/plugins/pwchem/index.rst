@@ -1,6 +1,6 @@
 .. _docs-chem:
 
-.. figure:: ../../../_static/images/pwchem/pwchem_logo.png
+.. figure:: ../../../_static/images/plugins/pwchem/pwchem_logo.png
    :alt: pwchem logo
 
 ###############################################################
@@ -116,11 +116,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD11_1| |formD11_2|
 
-.. |formD11_1| image:: ../../../_static/images/pwchem/pwchem_formD11_1.png
+.. |formD11_1| image:: ../../../_static/images/plugins/pwchem/pwchem_formD11_1.png
    :alt: pwchem formD11_1
    :height: 375
 
-.. |formD11_2| image:: ../../../_static/images/pwchem/pwchem_formD11_2.png
+.. |formD11_2| image:: ../../../_static/images/plugins/pwchem/pwchem_formD11_2.png
    :alt: pwchem formD11_2
    :height: 375
 
@@ -133,7 +133,7 @@ with the specified clustering parameters.
 
 |outD11|
 
-.. |outD11| image:: ../../../_static/images/pwchem/pwchem_outD11.png
+.. |outD11| image:: ../../../_static/images/plugins/pwchem/pwchem_outD11.png
    :alt: pwchem outD11
    :height: 400
 
@@ -158,7 +158,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD12|
 
-.. |formD12| image:: ../../../_static/images/pwchem/pwchem_formD12.png
+.. |formD12| image:: ../../../_static/images/plugins/pwchem/pwchem_formD12.png
    :alt: pwchem formD12
    :height: 400
 
@@ -170,7 +170,7 @@ The result of this protocol is a PharmacophoreChem object with the modified feat
 
 |outD12|
 
-.. |outD12| image:: ../../../_static/images/pwchem/pwchem_outD12.png
+.. |outD12| image:: ../../../_static/images/plugins/pwchem/pwchem_outD12.png
    :alt: pwchem outD12
    :height: 400
 
@@ -195,7 +195,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD13|
 
-.. |formD13| image:: ../../../_static/images/pwchem/pwchem_formD13.png
+.. |formD13| image:: ../../../_static/images/plugins/pwchem/pwchem_formD13.png
    :alt: pwchem formD13
    :height: 400
 
@@ -209,7 +209,7 @@ In Analyze results, the user can visualize how the molecules and the pharmacopho
 
 |outD13|
 
-.. |outD13| image:: ../../../_static/images/pwchem/pwchem_outD13.png
+.. |outD13| image:: ../../../_static/images/plugins/pwchem/pwchem_outD13.png
    :alt: pwchem outD13
    :height: 400
 
@@ -242,7 +242,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD14|
 
-.. |formD14| image:: ../../../_static/images/pwchem/pwchem_formD14.png
+.. |formD14| image:: ../../../_static/images/plugins/pwchem/pwchem_formD14.png
    :alt: pwchem formD14
    :height: 600
 
@@ -254,7 +254,7 @@ The result of this protocol is a SetOfStructROIs containing those regions listed
 
 |outD14|
 
-.. |outD14| image:: ../../../_static/images/pwchem/pwchem_outD14.png
+.. |outD14| image:: ../../../_static/images/plugins/pwchem/pwchem_outD14.png
    :alt: pwchem outD14
    :height: 400
 
@@ -284,7 +284,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD15|
 
-.. |formD15| image:: ../../../_static/images/pwchem/pwchem_formD15.png
+.. |formD15| image:: ../../../_static/images/plugins/pwchem/pwchem_formD15.png
    :alt: pwchem formD15
    :height: 400
 
@@ -313,7 +313,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD16|
 
-.. |formD16| image:: ../../../_static/images/pwchem/pwchem_formD16.png
+.. |formD16| image:: ../../../_static/images/plugins/pwchem/pwchem_formD16.png
    :alt: pwchem formD16
    :height: 500
 
@@ -341,11 +341,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD17_1| |formD17_2|
 
-.. |formD17_1| image:: ../../../_static/images/pwchem/pwchem_formD17_1.png
+.. |formD17_1| image:: ../../../_static/images/plugins/pwchem/pwchem_formD17_1.png
    :alt: pwchem formD17_1
    :height: 340
 
-.. |formD17_2| image:: ../../../_static/images/pwchem/pwchem_formD17_2.png
+.. |formD17_2| image:: ../../../_static/images/plugins/pwchem/pwchem_formD17_2.png
    :alt: pwchem formD17_2
    :height: 330
 
@@ -381,7 +381,7 @@ All parameters include a help button that gives further information for each of 
 
 |formD18_1|
 
-.. |formD18_1| image:: ../../../_static/images/pwchem/pwchem_formD18_1.png
+.. |formD18_1| image:: ../../../_static/images/plugins/pwchem/pwchem_formD18_1.png
    :alt: pwchem formD18_1
    :height: 600
 
@@ -408,11 +408,11 @@ All parameters include a help button that gives further information for each of 
 
 |formD19_1| |formD19_2|
 
-.. |formD19_1| image:: ../../../_static/images/pwchem/pwchem_formD19_1.png
+.. |formD19_1| image:: ../../../_static/images/plugins/pwchem/pwchem_formD19_1.png
    :alt: pwchem formD19_1
    :height: 425
 
-.. |formD19_2| image:: ../../../_static/images/pwchem/pwchem_formD19_2.png
+.. |formD19_2| image:: ../../../_static/images/plugins/pwchem/pwchem_formD19_2.png
    :alt: pwchem formD19_2
    :height: 425
 
@@ -425,7 +425,7 @@ visualized in the Analyzed results.
 
 |outD19_1|
 
-.. |outD19_1| image:: ../../../_static/images/pwchem/pwchem_outD19_1.png
+.. |outD19_1| image:: ../../../_static/images/plugins/pwchem/pwchem_outD19_1.png
    :alt: pwchem outD19_1
    :height: 500
 
@@ -438,7 +438,7 @@ threshold. The user can preview the SASA values in the protocol to define the th
 
 |outD19_2|
 
-.. |outD19_2| image:: ../../../_static/images/pwchem/pwchem_outD19_2.png
+.. |outD19_2| image:: ../../../_static/images/plugins/pwchem/pwchem_outD19_2.png
    :alt: pwchem outD19_2
    :height: 200
 

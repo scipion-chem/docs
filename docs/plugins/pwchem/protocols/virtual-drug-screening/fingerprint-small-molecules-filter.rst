@@ -13,7 +13,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/fingerprint-small-molecules-filter/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/fingerprint-small-molecules-filter/form.png
    :alt: FingerPrint Small Molecules filter form
    :height: 400
    :align: center

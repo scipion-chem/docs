@@ -18,14 +18,14 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/database/fetch-ligands/form_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/database/fetch-ligands/form_1.png
    :alt: Fetch ligands form 1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/database/fetch-ligands/form_2.png
+.. image:: ../../../../../_static/images/plugins/pwchem/database/fetch-ligands/form_2.png
    :alt: Fetch ligands form 2
    :height: 400
    :align: center

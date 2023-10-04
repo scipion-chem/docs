@@ -12,7 +12,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/map-sequence-rois/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/map-sequence-rois/form.png
    :alt: Map Sequence ROIs form
    :height: 400
    :align: center
@@ -21,7 +21,7 @@ Input
 
 The result of this protocol is a ``SetOfStructROIs`` with the mapped sequence ROIs over the input structure.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/map-sequence-rois/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/map-sequence-rois/output.png
    :alt: Map Sequence ROIs output
    :height: 600
    :align: center

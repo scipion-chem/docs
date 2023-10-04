@@ -12,7 +12,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/pains-small-molecules-filter/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/pains-small-molecules-filter/form.png
    :alt: PAINS Small Molecules filter form
    :height: 400
    :align: center

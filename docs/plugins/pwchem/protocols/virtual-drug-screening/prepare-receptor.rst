@@ -11,7 +11,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/prepare-receptor/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/prepare-receptor/form.png
    :alt: Prepare Receptor form
    :height: 400
    :align: center
@@ -20,7 +20,7 @@ Input
 
 The result of this protocol is an ``AtomStruct`` cleaned with the form specifications.
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/prepare-receptor/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/prepare-receptor/output.png
    :alt: Prepare Receptor output
    :align: center
 

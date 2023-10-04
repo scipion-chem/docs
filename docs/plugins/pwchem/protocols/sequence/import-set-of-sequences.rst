@@ -10,14 +10,14 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/form_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/import-set-of-sequences/form_1.png
    :alt: Import set of sequences form 1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/form_2.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/import-set-of-sequences/form_2.png
    :alt: Import SetOfSequences form 2
    :height: 400
    :align: center
@@ -26,7 +26,7 @@ Input
 
 The result of this protocol is a ``SetOfSequences`` with the specified sequences.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/import-set-of-sequences/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/import-set-of-sequences/output.png
    :alt: Import SetOfSequences output
    :align: center
 

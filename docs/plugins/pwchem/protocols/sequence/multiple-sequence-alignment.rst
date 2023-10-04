@@ -12,7 +12,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/multiple-sequence-alignment/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/multiple-sequence-alignment/form.png
    :alt: Multiple Sequence Alignment form
    :height: 400
    :align: center
@@ -21,7 +21,7 @@ Input
 
 The result of this protocol is a ``SetOfSequences`` with the two input sequences aligned.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/multiple-sequence-alignment/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/multiple-sequence-alignment/output.png
    :alt: Multiple Sequence Alignment output
    :align: center
 

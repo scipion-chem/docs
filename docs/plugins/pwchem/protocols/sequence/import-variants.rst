@@ -10,14 +10,14 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/import-variants/form_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/import-variants/form_1.png
    :alt: Import variants form 1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/sequence/import-variants/form_2.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/import-variants/form_2.png
    :alt: Import variants form 2
    :height: 400
    :align: center
@@ -26,7 +26,7 @@ Input
 
 The result of this protocol is a ``SequenceVariant`` object containing the original sequence with the defined variants.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/import-variants/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/import-variants/output.png
    :alt: Import variants output
    :height: 400
    :align: center

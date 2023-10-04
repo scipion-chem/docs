@@ -10,7 +10,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/general/export-csv/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/export-csv/form.png
    :alt: Export CSV form
    :height: 400
    :align: center
@@ -19,7 +19,7 @@ Input
 
 The result of this protocol is a ``CSV`` file in the protocol folder. It has no Scipion output object.
 
-.. image:: ../../../../../_static/images/pwchem/general/export-csv/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/export-csv/output.png
    :alt: Export CSV output
    :align: center
 

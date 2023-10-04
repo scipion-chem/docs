@@ -11,7 +11,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/pairwise-alignment/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/pairwise-alignment/form.png
    :alt: Pairwise Alignment form
    :height: 400
    :align: center
@@ -20,7 +20,7 @@ Input
 
 The result of this protocol is a ``SetOfSequences`` with the two input sequences aligned.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/pairwise-alignment/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/pairwise-alignment/output.png
    :alt: Pairwise Alignment output
    :align: center
 

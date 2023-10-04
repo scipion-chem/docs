@@ -10,7 +10,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/openbabel-prepare-small-molecules/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/openbabel-prepare-small-molecules/form.png
    :alt: OpenBabel Prepare Small Molecules form
    :height: 400
    :align: center
@@ -20,7 +20,7 @@ Input
 The result of this protocol is a ``SetOfSmallMolecules`` prepared by OpenBabel. 
 If the option for generating conformers was chosen, different conformations for each input molecule will be accessible.
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/openbabel-prepare-small-molecules/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/openbabel-prepare-small-molecules/output.png
    :alt: OpenBabel Prepare Small Molecules output
    :align: center
 

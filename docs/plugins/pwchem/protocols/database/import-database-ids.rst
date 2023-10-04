@@ -10,7 +10,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/database/import-database-ids/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/database/import-database-ids/form.png
    :alt: Import database IDs form
    :height: 400
    :align: center

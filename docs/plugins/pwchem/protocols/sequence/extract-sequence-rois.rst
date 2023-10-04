@@ -14,7 +14,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/extract-sequence-rois/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/extract-sequence-rois/form.png
    :alt: Extract Sequence ROIs form
    :height: 400
    :align: center
@@ -28,7 +28,7 @@ The result of this protocol is a ``SetOfSequenceROIs`` with the regions whose th
 threshold set. If the input structure is provided, an ``AtomStruct`` object is also output. Using analyze results,
 the user can visualize the conservation values over the structure.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/extract-sequence-rois/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/extract-sequence-rois/output.png
    :alt: Extract Sequence ROIs output
    :align: center
 

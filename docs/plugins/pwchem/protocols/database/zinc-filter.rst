@@ -12,7 +12,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/database/zinc-filter/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/database/zinc-filter/form.png
    :alt: ZINC filter form
    :height: 400
    :align: center

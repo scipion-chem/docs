@@ -10,7 +10,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/define-sequence-rois/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/define-sequence-rois/form.png
    :alt: Import set of sequences form
    :height: 400
    :align: center
@@ -19,7 +19,7 @@ Input
 
 The result of this protocol is a ``SetOfSequenceROIs`` with the ROIs defined in the input.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/define-sequence-rois/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/define-sequence-rois/output.png
    :alt: Import set of sequences output
    :align: center
 

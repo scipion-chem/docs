@@ -11,14 +11,14 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/import-small-molecules/form_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/import-small-molecules/form_1.png
    :alt: Import Small Molecules form 1
    :height: 400
    :align: center
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/import-small-molecules/form_2.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/import-small-molecules/form_2.png
    :alt: Import Small Molecules form 2
    :height: 400
    :align: center
@@ -28,7 +28,7 @@ Input
 The result of this protocol is a ``SetOfSmallMolecules``, in 2D or 3D conformations depending on the source and whether
 the user specified 3D optimization.
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/import-small-molecules/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/import-small-molecules/output.png
    :alt: Import Small Molecules output
    :align: center
 

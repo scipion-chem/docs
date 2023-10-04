@@ -9,7 +9,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/sequence/generate-variant-sequences/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/generate-variant-sequences/form.png
    :alt: Generate variant sequences form
    :height: 400
    :align: center
@@ -18,7 +18,7 @@ Input
 
 The result of this protocol is a ``SetOfSequences`` which contains all the defined variants or single mutations from the input.
 
-.. image:: ../../../../../_static/images/pwchem/sequence/generate-variant-sequences/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/sequence/generate-variant-sequences/output.png
    :alt: Generate variant sequences output
    :align: center
 

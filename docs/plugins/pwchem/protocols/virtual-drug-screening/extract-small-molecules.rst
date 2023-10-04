@@ -9,7 +9,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/extract-small-molecules/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/extract-small-molecules/form.png
    :alt: Extract Small Molecules form
    :height: 400
    :align: center
@@ -18,7 +18,7 @@ Input
 
 The result of this protocol is a ``SetOfSmallMolecules``, docked to the original protein structure, which can be cleaned.
 
-.. image:: ../../../../../_static/images/pwchem/virtual-drug-screening/extract-small-molecules/output.png
+.. image:: ../../../../../_static/images/plugins/pwchem/virtual-drug-screening/extract-small-molecules/output.png
    :alt: Extract Small Molecules output
    :align: center
 

@@ -11,7 +11,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/database/uniprot-crossref/form.png
+.. image:: ../../../../../_static/images/plugins/pwchem/database/uniprot-crossref/form.png
    :alt: UniProt CrossRef form
    :height: 400
    :align: center

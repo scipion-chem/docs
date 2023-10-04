@@ -11,7 +11,7 @@ Input
 ----------------------------------------
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/pwchem/general/add-attribute/form_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/add-attribute/form_1.png
    :alt: pwchem formA3_1
    :alt: Add attribute form 1
    :height: 400
@@ -19,7 +19,7 @@ Input
 
 |
 
-.. image:: ../../../../../_static/images/pwchem/general/add-attribute/form_2.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/add-attribute/form_2.png
    :alt: Add attribute form 2
    :height: 400
    :align: center
@@ -31,7 +31,7 @@ the desired format.
 
 Before:
 
-.. image:: ../../../../../_static/images/pwchem/general/add-attribute/output_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/add-attribute/output_1.png
    :alt: Add attribute output 1
    :align: center
 
@@ -39,7 +39,7 @@ Before:
 
 After:
 
-.. image:: ../../../../../_static/images/pwchem/general/add-attribute/output_1.png
+.. image:: ../../../../../_static/images/plugins/pwchem/general/add-attribute/output_1.png
    :alt: Add attribute output 2
    :align: center
 
