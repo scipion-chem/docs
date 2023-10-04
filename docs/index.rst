@@ -233,7 +233,14 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     plugins/schrodinger/index
     plugins/modeller/index
     plugins/blast/index
-  
+
+  .. toctree::
+    :maxdepth: 1
+    :hidden:
+    :caption: Publications
+
+    publications/scipion-chem_vds/index
+
   .. toctree::
     :maxdepth: 1
     :hidden:
