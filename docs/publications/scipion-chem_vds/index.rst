@@ -25,7 +25,7 @@ These subworkflows are:
 
 Principal workflow that includes protocols following the "Virtual Drug Screening workflow" section:
 
-.. figure:: images/subworkflow1_4erf.png
+.. image:: ../../_static/images/publications/scipion-chem_vds/subworkflow1_4erf.png
    :alt: vds workflow 4erf
 
 1) **Molecules import**
@@ -73,7 +73,7 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes several examples on how to determine the structural ROIs discussed in the paper.
 
-.. figure:: images/subworkflow2_4erf.png
+.. image:: ../../_static/images/publications/scipion-chem_vds/subworkflow2_4erf.png
    :alt: rois workflow 4erf
 
 1) **Manual definition**
@@ -103,7 +103,7 @@ This Scipion project also includes several examples on how to determine the stru
 As described in the paper, Scipion-chem includes some features to perform pharmacophore-based virtual screening. In this
 project, an example is shown.
 
-.. figure:: images/subworkflow3_4erf.png
+.. image:: ../../_static/images/publications/scipion-chem_vds/subworkflow3_4erf.png
    :alt: pharmacophore workflow 4erf
 
 To do so, the actual ligand of 4ERF is first extracted and a pharmacophore is generated from it. This resulting
@@ -121,7 +121,7 @@ prepared with OpenBabel would not be parsed properly with RDKit and the protocol
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this demo project also includes several examples of molecular dynamics simulations.
 
-.. figure:: images/subworkflow4_4erf.png
+.. image:: ../../_static/images/publications/scipion-chem_vds/subworkflow4_4erf.png
    :alt: md workflow 4erf
 
 1) **On a docked molecule**
@@ -178,7 +178,7 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 7) **Filter and consensus**: finally, the rescored poses can be combined, ranked and the consensus protocol can be applied to cluster and extract the most promising docking positions. The forms in Fig. \ref{fig:formCons} refer to the filter and consensus protocols and their parameters, which are described below. In our example, different combinations of ranking filters and consensus parameters were used in order to evaluate the results. Five different filtered subsets of our docked molecules containing the 1, 5, 10, 50 and 100 \% of the highest scored poses were generated to be used in the consensus protocol. Then, for each of these subsets, 2 consensus protocols were executed with a difference in a vital parameter. First, both consensus runs will produce the same pose clusters; however, one of the consensus executions will only consider sufficient those clusters containing at least one pose from each of the 3 docking software (N3) while the other, more permissive one, will consider sufficient those that contain at least poses from 2 docking software (N2). This way, we intend to generate sets enriched in active molecules and smaller than the original set of 2343 molecules.
    The results of this experiment are contained in Fig. \ref{fig:ConsRes}, where we can observe the enrichment of actives vs decoys of the output subsets and the total number of molecules kept for each of them. As we can infer from the graph, the filtering plus consensus steps generally produce a humble but consistent enrichment compared to the original set, as the percentage of actives (blue bars) is enhanced while the number of total molecules in the subset (red line) is reduced. The results seems to consistently give better performance to the N3 consensus, which suggest that our idea of a consensus is effective in docking, since it is based on giving more importance to those results predicted by more than one program. For our INHA example, from the original 2343 (43 actives to 2300 decoys) molecules (1.84\% of actives); we obtained sets of 358 (15 to 343) molecules (4.37\% of actives) for the 10\% filter + N3 consensus or 236 (9 to 227) molecules (3.96\% of actives) for the 5\% filter + N3 consensus. Therefore, we were able to reduce the total number of molecules to 10-15\% of the original while doubling the proportion of actives. However, the user must be careful not to set the threshold too low, because as we can see in 1\% filter examples, reducing too much the number of docking poses to feed the consensus can lead to losing all or most of the active molecules.
 
-.. figure:: images/consRes_inha.png
+.. image:: ../../_static/images/publications/scipion-chem_vds/consRes_inha.png
    :alt: consensus results inha
 
 \begin{figure}[]
@@ -206,7 +206,7 @@ each of the protocols belongs to. In this case, the subworkflows are:
 ~~~~~~~~~~~~~~~~~~~~~
 Principal workflow that includes protocols following the "Show case" section:
 
-.. figure:: images/subworkflow1_1a28.png
+.. image:: ../../_static/images/publications/scipion-chem_vds/subworkflow1_1a28.png
    :alt: vds workflow 1a28
 
 1) **Molecules import**
@@ -276,7 +276,7 @@ is used as a filter for out set of 4 small molecules. In this example, as the ph
 features are built using RDKit, we prepared the small molecules using RDKit too. The only small molecule fitted into
 the pharmacophore is the actual ligand, the progesterone, shown in the figure of the paper related to this section.
 
-.. figure:: images/subworkflow3_1a28.png
+.. image:: ../../_static/images/publications/scipion-chem_vds/subworkflow3_1a28.png
    :alt: pharmacophore workflow 1a28
 
 |
