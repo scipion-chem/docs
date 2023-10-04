@@ -3,7 +3,7 @@
 ###############################################################
 Shape Small Molecules filter
 ###############################################################
-This protocol uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` 
+This protocol uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` 
 by applying shape filters to each of the small molecules stored. 
 The user can choose whether to use RDKit or `Shape-it <https://github.com/rdkit/shape-it>`_ to calculate the molecules shape and different shape 
 distance options like `Tanimoto <https://en.wikipedia.org/wiki/Jaccard_index#Tanimoto_similarity_and_distance>`_

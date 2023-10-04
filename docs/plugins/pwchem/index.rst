@@ -25,7 +25,7 @@ the Scipion platform. It is designed to manage and make interoperable all the th
 To do so, scipion-chem automatically installs several util third-party software for the management and visualization of the
 tasks in a typical bioinformatics and VDS workflow. These include:
 
-  - `OpenBabel <https://github.com/openbabel/openbabel>`_ and `RDKIT <https://github.com/rdkit/rdkit>`_: the main small molecule handlers and converters.
+  - `OpenBabel <https://github.com/openbabel/openbabel>`_ and `RDKit <https://github.com/rdkit/rdkit>`_: the main small molecule handlers and converters.
   - `MGLTools <https://ccsb.scripps.edu/mgltools/>`_: utadditional utils for small molecules, docking, ... (includes `AutoDockTools <https://autodocksuite.scripps.edu/adt/>`_).
   - `JChemPaint <https://jchempaint.github.io/>`_: Java program to manually draw small molecules.
   - `Pymol <https://pymol.org/2/>`_: main viewer of Scipion Chem for small molecules and structures.
@@ -92,58 +92,13 @@ Main group of protocols that incorporates most of the functionalities related to
 - `Extract Small Molecules <protocols/virtual-drug-screening/extract-small-molecules>`_: Extract the small molecules present in a ``AtomStruct`` object.
 - `Draw Small Molecules <protocols/virtual-drug-screening/draw-small-molecules>`_: Runs `JChemPaint <https://jchempaint.github.io/>`_ java program and allows the user to draw their own molecules.
 - `OpenBabel Prepare Small Molecules <protocols/virtual-drug-screening/openbabel-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `OpenBabel <https://github.com/openbabel/openbabel>`_.
-- `RDKit Prepare Small Molecules <protocols/virtual-drug-screening/rdkit-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `RDKIT <https://github.com/rdkit/rdkit>`_.
+- `RDKit Prepare Small Molecules <protocols/virtual-drug-screening/rdkit-prepare-small-molecules>`_: Prepares a ``SetOfSmallMolecules`` using `RDKit <https://github.com/rdkit/rdkit>`_.
 - `Prepare Receptor <protocols/virtual-drug-screening/prepare-receptor>`_: Provides a simple ``AtomStruct`` preparation with `BioPython <https://biopython.org/>`_ where the user can choose different cleaning options like removing waters, heteroatoms, keep only specific chains...
-- `ADME Small Molecules filter <protocols/virtual-drug-screening/adme-small-molecules-filter>`_: uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `ADME (Absortion, Distribution, Metabolism, Excretion) filter <https://en.wikipedia.org/wiki/ADME>`_ to each of the small molecules stored.
-- `PAINS Small Molecules filter <protocols/virtual-drug-screening/pains-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `PAINS (Pan-assay interference compounds) filter <https://en.wikipedia.org/wiki/Pan-assay_interference_compounds>`_ to each of the small molecules stored.
-- `Shape Small Molecules filter <protocols/virtual-drug-screening/shape-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying shape filters to each of the small molecules stored.
-- `FingerPrint Small Molecules filter <protocols/virtual-drug-screening/fingerprint-small-molecules-filter>`_: Uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying fingerprint filters to each of the small molecules stored.
-
-**D.11) Pharmacophore generation**
-=============================================
-
-This protocol generate a Pharmacophore object that can be parse by RDKit from a SetOfSmallMolecules. If the input
-molecules are docked to a structure, the output pharmacophore keeps that structure too. The different features that
-can be captured by the pharmacophore are defined in the BaseFeatures.def file of RDKit. Scipion-chem uses the
-families of those features as own features (Donor, Acceptor, Hydrophobe, Aromatic...).
-
-Different cluster parameters can be chosen to generate the pharmacophore, they control the clustering method and how
-conserved the feature must be among the docked small molecules.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formD11_1| |formD11_2|
-
-.. |formD11_1| image:: ../../../_static/images/plugins/pwchem/pwchem_formD11_1.png
-   :alt: pwchem formD11_1
-   :height: 375
-
-.. |formD11_2| image:: ../../../_static/images/plugins/pwchem/pwchem_formD11_2.png
-   :alt: pwchem formD11_2
-   :height: 375
-
-|
-
-The result of this protocol is a PharmacophoreChem object containing the extracted features from the set of small molecules
-with the specified clustering parameters.
-
-|
-
-|outD11|
-
-.. |outD11| image:: ../../../_static/images/plugins/pwchem/pwchem_outD11.png
-   :alt: pwchem outD11
-   :height: 400
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmGeneration
-
-|
-
+- `ADME Small Molecules filter <protocols/virtual-drug-screening/adme-small-molecules-filter>`_: uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `ADME (Absortion, Distribution, Metabolism, Excretion) filter <https://en.wikipedia.org/wiki/ADME>`_ to each of the small molecules stored.
+- `PAINS Small Molecules filter <protocols/virtual-drug-screening/pains-small-molecules-filter>`_: Uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the `PAINS (Pan-assay interference compounds) filter <https://en.wikipedia.org/wiki/Pan-assay_interference_compounds>`_ to each of the small molecules stored.
+- `Shape Small Molecules filter <protocols/virtual-drug-screening/shape-small-molecules-filter>`_: Uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying shape filters to each of the small molecules stored.
+- `FingerPrint Small Molecules filter <protocols/virtual-drug-screening/fingerprint-small-molecules-filter>`_: Uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying fingerprint filters to each of the small molecules stored.
+- `Pharmacophore generation <protocols/virtual-drug-screening/pharmacophore-generation>`_: Generate a ``Pharmacophore`` object that can be parse by `RDKit <https://github.com/rdkit/rdkit>`_ from a ``SetOfSmallMolecules``.
 
 **D.12) Pharmacophore modification**
 =============================================

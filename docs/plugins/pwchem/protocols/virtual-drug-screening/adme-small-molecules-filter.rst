@@ -3,7 +3,7 @@
 ###############################################################
 ADME Small Molecules filter
 ###############################################################
-This protocol uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the ADME (Absortion, Distribution,
+This protocol uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the ADME (Absortion, Distribution,
 Metabolism, Excretion) filter to each of the small molecules stored. The user can choose whether to use the 
 `Lipinski's rule of five <https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five>`_ or the 
 `Rule of three <https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five#:~:text=A%20rule%20of%20three%20compliant,than%203%20hydrogen%20bond%20donors>`_.

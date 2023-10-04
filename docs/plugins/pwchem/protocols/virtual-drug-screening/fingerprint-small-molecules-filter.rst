@@ -3,7 +3,7 @@
 ###############################################################
 FingerPrint Small Molecules filter
 ###############################################################
-This protocol uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` 
+This protocol uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` 
 by applying fingerprint filters to each of the small molecules stored. 
 The user can choose whether to use `Morgan or MACCS fingerprints <https://www.rdkit.org/UGM/2012/Landrum_RDKit_UGM.Fingerprints.Final.pptx.pdf>`_ 
 and whether to use `Tanimoto <https://en.wikipedia.org/wiki/Jaccard_index#Tanimoto_similarity_and_distance>`_ or 

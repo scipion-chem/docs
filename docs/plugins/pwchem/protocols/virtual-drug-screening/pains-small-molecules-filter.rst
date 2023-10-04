@@ -3,7 +3,7 @@
 ###############################################################
 PAINS Small Molecules filter
 ###############################################################
-This protocol uses `RDKIT <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the 
+This protocol uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying the 
 `PAINS (Pan-assay interference compounds) filter <https://en.wikipedia.org/wiki/Pan-assay_interference_compounds>`_ to each of the small molecules stored.
 The user can choose whether to use RDKit default PAINS substructures or to provide a custom PAINS file where each line
 must contain a first column with a SMARTS string and a second column with a short description.

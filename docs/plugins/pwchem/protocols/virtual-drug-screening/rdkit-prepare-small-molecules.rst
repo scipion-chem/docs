@@ -3,7 +3,7 @@
 ###############################################################
 RDKit Prepare Small Molecules
 ###############################################################
-This protocol prepares a ``SetOfSmallMolecules`` using `RDKIT <https://github.com/rdkit/rdkit>`_. 
+This protocol prepares a ``SetOfSmallMolecules`` using `RDKit <https://github.com/rdkit/rdkit>`_. 
 The user can choose several methods for the charge assignment and conformer generation.
 
 Input

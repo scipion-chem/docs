@@ -41,7 +41,7 @@ are mainly oriented to virtual Drug Screening.
 scipion-chem automatically installs several util third-party software for the management and visualization of the
 tasks in a typical bioinformatics and VDS workflow. These include:
 
-  - `OpenBabel <https://github.com/openbabel/openbabel>`_ and `RDKIT <https://github.com/rdkit/rdkit>`_: the main small molecule handlers and converters.
+  - `OpenBabel <https://github.com/openbabel/openbabel>`_ and `RDKit <https://github.com/rdkit/rdkit>`_: the main small molecule handlers and converters.
   - `MGLTools <https://ccsb.scripps.edu/mgltools/>`_: utadditional utils for small molecules, docking, ... (includes `AutoDockTools <https://autodocksuite.scripps.edu/adt/>`_).
   - `JChemPaint <https://jchempaint.github.io/>`_: Java program to manually draw small molecules.
   - `Pymol <https://pymol.org/2/>`_: main viewer of Scipion Chem for small molecules and structures.
