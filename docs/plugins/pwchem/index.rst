@@ -100,45 +100,7 @@ Main group of protocols that incorporates most of the functionalities related to
 - `FingerPrint Small Molecules filter <protocols/virtual-drug-screening/fingerprint-small-molecules-filter>`_: Uses `RDKit <https://github.com/rdkit/rdkit>`_ to filter a ``SetOfSmallMolecules`` by applying fingerprint filters to each of the small molecules stored.
 - `Pharmacophore generation <protocols/virtual-drug-screening/pharmacophore-generation>`_: Generate a ``Pharmacophore`` object that can be parse by `RDKit <https://github.com/rdkit/rdkit>`_ from a ``SetOfSmallMolecules``.
 - `Pharmacophore modification <protocols/virtual-drug-screening/pharmacophore-modification>`_: Modifies the properties of the features inside a ``Pharmacophore`` object.
-
-**D.13) Pharmacophore filtering**
-=============================================
-
-This protocol uses RDKit for filtering a SetOfSmallMolecules by matching them with a Pharmacophore.
-For each molecule to pass, its own features must match those of the pharmacophore with a certain maximum deviation.
-Several different molecule-pharmacophore alignments can be tried to match them.
-
-All parameters include a help button that gives further information for each of them.
-
-|
-
-|formD13|
-
-.. |formD13| image:: ../../../_static/images/plugins/pwchem/pwchem_formD13.png
-   :alt: pwchem formD13
-   :height: 400
-
-|
-
-The result of this protocol is a SetOfSmallMolecules containing only those small molecules that match the Pharmacophore.
-In case the Pharmacophore included a receptor structure, the output molecules will be docked to it.
-In Analyze results, the user can visualize how the molecules and the pharmacophore match.
-
-|
-
-|outD13|
-
-.. |outD13| image:: ../../../_static/images/plugins/pwchem/pwchem_outD13.png
-   :alt: pwchem outD13
-   :height: 400
-
-|
-
-A test for this protocol can be run using::
-    scipion3 tests pwchem.tests.tests_pharmacophores.TestPharmFiltering
-
-|
-
+- `Pharmacophore filtering <protocols/virtual-drug-screening/pharmacophore-filtering>`_: Uses `RDKit <https://github.com/rdkit/rdkit>`_ for filtering a ``SetOfSmallMolecules`` by matching them with a ``Pharmacophore``.
 
 **D.14) Define Structural ROIs**
 =============================================
