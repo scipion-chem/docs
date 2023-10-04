@@ -102,7 +102,7 @@ Main group of protocols that incorporates most of the functionalities related to
 - `Pharmacophore modification <protocols/virtual-drug-screening/pharmacophore-modification>`_: Modifies the properties of the features inside a ``Pharmacophore`` object.
 - `Pharmacophore filtering <protocols/virtual-drug-screening/pharmacophore-filtering>`_: Uses `RDKit <https://github.com/rdkit/rdkit>`_ for filtering a ``SetOfSmallMolecules`` by matching them with a ``Pharmacophore``.
 
-**D.14) Define Structural ROIs**
+**D.14) Define Structural ROIs (test)**
 =============================================
 
 This protocol allows the user to manually define a SetOfStructROIs from AtomStruct objects. The user can define this
