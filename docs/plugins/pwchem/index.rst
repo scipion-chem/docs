@@ -54,7 +54,22 @@ C) Packages & enviroments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. include:: ../../templates/plugins/installation/packages-header.rst
 
-WIP TODO: Complete this info
+  - rdkit-``version``
+  - shape-it-``version``
+  - mgltools-``version``
+  - jchempaint-``version``
+  - pymol-``version``
+  - aliview-``version``
+  - vmd-``version``
+  - mdtraj-``version``
+
+Where ``version`` is the current version of that specific package.
+These environments are used by the code
+in the different plugins, and we strongly advise not to modify them manually in order to keep their functions.
+
+The code inside this plugin also includes the python objects, viewers, wizards and other
+utils for the rest of the scipion-chem plugins. We give these python objects special importance since the
+interoperability of scipion-chem relies on them.
 
 ==========================================
 Protocols
