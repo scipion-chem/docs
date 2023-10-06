@@ -1,6 +1,6 @@
 .. _docs-chem_introduction:
 
-.. figure:: ../_static/images/scipion-chem.gif
+.. figure:: ../_static/images/logo.png
    :alt: Scipion Chem logo
 
 Welcome to Scipion Chem's documentation!
