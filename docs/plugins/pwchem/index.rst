@@ -1,5 +1,8 @@
 .. _docs-chem:
 
+.. |organization| replace:: scipion-chem
+.. |repository| replace:: scipion-chem
+
 .. figure:: ../../../_static/images/logo.png
    :alt: pwchem logo
 
@@ -45,8 +48,6 @@ install and run this plugin.
 
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. |organization| replace:: scipion-chem
-.. |repository| replace:: scipion-chem
 .. include:: ../../templates/plugins/installation/installation-steps.rst
 
 .. include:: ../../templates/plugins/installation/only-devel.rst
