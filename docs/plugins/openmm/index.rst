@@ -1,5 +1,5 @@
 =======================
-OpenMM plugin
+scipion-chem-openmm
 =======================
 
 **Documentation under development, sorry for the inconvenience**
