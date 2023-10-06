@@ -43,8 +43,7 @@ Installation
 ==========================================
 A) Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You will need to use `Scipion3 <https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html>`_ to 
-install and run this plugin.
+.. include:: ../../templates/plugins/installation/scipion3-requirement.rst
 
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,6 +52,9 @@ B) Installation steps
 
 C) Packages & enviroments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. include:: ../../templates/plugins/installation/packages-header.rst
+
+WIP TODO: Complete this info
 
 ==========================================
 Protocols
