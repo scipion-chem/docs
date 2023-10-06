@@ -1,7 +1,7 @@
 .. _docs-sasa-calculation:
 
 ###############################################################
-RDKit Prepare Small Molecules
+SASA calculation
 ###############################################################
 This protocol uses `BioPython <https://biopython.org/>`_ to calculate the `SASA <https://en.wikipedia.org/wiki/Accessible_surface_area>`_
 (Solvent-Accessible Surface Area) for each residue in an ``AtomStruct``.
