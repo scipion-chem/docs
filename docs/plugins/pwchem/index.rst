@@ -45,7 +45,9 @@ install and run this plugin.
 
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Install the stable version:
+.. |organization| replace:: scipion-chem
+.. |repository| replace:: scipion-chem
+.. include:: ../../templates/plugins/installation-steps.rst
 
 
 C) Packages & enviroments
