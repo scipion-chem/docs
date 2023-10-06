@@ -49,7 +49,6 @@ install and run this plugin.
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. include:: ../../templates/plugins/installation/installation-steps.rst
-
 .. include:: ../../templates/plugins/installation/only-devel.rst
 
 C) Packages & enviroments
