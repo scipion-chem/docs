@@ -1,13 +1,10 @@
 - **Install the stable version**
 
-    Through the plugin manager GUI by launching Scipion and following **Others** >> **Plugin Manager**
-
-    or
+    Through the plugin manager GUI by launching Scipion and following **Others** >> **Plugin Manager**, or
 
 .. parsed-literal::
 
     scipion3 installp -p \ |repository|\ 
-
 
 - **Developer's version**
 

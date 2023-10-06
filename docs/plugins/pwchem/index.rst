@@ -47,8 +47,9 @@ B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. |organization| replace:: scipion-chem
 .. |repository| replace:: scipion-chem
-.. include:: ../../templates/plugins/installation-steps.rst
+.. include:: ../../templates/plugins/installation/installation-steps.rst
 
+.. include:: ../../templates/plugins/installation/only-devel.rst
 
 C) Packages & enviroments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
