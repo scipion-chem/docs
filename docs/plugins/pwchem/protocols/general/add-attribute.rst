@@ -12,7 +12,6 @@ Input
 .. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/plugins/pwchem/general/add-attribute/form_1.png
-   :alt: pwchem formA3_1
    :alt: Add attribute form 1
    :height: 400
    :align: center

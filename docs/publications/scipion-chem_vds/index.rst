@@ -351,7 +351,7 @@ represent the best experimental affinities, which are captured in the consensus.
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/activesExpAffinities_inConsensus_0.1N_2_fabp4.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/activesExpAffinities_InConsensus_0.1_n2.png
            :alt: consensus N2 0.1% experimental affinities
 
            Experimental values of actives against ODDTScore. Yellow stars specify actives found in the best consensus set.
