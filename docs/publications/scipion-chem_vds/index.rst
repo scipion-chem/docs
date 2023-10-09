@@ -212,12 +212,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_fabp4.png
            :height: 400
 
            Fig 2.5. P2Rank ROI prediction form
 
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_inha.png
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_fabp4.png
            :height: 400
 
            Fig 2.6. Filter top 2 predicted ROIs form
@@ -230,7 +230,7 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADME_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADME_fabp4.png
            :height: 400
 
            Fig 2.7. ADME ligand-based filter form
@@ -246,17 +246,17 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADGPU_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADGPU_fabp4.png
            :height: 500
 
            Fig 2.9. AutoDock-GPU docking form
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLeDock_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLeDock_fabp4.png
            :height: 400
 
            Fig 2.10. LeDock docking form
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formVina_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formVina_fabp4.png
            :height: 500
            :align: center
 
@@ -271,7 +271,7 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formRescore_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formRescore_fabp4.png
            :height: 450
 
 
@@ -288,10 +288,14 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     will consider sufficient those that contain at least poses from 2 docking software (N2). This way, we intend to generate sets 
     enriched in active molecules and smaller than the original set of 2343 molecules.
 
-|img_inha13|
+.. list-table:: 
 
-.. |img_inha13| image:: ../../../_static/images/publications/scipion-chem_vds/formConsensus_inha.png
-   :height: 600
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formScoreFilter_fabp4.png
+           :height: 450
+
+
+      - ..  figure:: ../../../_static/images/publications/scipion-chem_vds/formConsensus_fabp4.png
+           :height: 600
 
 |
 
