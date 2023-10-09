@@ -173,12 +173,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_fabp4.png
-           :height: 400
+           :height: 350
 
            Import receptor form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_fabp4.png
-           :height: 400
+           :height: 350
 
            Import active molecules form
 
@@ -194,12 +194,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_fabp4.png
-           :height: 450
+           :height: 400
 
            Receptor preparation form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_fabp4.png
-           :height: 450
+           :height: 400
 
            Ligands preparation form
 
@@ -213,12 +213,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_fabp4.png
-           :height: 400
+           :height: 350
 
            P2Rank ROI prediction form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_fabp4.png
-           :height: 400
+           :height: 350
 
            Filter top 2 predicted ROIs form
 
@@ -231,7 +231,7 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADME_fabp4.png
-           :height: 400
+           :height: 350
 
            ADME ligand-based filter form
 
@@ -247,17 +247,17 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADGPU_fabp4.png
-           :height: 500
+           :height: 450
 
            AutoDock-GPU docking form
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLeDock_fabp4.png
-           :height: 400
+           :height: 350
 
            LeDock docking form
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formVina_fabp4.png
-           :height: 500
+           :height: 450
 
            Vina docking form
 
@@ -271,7 +271,7 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formRescore_fabp4.png
-           :height: 450
+           :height: 400
 
            ODDT docking rescoring form
 
@@ -292,13 +292,13 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formScoreFilter_fabp4.png
-           :height: 450
+           :height: 400
 
            Top scoring filter form
 
 
       - ..  figure:: ../../../_static/images/publications/scipion-chem_vds/formConsensus_fabp4.png
-           :height: 550
+           :height: 500
 
            Consensus docking form
 
