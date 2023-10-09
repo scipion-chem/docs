@@ -172,12 +172,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_fabp4.png
            :height: 400
 
            Fig 2.1. Import receptor form
 
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_inha.png
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_fabp4.png
            :height: 400
 
            Fig 2.2. Import active molecules form
@@ -193,12 +193,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_fabp4.png
            :height: 450
 
            Fig 2.3. Receptor preparation form
 
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_inha.png
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_fabp4.png
            :height: 450
 
            Fig 2.4. Ligands preparation form
