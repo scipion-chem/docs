@@ -51,7 +51,7 @@ extensions = [
     'sphinxcontrib.bibtex',
     'sphinx_multiversion',
 ]
-bibtex_bibfiles = ['em.bib']
+bibtex_bibfiles = ['chem.bib']
 bibtex_reference_style = u'author_year'
 autosectionlabel_prefix_document = True
 
