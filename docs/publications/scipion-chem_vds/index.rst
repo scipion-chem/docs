@@ -173,14 +173,14 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_fabp4.png
-           :height: 400
+           :height: 325
 
-           Fig 2.1. Import receptor form
+           Import receptor form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_fabp4.png
-           :height: 400
+           :height: 325
 
-           Fig 2.2. Import active molecules form
+           Import active molecules form
 
 
 2) **Preparation**
@@ -194,14 +194,14 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_fabp4.png
-           :height: 450
+           :height: 375
 
-           Fig 2.3. Receptor preparation form
+           Receptor preparation form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_fabp4.png
-           :height: 450
+           :height: 375
 
-           Fig 2.4. Ligands preparation form
+           Ligands preparation form
 
 
 3) **ROI definition**
@@ -212,15 +212,15 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_inha.png
-           :height: 400
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_fabp4.png
+           :height: 325
 
-           Fig 2.5. P2Rank ROI prediction form
+           P2Rank ROI prediction form
 
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_inha.png
-           :height: 400
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_fabp4.png
+           :height: 325
 
-           Fig 2.6. Filter top 2 predicted ROIs form
+           Filter top 2 predicted ROIs form
 
 
 4) **Ligand-based filtering**
@@ -230,10 +230,10 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADME_inha.png
-           :height: 400
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADME_fabp4.png
+           :height: 350
 
-           Fig 2.7. ADME ligand-based filter form
+           ADME ligand-based filter form
 
 
 5) **Docking**
@@ -246,21 +246,20 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADGPU_inha.png
-           :height: 500
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADGPU_fabp4.png
+           :height: 450
 
-           Fig 2.9. AutoDock-GPU docking form
+           AutoDock-GPU docking form
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLeDock_inha.png
-           :height: 400
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLeDock_fabp4.png
+           :height: 350
 
-           Fig 2.10. LeDock docking form
+           LeDock docking form
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formVina_inha.png
-           :height: 500
-           :align: center
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formVina_fabp4.png
+           :height: 450
 
-           Fig 2.11. Vina docking form
+           Vina docking form
 
 
 
@@ -269,47 +268,93 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     those poses using the same scoring function. In this case, we use the ODDT score protocol to rescore all the docking poses with 
     its Vina score function.
 
-|img_inha12|
+.. list-table:: 
 
-.. |img_inha12| image:: ../../../_static/images/publications/scipion-chem_vds/formRescore_inha.png
-   :height: 450
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formRescore_fabp4.png
+           :height: 400
+
+           ODDT docking rescoring form
+
 
 7) **Filter and consensus**
     Finally, the rescored poses can be combined, ranked and the consensus protocol can be applied 
-    to cluster and extract the most promising docking positions. The forms shown below (#todo) refer to the filter and 
+    to cluster and extract the most promising docking positions. The forms shown below refer to the filter and 
     consensus protocols and their parameters, which are described below. In our example, different combinations of ranking 
-    filters and consensus parameters were used in order to evaluate the results. Five different filtered subsets of our docked 
-    molecules containing the 1, 5, 10, 50 and 100 \% of the highest scored poses were generated to be used in the consensus protocol. 
+    filters and consensus parameters were used in order to evaluate the results. Nine different filtered subsets of our docked 
+    molecules containing the 0.01, 0.05, 0.1, 0.5, 1, 5, 10, 50 and 100 \% of the highest scored poses were generated to be used in the 
+    consensus protocol. 
     Then, for each of these subsets, 2 consensus protocols were executed with a difference in a vital parameter. First, both 
     consensus runs will produce the same pose clusters; however, one of the consensus executions will only consider sufficient 
     those clusters containing at least one pose from each of the 3 docking software (N3) while the other, more permissive one, 
     will consider sufficient those that contain at least poses from 2 docking software (N2). This way, we intend to generate sets 
-    enriched in active molecules and smaller than the original set of 2343 molecules.
+    enriched in active molecules and smaller than the original set of 2796 molecules.
 
-|img_inha13|
+.. list-table:: 
 
-.. |img_inha13| image:: ../../../_static/images/publications/scipion-chem_vds/formConsensus_inha.png
-   :height: 600
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formScoreFilter_fabp4.png
+           :height: 325
+
+           Top scoring filter form
+
+
+      - ..  figure:: ../../../_static/images/publications/scipion-chem_vds/formConsensus_fabp4.png
+           :height: 425
+
+           Consensus docking form
 
 |
 
-    The results of this experiment are contained in the figure below, where we can observe the enrichment of actives vs decoys 
-    of the output subsets and the total number of molecules kept for each of them. As we can infer from the graph, the filtering plus 
-    consensus steps generally produce a humble but consistent enrichment compared to the original set, as the percentage of actives 
-    (blue bars) is enhanced while the number of total molecules in the subset (red line) is reduced. The results seems to consistently 
-    give better performance to the N3 consensus, which suggest that our idea of a consensus is effective in docking, since it is 
-    based on giving more importance to those results predicted by more than one program. For our INHA example, from the original 2343 
-    (43 actives to 2300 decoys) molecules (1.84\% of actives); we obtained sets of 358 (15 to 343) molecules (4.37\% of actives) 
-    for the 10\% filter + N3 consensus or 236 (9 to 227) molecules (3.96\% of actives) for the 5\% filter + N3 consensus. 
+The results of this experiment comparing the filtering vs N2 consensus are contained in Fig. \ref{fig:ConsResN2},
+where we can observe the enrichment of actives vs decoys of the output subsets and the total number of molecules 
+kept for each of them. Subsets labeled \%x show the enrichment for the sets generated only passing the score-filter, 
+while those labeled \%x\_N2 represents the corresponding set generated after passing the score filter plus consensus protocol. 
+A similar image with the results for the N3 consensus, which gave similar results, can be found in the supplementary material.
 
-    Therefore, we were able to reduce the total number of molecules to 10-15\% of the original while doubling the proportion of actives. 
-    However, the user must be careful not to set the threshold too low, because as we can see in 1\% filter examples, reducing too 
-    much the number of docking poses to feed the consensus can lead to losing all or most of the active molecules.
+As we can infer from the graphs, both strategies lead to a considerable enrichment of the original dataset as the percentage of actives 
+(blue bars) is generally enhanced, while the number of total molecules in the subset (red line) is reduced. For our FABP4 example, 
+from the original 2796 (47 actives to 2749 decoys) molecules (1.68\% of actives); we got considerable enrichment in both the 
+filtered and filter plus consensus subsets. For instance, we obtained a subset of 64 molecules where 11 actives were kept 
+(17.19\%) for the 0.1\% filtered subset or, once this same subset is passed through the N2 consensus, we further enriched 
+it to keep 7 actives out of just 24 molecules (29.17\%).
 
-.. figure:: ../../../_static/images/publications/scipion-chem_vds/consensus_results_inha.png
-   :alt: consensus results inha
+Therefore, we were able to reduce the total number of molecules of the original set while significantly enhancing the 
+proportion of actives. However, the user must be careful not to reduce too much the number of docking poses with the 
+score filter since we can observe that subsets below 0.05\% lose all or most of the active molecules.
 
-    Scipion-chem consensus protocol enrichment. The graph shows the percentage of actives (in blue bars) and the total number of molecules (red dots) for each of the subsets generated in the workflow. The subset "All" represents the original set imported from DUD-E, "LigFilter" after the described ligand-based filtering (which slightly improves the enrichment) and then each of the consensus subset generated by applying a best ODDT score ranking filter for the top x% and consensus docking with parameter N2 or N3.
+.. list-table:: 
+
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/bestScoredVSConsN2_molecules_fabp4.png
+           :alt: consensus N2 results fabp4
+
+           Scipion-chem consensus N2 protocol enrichment. The graph shows the percentage of actives (in blue bars) and the total 
+           number of molecules (red dots) for each of the subsets generated in the workflow. The subset 'Original' represents 
+           the original set imported from DUD-E; '\%100' the subset of molecules remaining after the described ligand-based 
+           filtering (which slightly improves the enrichment) and then each of the consensus subset generated by applying a 
+           best ODDT score ranking filter for the top \%x and consensus docking with parameter N2.
+
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/bestScoredVSConsN3_molecules_fabp4.png
+           :alt: consensus N3 results fabp4
+
+           Suplementary Scipion-chem consensus N3 protocol enrichment. The graph shows the percentage of actives (in blue bars) and the total 
+           number of molecules (red dots) for each of the subsets generated in the workflow. The subset 'Original' represents 
+           the original set imported from DUD-E; '\%100' the subset of molecules remaining after the described ligand-based 
+           filtering (which slightly improves the enrichment) and then each of the consensus subset generated by applying a 
+           best ODDT score ranking filter for the top \%x and consensus docking with parameter N3.
+
+|
+
+Additionally, the figure below represents the experimental values for the interaction of the active molecules and the receptor.
+Each of the points represent an active molecule, placed depending on their experimental value (either Ki in blue or IC50 in red) 
+and their best pose ODDTScore. Those points with a yellow star correspond to the active molecules present in the best resulting
+consensus dataset (%0.1_N2). As we can observe, the ODDTScore seems to correlate relatively well, and most of the highest ODDTScores
+represent the best experimental affinities, which are captured in the consensus. 
+
+.. list-table:: 
+
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/activesExpAffinities_inConsensus_0.1N_2_fabp4.png
+           :alt: consensus N2 0.1% experimental affinities
+
+           Experimental values of actives against ODDTScore. Yellow stars specify actives found in the best consensus set.
 
 
 |
@@ -456,7 +501,7 @@ refer to the moment this document is being written, but updates are constantly b
 3) `Scipion-chem-autodock: <https://github.com/scipion-chem/scipion-chem-autodock>`_
 
     - AutoDockSuite 4.2.6 (https://autodock.scripps.edu)
-    - AutoDock-GPU (https://github.com/ccsb-scripps/AutoDock-GPU.git)
+    - AutoDock-GPU (https://github.com/ccsb-scripps/AutoDock-GPU.git as in 2023/04/14)
     - Vina 1.2.3 (https://github.com/ccsb-scripps/AutoDock-Vina.git)
     - ADFRSuite 1.0 (https://ccsb.scripps.edu/adfr)
     - Meeko 0.3.3 (pip)
