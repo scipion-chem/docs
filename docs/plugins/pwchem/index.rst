@@ -54,15 +54,6 @@ C) Packages & enviroments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. include:: ../../templates/plugins/installation/packages-header.rst
 
-  - rdkit-``version``
-  - shape-it-``version``
-  - mgltools-``version``
-  - jchempaint-``version``
-  - pymol-``version``
-  - aliview-``version``
-  - vmd-``version``
-  - mdtraj-``version``
-
 Where ``version`` is the current version of that specific package.
 These environments are used by the code
 in the different plugins, and we strongly advise not to modify them manually in order to keep their functions.
