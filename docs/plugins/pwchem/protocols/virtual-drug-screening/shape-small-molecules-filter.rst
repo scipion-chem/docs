@@ -1,4 +1,5 @@
 :orphan: true
+
 .. _pwchem-shape-small-molecules-filter:
 
 ###############################################################

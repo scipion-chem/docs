@@ -1,4 +1,5 @@
 :orphan: true
+
 .. _pwchem-multiple-sequence-alignment:
 
 ###############################################################
