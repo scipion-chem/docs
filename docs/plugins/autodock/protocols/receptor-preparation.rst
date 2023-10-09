@@ -13,9 +13,9 @@ HETATM atoms and selecting specific chains from the input structure.
 
 Input
 ----------------------------------------
-.. include:: ../../../../templates/plugins/input-help.rst
+.. include:: ../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/plugins/autodock/receptor-preparation/form.png
+.. image:: ../../../../_static/images/plugins/autodock/receptor-preparation/form.png
    :alt: Receptor preparation form
    :height: 400
    :align: center
@@ -26,4 +26,4 @@ The result of this protocol is an ``AtomStruct`` object containing the resulting
 other AutoDock tools.
 
 .. |testCommand| replace:: autodock.tests.test_autodock.TestADPrepareReceptor
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
