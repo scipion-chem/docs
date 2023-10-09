@@ -319,7 +319,7 @@ score filter since we can observe that subsets below 0.05\% lose all or most of 
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/bestScoredVSConsN2_molecules_fabp4.png
-   :alt: consensus N2 results fabp4
+           :alt: consensus N2 results fabp4
 
     Scipion-chem consensus N2 protocol enrichment. The graph shows the percentage of actives (in blue bars) and the total 
     number of molecules (red dots) for each of the subsets generated in the workflow. The subset 'Original' represents 
@@ -328,7 +328,7 @@ score filter since we can observe that subsets below 0.05\% lose all or most of 
     best ODDT score ranking filter for the top \%x and consensus docking with parameter N2.
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/bestScoredVSConsN3_molecules_fabp4.png
-    :alt: consensus N3 results fabp4
+           :alt: consensus N3 results fabp4
 
 |
 
@@ -347,8 +347,7 @@ represent the best experimental affinities, which are captured in the consensus.
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/activesExpAffinities_inConsensus_0.1N_2_fabp4.png
-   :alt: consensus N2 0.1% experimental affinities
-
+           :alt: consensus N2 0.1% experimental affinities
 
 
 |
