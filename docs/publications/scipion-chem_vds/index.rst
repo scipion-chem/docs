@@ -531,7 +531,7 @@ refer to the moment this document is being written, but updates are constantly b
 
 8) `Scipion-chem-modeller: <https://github.com/scipion-chem/scipion-chem-modeller>`_
 
-    - Modeller 10.4 (conda) *License Key needed
+    - Modeller 10.4 (conda) \*License Key needed
 
 9) `Scipion-chem-p2rank: <https://github.com/scipion-chem/scipion-chem-p2rank>`_
 
@@ -539,8 +539,8 @@ refer to the moment this document is being written, but updates are constantly b
 
 10) `Scipion-chem-rosetta: <https://github.com/scipion-chem/scipion-chem-rosetta>`_
 
-    - Rosetta 3.12 (-) *Need user installation
+    - Rosetta 3.12 (-) \*Need user installation
 
 11) `Scipion-chem-schrodingerScipion: <https://github.com/scipion-chem/scipion-chem-schrodingerScipion>`_
 
-    - Schrödinger Suite 2021-3 (-) *Need user installation and key
+    - Schrödinger Suite 2021-3 (-) \*Need user installation and key
