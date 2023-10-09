@@ -1,6 +1,6 @@
 .. _docs-chem_introduction:
 
-.. figure:: ../_static/images/scipion-chem.gif
+.. figure:: ../_static/images/logo.png
    :alt: Scipion Chem logo
 
 Welcome to Scipion Chem's documentation!
@@ -48,26 +48,6 @@ tasks in a typical bioinformatics and VDS workflow. These include:
   - `VMD <https://www.ks.uiuc.edu/Research/vmd/>`_: secondary viewer of Scipion-Chem for structures and Molecular Dynamics.
   - `AliView <https://github.com/AliView/AliView>`_: main viewer for sequences.
   - `PLIP <https://github.com/pharmai/plip>`_: specialized viewer for docking interactions in `Pymol <https://pymol.org/2/>`_.
-
-Some of these programs are managed through conda environments in order to meet their requirements. This way,
-scipion-chem creates and uses some environments:
-
-  - rdkit-``version``
-  - shape-it-``version``
-  - mgltools-``version``
-  - jchempaint-``version``
-  - pymol-``version``
-  - aliview-``version``
-  - vmd-``version``
-  - mdtraj-``version``
-
-Where ``version`` is the current version of that specific package.
-These environments are used by the code
-in the different plugins, and we strongly advise not to modify them manually in order to keep their functions.
-
-The code inside this plugin also includes the python objects, viewers, wizards and other
-utils for the rest of the scipion-chem plugins. We give these python objects special importance since the
-interoperability of Scipion-chem relies on them.
 
 Last but not least, Scipion-chem includes 3 groups of protocols: General, Sequences and VirtualDrugScreening. As their
 names suggest, they contain Scipion protocols related to general or management tasks, protocols for the management of
@@ -233,6 +213,7 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     plugins/schrodinger/index
     plugins/modeller/index
     plugins/blast/index
+    plugins/openmm/index
 
   .. toctree::
     :maxdepth: 1
