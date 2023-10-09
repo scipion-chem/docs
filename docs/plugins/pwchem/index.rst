@@ -4,21 +4,14 @@
 .. |repository| replace:: scipion-chem
 
 .. figure:: ../../../_static/images/logo.png
-   :alt: pwchem logo
+  :alt: pwchem logo
 
 ###############################################################
 scipion-chem
 ###############################################################
-In order to use this plugin, you need to install first `Scipion-em <https://github.com/scipion-em>`_
-This plugin, Scipion-chem, is the core for the rest of scipion-chem-\* plugins.
-
-==========================================
-Overview
-==========================================
-
 `scipion-chem <https://github.com/scipion-chem/scipion-chem>`_ is the core plugin for Virtual Drug Screening (VDS) in
-the Scipion platform. It is designed to manage and make interoperable all the the satellite plugins
-(Autodock, fpocket,...). It also includes several tools for:
+the Scipion platform (the rest of scipion-chem-\* plugins). It is designed to manage and make interoperable all the the 
+satellite plugins (Autodock, fpocket,...). It also includes several tools for:
 
 - Managing small molecules, protein structures or molecular dynamics simulations.
 - Consensus tools that extract the most relevant results from protein pocket search and docking.
@@ -64,6 +57,8 @@ C) Packages & enviroments
 - mdtraj-``version``
 
 .. include:: ../../templates/plugins/installation/packages-footer.rst
+
+**TODO: COMPLETE THIS PART**
 
 The code inside this plugin also includes the python objects, viewers, wizards and other
 utils for the rest of the scipion-chem plugins. We give these python objects special importance since the

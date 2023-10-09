@@ -1,56 +1,44 @@
 
-.. _docs-chem-autodock:
+.. _docs-autodock:
 
-.. figure:: ../../../_static/images/autodock/autodock_logo.png
+.. |organization| replace:: scipion-chem
+.. |repository| replace:: scipion-chem-autodock
+
+.. figure:: ../../../_static/images/plugins/autodock/logo.png
    :alt: autodock logo
 
 ###############################################################
 scipion-chem-autodock
 ###############################################################
-In order to use this plugin, you need to install first Scipion-chem.
-`Scipion-chem <https://github.com/scipion-chem/docs>`_
-is the core for the rest of scipion-chem-\* plugins. To do so, you can check the instructions in the
-`Scipion-chem README <https://github.com/scipion-chem/scipion-chem/blob/master/README.rst>`_.
-
-Similarly, you can find the installation instructions of this plugin in
-`Scipion-chem-autodock README <https://github.com/scipion-chem/scipion-chem-autodock/blob/master/README.rst>`_
-
-|
-
-Scipion-chem-autodock overview
-******************************************
-`AutoDock <https://autodock.scripps.edu/>`_ is a suite of automated docking tools. It is designed to predict how small
-molecules, such as substrates or drug candidates, bind to a receptor of known 3D structure. Over the years, it has
+`AutoDock <https://autodocksuite.scripps.edu/adt/>`_ is a suite of automated docking tools. It is designed to predict how 
+small molecules, such as substrates or drug candidates, bind to a receptor of known 3D structure. Over the years, it has
 been modified and improved to add new functionalities, and multiple engines have been developed.
 
-Scipion-chem-autodock protocols
-******************************************
+==========================================
+Installation
+==========================================
+A) Requirements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In order to use this plugin, you need to install first `scipion-chem <../pwchem/index>`_.
 
-**Receptor preparation**
-================================
-This protocol prepares an AtomStruct object containing a protein file to make it ready for AutoDock tools, such as
-docking with AutoDock or Vina. Several options for managing non-standard residues, repairing hydrogens and bonds and
-estimating partial charges are included. It uses the script *prepare_receptor4.py* in the utilities of AutoDock Tools.
+B) Installation steps
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. include:: ../../templates/plugins/installation/installation-steps.rst
+.. include:: ../../templates/plugins/installation/only-devel.rst
 
-From Scipion-chem, we also provide the option of cleaning the structure from HETATM atoms and selecting specific
-chains from the input structure.
+C) Packages & enviroments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. include:: ../../templates/plugins/installation/packages-header.rst
 
-All parameters include a help button that gives further information for each of them.
+**TODO: COMPLETE THIS PART**
 
-|
+.. include:: ../../templates/plugins/installation/packages-footer.rest
 
-.. image:: ../../_static/images/autodock/autodock_form1.png
-   :alt: autodock form1
+==========================================
+Protocols
+==========================================
 
-|
-
-The result of this protocol is an AtomStruct object containing the resulting pdbqt file of the receptor, ready for
-other AutoDock tools.
-
-A test for this protocol can be run using::
-    scipion3 tests autodock.tests.test_autodock.TestADPrepareReceptor
-
-|
+- `Receptor preparation <protocols/receptor-preparation>`_: Prepares an ``AtomStruct`` object containing a protein file to make it ready for `AutoDock tools <https://autodocksuite.scripps.edu/adt/>`_, such as docking with AutoDock or Vina.
 
 **Ligand preparation**
 ================================
