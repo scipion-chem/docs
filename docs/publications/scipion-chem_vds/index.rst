@@ -170,13 +170,18 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     The forms provided by Scipion (in the images below) allow the user to choose the origin of the structure and, 
     in the case of the small molecules, the molecule handler (RDKit or OpenBabel) to use and if a 3D reconstruction is needed.
 
-|img_inha1| |img_inha2|
+.. list-table:: 
 
-.. |img_inha1| image:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_inha.png
-   :height: 400
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_inha.png
+           :height: 400
 
-.. |img_inha2| image:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_inha.png
-   :height: 400
+           Fig 2.1. Import receptor form
+
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_inha.png
+           :height: 400
+
+           Fig 2.2. Import active molecules form
+
 
 2) **Preparation**
     Once the structures are imported into the Scipion workflow, separate preparation steps are performed 
@@ -186,13 +191,18 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     entities) or reconstructing missing atoms in the receptor; or which force fields to use and whether to generate conformers 
     in the parametrization of the ligands.
 
-|img_inha3| |img_inha4|
+.. list-table:: 
 
-.. |img_inha3| image:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_inha.png
-   :height: 425
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_inha.png
+           :height: 450
 
-.. |img_inha4| image:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_inha.png
-   :height: 425
+           Fig 2.3. Receptor preparation form
+
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_inha.png
+           :height: 450
+
+           Fig 2.4. Ligands preparation form
+
 
 3) **ROI definition**
     In this particular example, P2Rank is used to predict the most promising pockets in our receptor, 
@@ -200,26 +210,36 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     a filter protocol to extract only the 2 best pockets predicted, in order to speed up the downstream workflow. 
     The forms for both protocols are shown, where the corresponding parameters are defined.
 
-|img_inha5| |img_inha6|
+.. list-table:: 
 
-.. |img_inha5| image:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_inha.png
-   :height: 350
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_inha.png
+           :height: 400
 
-.. |img_inha6| image:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_inha.png
-   :height: 350
+           Fig 2.5. P2Rank ROI prediction form
+
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_inha.png
+           :height: 400
+
+           Fig 2.6. Filter top 2 predicted ROIs form
+
 
 4) **Ligand-based filtering**
     On the ligands side, a first filtering step is used by passing 2 ligand-based filter protocols 
     to our active and decoy molecules. These are the PAINS and ADME filters, which we described in the previous section. 
     The parameters defined in the forms determine the specific rules to follow in ADME and whether to use a custom or the default RDKit PAINS definition.   
 
-|img_inha7| |img_inha8|
+.. list-table:: 
 
-.. |img_inha7| image:: ../../../_static/images/publications/scipion-chem_vds/formADME_inha.png
-   :height: 350
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADME_inha.png
+           :height: 400
 
-.. |img_inha8| image:: ../../../_static/images/publications/scipion-chem_vds/formPAINS_inha.png
-   :height: 350
+           Fig 2.7. ADME ligand-based filter form
+
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formPAINS_inha.png
+           :height: 400
+
+           Fig 2.8. PAINS ligand-based filter form
+
 
 5) **Docking**
     This steps involves the execution of 3 independent docking programs (AutoDock-GPU, AutoDock Vina and LeDock) 
@@ -229,16 +249,25 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     to allocate for each of them. Moreover, as the previous cases, the forms also include the parameters that the user can tweak 
     to define the docking processes, such as the number of docking poses to generate for each of the molecule conformers.
 
-|img_inha9| |img_inha10| |img_inha11| 
+.. list-table:: 
 
-.. |img_inha9| image:: ../../../_static/images/publications/scipion-chem_vds/formADGPU_inha.png
-   :height: 450
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formADGPU_inha.png
+           :height: 500
 
-.. |img_inha10| image:: ../../../_static/images/publications/scipion-chem_vds/formVina_inha.png
-   :height: 450
+           Fig 2.9. AutoDock-GPU docking form
 
-.. |img_inha11| image:: ../../../_static/images/publications/scipion-chem_vds/formLeDock_inha.png
-   :height: 450
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLeDock_inha.png
+           :height: 400
+
+           Fig 2.10. LeDock docking form
+
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formVina_inha.png
+           :height: 500
+           :align: center
+
+           Fig 2.11. Vina docking form
+
+
 
 6) **Rescoring**
     In order to combine and compare the docking poses generated by each of the software, we need to first evaluate 
