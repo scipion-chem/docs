@@ -12,7 +12,7 @@ From `scipion-chem <../../pwchem/index>`_, we also provide the option of cleanin
 HETATM atoms and selecting specific chains from the input structure.
 
 Input
-----------------------------------------
+###############################################################
 .. include:: ../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../_static/images/plugins/autodock/receptor-preparation/form.png
