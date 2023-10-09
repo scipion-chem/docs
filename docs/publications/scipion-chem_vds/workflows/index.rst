@@ -18,8 +18,8 @@ by Scipion, although, to make them functional, you will need to have all the use
       .. figure:: ../../../../_static/images/publications/scipion-chem_vds/importWorkflow.png
          :alt: import workflow
 
-Once you have imported the workflow, remember to redirect the input protocols to the actual paths of the input files contained in this repository.
-For example, the pdb file imported in the "Import PDB" protocols or the sdf or mol2 files in the "Import Small Mols" protocols.
+      Once you have imported the workflow, remember to redirect the input protocols to the actual paths of the input files contained in this repository.
+      For example, the pdb file imported in the "Import PDB" protocols or the sdf or mol2 files in the "Import Small Mols" protocols.
 
 |
 
@@ -35,4 +35,6 @@ For example, the pdb file imported in the "Import PDB" protocols or the sdf or m
       .. figure:: ../../../../_static/images/publications/scipion-chem_vds/importProject.png
          :alt: import project
 
-In this case, the project is self contained, so all the inputs are included and there is no need to change the paths for the input files.
+      In this case, the project is self contained, so all the inputs are included and there is no need to change the paths for the input files.
+
+
