@@ -501,7 +501,7 @@ refer to the moment this document is being written, but updates are constantly b
 3) `Scipion-chem-autodock: <https://github.com/scipion-chem/scipion-chem-autodock>`_
 
     - AutoDockSuite 4.2.6 (https://autodock.scripps.edu)
-    - AutoDock-GPU (https://github.com/ccsb-scripps/AutoDock-GPU.git)
+    - AutoDock-GPU (https://github.com/ccsb-scripps/AutoDock-GPU.git as in 2023/04/14)
     - Vina 1.2.3 (https://github.com/ccsb-scripps/AutoDock-Vina.git)
     - ADFRSuite 1.0 (https://ccsb.scripps.edu/adfr)
     - Meeko 0.3.3 (pip)
