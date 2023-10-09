@@ -330,6 +330,8 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/bestScoredVSConsN3_molecules_fabp4.png
     :alt: consensus N3 results fabp4
 
+|
+
     Suplementary Scipion-chem consensus N3 protocol enrichment. The graph shows the percentage of actives (in blue bars) and the total 
     number of molecules (red dots) for each of the subsets generated in the workflow. The subset 'Original' represents 
     the original set imported from DUD-E; '\%100' the subset of molecules remaining after the described ligand-based 
