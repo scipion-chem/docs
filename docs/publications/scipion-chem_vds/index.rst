@@ -173,12 +173,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_fabp4.png
-           :height: 350
+           :height: 325
 
            Import receptor form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_fabp4.png
-           :height: 350
+           :height: 325
 
            Import active molecules form
 
@@ -194,12 +194,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_fabp4.png
-           :height: 400
+           :height: 375
 
            Receptor preparation form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_fabp4.png
-           :height: 400
+           :height: 375
 
            Ligands preparation form
 
@@ -213,12 +213,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formP2Rank_fabp4.png
-           :height: 350
+           :height: 325
 
            P2Rank ROI prediction form
 
       - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formFilterROI_fabp4.png
-           :height: 350
+           :height: 325
 
            Filter top 2 predicted ROIs form
 
@@ -292,13 +292,13 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 .. list-table:: 
 
     * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formScoreFilter_fabp4.png
-           :height: 400
+           :height: 325
 
            Top scoring filter form
 
 
       - ..  figure:: ../../../_static/images/publications/scipion-chem_vds/formConsensus_fabp4.png
-           :height: 500
+           :height: 425
 
            Consensus docking form
 
