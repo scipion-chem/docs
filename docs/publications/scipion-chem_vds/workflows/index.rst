@@ -34,3 +34,5 @@ For example, the pdb file imported in the "Import PDB" protocols or the sdf or m
       
       .. figure:: ../../../../_static/images/publications/scipion-chem_vds/importProject.png
          :alt: import project
+
+In this case, the project is self contained, so all the inputs are included and there is no need to change the paths for the input files.
