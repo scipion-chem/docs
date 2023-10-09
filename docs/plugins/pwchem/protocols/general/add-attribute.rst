@@ -1,4 +1,4 @@
-.. _docs-add-attribute:
+.. _pwchem-add-attribute:
 
 ###############################################################
 Add attribute

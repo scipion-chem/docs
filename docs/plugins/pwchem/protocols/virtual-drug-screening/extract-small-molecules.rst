@@ -1,4 +1,4 @@
-.. _docs-extract-small-molecules:
+.. _pwchem-extract-small-molecules:
 
 ###############################################################
 Extract Small Molecules

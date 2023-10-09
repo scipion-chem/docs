@@ -1,4 +1,4 @@
-.. _docs-import-variants:
+.. _pwchem-import-variants:
 
 ###############################################################
 Import variants

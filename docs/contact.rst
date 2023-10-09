@@ -1,4 +1,4 @@
-.. _contact-us:
+.. _contact:
 
 #########################
 Contact us

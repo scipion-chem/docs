@@ -1,4 +1,4 @@
-.. _docs-import-small-molecules:
+.. _pwchem-import-small-molecules:
 
 ###############################################################
 Import Small Molecules

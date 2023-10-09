@@ -1,4 +1,4 @@
-.. _docs-import-sequence-rois:
+.. _pwchem-import-sequence-rois:
 
 ###############################################################
 Import Sequence ROIs

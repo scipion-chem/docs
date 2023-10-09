@@ -1,4 +1,4 @@
-.. _docs-define-sequence-rois:
+.. _pwchem-define-sequence-rois:
 
 ###############################################################
 Define Sequence ROIs

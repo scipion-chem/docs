@@ -1,4 +1,4 @@
-.. _docs-score-docking-positions:
+.. _pwchem-score-docking-positions:
 
 ###############################################################
 Score docking positions

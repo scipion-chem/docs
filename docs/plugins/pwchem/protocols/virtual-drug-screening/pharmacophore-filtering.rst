@@ -1,4 +1,4 @@
-.. _docs-pharmacophore-filtering:
+.. _pwchem-pharmacophore-filtering:
 
 ###############################################################
 Pharmacophore filtering

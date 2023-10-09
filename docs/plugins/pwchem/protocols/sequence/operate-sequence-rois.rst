@@ -1,4 +1,4 @@
-.. _docs-operate-sequence-rois:
+.. _pwchem-operate-sequence-rois:
 
 ###############################################################
 Operate Sequence ROIs

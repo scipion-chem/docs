@@ -1,4 +1,4 @@
-.. _docs-pairwise-alignment:
+.. _pwchem-pairwise-alignment:
 
 ###############################################################
 Pairwise Alignment

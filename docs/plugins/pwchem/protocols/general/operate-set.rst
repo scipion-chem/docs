@@ -1,4 +1,4 @@
-.. _docs-operate-set:
+.. _pwchem-operate-set:
 
 ###############################################################
 Operate set

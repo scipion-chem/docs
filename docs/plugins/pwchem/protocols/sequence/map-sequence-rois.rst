@@ -1,4 +1,4 @@
-.. _docs-map-sequence-rois:
+.. _pwchem-map-sequence-rois:
 
 ###############################################################
 Map Sequence ROIs

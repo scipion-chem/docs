@@ -1,4 +1,4 @@
-.. _docs-shape-small-molecules-filter:
+.. _pwchem-shape-small-molecules-filter:
 
 ###############################################################
 Shape Small Molecules filter

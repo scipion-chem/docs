@@ -1,4 +1,4 @@
-.. _docs-adme-small-molecules-filter:
+.. _pwchem-adme-small-molecules-filter:
 
 ###############################################################
 ADME Small Molecules filter

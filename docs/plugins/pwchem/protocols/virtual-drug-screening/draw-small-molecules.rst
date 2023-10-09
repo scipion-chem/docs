@@ -1,4 +1,4 @@
-.. _docs-draw-small-molecules:
+.. _pwchem-draw-small-molecules:
 
 ###############################################################
 Draw Small Molecules

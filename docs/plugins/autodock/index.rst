@@ -1,4 +1,4 @@
-.. _autodock-index:
+.. _autodock:
 
 .. |organization| replace:: scipion-chem
 .. |repository| replace:: scipion-chem-autodock
@@ -37,7 +37,6 @@ C) Packages & enviroments
 Protocols
 ==========================================
 
-- `Receptor preparation <protocols/receptor-preparation>`_: Prepares an ``AtomStruct`` object containing a protein file to make it ready for `AutoDock tools <https://autodocksuite.scripps.edu/adt/>`_, such as docking with AutoDock or Vina.
 - :ref:`autodock-receptor-preparation`: Prepares an ``AtomStruct`` object containing a protein file to make it ready for `AutoDock tools <https://autodocksuite.scripps.edu/adt/>`_, such as docking with AutoDock or Vina.
 
 **Ligand preparation**

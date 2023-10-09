@@ -1,4 +1,4 @@
-.. _docs-identify-ligands:
+.. _pwchem-identify-ligands:
 
 ###############################################################
 Identify ligands

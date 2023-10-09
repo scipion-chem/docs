@@ -1,4 +1,4 @@
-.. _docs-extract-sequence-rois:
+.. _pwchem-extract-sequence-rois:
 
 ###############################################################
 Extract Sequence ROIs

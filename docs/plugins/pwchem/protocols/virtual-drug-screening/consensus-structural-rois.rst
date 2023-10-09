@@ -1,4 +1,4 @@
-.. _docs-consensus-structural-rois:
+.. _pwchem-consensus-structural-rois:
 
 ###############################################################
 Consensus Structural ROIs

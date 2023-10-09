@@ -1,4 +1,4 @@
-.. _docs-generate-variant-sequences:
+.. _pwchem-generate-variant-sequences:
 
 ###############################################################
 Generate variant sequences

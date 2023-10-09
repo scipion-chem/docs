@@ -1,4 +1,4 @@
-.. _docs-fetch-ligands:
+.. _pwchem-fetch-ligands:
 
 ###############################################################
 Fetch ligands

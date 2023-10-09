@@ -1,4 +1,4 @@
-.. _docs-import-set-of-sequences:
+.. _pwchem-import-set-of-sequences:
 
 ###############################################################
 Import set of sequences

@@ -1,4 +1,4 @@
-.. _docs-import-database-ids:
+.. _pwchem-import-database-ids:
 
 ###############################################################
 Import database IDs

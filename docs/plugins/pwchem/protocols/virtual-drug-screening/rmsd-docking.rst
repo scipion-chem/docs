@@ -1,4 +1,4 @@
-.. _docs-rmsd-docking:
+.. _pwchem-rmsd-docking:
 
 ###############################################################
 RMSD docking

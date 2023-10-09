@@ -1,4 +1,4 @@
-.. _docs-rdkit-prepare-small-molecules:
+.. _pwchem-rdkit-prepare-small-molecules:
 
 ###############################################################
 RDKit Prepare Small Molecules

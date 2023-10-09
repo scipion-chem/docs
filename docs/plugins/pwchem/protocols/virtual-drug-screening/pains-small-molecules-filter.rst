@@ -1,4 +1,4 @@
-.. _docs-pains-small-molecules-filter:
+.. _pwchem-pains-small-molecules-filter:
 
 ###############################################################
 PAINS Small Molecules filter

@@ -1,4 +1,4 @@
-.. _docs-pharmacophore-generation:
+.. _pwchem-pharmacophore-generation:
 
 ###############################################################
 Pharmacophore generation

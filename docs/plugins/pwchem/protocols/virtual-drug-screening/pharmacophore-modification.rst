@@ -1,4 +1,4 @@
-.. _docs-pharmacophore-modification:
+.. _pwchem-pharmacophore-modification:
 
 ###############################################################
 Pharmacophore modification

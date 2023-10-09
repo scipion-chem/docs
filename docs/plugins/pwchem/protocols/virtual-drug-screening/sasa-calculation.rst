@@ -1,4 +1,4 @@
-.. _docs-sasa-calculation:
+.. _pwchem-sasa-calculation:
 
 ###############################################################
 SASA calculation

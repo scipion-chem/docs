@@ -1,4 +1,4 @@
-.. _docs-prepare-receptor:
+.. _pwchem-prepare-receptor:
 
 ###############################################################
 Prepare Receptor

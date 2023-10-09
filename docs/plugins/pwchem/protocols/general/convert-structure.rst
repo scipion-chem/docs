@@ -1,4 +1,4 @@
-.. _docs-convert-structure:
+.. _pwchem-convert-structure:
 
 ###############################################################
 Convert structure

@@ -1,4 +1,4 @@
-.. _docs-fingerprint-small-molecules-filter:
+.. _pwchem-fingerprint-small-molecules-filter:
 
 ###############################################################
 FingerPrint Small Molecules filter

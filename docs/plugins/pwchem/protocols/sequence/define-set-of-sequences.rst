@@ -1,4 +1,4 @@
-.. _docs-define-set-of-sequences:
+.. _pwchem-define-set-of-sequences:
 
 ###############################################################
 Define set of sequences

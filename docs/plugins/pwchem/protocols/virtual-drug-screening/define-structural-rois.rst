@@ -1,4 +1,4 @@
-.. _docs-define-structural-rois:
+.. _pwchem-define-structural-rois:
 
 ###############################################################
 Define Structural ROIs

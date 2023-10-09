@@ -1,4 +1,4 @@
-.. _docs-consensus-docking:
+.. _pwchem-consensus-docking:
 
 ###############################################################
 Consensus docking

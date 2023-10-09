@@ -1,4 +1,4 @@
-.. _docs-zinc-filter:
+.. _pwchem-zinc-filter:
 
 ###############################################################
 ZINC filter

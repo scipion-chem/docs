@@ -1,4 +1,4 @@
-.. _docs-openbabel-prepare-small-molecules:
+.. _pwchem-openbabel-prepare-small-molecules:
 
 ###############################################################
 OpenBabel Prepare Small Molecules

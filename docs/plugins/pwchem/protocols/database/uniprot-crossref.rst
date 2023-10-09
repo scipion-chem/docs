@@ -1,4 +1,4 @@
-.. _docs-uniprot-crossref:
+.. _pwchem-uniprot-crossref:
 
 ###############################################################
 UniProt CrossRef
