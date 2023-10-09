@@ -235,11 +235,6 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
            Fig 2.7. ADME ligand-based filter form
 
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formPAINS_inha.png
-           :height: 400
-
-           Fig 2.8. PAINS ligand-based filter form
-
 
 5) **Docking**
     This steps involves the execution of 3 independent docking programs (AutoDock-GPU, AutoDock Vina and LeDock) 
