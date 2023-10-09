@@ -150,14 +150,14 @@ Finally, this demo project also includes several examples of molecular dynamics 
 |
 |
 
-Show case (inha_workflow)
+Show case (FABP4_workflow)
 -----------------------------------------------------------
 
 In this example, a bigger dataset extracted from the database `DUD-E <https://dude.docking.org/>`_ is used to validate
-our workflow engine. The specific dataset used is `INHA <https://dude.docking.org/targets/inha>`_ , corresponding to
-the PDB structure 2H7L (which have now been superseded by `4TRJ <https://www.rcsb.org/structure/4TRJ>`_).
-The files contained the receptor structure plus an original set of 43 active molecules and around 50 decoys per
-active, accounting for a total of 2300 decoy molecules.
+our workflow engine. The specific dataset used is `FABP4 <https://dude.docking.org/targets/fabp4>`_ , corresponding to
+the PDB structure `2NNQ <https://www.rcsb.org/structure/2nnq>`_).
+The files contained the receptor structure plus an original set of 47 active molecules and around 50 decoys per
+active, accounting for a total of 2749 decoy molecules.
 
 As described in the paper, a similar workflow than the one used for 4ERF is run over this new, bigger dataset, as an
 example of Scipion-chem and to validate its VDS tools. Below, we will explain step by step the protocols contained in
@@ -166,18 +166,18 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 1) **Import** 
     The initial receptor and ligand structures can be imported in several ways, as we explained in the previous workflow. 
     In this example, we imported the structures directly from the pdb files (for the receptor, corresponding to PDB 
-    `2h7l <https://www.rcsb.org/structure/removed/2H7L>`_) and sdf files (for the ligands) files provided by DUD-E. 
+    `2NNQ <https://www.rcsb.org/structure/2nnq>`_) and sdf files (for the ligands) files provided by DUD-E. 
     The forms provided by Scipion (in the images below) allow the user to choose the origin of the structure and, 
     in the case of the small molecules, the molecule handler (RDKit or OpenBabel) to use and if a 3D reconstruction is needed.
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportReceptor_fabp4.png
            :height: 400
 
            Fig 2.1. Import receptor form
 
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_inha.png
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formImportMols_fabp4.png
            :height: 400
 
            Fig 2.2. Import active molecules form
@@ -193,12 +193,12 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 .. list-table:: 
 
-    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_inha.png
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formProtPrep_fabp4.png
            :height: 450
 
            Fig 2.3. Receptor preparation form
 
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_inha.png
+      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formLigPrep_fabp4.png
            :height: 450
 
            Fig 2.4. Ligands preparation form
@@ -224,9 +224,9 @@ this workflow, together with their corresponding inputs, outputs and intermediat
 
 
 4) **Ligand-based filtering**
-    On the ligands side, a first filtering step is used by passing 2 ligand-based filter protocols 
-    to our active and decoy molecules. These are the PAINS and ADME filters, which we described in the previous section. 
-    The parameters defined in the forms determine the specific rules to follow in ADME and whether to use a custom or the default RDKit PAINS definition.   
+    On the ligands side, a first filtering step is used by passing 1 ligand-based filter protocol 
+    to our active and decoy molecules. This is the ADME filter, which we described in the previous section. 
+    The parameters defined in the form determine the specific rules to follow in ADME execution.   
 
 .. list-table:: 
 
@@ -234,11 +234,6 @@ this workflow, together with their corresponding inputs, outputs and intermediat
            :height: 400
 
            Fig 2.7. ADME ligand-based filter form
-
-      - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formPAINS_inha.png
-           :height: 400
-
-           Fig 2.8. PAINS ligand-based filter form
 
 
 5) **Docking**
