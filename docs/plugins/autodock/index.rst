@@ -32,7 +32,7 @@ C) Packages & enviroments
 
 **TODO: COMPLETE THIS PART**
 
-.. include:: ../../templates/plugins/installation/packages-footer.rest
+.. include:: ../../templates/plugins/installation/packages-footer.rst
 
 ==========================================
 Protocols
