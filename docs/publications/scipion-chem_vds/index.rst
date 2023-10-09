@@ -69,6 +69,7 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
      of 5000ps of unrestricted simulation at native conditions, generating a trajectory that could be analyzed.
 
 |
+
 2) Structural ROIs definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes several examples on how to determine the structural ROIs discussed in the paper.
@@ -98,6 +99,7 @@ This Scipion project also includes several examples on how to determine the stru
     that predict these protein concavities we call pockets.
 
 |
+
 3) Pharmacophore-based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 As described in the paper, Scipion-chem includes some features to perform pharmacophore-based virtual screening. In this
@@ -117,6 +119,7 @@ interoperability is not yet achieved in Scipion-chem, and this is an example of 
 prepared with OpenBabel would not be parsed properly with RDKit and the protocols would fail.
 
 |
+
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this demo project also includes several examples of molecular dynamics simulations.
@@ -425,12 +428,14 @@ Principal workflow that includes protocols following the "Show case" section:
      is executed, enlarging the trajectory with 24ps of unrestricted simulations.
 
 |
+
 2) Structural ROIs definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes one example on how to determine structural ROIs based on mutations or variants
 of the original receptor sequence and known binding residues.
 
 |
+
 3) Pharmacophore-based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This project includes the pharmacophore-based screening described in the paper.
@@ -444,6 +449,7 @@ the pharmacophore is the actual ligand, the progesterone, shown in the figure of
    :alt: pharmacophore workflow 1a28
 
 |
+
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this project also includes several examples of molecular dynamics simulations.

@@ -34,7 +34,7 @@ groups. Further documentation will be written for each of them, together with ca
    :alt: vds workflow
 
 1) `scipion-chem <plugins/pwchem/index>`_
----------------------
+------------------------------------------
 As stated before, scipion-chem is the core of the Scipion Chem plugins and it includes several tools which
 are mainly oriented to virtual Drug Screening.
 
@@ -57,14 +57,14 @@ protein pockets, and for docking results.
 Further information about all these protocols can be found in the subsequent documentation.
 
 2) Target and ligand preparation
-----------------------------------------
+------------------------------------------
 The protocols for the protein (target) and the small molecule (ligand) preparation are actually included in other
 plugins and do not hold any plugin by themselves. As you will be able to read below, protocols for receptor preparation
 can be performed with autodock, rosetta or lephar plugins; while protocols for ligand preparation can be performed using
 autodock, openbabel and rdkit (these last two included in Scipion-chem).
 
 3) Structural Regions Of Interest (ROIs)
-----------------------------------------
+------------------------------------------
 Usually, the VDS workflow from the target starts by defining onto the structure those regions where we are interested
 in exploring the druggability. This is, defining those places where we would like to perform the docking.
 
