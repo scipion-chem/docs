@@ -33,7 +33,7 @@ groups. Further documentation will be written for each of them, together with ca
 .. figure:: ../_static/images/vds-workflow.gif
    :alt: vds workflow
 
-1) :ref:`pwchem`
+1) :ref:`pwchem-index`
 ------------------------------------------
 As stated before, scipion-chem is the core of the Scipion Chem plugins and it includes several tools which
 are mainly oriented to virtual Drug Screening.
@@ -99,7 +99,7 @@ and finally tools for generating, managing and filtering by pharmacophores.
 
 5) Docking
 ----------------------------------------
-5.1) :ref:`autodock`
+5.1) :ref:`autodock-index`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 One of the main plugins in the Scipion-chem framework is the one for AutoDock. Here, we include the main docking
 functionalities of AutoDock4 and Vina, together with AutoLigand for protein pocket prediction and two protocols for

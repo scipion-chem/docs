@@ -1,4 +1,4 @@
-.. _autodock:
+.. _autodock-index:
 
 .. |organization| replace:: scipion-chem
 .. |repository| replace:: scipion-chem-autodock

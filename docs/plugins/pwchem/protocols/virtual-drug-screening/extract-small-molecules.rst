@@ -1,3 +1,4 @@
+:orphan: true
 .. _pwchem-extract-small-molecules:
 
 ###############################################################

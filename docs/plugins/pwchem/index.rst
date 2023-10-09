@@ -1,4 +1,4 @@
-.. _pwchem:
+.. _pwchem-index:
 
 .. |organization| replace:: scipion-chem
 .. |repository| replace:: scipion-chem
