@@ -18,7 +18,7 @@ Installation
 ==========================================
 A) Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In order to use this plugin, you need to install first `scipion-chem <../pwchem/index>`_.
+In order to use this plugin, you need to install first :ref:`pwchem-index`.
 
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
