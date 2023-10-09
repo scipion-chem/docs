@@ -269,17 +269,19 @@ this workflow, together with their corresponding inputs, outputs and intermediat
     those poses using the same scoring function. In this case, we use the ODDT score protocol to rescore all the docking poses with 
     its Vina score function.
 
-|img_inha12|
+.. list-table:: 
 
-.. |img_inha12| image:: ../../../_static/images/publications/scipion-chem_vds/formRescore_inha.png
-   :height: 450
+    * - .. figure:: ../../../_static/images/publications/scipion-chem_vds/formRescore_inha.png
+           :height: 450
+
 
 7) **Filter and consensus**
     Finally, the rescored poses can be combined, ranked and the consensus protocol can be applied 
-    to cluster and extract the most promising docking positions. The forms shown below (#todo) refer to the filter and 
+    to cluster and extract the most promising docking positions. The forms shown below refer to the filter and 
     consensus protocols and their parameters, which are described below. In our example, different combinations of ranking 
-    filters and consensus parameters were used in order to evaluate the results. Five different filtered subsets of our docked 
-    molecules containing the 1, 5, 10, 50 and 100 \% of the highest scored poses were generated to be used in the consensus protocol. 
+    filters and consensus parameters were used in order to evaluate the results. Nine different filtered subsets of our docked 
+    molecules containing the 0.01, 0.05, 0.1, 0.5, 1, 5, 10, 50 and 100 \% of the highest scored poses were generated to be used in the 
+    consensus protocol. 
     Then, for each of these subsets, 2 consensus protocols were executed with a difference in a vital parameter. First, both 
     consensus runs will produce the same pose clusters; however, one of the consensus executions will only consider sufficient 
     those clusters containing at least one pose from each of the 3 docking software (N3) while the other, more permissive one, 
