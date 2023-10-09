@@ -1,10 +1,10 @@
-.. _pwchem-index:
-
 .. |organization| replace:: scipion-chem
 .. |repository| replace:: scipion-chem
 
 .. figure:: ../../../_static/images/logo.png
   :alt: pwchem logo
+
+.. _pwchem-index:
 
 ###############################################################
 scipion-chem

@@ -1,10 +1,10 @@
-.. _autodock-index:
-
 .. |organization| replace:: scipion-chem
 .. |repository| replace:: scipion-chem-autodock
 
 .. figure:: ../../../_static/images/plugins/autodock/logo.png
    :alt: autodock logo
+
+.. _autodock-index:
 
 ###############################################################
 scipion-chem-autodock
