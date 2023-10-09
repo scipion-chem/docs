@@ -244,6 +244,9 @@ epub_title = project
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
+# A list of glob-style patterns that should be excluded when looking for source files.
+exclude_patterns = ['plugins/*/protocols/**', 'publications/*/workflows/**']
+
 
 # -- Extension configuration -------------------------------------------------
 
