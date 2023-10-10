@@ -1,7 +1,7 @@
 
 .. _docs-chem-fpocket:
 
-.. figure:: ../../../../_static/images/fpocket/fpocket_logo.png
+.. figure:: ../../../_static/images/plugins/fpocket/fpocket_logo.png
    :alt: fpocket logo
 
 
