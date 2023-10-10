@@ -39,16 +39,16 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
       (included in this repository).
 
 2) **Molecules preparation**
-    - **Receptor preparation**: we used LePro protein preparation (from LePhar) to prepare the receptor, removing
+    - :ref:`pwchem-prepare-receptor`: we used LePro protein preparation (from LePhar) to prepare the receptor, removing
       the ligand included in the structure and other heteroatoms and extracting only chain A.
-    - **Small molecules preparation**: we used OpenBabel ligand preparation in order to add charges to the imported
+    - :ref:`pwchem-openbabel-prepare-small-molecules`: we used OpenBabel ligand preparation in order to add charges to the imported
       small molecules and generating up to 2 conformers for each of them.
 
 3) **Molecules filtering**
     - **Regions Of Interest definition**: set of protocols that tries to find the most promising regions of the
       receptor for interacting with the ligand. We did so by, first, independently predicting these receptor
-      pockets with FPocket, P2Rank and AutoSite. Then, the results of each software are combined using the
-      consensus protocol as explained in the paper.
+      pockets with `FPocket <https://github.com/scipion-chem/docs/blob/main/docs/plugins/fpocket/index.rst>`_, `P2Rank <https://github.com/scipion-chem/docs/blob/main/docs/plugins/p2rank/index.rst>`_ and `AutoSite <https://github.com/scipion-chem/docs/blob/main/docs/plugins/autodock/index.rst>`_. Then, the results of each software are combined using the
+      :ref:`pwchem-consensus-structural-rois` as explained in the paper.
 
 4) **Docking**
 
@@ -82,11 +82,11 @@ This Scipion project also includes several examples on how to determine the stru
 .. image:: ../../../_static/images/publications/scipion-chem_vds/subworkflow2_4erf.png
    :alt: rois workflow 4erf
 
-1) **Manual definition**
+1) :ref:`pwchem-define-structural-rois`
 
     We show a manual structural ROI definition in the 4ERF-A structure based on the area of its own ligand.
 
-2) **Mapping from sequence ROIs**
+2) :ref:`pwchem-map-sequence-rois`
 
     Similarly to structural ROIs, Scipion-chem includes several ways to define Regions Of Interest over sequences. In this
     example, we manually define two sequence ROIs on residues 1-4 and 22-25, which are then mapped to the structure in
