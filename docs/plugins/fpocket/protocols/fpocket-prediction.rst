@@ -6,8 +6,6 @@
 FPocket pocket detection
 ###############################################################
 The main program of the `FPocket <https://github.com/Discngine/fpocket>`_  package is fpocket and it is integrated in Scipion-chem-fpocket as a protocol.
-This protocol takes a ``AtomStruct`` as an input and predicts its pockets based on its concavities (based on alpha-spheres) and electrostatics. 
-The parameters in the form control the alpha-spheres creation and their posterior clustering.
 
 |
 
@@ -16,6 +14,9 @@ The parameters in the form control the alpha-spheres creation and their posterio
    :align: center
 
 |
+
+This protocol takes a ``AtomStruct`` as an input and predicts its pockets based on its concavities (based on alpha-spheres) and electrostatics. 
+The parameters in the form control the alpha-spheres creation and their posterior clustering.
 
 You can check the meaning of these parameters in the help button for each of them, and if you need more information
 we recommend you to check the `FPocket documentation <https://github.com/Discngine/fpocket/blob/master/doc/MANUAL.md>`_.
