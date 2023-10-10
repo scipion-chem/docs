@@ -29,8 +29,8 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
    :alt: vds workflow 4erf
 
 1) **Molecules import**
-    - **Receptor import**: 4ERF structure from PDB web, a ligase from Homo Sapiens
-    - **Small molecules import**: 4 ZINC small molecule structures are imported from local "mol2" files
+    - `Receptor import <https://scipion-em.github.io/docs/release-3.0.0/api/pwem/pwem.protocols.protocol_import.volumes.html#pwem.protocols.protocol_import.volumes.ProtImportSetOfAtomStructs>`_: 4ERF structure from PDB web, a ligase from Homo Sapiens
+    - `Small molecules import <../../plugins/pwchem/protocols/virtual-drug-screening/import-small-molecules.rst>`_: 4 ZINC small molecule structures are imported from local "mol2" files
       (included in this repository).
 
 2) **Molecules preparation**
