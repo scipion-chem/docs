@@ -7,7 +7,7 @@ This repository contains all the data discussed in the Scipion-chem paper. These
 Virtual Drug Screening workflow example (4erf_workflow)
 -----------------------------------------------------------
 
-Example shown in "Virtual Drug Screening workflow" section for 4ERF PDB structure. Contains the Scipion project
+Example shown in "Virtual Drug Screening workflow" section for `4ERF <https://www.rcsb.org/structure/4ERF>`_ PDB structure. Contains the Scipion project
 folder, which can be imported into the Scipion workflow engine and reproduced once all the necessary plugins are
 installed.
 The example can be divided into 4 subworkflows, which are examples of useful tasks discussed in the paper. The protocols
@@ -365,13 +365,13 @@ represent the best experimental affinities, which are captured in the consensus.
 
 Supplemental workflow (1a28_workflow)
 -----------------------------------------------------------
-Similar workflows can be found in 1a28_workflow, with a few variations described in section "Show case" of the paper.
+Similar workflows can be found in 1a28_workflow, with a few variations from 4ERF example.
 The same pattern ( <Subworkflow number> ) <Plugin> - <Task performed> ) is used to describe identify the subworkflow
 each of the protocols belongs to. In this case, the subworkflows are:
 
 1) Main VDS workflow
 ~~~~~~~~~~~~~~~~~~~~~
-Principal workflow that includes protocols following the "Show case" section:
+Principal workflow that includes protocols following the "VDS workflow" section:
 
 .. image:: ../../../_static/images/publications/scipion-chem_vds/subworkflow1_1a28.png
    :alt: vds workflow 1a28
