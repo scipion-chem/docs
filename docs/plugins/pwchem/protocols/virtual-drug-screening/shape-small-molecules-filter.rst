@@ -1,4 +1,6 @@
-.. _docs-shape-small-molecules-filter:
+:orphan: true
+
+.. _pwchem-shape-small-molecules-filter:
 
 ###############################################################
 Shape Small Molecules filter

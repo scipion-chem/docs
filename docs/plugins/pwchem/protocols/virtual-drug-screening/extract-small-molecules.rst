@@ -1,4 +1,6 @@
-.. _docs-extract-small-molecules:
+:orphan: true
+
+.. _pwchem-extract-small-molecules:
 
 ###############################################################
 Extract Small Molecules

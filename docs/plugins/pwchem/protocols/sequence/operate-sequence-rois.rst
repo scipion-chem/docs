@@ -1,4 +1,6 @@
-.. _docs-operate-sequence-rois:
+:orphan: true
+
+.. _pwchem-operate-sequence-rois:
 
 ###############################################################
 Operate Sequence ROIs

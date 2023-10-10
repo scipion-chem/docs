@@ -1,4 +1,6 @@
-.. _docs-consensus-structural-rois:
+:orphan: true
+
+.. _pwchem-consensus-structural-rois:
 
 ###############################################################
 Consensus Structural ROIs

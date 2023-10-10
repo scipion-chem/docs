@@ -1,4 +1,6 @@
-.. _docs-pains-small-molecules-filter:
+:orphan: true
+
+.. _pwchem-pains-small-molecules-filter:
 
 ###############################################################
 PAINS Small Molecules filter

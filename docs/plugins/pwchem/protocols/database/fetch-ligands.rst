@@ -1,4 +1,6 @@
-.. _docs-fetch-ligands:
+:orphan: true
+
+.. _pwchem-fetch-ligands:
 
 ###############################################################
 Fetch ligands

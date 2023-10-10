@@ -1,4 +1,6 @@
-.. _docs-convert-structure:
+:orphan: true
+
+.. _pwchem-convert-structure:
 
 ###############################################################
 Convert structure

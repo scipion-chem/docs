@@ -1,4 +1,6 @@
-.. _docs-multiple-sequence-alignment:
+:orphan: true
+
+.. _pwchem-multiple-sequence-alignment:
 
 ###############################################################
 Multiple Sequence Alignment

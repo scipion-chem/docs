@@ -1,4 +1,6 @@
-.. _docs-import-set-of-sequences:
+:orphan: true
+
+.. _pwchem-import-set-of-sequences:
 
 ###############################################################
 Import set of sequences

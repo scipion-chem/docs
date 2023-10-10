@@ -1,4 +1,6 @@
-.. _docs-map-sequence-rois:
+:orphan: true
+
+.. _pwchem-map-sequence-rois:
 
 ###############################################################
 Map Sequence ROIs

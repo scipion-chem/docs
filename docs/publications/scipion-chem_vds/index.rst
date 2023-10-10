@@ -1,3 +1,8 @@
+.. figure:: ../../../_static/images/logo.png
+  :alt: pwchem logo
+
+.. _scipion-chem_vds-index:
+
 ================================
 Scipion-chem VDS Data
 ================================
@@ -7,7 +12,7 @@ This repository contains all the data discussed in the Scipion-chem paper. These
 Virtual Drug Screening workflow example (4erf_workflow)
 -----------------------------------------------------------
 
-Example shown in "Virtual Drug Screening workflow" section for 4ERF PDB structure. Contains the Scipion project
+Example shown in "Virtual Drug Screening workflow" section for `4ERF <https://www.rcsb.org/structure/4ERF>`_ PDB structure. Contains the Scipion project
 folder, which can be imported into the Scipion workflow engine and reproduced once all the necessary plugins are
 installed.
 The example can be divided into 4 subworkflows, which are examples of useful tasks discussed in the paper. The protocols
@@ -29,21 +34,21 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
    :alt: vds workflow 4erf
 
 1) **Molecules import**
-    - **Receptor import**: 4ERF structure from PDB web, a ligase from Homo Sapiens
-    - **Small molecules import**: 4 ZINC small molecule structures are imported from local "mol2" files
+    - `Receptor import <https://scipion-em.github.io/docs/release-3.0.0/api/pwem/pwem.protocols.protocol_import.volumes.html#pwem.protocols.protocol_import.volumes.ProtImportSetOfAtomStructs>`_: 4ERF structure from PDB web, a ligase from Homo Sapiens
+    - :ref:`pwchem-import-small-molecules`: 4 ZINC small molecule structures are imported from local "mol2" files
       (included in this repository).
 
 2) **Molecules preparation**
-    - **Receptor preparation**: we used LePro protein preparation (from LePhar) to prepare the receptor, removing
+    - :ref:`pwchem-prepare-receptor`: we used LePro protein preparation (from LePhar) to prepare the receptor, removing
       the ligand included in the structure and other heteroatoms and extracting only chain A.
-    - **Small molecules preparation**: we used OpenBabel ligand preparation in order to add charges to the imported
+    - :ref:`pwchem-openbabel-prepare-small-molecules`: we used OpenBabel ligand preparation in order to add charges to the imported
       small molecules and generating up to 2 conformers for each of them.
 
 3) **Molecules filtering**
     - **Regions Of Interest definition**: set of protocols that tries to find the most promising regions of the
       receptor for interacting with the ligand. We did so by, first, independently predicting these receptor
-      pockets with FPocket, P2Rank and AutoSite. Then, the results of each software are combined using the
-      consensus protocol as explained in the paper.
+      pockets with `FPocket <https://github.com/scipion-chem/docs/blob/main/docs/plugins/fpocket/index.rst>`_, `P2Rank <https://github.com/scipion-chem/docs/blob/main/docs/plugins/p2rank/index.rst>`_ and `AutoSite <https://github.com/scipion-chem/docs/blob/main/docs/plugins/autodock/index.rst>`_. Then, the results of each software are combined using the
+      :ref:`pwchem-consensus-structural-rois` as explained in the paper.
 
 4) **Docking**
 
@@ -69,6 +74,7 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
      of 5000ps of unrestricted simulation at native conditions, generating a trajectory that could be analyzed.
 
 |
+
 2) Structural ROIs definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes several examples on how to determine the structural ROIs discussed in the paper.
@@ -76,11 +82,11 @@ This Scipion project also includes several examples on how to determine the stru
 .. image:: ../../../_static/images/publications/scipion-chem_vds/subworkflow2_4erf.png
    :alt: rois workflow 4erf
 
-1) **Manual definition**
+1) :ref:`pwchem-define-structural-rois`
 
     We show a manual structural ROI definition in the 4ERF-A structure based on the area of its own ligand.
 
-2) **Mapping from sequence ROIs**
+2) :ref:`pwchem-map-sequence-rois`
 
     Similarly to structural ROIs, Scipion-chem includes several ways to define Regions Of Interest over sequences. In this
     example, we manually define two sequence ROIs on residues 1-4 and 22-25, which are then mapped to the structure in
@@ -89,8 +95,7 @@ This Scipion project also includes several examples on how to determine the stru
 3) **Based on target characteristics**
 
     As explained in the paper, another option to define structural ROIs is based on target characteristics. In this
-    example, the SASA (Solvent-Accessible Surface Area) is calculated over the 4ERF-A structure. From it, a protocol
-    extract the sequence ROIs containing higher values of SASA, and these are mapped to structural ROIs.
+    example, the SASA (Solvent-Accessible Surface Area) is calculated over the 4ERF-A structure with :ref:`pwchem-sasa-calculation`. From it, the sequence ROIs containing higher values of SASA are extracted and these are mapped to structural ROIs using :ref:`pwchem-extract-sequence-rois`.
 
 4) **Predicted pockets**
 
@@ -98,6 +103,7 @@ This Scipion project also includes several examples on how to determine the stru
     that predict these protein concavities we call pockets.
 
 |
+
 3) Pharmacophore-based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 As described in the paper, Scipion-chem includes some features to perform pharmacophore-based virtual screening. In this
@@ -106,10 +112,10 @@ project, an example is shown.
 .. image:: ../../../_static/images/publications/scipion-chem_vds/subworkflow3_4erf.png
    :alt: pharmacophore workflow 4erf
 
-To do so, the actual ligand of 4ERF is first extracted and a pharmacophore is generated from it. This resulting
-pharmacophore is slightly modified to be more flexible using another Scipion-chem protocol, and this modified
-pharmacophore is finally used as a filter for out set of 4 small molecules. In this example, as the pharmacophore
-features are built using RDKit, we prepared the small molecules using RDKit too. The position of ZINC1099, fitted into
+To do so, the actual ligand of 4ERF is first extracted using :ref:`pwchem-extract-small-molecules` and a pharmacophore is generated from it with protocol :ref:`pwchem-pharmacophore-generation`. This resulting
+pharmacophore is slightly modified to be more flexible using another Scipion-chem protocol (:ref:`pwchem-pharmacophore-modification`), and this modified
+pharmacophore is finally used as a filter for out set of 4 small molecules with :ref:`pwchem-pharmacophore-filtering`. In this example, as the pharmacophore
+features are built using RDKit, we prepared the small molecules using RDKit too (:ref:`pwchem-rdkit-prepare-small-molecules`). The position of ZINC1099, fitted into
 the pharmacophore, is shown in the figure of the paper related to this section.
 
 We prepared the molecules using RDKit because, unfortunately, the full
@@ -117,6 +123,7 @@ interoperability is not yet achieved in Scipion-chem, and this is an example of 
 prepared with OpenBabel would not be parsed properly with RDKit and the protocols would fail.
 
 |
+
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this demo project also includes several examples of molecular dynamics simulations.
@@ -362,13 +369,13 @@ represent the best experimental affinities, which are captured in the consensus.
 
 Supplemental workflow (1a28_workflow)
 -----------------------------------------------------------
-Similar workflows can be found in 1a28_workflow, with a few variations described in section "Show case" of the paper.
+Similar workflows can be found in 1a28_workflow, with a few variations from 4ERF example.
 The same pattern ( <Subworkflow number> ) <Plugin> - <Task performed> ) is used to describe identify the subworkflow
 each of the protocols belongs to. In this case, the subworkflows are:
 
 1) Main VDS workflow
 ~~~~~~~~~~~~~~~~~~~~~
-Principal workflow that includes protocols following the "Show case" section:
+Principal workflow that includes protocols following the "VDS workflow" section:
 
 .. image:: ../../../_static/images/publications/scipion-chem_vds/subworkflow1_1a28.png
    :alt: vds workflow 1a28
@@ -425,12 +432,14 @@ Principal workflow that includes protocols following the "Show case" section:
      is executed, enlarging the trajectory with 24ps of unrestricted simulations.
 
 |
+
 2) Structural ROIs definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes one example on how to determine structural ROIs based on mutations or variants
 of the original receptor sequence and known binding residues.
 
 |
+
 3) Pharmacophore-based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This project includes the pharmacophore-based screening described in the paper.
@@ -444,6 +453,7 @@ the pharmacophore is the actual ligand, the progesterone, shown in the figure of
    :alt: pharmacophore workflow 1a28
 
 |
+
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this project also includes several examples of molecular dynamics simulations.
@@ -525,7 +535,7 @@ refer to the moment this document is being written, but updates are constantly b
 
 8) `Scipion-chem-modeller: <https://github.com/scipion-chem/scipion-chem-modeller>`_
 
-    - Modeller 10.4 (conda) *License Key needed
+    - Modeller 10.4 (conda) \*License Key needed
 
 9) `Scipion-chem-p2rank: <https://github.com/scipion-chem/scipion-chem-p2rank>`_
 
@@ -533,8 +543,8 @@ refer to the moment this document is being written, but updates are constantly b
 
 10) `Scipion-chem-rosetta: <https://github.com/scipion-chem/scipion-chem-rosetta>`_
 
-    - Rosetta 3.12 (-) *Need user installation
+    - Rosetta 3.12 (-) \*Need user installation
 
 11) `Scipion-chem-schrodingerScipion: <https://github.com/scipion-chem/scipion-chem-schrodingerScipion>`_
 
-    - Schrödinger Suite 2021-3 (-) *Need user installation and key
+    - Schrödinger Suite 2021-3 (-) \*Need user installation and key

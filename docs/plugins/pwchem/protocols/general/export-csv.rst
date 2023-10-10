@@ -1,4 +1,6 @@
-.. _docs-export-csv:
+:orphan: true
+
+.. _pwchem-export-csv:
 
 ###############################################################
 Export CSV

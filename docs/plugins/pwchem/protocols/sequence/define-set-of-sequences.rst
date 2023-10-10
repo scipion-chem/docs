@@ -1,4 +1,6 @@
-.. _docs-define-set-of-sequences:
+:orphan: true
+
+.. _pwchem-define-set-of-sequences:
 
 ###############################################################
 Define set of sequences

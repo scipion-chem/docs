@@ -1,4 +1,6 @@
-.. _docs-rdkit-prepare-small-molecules:
+:orphan: true
+
+.. _pwchem-rdkit-prepare-small-molecules:
 
 ###############################################################
 RDKit Prepare Small Molecules

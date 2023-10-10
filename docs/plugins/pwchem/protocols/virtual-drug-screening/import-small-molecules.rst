@@ -1,4 +1,6 @@
-.. _docs-import-small-molecules:
+:orphan: true
+
+.. _pwchem-import-small-molecules:
 
 ###############################################################
 Import Small Molecules

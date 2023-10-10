@@ -1,4 +1,6 @@
-.. _docs-import-variants:
+:orphan: true
+
+.. _pwchem-import-variants:
 
 ###############################################################
 Import variants

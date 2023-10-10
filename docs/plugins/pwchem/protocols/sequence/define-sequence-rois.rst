@@ -1,4 +1,6 @@
-.. _docs-define-sequence-rois:
+:orphan: true
+
+.. _pwchem-define-sequence-rois:
 
 ###############################################################
 Define Sequence ROIs

@@ -1,4 +1,6 @@
-.. _docs-operate-set:
+:orphan: true
+
+.. _pwchem-operate-set:
 
 ###############################################################
 Operate set

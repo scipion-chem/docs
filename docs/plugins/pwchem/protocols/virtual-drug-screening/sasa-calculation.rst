@@ -1,4 +1,6 @@
-.. _docs-sasa-calculation:
+:orphan: true
+
+.. _pwchem-sasa-calculation:
 
 ###############################################################
 SASA calculation

@@ -1,4 +1,6 @@
-.. _docs-pharmacophore-filtering:
+:orphan: true
+
+.. _pwchem-pharmacophore-filtering:
 
 ###############################################################
 Pharmacophore filtering

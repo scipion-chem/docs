@@ -1,4 +1,6 @@
-.. _docs-rmsd-docking:
+:orphan: true
+
+.. _pwchem-rmsd-docking:
 
 ###############################################################
 RMSD docking

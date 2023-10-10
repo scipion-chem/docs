@@ -1,4 +1,6 @@
-.. _docs-score-docking-positions:
+:orphan: true
+
+.. _pwchem-score-docking-positions:
 
 ###############################################################
 Score docking positions

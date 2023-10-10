@@ -1,4 +1,6 @@
-.. _docs-uniprot-crossref:
+:orphan: true
+
+.. _pwchem-uniprot-crossref:
 
 ###############################################################
 UniProt CrossRef

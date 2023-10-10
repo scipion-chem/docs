@@ -1,4 +1,6 @@
-.. _docs-openbabel-prepare-small-molecules:
+:orphan: true
+
+.. _pwchem-openbabel-prepare-small-molecules:
 
 ###############################################################
 OpenBabel Prepare Small Molecules

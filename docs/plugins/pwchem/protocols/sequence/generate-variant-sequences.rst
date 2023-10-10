@@ -1,4 +1,6 @@
-.. _docs-generate-variant-sequences:
+:orphan: true
+
+.. _pwchem-generate-variant-sequences:
 
 ###############################################################
 Generate variant sequences

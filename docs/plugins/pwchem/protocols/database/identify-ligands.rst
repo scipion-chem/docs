@@ -1,4 +1,6 @@
-.. _docs-identify-ligands:
+:orphan: true
+
+.. _pwchem-identify-ligands:
 
 ###############################################################
 Identify ligands

@@ -1,4 +1,6 @@
-.. _docs-import-sequence-rois:
+:orphan: true
+
+.. _pwchem-import-sequence-rois:
 
 ###############################################################
 Import Sequence ROIs

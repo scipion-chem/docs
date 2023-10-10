@@ -1,4 +1,6 @@
-.. _docs-adme-small-molecules-filter:
+:orphan: true
+
+.. _pwchem-adme-small-molecules-filter:
 
 ###############################################################
 ADME Small Molecules filter

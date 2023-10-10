@@ -1,4 +1,6 @@
-.. _docs-pharmacophore-generation:
+:orphan: true
+
+.. _pwchem-pharmacophore-generation:
 
 ###############################################################
 Pharmacophore generation

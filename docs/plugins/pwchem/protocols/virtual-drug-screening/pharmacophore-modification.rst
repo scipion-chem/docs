@@ -1,4 +1,6 @@
-.. _docs-pharmacophore-modification:
+:orphan: true
+
+.. _pwchem-pharmacophore-modification:
 
 ###############################################################
 Pharmacophore modification

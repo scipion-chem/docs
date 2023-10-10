@@ -1,4 +1,6 @@
-.. _docs-pairwise-alignment:
+:orphan: true
+
+.. _pwchem-pairwise-alignment:
 
 ###############################################################
 Pairwise Alignment

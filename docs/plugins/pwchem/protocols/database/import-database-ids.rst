@@ -1,4 +1,6 @@
-.. _docs-import-database-ids:
+:orphan: true
+
+.. _pwchem-import-database-ids:
 
 ###############################################################
 Import database IDs

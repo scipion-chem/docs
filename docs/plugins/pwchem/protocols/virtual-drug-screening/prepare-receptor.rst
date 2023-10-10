@@ -1,4 +1,6 @@
-.. _docs-prepare-receptor:
+:orphan: true
+
+.. _pwchem-prepare-receptor:
 
 ###############################################################
 Prepare Receptor

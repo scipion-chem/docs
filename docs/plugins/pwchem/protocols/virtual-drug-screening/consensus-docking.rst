@@ -1,4 +1,6 @@
-.. _docs-consensus-docking:
+:orphan: true
+
+.. _pwchem-consensus-docking:
 
 ###############################################################
 Consensus docking

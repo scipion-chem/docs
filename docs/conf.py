@@ -12,12 +12,8 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
+import os, sys
 
-#SCIPION_HOME = os.environ.get("SCIPION_HOME")
-#sys.path.insert(0, os.path.join(SCIPION_HOME, 'scipion-chem/pwchem/'))
-#sys.path.insert(0, os.path.join(SCIPION_HOME))
 sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
@@ -55,7 +51,7 @@ extensions = [
     'sphinxcontrib.bibtex',
     'sphinx_multiversion',
 ]
-bibtex_bibfiles = ['em.bib']
+bibtex_bibfiles = ['chem.bib']
 bibtex_reference_style = u'author_year'
 autosectionlabel_prefix_document = True
 
@@ -67,17 +63,17 @@ autodoc_mock_imports = ["psycopg2"]
 autoclass_content = "both"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['../_templates']
 
 
 # **************************** VERSIONING WITH sphinx-multiversion ***************************************
 # Versioning side bar, from https://holzhaus.github.io/sphinx-multiversion/master/templates.html#templates
 
 # Whitelist pattern for tags (set to None to ignore all tags)
-smv_tag_whitelist = None
+smv_tag_whitelist = r'^.*$'
 
 # Whitelist pattern for branches (set to None to ignore all branches)
-smv_branch_whitelist = None
+smv_branch_whitelist = 'master'
 
 # Whitelist pattern for remotes (set to None to use local branches only)
 smv_remote_whitelist = None
@@ -162,10 +158,10 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['../_static']
 
 # Favicon
-html_favicon = os.path.join('..', html_static_path[0], 'images', 'favicon.ico')
+html_favicon = os.path.join(html_static_path[0], 'images', 'favicon.ico')
 
 # Style
 
@@ -244,13 +240,16 @@ epub_title = project
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
+# A list of glob-style patterns that should be excluded when looking for source files.
+exclude_patterns = ['publications/*/workflows/**', 'templates/**']
+
 
 # -- Extension configuration -------------------------------------------------
 
 # -- Options for intersphinx extension ---------------------------------------
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {'python': ('https://docs.python.org/', None)}
 
 # -- Options for todo extension ----------------------------------------------
 

@@ -1,4 +1,6 @@
-.. _docs-fingerprint-small-molecules-filter:
+:orphan: true
+
+.. _pwchem-fingerprint-small-molecules-filter:
 
 ###############################################################
 FingerPrint Small Molecules filter

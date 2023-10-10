@@ -1,4 +1,6 @@
-.. _docs-zinc-filter:
+:orphan: true
+
+.. _pwchem-zinc-filter:
 
 ###############################################################
 ZINC filter

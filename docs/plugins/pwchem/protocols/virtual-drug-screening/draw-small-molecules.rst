@@ -1,4 +1,6 @@
-.. _docs-draw-small-molecules:
+:orphan: true
+
+.. _pwchem-draw-small-molecules:
 
 ###############################################################
 Draw Small Molecules

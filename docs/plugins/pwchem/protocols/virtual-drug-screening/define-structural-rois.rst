@@ -1,4 +1,6 @@
-.. _docs-define-structural-rois:
+:orphan: true
+
+.. _pwchem-define-structural-rois:
 
 ###############################################################
 Define Structural ROIs

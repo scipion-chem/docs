@@ -1,4 +1,6 @@
-.. _docs-add-attribute:
+:orphan: true
+
+.. _pwchem-add-attribute:
 
 ###############################################################
 Add attribute
