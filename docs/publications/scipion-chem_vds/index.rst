@@ -95,8 +95,7 @@ This Scipion project also includes several examples on how to determine the stru
 3) **Based on target characteristics**
 
     As explained in the paper, another option to define structural ROIs is based on target characteristics. In this
-    example, the SASA (Solvent-Accessible Surface Area) is calculated over the 4ERF-A structure. From it, a protocol
-    extract the sequence ROIs containing higher values of SASA, and these are mapped to structural ROIs.
+    example, the SASA (Solvent-Accessible Surface Area) is calculated over the 4ERF-A structure with :ref:`pwchem-sasa-calculation`. From it, the sequence ROIs containing higher values of SASA are extracted and these are mapped to structural ROIs using :ref:`pwchem-extract-sequence-rois`.
 
 4) **Predicted pockets**
 
@@ -113,10 +112,10 @@ project, an example is shown.
 .. image:: ../../../_static/images/publications/scipion-chem_vds/subworkflow3_4erf.png
    :alt: pharmacophore workflow 4erf
 
-To do so, the actual ligand of 4ERF is first extracted and a pharmacophore is generated from it. This resulting
-pharmacophore is slightly modified to be more flexible using another Scipion-chem protocol, and this modified
-pharmacophore is finally used as a filter for out set of 4 small molecules. In this example, as the pharmacophore
-features are built using RDKit, we prepared the small molecules using RDKit too. The position of ZINC1099, fitted into
+To do so, the actual ligand of 4ERF is first extracted using :ref:`pwchem-extract-small-molecules` and a pharmacophore is generated from it with protocol :ref:`pwchem-pharmacophore-generation`. This resulting
+pharmacophore is slightly modified to be more flexible using another Scipion-chem protocol (:ref:`pwchem-pharmacophore-modification`), and this modified
+pharmacophore is finally used as a filter for out set of 4 small molecules with :ref:`pwchem-pharmacophore-filtering`. In this example, as the pharmacophore
+features are built using RDKit, we prepared the small molecules using RDKit too (:ref:`pwchem-rdkit-prepare-small-molecules`). The position of ZINC1099, fitted into
 the pharmacophore, is shown in the figure of the paper related to this section.
 
 We prepared the molecules using RDKit because, unfortunately, the full
