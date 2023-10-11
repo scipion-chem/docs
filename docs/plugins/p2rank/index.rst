@@ -3,7 +3,7 @@
 
 .. _docs-chem-p2rank:
 
-.. figure:: ../../../_static/images/p2rank/p2rank_logo.png
+.. figure:: ../../../_static/images/plugins/p2rank/p2rank_logo.png
    :alt: p2rank logo
 
 ###############################################################
@@ -34,5 +34,5 @@ B) Installation steps
 Protocols
 ==========================================
 
-- :ref:`fpocket-fpocket-prediction`: Predicts the pockets of an atomic structure based on its concavities (using alpha-speheres) and its electrostatics.
+- :ref:`p2rank-p2rank-prediction`: Predicts the pockets of an atomic structure based on a machine learning model over the protein surface.
 
