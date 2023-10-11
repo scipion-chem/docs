@@ -49,11 +49,11 @@ the surface points visualization they provide.
 
 |
 
-.. |viewer| image:: ../../../../_static/images/p2rank/p2rank_viewer.png
+.. |viewer| image:: ../../../../_static/images/plugins/p2rank/p2rank_viewer.png
    :alt: p2rank viewer
    :width: 45%
 
-.. |surface| image:: ../../../../_static/images/p2rank/p2rank_surface.png
+.. |surface| image:: ../../../../_static/images/plugins/p2rank/p2rank_surface.png
    :alt: p2rank vmd
    :width: 50%
 
