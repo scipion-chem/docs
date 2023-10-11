@@ -30,7 +30,7 @@ Separately, we code a jupyter notebook that is configured to open and analyze th
 In there, the user can visualize several information extracted from the data frame and the figures in the paper are plotted.
 
 Usage:
-    jupyter notebook analyzeData.ipynb
+    scipion3 jupyter notebook analyzeData.ipynb
 
 
 
