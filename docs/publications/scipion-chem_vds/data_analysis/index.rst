@@ -1,4 +1,4 @@
-.. figure:: ../../../_static/images/logo.png
+.. figure:: ../../../../_static/images/logo.png
   :alt: pwchem logo
 
 .. _scipion-chem_vds-data_analysis:
