@@ -7,7 +7,7 @@
 Scipion-chem VDS Data
 ================================
 
-This repository contains all the data discussed in the Scipion-chem paper. These are:
+This documentation contains all the data discussed in the Scipion-chem paper. These are:
 
 Virtual Drug Screening workflow example (4erf_workflow)
 -----------------------------------------------------------
