@@ -9,6 +9,9 @@ Scipion-chem VDS Data
 
 This documentation contains all the data discussed in the Scipion-chem paper. These are:
 
+Workflows
+###############################################################
+
 Virtual Drug Screening workflow example (4erf_workflow)
 -----------------------------------------------------------
 
@@ -474,6 +477,9 @@ Finally, this project also includes several examples of molecular dynamics simul
 
 |
 |
+
+Data analysis
+###############################################################
 
 Software availability
 -----------------------------------------------------------

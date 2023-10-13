@@ -221,9 +221,6 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     :caption: Publications
 
     publications/scipion-chem_vds/index
-    publications/scipion-chem_vds/workflows/index
-    publications/scipion-chem_vds/data_analysis/index
-
 
   .. toctree::
     :maxdepth: 1
