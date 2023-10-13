@@ -3,7 +3,7 @@
 
 .. _docs-chem-blast:
 
-.. figure:: ../../../_static/images/blast/blast_logo.png
+.. figure:: ../../../_static/images/plugins/blast/blast_logo.png
    :alt: blast logo
 
 ###############################################################

@@ -17,7 +17,7 @@ All parameters include a help button that gives further information for each of 
 
 |
 
-.. figure:: ../../../_static/images/blast/blast_form1.png
+.. figure:: ../../../_static/images/plugins/blast/blast_form1.png
    :alt: blast form1
 
 |
