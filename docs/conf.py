@@ -241,7 +241,7 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 # A list of glob-style patterns that should be excluded when looking for source files.
-exclude_patterns = ['publications/*/workflows/**', 'templates/**']
+exclude_patterns = ['templates/**']
 
 
 # -- Extension configuration -------------------------------------------------
