@@ -4,7 +4,7 @@
    
 .. _docs-chem-gromacs:
 
-.. figure:: ../../../../_static/images/plugins/gromacs/gromacs_logo.png
+.. figure:: ../../../_static/images/plugins/gromacs/gromacs_logo.png
    :alt: gromacs logo
 
 ###############################################################
