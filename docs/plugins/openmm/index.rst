@@ -32,4 +32,5 @@ Protocols
 ==========================================
 
 - :ref:`openmm-Receptor_Preparation`: prepares a protein ``AtomStruct`` object using PDBFixer to prepare it for posterior analysis.
+- :ref:`openmm-System_Preparation`: prepares a ``OpenMMSystem`` using the OpenMM API, including the preapred receptor and the solvent. 
 This Plugin is currently under development and more protocols will be available soon.
