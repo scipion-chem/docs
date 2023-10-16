@@ -1,6 +1,6 @@
 
 .. |organization| replace:: scipion-chem
-.. |repository| replace:: scipion-chem-lephar
+.. |repository| replace:: scipion-chem-gromacs
    
 .. _docs-chem-gromacs:
 
