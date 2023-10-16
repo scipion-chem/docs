@@ -5,7 +5,6 @@
 ###############################################################
 Gromacs system modification
 ###############################################################
-================================
 This protocol performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_ over a Gromacs System, specially over its trajectory.
 
 The modifications include:

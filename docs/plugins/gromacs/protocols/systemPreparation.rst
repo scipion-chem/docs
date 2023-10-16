@@ -5,10 +5,7 @@
 ###############################################################
 Gromacs system preparation
 ###############################################################
-================================
-This protocol prepares a Gromacs MD system prior to its simulation from a ``AtomStruct`` object. This protein must have
-all the atoms including hydrogens, we recommend you to prepare it first with any of our integrated protocols
-for receptor preparation.
+This protocol prepares a Gromacs MD system prior to its simulation from a ``AtomStruct`` object. This protein must have all the atoms including hydrogens, we recommend you to prepare it first with any of our integrated protocols for receptor preparation.
 
 It allows the user to create a solute boundary box, define the force field and finally specify the ions in the solute,
 which can be set to neutralize the charges, or manually add the desired number.

@@ -5,7 +5,6 @@
 ###############################################################
 OpenMM Receptor Preparation
 ###############################################################
-================================
 This protocol uses PDBFixer to correct most of the common errors encountered in PDB files and prepares it to be used by OpenMM and other programs.
 
 |

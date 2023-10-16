@@ -5,7 +5,6 @@
 ###############################################################
 OpenMM System Preparation
 ###############################################################
-================================
 This protocol prepares a OpenMM MD System prior to its simulation from a ``AtomStruct`` object.
 This protein must have all the atoms including hydrogens, we recommend you to prepare it first with any of our integrated protocols for receptor preparation.
 

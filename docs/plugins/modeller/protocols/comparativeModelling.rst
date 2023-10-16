@@ -5,7 +5,6 @@
 ###############################################################
 Comparative modelling
 ###############################################################
-================================
 This protocol follows the `Modeller manual <https://salilab.org/modeller/manual/node15.html>`_ for comparative
 modelling of a protein sequence using one or several structure templates. The protocol includes different sections where
 you can define the parameters you want to use for the modelling:

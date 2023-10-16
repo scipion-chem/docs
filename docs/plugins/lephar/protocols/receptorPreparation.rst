@@ -5,7 +5,6 @@
 ###############################################################
 LePro receptor preparation
 ###############################################################
-================================
 This protocol prepares the protein receptor for docking using LePro.
 LePro is designed to automatically add hydrogen atoms to proteins and/or nucleic acids by explicitely considering the
 protonation state of histidine.
