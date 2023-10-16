@@ -11,7 +11,7 @@ since most of the BLAST databases are quite big and downloading them will expend
 
 |
 
-.. figure:: ../../../_static/images/plugins/blast/blast_form2.png
+.. figure:: ../../../../_static/images/plugins/blast/blast_form2.png
    :alt: blast form2
 
 |
