@@ -21,6 +21,11 @@ It can be visualized using **Analyze Results**.
 
 |
 
+.. image:: ../../../../_static/images/plugins/openmm/openmm_out2.png
+   :alt: openmm out2
+
+|
+
 .. |testCommand| replace:: openmm.tests.test_openmm.TestOpenMMPrepareSystem
 .. include:: ../../../../templates/plugins/protocol-test.rst
 
