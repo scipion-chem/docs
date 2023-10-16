@@ -4,7 +4,7 @@
    
 .. _docs-chem-gromacs:
 
-.. figure:: ../../../../_static/images/plugins/openmm/openmm_logo.png
+.. figure:: ../../../_static/images/plugins/openmm/openmm_logo.png
    :alt: openmm logo
 
 ###############################################################
