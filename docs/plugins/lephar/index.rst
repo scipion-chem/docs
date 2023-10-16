@@ -33,5 +33,5 @@ Protocols
 ==========================================
 
 - :ref:`lephar-LePro`: prepares the protein receptor for docking using LePro.
-- :ref:`lephar-create_database`: performs docking using LeDock on a receptor or regions of interest (ROIs)
+- :ref:`lephar-LeDock`: performs docking using LeDock on a receptor or regions of interest (ROIs)
 
