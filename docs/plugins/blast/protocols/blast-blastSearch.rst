@@ -12,7 +12,7 @@ In the second parameters tab, different parameters for the search can be tuned. 
 
 |
 
-.. figure:: ../../../_static/images/plugins/blast/blast_form3.png
+.. figure:: ../../../../_static/images/plugins/blast/blast_form3.png
    :alt: blast form3
 
 |
