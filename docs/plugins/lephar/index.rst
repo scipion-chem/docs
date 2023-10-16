@@ -3,7 +3,7 @@
 
 .. _docs-chem-lephar:
 
-.. figure:: ../../../_static/images/lephar/lephar_logo.jpg
+.. figure:: ../../../_static/images/plugins/lephar/lephar_logo.jpg
    :alt: lephar logo
 
 ###############################################################
