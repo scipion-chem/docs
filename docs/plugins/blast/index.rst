@@ -9,9 +9,9 @@
 ###############################################################
 scipion-chem-blast
 ###############################################################
-`BLAST <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ is the well known program for finding regions of similarity between
-biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the
-statistical significance. In this plugin we incorporate functionalities both for local and web-server BLAST.
+`BLAST <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ is the well known program for finding regions of similarity between biological sequences. 
+The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance. 
+In this plugin we incorporate functionalities both for local and web-server BLAST.
 
 
 ==========================================

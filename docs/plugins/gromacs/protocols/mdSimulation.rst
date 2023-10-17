@@ -3,7 +3,7 @@
 .. _gromacs-MD_Simulation:
 
 ###############################################################
-Gromacs Molecular Dynamics (MD) simulation
+Gromacs Molecular Dynamics (MD) Simulation
 ###############################################################
 This protocol takes the prepared Gromacs system and use it to run a defined simulation. In the form, the user can
 define different simulation stages that the protocol will run sequentially. The parameters of this protocol are grouped
