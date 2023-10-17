@@ -20,6 +20,6 @@ The result of this protocol is an ``AtomStruct`` containing the splitted structu
 | 
 
 .. |testCommand| replace:: schrodingerScipion.tests.test_utils.TestSplitSchro
-.. include:: ../../../templates/plugins/protocol-test.rst
+.. include:: ../../../../templates/plugins/protocol-test.rst
 
 | 

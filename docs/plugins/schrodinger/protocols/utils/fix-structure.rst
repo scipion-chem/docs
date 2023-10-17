@@ -20,6 +20,6 @@ The result of this protocol is an ``AtomStruct`` containing the fixed structure 
 | 
 
 .. |testCommand| replace:: schrodingerScipion.tests.test_utils.TestPrimeSchro
-.. include:: ../../../templates/plugins/protocol-test.rst
+.. include:: ../../../../templates/plugins/protocol-test.rst
 
 | 

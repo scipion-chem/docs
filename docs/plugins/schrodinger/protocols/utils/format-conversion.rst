@@ -21,6 +21,6 @@ The user can access those files in the protocols folder (using "Browse" / folder
 | 
 
 .. |testCommand| replace:: schrodingerScipion.tests.test_utils.TestSchroConvert
-.. include:: ../../../templates/plugins/protocol-test.rst
+.. include:: ../../../../templates/plugins/protocol-test.rst
 
 | 

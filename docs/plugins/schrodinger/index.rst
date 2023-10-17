@@ -3,7 +3,7 @@
 
 .. _docs-chem-schrodinger:
 
-.. figure:: ../../../_static/images/schrodinger/schrodinger_logo.png
+.. figure:: ../../../../_static/images/schrodinger/schrodinger_logo.png
    :alt: schrodinger logo
 
 ###############################################################
@@ -25,8 +25,8 @@ In order to use this plugin, you need to install first :ref:`pwchem-index`.
 
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. include:: ../../templates/plugins/installation/installation-steps.rst
-.. include:: ../../templates/plugins/installation/only-devel.rst
+.. include:: ../../../templates/plugins/installation/installation-steps.rst
+.. include:: ../../../templates/plugins/installation/only-devel.rst
 
 |
 

@@ -24,6 +24,6 @@ The result of this protocol is an ``AtomStruct`` object containing the resulting
 | 
 
 .. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestSchroProtPrep
-.. include:: ../../../templates/plugins/protocol-test.rst
+.. include:: ../../../../templates/plugins/protocol-test.rst
 
 | 

@@ -20,6 +20,6 @@ The user can visualize them using **Analyze Results**, which will display the Ge
 | 
 
 .. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestSitemap
-.. include:: ../../../templates/plugins/protocol-test.rst
+.. include:: ../../../../templates/plugins/protocol-test.rst
 
 | 

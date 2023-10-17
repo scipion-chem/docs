@@ -20,6 +20,6 @@ The result of this protocol is another ``SetOfSmallMolecules`` object this time 
 | 
 
 .. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestSchroLigPrep
-.. include:: ../../../templates/plugins/protocol-test.rst
+.. include:: ../../../../templates/plugins/protocol-test.rst
 
 | 
