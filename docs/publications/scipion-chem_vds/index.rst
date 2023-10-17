@@ -20,7 +20,7 @@ The following sections contain further explanations about the workflows discusse
 
 | 
 
-In addition, the folders contain the actual workflows and data used necessary to run the Scipion workflow and links to the Scipion projects where the original results are stored.
+In addition, the `GitHub repository <https://github.com/scipion-chem/docs/tree/main/docs/publications/scipion-chem_vds/workflows>`_ contains the actual workflows and data used necessary to run the Scipion workflow and links to the Scipion projects where the original results are stored.
 
 A) **Import workflow**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
