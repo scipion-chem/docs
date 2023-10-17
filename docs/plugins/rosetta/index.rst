@@ -3,7 +3,7 @@
 
 .. _docs-chem-rosetta:
 
-.. figure:: ../../../_static/images/rosetta/rosetta_logo.png
+.. figure:: ../../../_static/images/plugins/rosetta/rosetta_logo.png
    :alt: rosetta logo
 
 ###############################################################
