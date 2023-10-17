@@ -59,7 +59,7 @@ B) **Import project**
 Data analysis
 ###############################################################
 The results of the "Show case" section for FABP4 workflow are subjected to further analysis outside Scipion in order to obtain the results commented in the pulication.
-Here, you can find the scripts python used to parse and analyze the results in the Scipion project. 
+`Here <https://github.com/scipion-chem/docs/tree/main/docs/publications/scipion-chem_vds/workflows>`_, you can find the scripts python used to parse and analyze the results in the Scipion project. 
 
 1) Data extraction
 ~~~~~~~~~~~~~~~~~~~~~
