@@ -20,6 +20,6 @@ In the second parameters tab, different parameters for the search can be tuned. 
 The result of this protocol is a SetOfSequences containing the BLAST hits. The analyze results button will open these sequences in AliViewer.
 
 .. |testCommand| replace:: blast.tests.test_blast.TestBLAST
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

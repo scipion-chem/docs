@@ -27,6 +27,6 @@ you can define the parameters you want to use for the modelling:
 The result of this protocol is an ``AtomStruct`` object with the mutated model.
 
 .. |testCommand| replace:: modellerScipion.tests.test_mutate_residue.TestModellerMutateRes
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

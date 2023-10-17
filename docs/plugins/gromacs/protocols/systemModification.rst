@@ -27,6 +27,6 @@ can visualize the complex using **Analyze Results**.
 
 
 .. |testCommand| replace:: gromacs.tests.tests.TestGromacsTrajMod
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

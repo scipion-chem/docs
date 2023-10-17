@@ -40,6 +40,6 @@ can visualize the complex with PyMol using **Analyze Results**.
 
 
 .. |testCommand| replace:: gromacs.tests.tests.TestGromacsPrepareSystem
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

@@ -35,7 +35,7 @@ in the protocol's folder.
 
 
 .. |testCommand| replace:: fpocket.tests.test_fpocket.TestFPocket
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 
 

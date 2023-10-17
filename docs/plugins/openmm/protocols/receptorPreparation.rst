@@ -24,6 +24,6 @@ The result of this protocol is a ``AtomStruct``, containing the fixed PDB struct
 |
 
 .. |testCommand| replace:: openmm.tests.test_openmm.TestOpenMMPrepareReceptor
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

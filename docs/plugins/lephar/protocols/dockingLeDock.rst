@@ -23,6 +23,6 @@ whole set, individual StructROIs, all poses of a molecule, single molecules or s
 (checking interactions).
 
 .. |testCommand| replace:: lephar.tests.test_ledock.TestLeDock
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

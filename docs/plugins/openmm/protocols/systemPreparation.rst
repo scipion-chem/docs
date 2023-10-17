@@ -26,6 +26,6 @@ It can be visualized using **Analyze Results**.
 |
 
 .. |testCommand| replace:: openmm.tests.test_openmm.TestOpenMMPrepareSystem
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

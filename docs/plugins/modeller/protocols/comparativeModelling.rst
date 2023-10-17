@@ -36,6 +36,6 @@ obtained for each of them. Analyze Results will open all the output models in Py
 them one by one with right click over the object.
 
 .. |testCommand| replace:: modellerScipion.tests.test_comparative_modelling.TestModellerComparativeModelling
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

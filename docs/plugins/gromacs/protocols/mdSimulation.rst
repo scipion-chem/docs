@@ -62,6 +62,6 @@ Using **Analyze Results**, a form with different visualization options will be d
 |
 
 .. |testCommand| replace:: gromacs.tests.tests.TestGromacsRunSimulation
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

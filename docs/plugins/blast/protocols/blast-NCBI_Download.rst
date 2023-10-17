@@ -26,6 +26,6 @@ The result of this protocol is either a ``SetOfSequences`` (for protein or nucle
 for PubChem downloads.
 
 .. |testCommand| replace:: blast.tests.test_blast.TestNCBIDownload
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

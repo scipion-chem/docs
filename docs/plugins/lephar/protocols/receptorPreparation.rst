@@ -22,6 +22,6 @@ The result of this protocol is an AtomStruct containing the prepared structure.
 
 
 .. |testCommand| replace:: lephar.tests.test_ledock.TestLePro
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 
