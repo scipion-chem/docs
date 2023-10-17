@@ -1,3 +1,6 @@
+.. figure:: ../../../../../_static/images/logo.png
+  :alt: pwchem logo
+  
 .. _docs-vds-4erf:
 
 ###############################################################
