@@ -3,7 +3,7 @@
 ###############################################################
 Supplementary workflow (1a28_workflow)
 ###############################################################
-This section contains a VDS supplementary for the VDS Scipion-chem publication for DCOID dataset for `1A28 <https://www.rcsb.org/structure/1A28>`_ PDB entry, with a few variations from the 4ERF example.
+This section contains a VDS supplementary for the VDS Scipion-chem publication for `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database for `1A28 <https://www.rcsb.org/structure/1A28>`_ PDB entry, with a few variations from the 4ERF example.
 The same pattern ( <Subworkflow number> ) <Plugin> - <Task performed> ) is used to describe identify the subworkflow each of the protocols belongs to. 
 In this case, the subworkflows are:
 
@@ -15,10 +15,10 @@ Principal workflow that includes protocols following the "VDS workflow" section:
    :alt: vds workflow 1a28
 
 1) **Molecules import**
-    - **Receptor import**: 1A28 structure from dcoid dataset, corresponding to 1A28 PDB entry, the progesterone receptor
+    - **Receptor import**: 1A28 structure from `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database, corresponding to 1A28 PDB entry, the progesterone receptor
       linked to its ligand progesterone. The ligand is removed from the original structure in order to get the receptor
       structure.
-    - **Small molecules import**: the 4 small molecule provided in the dcoid dataset (DOI: 10.17632/8czn4rxz68.1) are
+    - **Small molecules import**: the 4 small molecule provided in the `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database (DOI: 10.17632/8czn4rxz68.1) are
       imported from local files. These include the active molecule (progesterone) and 3 decoys which have been proved
       not to interact with the receptor.
 

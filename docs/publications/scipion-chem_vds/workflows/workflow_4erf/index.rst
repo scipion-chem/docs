@@ -4,7 +4,7 @@
 Virtual Drug Screening workflow example (4erf_workflow)
 ###############################################################
 
-Example shown in "Virtual Drug Screening workflow" section for `4ERF <https://www.rcsb.org/structure/4ERF>`_ PDB structure. 
+Example shown in "Virtual Drug Screening workflow" section for `4ERF <https://www.rcsb.org/structure/4ERF>`_ PDB structure, using data from the `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database. 
 The example can be divided into 4 subworkflows, which are examples of useful tasks discussed in the paper. 
 The protocols related to each of these subworkflows can be identified by their labels in the GUI, which have the form:
 
