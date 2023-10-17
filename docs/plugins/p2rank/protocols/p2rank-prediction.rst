@@ -34,7 +34,7 @@ in the protocol's folder.
 
 
 .. |testCommand| replace:: p2rank.tests.test_p2rank.TestP2Rank
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../../_templates/plugins/protocol-test.rst
 
 | 
 
