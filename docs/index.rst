@@ -214,6 +214,7 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     plugins/modeller/index
     plugins/blast/index
     plugins/openmm/index
+    plugins/amber/index
 
   .. toctree::
     :maxdepth: 1
