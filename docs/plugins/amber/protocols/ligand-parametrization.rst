@@ -10,7 +10,7 @@ Additional modifications, handled by Scipion-chem, might be addressed so Amber i
 
 |
 
-.. image:: ../../../../../_static/images/plugins/amber/amber_form1.png
+.. image:: ../../../../_static/images/plugins/amber/amber_form1.png
    :alt: amber form1
 
 |

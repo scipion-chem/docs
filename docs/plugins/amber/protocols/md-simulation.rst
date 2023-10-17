@@ -9,7 +9,7 @@ This protocol  defines and executes a Amber MD simulation.
 
 |
 
-.. image:: ../../../../../_static/images/plugins/amber/amber_form3.png
+.. image:: ../../../../_static/images/plugins/amber/amber_form3.png
    :alt: amber form3
 
 |

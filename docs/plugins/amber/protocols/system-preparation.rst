@@ -9,7 +9,7 @@ This protocol prepares a system for Amber MD simulation, cleaning the input PDB 
 
 |
 
-.. image:: ../../../../../_static/images/plugins/amber/amber_form2.png
+.. image:: ../../../../_static/images/plugins/amber/amber_form2.png
    :alt: amber form2
 
 |
