@@ -5,7 +5,6 @@
 ###############################################################
 Gromacs system modification
 ###############################################################
-================================
 This protocol performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_ over a Gromacs System, specially over its trajectory.
 
 The modifications include:
@@ -28,6 +27,6 @@ can visualize the complex using **Analyze Results**.
 
 
 .. |testCommand| replace:: gromacs.tests.tests.TestGromacsTrajMod
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 

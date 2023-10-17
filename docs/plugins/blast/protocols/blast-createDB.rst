@@ -20,7 +20,7 @@ This protocol does not output any object, but it saves the database in the plugi
 
 
 .. |testCommand| replace:: blast.tests.test_blast.TestDatabaseBLAST
-.. include:: ../../../../templates/plugins/protocol-test.rst
+.. include:: ../../../templates/plugins/protocol-test.rst
 
 | 
 
