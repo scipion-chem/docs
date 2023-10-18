@@ -40,7 +40,7 @@ The user will be able to prepare both the target and the ligands, predict or def
 - :ref:`schrodinger-ligand-preparation`: Prepares a ``SetOfSmallMolecules`` to make it ready for Schrodinger tools using the `Ligprep <https://www.schrodinger.com/products/ligprep>`_ Schrodinger program.
 - :ref:`schrodinger-binding-site-prediction`: Predicts the most promising binding sites on the structure using `SiteMap <https://www.schrodinger.com/products/sitemap>`_ .
 - :ref:`schrodinger-grid-preparation`: Generates the grids used by the docking Schrodinger program: `Glide <https://www.schrodinger.com/products/glide>`_. 
-- :ref:`schrodinger-Glide_Docking`: Uses `Glide <https://www.schrodinger.com/products/glide>`_ for docking a set of ligands to a receptor.
+- :ref:`schrodinger-glide-docking`: Uses `Glide <https://www.schrodinger.com/products/glide>`_ for docking a set of ligands to a receptor.
 
 B) Molecular Dynamics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
