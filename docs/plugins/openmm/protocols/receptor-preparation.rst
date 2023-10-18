@@ -22,7 +22,6 @@ The result of this protocol is a ``AtomStruct``, containing the fixed PDB struct
 
 .. image:: ../../../../_static/images/plugins/openmm/receptor-preparation/output.png
    :alt: OpenMM Receptor Preparation output
-   :height: 400
    :align: center
 
 |

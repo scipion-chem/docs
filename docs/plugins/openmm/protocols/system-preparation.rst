@@ -25,7 +25,6 @@ It can be visualized using **Analyze Results**.
 
 .. image:: ../../../../_static/images/plugins/openmm/system-preparation/output.png
    :alt: OpenMM System Preparation output
-   :height: 400
    :align: center
 
 |
