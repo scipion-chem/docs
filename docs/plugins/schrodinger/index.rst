@@ -57,4 +57,4 @@ It includes other util protocols that can be used in any of the previous fields.
 
 - :ref:`schrodinger-format-conversion`: Uses Schrodinger scripts to convert an ``AtomStruct`` or a ``SetOfSmallMolecules`` to the desired format.
 - :ref:`schrodinger-fix-structure`: Allows the user to use `Prime <https://www.schrodinger.com/products/prime>`_ for fixing an atomic structure. 
-- :ref:`schrodinger-Split_Structure`: Allows the user to use the *split_structure.py* script from Schrodinger mmShare. 
+- :ref:`schrodinger-split-structure`: Allows the user to use the *split_structure.py* script from Schrodinger mmShare. 
