@@ -49,7 +49,7 @@ It includes protocols able to handle Molecular Dynamics simulations in Schroding
 The following protocols allow the user to prepare, run and analyze these simulations.
 
 - :ref:`schrodinger-system-preparation`: Prepares a Schrodinger MD system using `Desmond <https://www.schrodinger.com/products/desmond>`_ prior to its simulation from a ``AtomStruct`` or a ``SmallMolecule`` object.
-- :ref:`schrodinger-Desmond_MD_Simulation`: Takes the prepared Schrodinger system and uses `Desmond <https://www.schrodinger.com/products/desmond>`_ to run a defined simulation. 
+- :ref:`schrodinger-desmond-md-simulation`: Takes the prepared Schrodinger system and uses `Desmond <https://www.schrodinger.com/products/desmond>`_ to run a defined simulation. 
 
 C) Utils
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
