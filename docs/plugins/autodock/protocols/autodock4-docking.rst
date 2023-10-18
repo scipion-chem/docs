@@ -22,7 +22,7 @@ Input
 
 |
 
-.. image:: image:: ../../../../_static/images/plugins/autodock/autodock4-docking/form_2.png
+.. image:: ../../../../_static/images/plugins/autodock/autodock4-docking/form_2.png
    :alt: AutoDock4 Docking form 2
    :height: 400
    :align: center

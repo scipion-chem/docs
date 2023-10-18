@@ -18,7 +18,7 @@ The input can either be an ``AtomStruct`` (to perform the docking on the whole p
 
 |
 
-.. image:: ../../../../_static/images/plugins/autodock/autodockGPU-docking/form_1.png
+.. image:: ../../../../_static/images/plugins/autodock/autodockGPU-docking/form_2.png
    :alt: AutoDock-GPU Docking form 2
    :height: 400
    :align: center
