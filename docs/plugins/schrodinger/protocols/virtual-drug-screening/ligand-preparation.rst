@@ -13,7 +13,7 @@ Input
 .. include:: ../../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../../_static/images/plugins/schrodinger/virtual-drug-screening/ligand-preparation/form.png
-   :alt: Schrödinger Receptor Preparation form
+   :alt: Schrödinger Ligand Preparation form
    :height: 400
    :align: center
 

@@ -38,7 +38,7 @@ The user will be able to prepare both the target and the ligands, predict or def
 
 - :ref:`schrodinger-receptor-preparation`: Prepares an ``AtomStruct`` object containing a protein file to make it ready for Schrodinger tools using the `Prepwizard <https://www.schrodinger.com/science-articles/protein-preparation-wizard>`_ Schrodinger utility.
 - :ref:`schrodinger-ligand-preparation`: Prepares a ``SetOfSmallMolecules`` to make it ready for Schrodinger tools using the `Ligprep <https://www.schrodinger.com/products/ligprep>`_ Schrodinger program.
-- :ref:`schrodinger-Binding_Site_Prediction`: Predicts the most promising binding sites on the structure using `SiteMap <https://www.schrodinger.com/products/sitemap>`_ .
+- :ref:`schrodinger-binding-site-prediction`: Predicts the most promising binding sites on the structure using `SiteMap <https://www.schrodinger.com/products/sitemap>`_ .
 - :ref:`schrodinger-Grid_Preparation`: Generates the grids used by the docking Schrodinger program: `Glide <https://www.schrodinger.com/products/glide>`_. 
 - :ref:`schrodinger-Glide_Docking`: Uses `Glide <https://www.schrodinger.com/products/glide>`_ for docking a set of ligands to a receptor.
 
