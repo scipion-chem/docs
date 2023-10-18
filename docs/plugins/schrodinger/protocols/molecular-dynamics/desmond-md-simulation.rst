@@ -33,8 +33,15 @@ The user can also choose from a set of default workflows that will automatically
 
 .. include:: ../../../../templates/plugins/input-help.rst
 
-.. image:: ../../../../../_static/images/plugins/schrodinger/molecular-dynamics/desmond-md-simulation/form.png
-   :alt: Schrödinger MD Simulation form
+.. image:: ../../../../../_static/images/plugins/schrodinger/molecular-dynamics/desmond-md-simulation/form_1.png
+   :alt: Schrödinger MD Simulation form 1
+   :height: 400
+   :align: center
+
+|
+
+.. image:: ../../../../../_static/images/plugins/schrodinger/molecular-dynamics/desmond-md-simulation/form_2.png
+   :alt: Schrödinger MD Simulation form 2
    :height: 400
    :align: center
 

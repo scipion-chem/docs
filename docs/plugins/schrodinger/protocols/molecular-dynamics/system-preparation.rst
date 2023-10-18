@@ -36,14 +36,12 @@ The user can visualize the complex with Maestro using **Analyze Results**.
 
 .. image:: ../../../../../_static/images/plugins/schrodinger/molecular-dynamics/system-preparation/output_1.png
    :alt: Schrödinger System Preparation output 1
-   :height: 400
    :align: center
 
 |
 
 .. image:: ../../../../../_static/images/plugins/schrodinger/molecular-dynamics/system-preparation/output_2.png
    :alt: Schrödinger System Preparation output 2
-   :height: 400
    :align: center
 
 |
