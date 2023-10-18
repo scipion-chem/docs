@@ -3,7 +3,7 @@
 .. _openmm-system-simulation:
 
 ###############################################################
-System Simulation
+OpenMM System Simulation
 ###############################################################
 
 Input

@@ -3,7 +3,7 @@
 .. _openmm-system-preparation:
 
 ###############################################################
-System Preparation
+OpenMM System Preparation
 ###############################################################
 This protocol prepares a OpenMM MD System prior to its simulation from a ``AtomStruct`` object.
 
@@ -14,7 +14,7 @@ Input
 .. include:: ../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../_static/images/plugins/openmm/system-preparation/form.png
-   :alt: System Preparation form
+   :alt: OpenMM System Preparation form
    :height: 400
    :align: center
 
@@ -24,7 +24,7 @@ The result of this protocol is a ``OpenMMSystem``, containing the prepared syste
 It can be visualized using **Analyze Results**.
 
 .. image:: ../../../../_static/images/plugins/openmm/system-preparation/output.png
-   :alt: System Preparation output
+   :alt: OpenMM System Preparation output
    :height: 400
    :align: center
 
