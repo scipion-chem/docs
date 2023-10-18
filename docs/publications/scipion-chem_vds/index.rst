@@ -28,7 +28,7 @@ A) **Import workflow**
       as they are or with any modification.
       To do so, you can import the workflow from a scipion3 project, using "Project -> Import workflow" and selecting the json file.
       
-      .. figure:: ../../../../_static/images/publications/scipion-chem_vds/importWorkflow.png
+      .. figure:: ../../../_static/images/publications/scipion-chem_vds/importWorkflow.png
          :alt: import workflow
 
       Once you have imported the workflow, remember to redirect the input protocols to the actual paths of the input files contained in this repository.
@@ -46,7 +46,7 @@ B) **Import project**
       from the project manager window (the one to appear when using the command "scipion3") using the "Import project" button and
       selecting the project folder i.e: 1a28_workflow
       
-      .. figure:: ../../../../_static/images/publications/scipion-chem_vds/importProject.png
+      .. figure:: ../../../_static/images/publications/scipion-chem_vds/importProject.png
          :alt: import project
 
       In this case, the project is self contained, so all the inputs are included and there is no need to change the paths for the input files.
