@@ -7,6 +7,10 @@ Amber Molecular Dynamics (MD) Simulation
 ###############################################################
 This protocol  defines and executes a Amber MD simulation.
 
+Input
+----------------------------------------
+.. include:: ../../../templates/plugins/input-help.rst
+
 .. image:: ../../../../_static/images/plugins/amber/md-simulation/form.png
    :alt: Amber Molecular Dynamics (MD) Simulation form
    :height: 400
