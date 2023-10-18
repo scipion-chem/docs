@@ -51,39 +51,7 @@ B) **Import project**
 
       In this case, the project is self contained, so all the inputs are included and there is no need to change the paths for the input files.
 
-
-Data analysis
-###############################################################
-The results of the "Show case" section for FABP4 workflow are subjected to further analysis outside Scipion in order to obtain the results commented in the pulication.
-`Here <https://github.com/scipion-chem/docs/tree/main/docs/publications/scipion-chem_vds/workflows>`_, you can find the scripts python used to parse and analyze the results in the Scipion project. 
-
-1) Data extraction
-~~~~~~~~~~~~~~~~~~~~~
-
-First, we extract the results from Scipion in a Pandas data frame object, which contains each of the docked poses as rows with information about its original molecule, whether it is an active or a decoy, the docking software that generated it and a column for each of the consensus docking protocols in the project determining if it is or not included in it.
-The user must follow the convention names in the FABP4 workflow provided in order for it to work as expected.
-
-Usage:
-
-.. parsed-literal::
-
-    scipion3 python extractData.py <projectName>
-
-Output:
-    The output generated is a csv file containing the data frame information
-
-2) Data analysis
-~~~~~~~~~~~~~~~~~~~~~
-
-Separately, we code a jupyter notebook that is configured to open and analyze the results extracted in the previous section.
-In there, the user can visualize several information extracted from the data frame and the figures in the paper are plotted.
-
-Usage:
-
-.. parsed-literal::
-
-    conda activate scipion3 && jupyter notebook analyzeData.ipynb
-
+.. include:: data_analysis/index.rst
 
 Software availability
 ###############################################################
@@ -91,7 +59,7 @@ Software availability
 All the commented Scipion-chem plugins are built on the Scipion workflow engine, which can be found in
 https://scipion.i2pc.es/ .
 
-As stated in the paper, `Scipion-chem <https://github.com/scipion-chem>`_ integrates a set of bioinformatic tools and
+As stated in the paper, `scipion-chem <https://github.com/scipion-chem>`_ integrates a set of bioinformatic tools and
 software inside the platform.
 Most of this tools are open, and no license is required for their use, so Scipion-chem installs it automatically,
 taking care of properly referencing all the sources.
