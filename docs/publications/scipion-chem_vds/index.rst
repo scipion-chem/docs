@@ -14,11 +14,9 @@ Workflows
 
 The following sections contain further explanations about the workflows discussed in the VDS Scipion-chem publication.
 
-- :ref:`docs-vds-4erf`: main VDS workflow discussed in "Virtual Drug Screening workflow" section for `4ERF <https://www.rcsb.org/structure/4ERF>`_ PDB structure, using `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database 
+- :ref:`docs-vds-4erf`: main VDS workflow discussed in "Virtual Drug Screening workflow" section for `4ERF <https://www.rcsb.org/structure/4ERF>`_ PDB structure, using `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database.
 - :ref:`docs-vds-fabp4`: bigger VDS workflow discussed in "Show case" section using `FABP4 <https://dude.docking.org/targets/fabp4>`_ dataset from `DUD-E <https://dude.docking.org/>`_ database.
-- :ref:`docs-vds-1a28`: supplementary workflow example similar to 4ERF, with data from `1A28 <https://www.rcsb.org/structure/1A28>`_ PDB structure, using `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database 
-
-| 
+- :ref:`docs-vds-1a28`: supplementary workflow example similar to 4ERF, with data from `1A28 <https://www.rcsb.org/structure/1A28>`_ PDB structure, using `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database.
 
 In addition, the `GitHub repository <https://github.com/scipion-chem/docs/tree/main/docs/publications/scipion-chem_vds/workflows>`_ contains the actual workflows and data used necessary to run the Scipion workflow and links to the Scipion projects where the original results are stored.
 
@@ -53,8 +51,6 @@ B) **Import project**
 
       In this case, the project is self contained, so all the inputs are included and there is no need to change the paths for the input files.
 
-|
-|
 
 Data analysis
 ###############################################################
@@ -69,11 +65,12 @@ The user must follow the convention names in the FABP4 workflow provided in orde
 
 Usage:
 
+.. parsed-literal::
+
     scipion3 python extractData.py <projectName>
 
 Output:
     The output generated is a csv file containing the data frame information
-
 
 2) Data analysis
 ~~~~~~~~~~~~~~~~~~~~~
@@ -82,9 +79,11 @@ Separately, we code a jupyter notebook that is configured to open and analyze th
 In there, the user can visualize several information extracted from the data frame and the figures in the paper are plotted.
 
 Usage:
+
+.. parsed-literal::
+
     conda activate scipion3 && jupyter notebook analyzeData.ipynb
 
-|
 
 Software availability
 ###############################################################
