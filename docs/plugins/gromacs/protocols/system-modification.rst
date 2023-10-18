@@ -17,7 +17,7 @@ The modifications include:
 
 Input
 ----------------------------------------
-.. include:: ../../../../templates/plugins/input-help.rst
+.. include:: ../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../_static/images/plugins/gromacs/system-modification/form.png
    :alt: Gromacs system modification form 1

@@ -16,7 +16,7 @@ which can be set to neutralize the charges, or manually add the desired number.
 
 Input
 ----------------------------------------
-.. include:: ../../../../templates/plugins/input-help.rst
+.. include:: ../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../_static/images/plugins/gromacs/system-preparation/form_1.png
    :alt: Gromacs system preparation form 1

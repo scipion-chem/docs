@@ -26,7 +26,7 @@ Then, the defined stage can be inserted into the workflow, whose summary is show
 
 5) **Summary**: A summary of the added stages is shown. However, this list is just a summary and manual modifications will not yield changes. In order to modify the stages, the user need to use the wizards in order to add, delete or watch the parameters of the desired stages, which can be specified in the wizard text input.
 
-.. include:: ../../../../templates/plugins/input-help.rst
+.. include:: ../../../templates/plugins/input-help.rst
 
 .. image:: ../../../../_static/images/plugins/gromacs/md-simulation/form.png
    :alt: Gromacs Molecular Dynamics form
