@@ -3,7 +3,7 @@
 
 .. _docs-chem-modeller:
 
-.. figure:: ../../../_static/images/plugins/modeller/modeller_logo.png
+.. figure:: ../../../_static/images/plugins/modeller/logo.png
    :alt: modeller logo
 
 ###############################################################
@@ -19,18 +19,14 @@ A) Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In order to use this plugin, you need to install first :ref:`pwchem-index`.
 
-
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. include:: ../../templates/plugins/installation/installation-steps.rst
 .. include:: ../../templates/plugins/installation/only-devel.rst
 
-|
-
-
 ==========================================
 Protocols
 ==========================================
 
-- :ref:`modeller-comparativeModelling`: comparative modelling of a protein sequence using one or several structure templates.
-- :ref:`modeller-mutationModelling`: residue mutation modelling and energy optimization.
+- :ref:`modeller-comparative-modelling`: Comparative modelling of a protein sequence using one or several structure templates.
+- :ref:`modeller-mutation-modelling`: Residue mutation modelling and energy optimization.
