@@ -1,6 +1,6 @@
 :orphan: true
 
-.. _lephar-LePro:
+.. _lephar-lepro:
 
 ###############################################################
 LePro receptor preparation
@@ -11,17 +11,19 @@ protonation state of histidine.
 
 From Scipion-chem, we also provide the option of cleaning the structure from HETATM atoms and selecting specific
 chains from the input structure.
+
+Input
+----------------------------------------
+.. include:: ../../../templates/plugins/input-help.rst
+
+.. image:: ../../../../_static/images/plugins/lephar/lepro/form.png
+   :alt: LePro receptor preparation form
+   :height: 400
+   :align: center
+
 |
 
-.. figure:: ../../../../_static/images/plugins/lephar/lephar_form1.png
-   :alt: lephar form1
-
-|
-
-The result of this protocol is an AtomStruct containing the prepared structure.
-
+The result of this protocol is an ``AtomStruct`` containing the prepared structure.
 
 .. |testCommand| replace:: lephar.tests.test_ledock.TestLePro
 .. include:: ../../../templates/plugins/protocol-test.rst
-
-| 

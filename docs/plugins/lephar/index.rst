@@ -3,7 +3,7 @@
 
 .. _docs-chem-lephar:
 
-.. figure:: ../../../_static/images/plugins/lephar/lephar_logo.jpg
+.. figure:: ../../../_static/images/plugins/lephar/logo.jpg
    :alt: lephar logo
 
 ###############################################################
@@ -19,19 +19,14 @@ A) Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In order to use this plugin, you need to install first :ref:`pwchem-index`.
 
-
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. include:: ../../templates/plugins/installation/installation-steps.rst
 .. include:: ../../templates/plugins/installation/only-devel.rst
 
-|
-
-
 ==========================================
 Protocols
 ==========================================
 
-- :ref:`lephar-LePro`: prepares the protein receptor for docking using LePro.
-- :ref:`lephar-LeDock`: performs docking using LeDock on a receptor or regions of interest (ROIs)
-
+- :ref:`lephar-lepro`: Prepares the protein receptor for docking using LePro.
+- :ref:`lephar-ledock`: Performs docking using LeDock on a receptor or regions of interest (ROIs).
