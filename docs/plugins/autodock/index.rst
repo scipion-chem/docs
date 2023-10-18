@@ -36,7 +36,6 @@ C) Packages & enviroments
 ==========================================
 Protocols
 ==========================================
-
 A) Receptor preparation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - :ref:`autodock-receptor-preparation`: prepares an ``AtomStruct`` object containing a protein file to make it ready for `AutoDock tools <https://autodocksuite.scripps.edu/adt/>`_, such as docking with AutoDock or Vina.

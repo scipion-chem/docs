@@ -3,7 +3,7 @@
 
 .. _docs-chem-blast:
 
-.. figure:: ../../../_static/images/plugins/blast/blast_logo.png
+.. figure:: ../../../_static/images/plugins/blast/logo.png
    :alt: blast logo
 
 ###############################################################
@@ -13,7 +13,6 @@ scipion-chem-blast
 The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance. 
 In this plugin we incorporate functionalities both for local and web-server BLAST.
 
-
 ==========================================
 Installation
 ==========================================
@@ -21,20 +20,15 @@ A) Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In order to use this plugin, you need to install first :ref:`pwchem-index`.
 
-
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. include:: ../../templates/plugins/installation/installation-steps.rst
 .. include:: ../../templates/plugins/installation/only-devel.rst
 
-|
-
-
 ==========================================
 Protocols
 ==========================================
 
-- :ref:`blast-NCBI_download`: Predicts the pockets of an atomic structure based on its concavities (using alpha-speheres) and its electrostatics.
-- :ref:`blast-create_database`: Predicts the pockets of an atomic structure based on its concavities (using alpha-speheres) and its electrostatics.
-- :ref:`blast-blast_search`: Predicts the pockets of an atomic structure based on its concavities (using alpha-speheres) and its electrostatics.
-
+- :ref:`blast-NCBI-download`: Predicts the pockets of an atomic structure based on its concavities (using alpha-speheres) and its electrostatics.
+- :ref:`blast-create-database`: Predicts the pockets of an atomic structure based on its concavities (using alpha-speheres) and its electrostatics.
+- :ref:`blast-blast-search`: Predicts the pockets of an atomic structure based on its concavities (using alpha-speheres) and its electrostatics.

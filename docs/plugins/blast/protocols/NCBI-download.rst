@@ -1,6 +1,6 @@
 :orphan: true
 
-.. _blast-NCBI_download:
+.. _blast-NCBI-download:
 
 ###############################################################
 Blast NCBI download
@@ -13,12 +13,14 @@ The user can perform a search using NCBI IDs, where the specific objects they re
 a broader search using keywords which will return a set of objects which are returned by the esearch functionality.
 The user must be aware of this functionality, since the outputs might not be those expected.
 
-All parameters include a help button that gives further information for each of them.
+Input
+----------------------------------------
+.. include:: ../../../templates/plugins/input-help.rst
 
-|
-
-.. figure:: ../../../../_static/images/plugins/blast/blast_form1.png
-   :alt: blast form1
+.. image:: ../../../../_static/images/plugins/blast/NCBI-download/form.png
+   :alt: Blast NCBI download form
+   :height: 400
+   :align: center
 
 |
 
@@ -27,5 +29,3 @@ for PubChem downloads.
 
 .. |testCommand| replace:: blast.tests.test_blast.TestNCBIDownload
 .. include:: ../../../templates/plugins/protocol-test.rst
-
-| 
