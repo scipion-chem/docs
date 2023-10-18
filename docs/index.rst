@@ -215,6 +215,13 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     plugins/blast/index
     plugins/openmm/index
     plugins/amber/index
+  
+  .. toctree::
+    :maxdepth: 1
+    :hidden:
+    :caption: Scipion Chem enviroment
+
+    objects
 
   .. toctree::
     :maxdepth: 1
