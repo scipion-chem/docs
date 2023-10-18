@@ -20,7 +20,8 @@ Input
 
 |
 
-The result of this protocol is a ``Pharmacophore`` object containing the hydrophobic, H-donor and H-acceptor cluster centers described in the AutoSite output.
+The result of this protocol is a ``Pharmacophore`` object containing the hydrophobic, H-donor 
+and H-acceptor cluster centers described in the AutoSite output.
 
 .. |testCommand| replace:: autodock.tests.test_autodock.TestAutoSitePharmacophore
 .. include:: ../../../templates/plugins/protocol-test.rst
