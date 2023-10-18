@@ -4,7 +4,7 @@
    
 .. _docs-chem-gromacs:
 
-.. figure:: ../../../_static/images/plugins/gromacs/gromacs_logo.png
+.. figure:: ../../../_static/images/plugins/gromacs/logo.png
    :alt: gromacs logo
 
 ###############################################################
@@ -21,18 +21,15 @@ A) Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In order to use this plugin, you need to install first :ref:`pwchem-index`.
 
-
 B) Installation steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. include:: ../../templates/plugins/installation/installation-steps.rst
 .. include:: ../../templates/plugins/installation/only-devel.rst
 
-|
-
 ==========================================
 Protocols
 ==========================================
 
-- :ref:`gromacs-System_Preparation`: prepares a Gromacs MD system prior to its simulation from a ``AtomStruct`` object.
-- :ref:`gromacs-MD_Simulation`: takes the prepared Gromacs system and use it to run a defined simulation.
-- :ref:`gromacs-System_Modification`: performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_ over a Gromacs System, specially over its trajectory.
+- :ref:`gromacs-system-preparation`: Prepares a Gromacs MD system prior to its simulation from a ``AtomStruct`` object.
+- :ref:`gromacs-md-simulation`: Takes the prepared Gromacs system and use it to run a defined simulation.
+- :ref:`gromacs-system-modification`: Performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_ over a Gromacs System, specially over its trajectory.

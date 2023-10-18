@@ -1,11 +1,12 @@
 :orphan: true
 
-.. _gromacs-System_Modification:
+.. _gromacs-system-modification:
 
 ###############################################################
 Gromacs system modification
 ###############################################################
-This protocol performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_ over a Gromacs System, specially over its trajectory.
+This protocol performs `modifications <https://manual.gromacs.org/documentation/5.1/onlinehelp/gmx-trjconv.html>`_ over 
+a Gromacs System, specially over its trajectory.
 
 The modifications include:
     - **Cleaning**: removing waters and ions
@@ -14,19 +15,19 @@ The modifications include:
     - **Subsampling**: Subsample trajectory frames
     - **Filtering**: Perform low/high pass filters on trajectory frames
 
+Input
+----------------------------------------
+.. include:: ../../../../templates/plugins/input-help.rst
+
+.. image:: ../../../../_static/images/plugins/gromacs/system-modification/form.png
+   :alt: Gromacs system modification form 1
+   :height: 400
+   :align: center
+
 |
 
-.. figure:: ../../../../_static/images/plugins/gromacs/gromacs_form3.png
-   :alt: gromacs form3
-
-|
-
-
-The result of this protocol is a GromacsSystem, containing the modified Gromacs files and trajectory. The user
+The result of this protocol is a ``GromacsSystem``, containing the modified Gromacs files and trajectory. The user
 can visualize the complex using **Analyze Results**.
-
 
 .. |testCommand| replace:: gromacs.tests.tests.TestGromacsTrajMod
 .. include:: ../../../templates/plugins/protocol-test.rst
-
-| 
