@@ -57,7 +57,7 @@ D) Binding site identification
 
 E) Pharmacophore generation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- :ref:`autodock-ligand-preparation`: generates a Pharmacophore object RDKit compatible from a resulting binding site of `AutoSite <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5048065/>`_. 
+- :ref:`autodock-pharmacophore-generation`: generates a Pharmacophore object RDKit compatible from a resulting binding site of `AutoSite <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5048065/>`_. 
 
 F) Docking
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
