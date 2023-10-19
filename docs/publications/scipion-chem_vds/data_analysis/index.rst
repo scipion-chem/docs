@@ -1,7 +1,5 @@
 :orphan: true
 
-.. _scipion-chem_vds-data_analysis:
-
 Data Analysis
 ###############################################################
 The results of the "Show case" section for FABP4 workflow are subjected to further analysis outside Scipion in order to obtain the results commented in the publication.
