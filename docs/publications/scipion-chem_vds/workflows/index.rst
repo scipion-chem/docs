@@ -12,6 +12,7 @@ The following workflows are available to download:
 .. list-table::
    :widths: 50 50
    :header-rows: 1
+   :align: center
 
    * - Dataset
      - Download Lins
