@@ -39,7 +39,7 @@ The following workflows are available to download:
      - Workflow
      - Input files
    * - 4erf
-     - :download:`4erf.json </_static/datasets/scipion-chem_vds/workflows/4erf/4erf.json>`
+     - :download:`4erf.json </../_static/datasets/scipion-chem_vds/workflows/4erf/4erf.json>`
      - `4erf.zip <../../../../_static/datasets/scipion-chem_vds/workflows/4erf/4erf.zip>`_
    * - fabp4
      - `fabp4.json <../../../../_static/datasets/scipion-chem_vds/workflows/fabp4/fabp4.json>`_
