@@ -17,7 +17,7 @@ The following workflows are available to download:
    * - Dataset
      - Download Links
    * - 4erf
-     - `Workflow <path/to/your/workflow2>`_ | `Inputs <path/to/your/data2>`_
+     - `Workflow <../../../../_static/datasets/scipion-chem_vds/workflows/4erf/workflow.json>`_ | `Inputs <path/to/your/data2>`_
    * - fabp4
      - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
    * - 1a28
