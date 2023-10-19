@@ -10,18 +10,22 @@ The following sections contain further explanations about the workflows discusse
 The following workflows are available to download:
 
 .. list-table::
-   :widths: 50 50
+   :widths: 20 40 40
    :header-rows: 1
    :align: center
 
    * - Dataset
-     - Download Links
+     - Workflow
+     - Input files
    * - 4erf
-     - `Workflow <../../../../_static/datasets/scipion-chem_vds/workflows/4erf/workflow.json>`_ | `Inputs <path/to/your/data2>`_
+     - `4erf.json <../../../../_static/datasets/scipion-chem_vds/workflows/4erf/4erf.json>`_
+     - `4erf.zip <../../../../_static/datasets/scipion-chem_vds/workflows/4erf/4erf.zip>`_
    * - fabp4
-     - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
+     - `fabp4.json <../../../../_static/datasets/scipion-chem_vds/workflows/fabp4/fabp4.json>`_
+     - `fabp4.zip <../../../../_static/datasets/scipion-chem_vds/workflows/fabp4/fabp4.zip>`_
    * - 1a28
-     - `Workflow </_static/datasets/scipion-chem_vds/workflows/1a28/workflow.json>`_ | `Inputs <path/to/your/data1>`_
+     - `1a28.json <../../../../_static/datasets/scipion-chem_vds/workflows/1a28/1a28.json>`_
+     - `1a28.zip <../../../../_static/datasets/scipion-chem_vds/workflows/1a28/1a28.zip>`_
 
 A) **Import workflow**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
