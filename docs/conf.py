@@ -117,11 +117,8 @@ language = "en"
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = [
-    u'build',
-    'Thumbs.db',
-    '.DS_Store',
-    'docs/developer/scipion-web*',
-    'docs/developer/introduction-scipion-web.rst',
+    'templates/**',
+    'publications/scipion-chem_vds/data_analysis/index.rst'
 ]
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -239,10 +236,6 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-# A list of glob-style patterns that should be excluded when looking for source files.
-exclude_patterns = ['templates/**']
-
 
 # -- Extension configuration -------------------------------------------------
 

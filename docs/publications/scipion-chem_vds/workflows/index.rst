@@ -1,6 +1,6 @@
 :orphan: true
 
-.. _docs-chem-blast:
+.. _docs-chem-workflows:
 
 
 ###############################################################
