@@ -13,6 +13,8 @@ The following workflows are available to download:
    :widths: 50 50
    :header-rows: 1
 
+   * - Dataset
+     - Download Lins
    * - 1a28
      - `Workflow </_static/datasets/scipion-chem_vds/workflows/1a28/workflow.json>`_ | `Inputs <path/to/your/data1>`_
    * - 4erf
