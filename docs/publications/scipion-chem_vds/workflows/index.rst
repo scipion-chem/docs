@@ -15,7 +15,7 @@ The following workflows are available to download:
    :align: center
 
    * - Dataset
-     - Download Lins
+     - Download Links
    * - 1a28
      - `Workflow </_static/datasets/scipion-chem_vds/workflows/1a28/workflow.json>`_ | `Inputs <path/to/your/data1>`_
    * - 4erf
@@ -24,8 +24,6 @@ The following workflows are available to download:
      - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
    * - inha
      - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
-
-In addition, the `GitHub repository <https://github.com/scipion-chem/docs/tree/main/docs/publications/scipion-chem_vds/workflows>`_ contains the actual workflows and data used necessary to run the Scipion workflow and links to the Scipion projects where the original results are stored.
 
 A) **Import workflow**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
