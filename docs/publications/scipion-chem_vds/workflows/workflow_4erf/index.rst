@@ -1,6 +1,4 @@
 :orphan: true
-  
-.. _docs-vds-4erf:
 
 ###############################################################
 Virtual Drug Screening workflow example (4erf_workflow)

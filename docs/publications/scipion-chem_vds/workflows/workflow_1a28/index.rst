@@ -1,6 +1,4 @@
 :orphan: true
-  
-.. _docs-vds-1a28:
 
 ###############################################################
 Supplementary workflow (1a28_workflow)

@@ -1,6 +1,4 @@
 :orphan: true
-  
-.. _docs-vds-fabp4:
 
 ###############################################################
 Show case (FABP4_workflow)
