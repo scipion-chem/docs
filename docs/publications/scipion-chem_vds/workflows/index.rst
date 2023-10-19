@@ -16,14 +16,12 @@ The following workflows are available to download:
 
    * - Dataset
      - Download Links
-   * - 1a28
-     - `Workflow </_static/datasets/scipion-chem_vds/workflows/1a28/workflow.json>`_ | `Inputs <path/to/your/data1>`_
    * - 4erf
      - `Workflow <path/to/your/workflow2>`_ | `Inputs <path/to/your/data2>`_
    * - fabp4
      - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
-   * - inha
-     - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
+   * - 1a28
+     - `Workflow </_static/datasets/scipion-chem_vds/workflows/1a28/workflow.json>`_ | `Inputs <path/to/your/data1>`_
 
 A) **Import workflow**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
