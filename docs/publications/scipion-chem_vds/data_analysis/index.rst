@@ -23,7 +23,7 @@ Usage:
 Output:
     The output generated is a csv file containing the data frame information
 
-2) Data analysis
+2) Analysis
 ~~~~~~~~~~~~~~~~~~~~~
 
 Separately, we code a jupyter notebook that is configured to open and analyze the results extracted in the previous section.
