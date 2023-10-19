@@ -1,5 +1,4 @@
-.. figure:: ../../../../../_static/images/logo.png
-  :alt: pwchem logo
+:orphan: true
   
 .. _docs-vds-1a28:
 
