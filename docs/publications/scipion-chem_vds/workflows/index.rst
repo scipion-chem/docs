@@ -7,6 +7,21 @@ The following sections contain further explanations about the workflows discusse
 - :ref:`docs-vds-fabp4`: bigger VDS workflow discussed in "Show case" section using `FABP4 <https://dude.docking.org/targets/fabp4>`_ dataset from `DUD-E <https://dude.docking.org/>`_ database.
 - :ref:`docs-vds-1a28`: supplementary workflow example similar to 4ERF, with data from `1A28 <https://www.rcsb.org/structure/1A28>`_ PDB structure, using `D-COID <https://data.mendeley.com/datasets/8czn4rxz68/1>`_ database.
 
+The following workflows are available to download:
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - 1a28
+     - `Workflow </_static/datasets/scipion-chem_vds/workflows/1a28/workflow.json>`_ | `Inputs <path/to/your/data1>`_
+   * - 4erf
+     - `Workflow <path/to/your/workflow2>`_ | `Inputs <path/to/your/data2>`_
+   * - fabp4
+     - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
+   * - inha
+     - `Workflow <path/to/your/workflow3>`_ | `Inputs <path/to/your/data3>`_
+
 In addition, the `GitHub repository <https://github.com/scipion-chem/docs/tree/main/docs/publications/scipion-chem_vds/workflows>`_ contains the actual workflows and data used necessary to run the Scipion workflow and links to the Scipion projects where the original results are stored.
 
 A) **Import workflow**
