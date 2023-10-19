@@ -6,6 +6,9 @@ Objects
 Scipion Chem defines a list of objects aimed to provide a Scipion wrapper for the most common types of files and structures 
 used in Virtual Drug Screening.
 
+.. warning::
+    This is WIP. Information will be filled as time goes by.
+
 General
 =======================
 
