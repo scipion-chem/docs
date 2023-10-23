@@ -25,5 +25,5 @@ Input
 
 The result of this protocol is an ``AtomStruct`` object containing the resulting maestro file of the receptor, ready for other Schrodinger tools.
 
-.. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestSchroProtPrep
+.. |testCommand| replace:: pwchemSchrodinger.tests.main_wf.TestSchroProtPrep
 .. include:: ../../../../templates/plugins/protocol-test.rst

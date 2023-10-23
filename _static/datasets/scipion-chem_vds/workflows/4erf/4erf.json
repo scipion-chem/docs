@@ -525,7 +525,7 @@
     {
         "object.className": "ProtSchrodingerDesmondSysPrep",
         "object.id": "2374",
-        "object.label": "1) schrodingerScipion - system preparation (desmond)",
+        "object.label": "1) pwchemSchrodinger - system preparation (desmond)",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -563,7 +563,7 @@
     {
         "object.className": "ProtSchrodingerDesmondMD",
         "object.id": "2438",
-        "object.label": "1) schrodingerScipion - equilibration",
+        "object.label": "1) pwchemSchrodinger - equilibration",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -602,7 +602,7 @@
     {
         "object.className": "ProtSchrodingerDesmondMD",
         "object.id": "2499",
-        "object.label": "1) schrodingerScipion - simulation production",
+        "object.label": "1) pwchemSchrodinger - simulation production",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -663,7 +663,7 @@
     {
         "object.className": "ProtSchrodingerDesmondSysPrep",
         "object.id": "3772",
-        "object.label": "4) schrodingerScipion - system preparation",
+        "object.label": "4) pwchemSchrodinger - system preparation",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -718,7 +718,7 @@
     {
         "object.className": "ProtSchrodingerDesmondMD",
         "object.id": "3882",
-        "object.label": "4) schrodingerScipion - equilibration",
+        "object.label": "4) pwchemSchrodinger - equilibration",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -757,7 +757,7 @@
     {
         "object.className": "ProtSchrodingerDesmondMD",
         "object.id": "3943",
-        "object.label": "4) schrodingerScipion - simulation production",
+        "object.label": "4) pwchemSchrodinger - simulation production",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",

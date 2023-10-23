@@ -82,5 +82,5 @@ The user can choose whether to perform the complete set of analysis or a custom 
 
 |
 
-.. |testCommand| replace:: schrodingerScipion.tests.md_wf.TestDesmondMD
+.. |testCommand| replace:: pwchemSchrodinger.tests.md_wf.TestDesmondMD
 .. include:: ../../../../templates/plugins/protocol-test.rst

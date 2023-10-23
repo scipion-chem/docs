@@ -38,5 +38,5 @@ The user can visualize these grids using **Analyze Results**.
 
 |
 
-.. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestGridSchro
+.. |testCommand| replace:: pwchemSchrodinger.tests.main_wf.TestGridSchro
 .. include:: ../../../../templates/plugins/protocol-test.rst

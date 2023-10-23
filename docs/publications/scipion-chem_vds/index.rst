@@ -72,18 +72,18 @@ refer to the moment this document is being written, but updates are constantly b
     - LeDock - (http://www.lephar.com as in 2023/04/14)
     - LePro - (http://www.lephar.com as in 2023/04/14)
 
-8) `scipion-chemmodeller: <https://github.com/scipion-chem/scipion-chem-modeller>`_
+8) `scipion-chem-modeller: <https://github.com/scipion-chem/scipion-chem-modeller>`_
 
     - Modeller 10.4 (conda) \*License Key needed
 
-9) `scipion-chemp2rank: <https://github.com/scipion-chem/scipion-chem-p2rank>`_
+9) `scipion-chem-p2rank: <https://github.com/scipion-chem/scipion-chem-p2rank>`_
 
     - P2Rank 2.3 (https://github.com/rdk/p2rank)
 
-10) `scipion-chemrosetta: <https://github.com/scipion-chem/scipion-chem-rosetta>`_
+10) `scipion-chem-rosetta: <https://github.com/scipion-chem/scipion-chem-rosetta>`_
 
     - Rosetta 3.12 (-) \*Need user installation
 
-11) `scipion-chemschrodingerScipion: <https://github.com/scipion-chem/scipion-chem-schrodingerScipion>`_
+11) `scipion-chem-pwchemSchrodinger: <https://github.com/scipion-chem/scipion-chem-pwchemSchrodinger>`_
 
     - Schrödinger Suite 2021-3 (-) \*Need user installation and key

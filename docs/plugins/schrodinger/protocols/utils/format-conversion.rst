@@ -26,5 +26,5 @@ The result of this protocol is either an ``AtomStruct`` or a ``SetOfSmallMolecul
 
 The user can access those files in the protocols folder (using "Browse" / folder icon).
 
-.. |testCommand| replace:: schrodingerScipion.tests.test_utils.TestSchroConvert
+.. |testCommand| replace:: pwchemSchrodinger.tests.test_utils.TestSchroConvert
 .. include:: ../../../../templates/plugins/protocol-test.rst

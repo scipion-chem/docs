@@ -21,5 +21,5 @@ Input
 The result of this protocol is a ``SetOfStructROIs`` (Structural Regions Of Interest), containing the predicted binding sites. 
 The user can visualize them using **Analyze Results**, which will display the General StructROIs viewer.
 
-.. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestSitemap
+.. |testCommand| replace:: pwchemSchrodinger.tests.main_wf.TestSitemap
 .. include:: ../../../../templates/plugins/protocol-test.rst

@@ -728,7 +728,7 @@
     {
         "object.className": "ProtSchrodingerDesmondSysPrep",
         "object.id": "5557",
-        "object.label": "schrodingerScipion - system preparation (desmond)",
+        "object.label": "pwchemSchrodinger - system preparation (desmond)",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -766,7 +766,7 @@
     {
         "object.className": "ProtSchrodingerDesmondSysPrep",
         "object.id": "5617",
-        "object.label": "schrodingerScipion - system preparation (desmond) (copy)",
+        "object.label": "pwchemSchrodinger - system preparation (desmond) (copy)",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -804,7 +804,7 @@
     {
         "object.className": "ProtSchrodingerDesmondMD",
         "object.id": "5681",
-        "object.label": "schrodingerScipion - system molecular dynamics (desmond)",
+        "object.label": "pwchemSchrodinger - system molecular dynamics (desmond)",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",
@@ -843,7 +843,7 @@
     {
         "object.className": "ProtSchrodingerDesmondMD",
         "object.id": "5740",
-        "object.label": "schrodingerScipion - system molecular dynamics (desmond) (copy)",
+        "object.label": "pwchemSchrodinger - system molecular dynamics (desmond) (copy)",
         "object.comment": "",
         "_useQueue": false,
         "_prerequisites": "",

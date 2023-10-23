@@ -46,5 +46,5 @@ The user can visualize the complex with Maestro using **Analyze Results**.
 
 |
 
-.. |testCommand| replace:: schrodingerScipion.tests.md_wf.TestDesmondSysPrep
+.. |testCommand| replace:: pwchemSchrodinger.tests.md_wf.TestDesmondSysPrep
 .. include:: ../../../../templates/plugins/protocol-test.rst

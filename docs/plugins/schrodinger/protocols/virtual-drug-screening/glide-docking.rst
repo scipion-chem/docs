@@ -31,5 +31,5 @@ The results of these protocols are a ``SetOfSmallMolecules``, containing the pre
 
 The user can visualize them using **Analyze Results**, which will display the General SmallMolecules viewer.
 
-.. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestGlideDocking
+.. |testCommand| replace:: pwchemSchrodinger.tests.main_wf.TestGlideDocking
 .. include:: ../../../../templates/plugins/protocol-test.rst

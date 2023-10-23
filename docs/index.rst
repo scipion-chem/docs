@@ -166,7 +166,7 @@ parametrization of small molecules for simulating complexes will be handled and 
 
 Different Gromacs tools are also included to manage and analyze the resulting trajectories.
 
-6.3) **scipion-chem-schrodingerScipion**
+6.3) **scipion-chem-pwchemSchrodinger**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 `Schrodinger <https://www.schrodinger.com/>`_ is a full platform itself devoted to drug discovery and materials design.
 From Scipion-chem, we have integrated some of its tools and adapted them to or workflow, managing their maestro format
@@ -178,7 +178,7 @@ results from the incorporated viewers.
 
 Finally, user must know that the installation of Schrodinger is not automatic, since it depends on a license.
 Instruction for a proper installation can be found in the
-`scipion-chem-schrodingerScipion <https://github.com/scipion-chem/scipion-chem-schrodingerScipion>`_ repo.
+`scipion-chem-pwchemSchrodinger <https://github.com/scipion-chem/scipion-chem-pwchemSchrodinger>`_ repo.
 
 7) **Others**
 ----------------------------------------

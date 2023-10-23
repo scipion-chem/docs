@@ -22,5 +22,5 @@ Input
 
 The result of this protocol is an ``AtomStruct`` containing the splitted structure file in Maestro format.
 
-.. |testCommand| replace:: schrodingerScipion.tests.test_utils.TestSplitSchro
+.. |testCommand| replace:: pwchemSchrodinger.tests.test_utils.TestSplitSchro
 .. include:: ../../../../templates/plugins/protocol-test.rst

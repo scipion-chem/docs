@@ -21,5 +21,5 @@ Input
 
 The result of this protocol is another ``SetOfSmallMolecules`` object this time containing the maestro files ready for other Schrodinger tools.
 
-.. |testCommand| replace:: schrodingerScipion.tests.main_wf.TestSchroLigPrep
+.. |testCommand| replace:: pwchemSchrodinger.tests.main_wf.TestSchroLigPrep
 .. include:: ../../../../templates/plugins/protocol-test.rst
