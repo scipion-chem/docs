@@ -11,7 +11,7 @@ Usage
 ------------------------------------------
 Basic usage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-There are usually two ways of using the automatic test tool.
+There are usually two ways of using the automatic test tool:
 
  1. The first and easiest one usually is to call the script directly from the scipion-chem directory.
     To command to use is:
@@ -63,7 +63,7 @@ There are usually two ways of using the automatic test tool.
         conda activate scipion3
         python /home/chemuser/software/scipion-chem-autodock/autodock/runTests.py /home/chemuser/software/scipion/scipion3 autodock
     
-    .. note:
+    .. note::
         Take into account that, from every plugin, you can access the automatic test tool entirely, which means that you can also run tests for plugins 
         other than the one you are calling it from.
 
@@ -75,3 +75,5 @@ There are usually two ways of using the automatic test tool.
 
 Additional Flags
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This tool also provides several flags to limit the type of tests that will be run.
+
