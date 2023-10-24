@@ -69,5 +69,4 @@ PharmacophoreChem
 Reactions
 =======================
 
-ChemicalReaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:ref:`objects-chemical-reaction`
