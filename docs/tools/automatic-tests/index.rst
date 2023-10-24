@@ -24,7 +24,8 @@ There are usually two ways of using the automatic test tool:
     effectively providing the script the scipion binary file to launch, and ``modulename`` must be replaced with the module name of the 
     plugin to use. That name can be found inside Scipion, when searching for protocols of a plugin.
 
-    For example, the module name for scipion-chem is ``pwchem``, as shown in the image below (pwchem plugins are the ones that belong to scipion-chem):
+    For example, the module name for scipion-chem is ``pwchem``, as shown in the image below 
+    (pwchem plugins are the ones that belong to scipion-chem as shown in the `documentation <../plugins/pwchem/index>`_):
 
     .. image:: ../../../_static/images/tools/automatic-tests/pwchem_modulename.png
         :alt: Pwchem module name
@@ -33,7 +34,9 @@ There are usually two ways of using the automatic test tool:
 
     |
 
-    So, as an example, if I want to run all tests for scipion-chem plugin, my scipion-chem repository has been downloaded in the path 
+    Usage 1 example
+    ##########################################
+    If I want to run all tests for scipion-chem plugin, my scipion-chem repository has been downloaded in the path 
     ``/home/chemuser/software``, and scipion is also in the path ``/home/chemuser/software``, the command I would need to run would be:
 
     .. parsed-literal::
@@ -55,7 +58,9 @@ There are usually two ways of using the automatic test tool:
     .. warning:
         For the second way to work, it is necessary to activate ``scipion3`` conda enviroment first as shown in the command above.
 
-    So, as an example, if I want to run all tests for scipion-chem-autodock plugin, my scipion-chem-autodock repository has been downloaded in 
+    Usage 2 example
+    ##########################################
+    If I want to run all tests for scipion-chem-autodock plugin, my scipion-chem-autodock repository has been downloaded in 
     the path ``/home/chemuser/software``, and scipion is also in the path ``/home/chemuser/software``, the command I would need to run would be:
 
     .. parsed-literal::
