@@ -24,7 +24,7 @@ There are usually two ways of using the automatic test tool:
     effectively providing the script the scipion binary file to launch, and ``modulename`` must be replaced with the module name of the 
     plugin to use. That name can be found inside Scipion, when searching for protocols of a plugin.
 
-    For example, the module name for scipion-chem is ``pwchem``, as shown in the image below:
+    For example, the module name for scipion-chem is ``pwchem``, as shown in the image below (pwchem plugins are the ones that belong to scipion-chem):
 
     .. image:: ../../../_static/images/tools/automatic-tests/pwchem_modulename.png
         :alt: Pwchem module name
@@ -69,7 +69,10 @@ There are usually two ways of using the automatic test tool:
 
         For example:
 
-        ``conda activate scipion3 && python /home/chemuser/software/scipion-chem-autodock/autodock/runTests.py /home/chemuser/software/scipion/scipion3 rosetta``
+        .. parsed-literal::
+
+            conda activate scipion3
+            python /home/chemuser/software/scipion-chem-autodock/autodock/runTests.py /home/chemuser/software/scipion/scipion3 rosetta
 
         This command would run all tests for ``scipion-chem-rosetta`` plugin.
 
