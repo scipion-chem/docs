@@ -51,4 +51,4 @@ General
 Reactions
 =======================
 
-- :ref:`objects-chemical-reaction`: 
+- :ref:`objects-chemical-reaction`: Represents a chemical reaction, where one or more chemical compounds (``SmallMolecules``) produce other compounds.
