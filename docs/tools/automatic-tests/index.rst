@@ -27,9 +27,9 @@ There are usually two ways of using the automatic test tool.
     For example, the module name for scipion-chem is ``pwchem``, as shown in the image below:
 
     .. image:: ../../../_static/images/tools/automatic-tests/pwchem_modulename.png
-    :alt: Pwchem module name
-    :height: 400
-    :align: center
+        :alt: Pwchem module name
+        :height: 400
+        :align: center
 
     |
 
