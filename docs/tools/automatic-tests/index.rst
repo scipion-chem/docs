@@ -25,7 +25,7 @@ There are usually two ways of using the automatic test tool:
     plugin to use. That name can be found inside Scipion, when searching for protocols of a plugin.
 
     For example, the module name for scipion-chem is ``pwchem``, as shown in the image below 
-    (pwchem plugins are the ones that belong to scipion-chem as shown in the `documentation <../plugins/pwchem/index>`_):
+    (pwchem plugins are the ones that belong to scipion-chem as shown in the `documentation <../../plugins/pwchem/index>`_):
 
     .. image:: ../../../_static/images/tools/automatic-tests/pwchem_modulename.png
         :alt: Pwchem module name
@@ -85,4 +85,14 @@ Additional Flags
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This tool also provides several flags for different reasons.
 
+General
+##########################################
 
+- ``-j`` or ``--jobs``: Defines the number of jobs to be run in parallel. If it is not set, the default value is the maximum available in the machine.
+
+Test exclusion
+##########################################
+Some flags are intended to exclude some tests from the execution, because there will be cases where some tests cannot be run 
+successfully when their requisites cannot be fullfilled.
+
+There are several cases 
