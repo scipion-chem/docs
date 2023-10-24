@@ -34,8 +34,8 @@ There are usually two ways of using the automatic test tool:
 
     |
 
-    Usage 1 example
-    ##########################################
+Usage 1 example
+##########################################
     If I want to run all tests for scipion-chem plugin, my scipion-chem repository has been downloaded in the path 
     ``/home/chemuser/software``, and scipion is also in the path ``/home/chemuser/software``, the command I would need to run would be:
 
@@ -83,5 +83,6 @@ There are usually two ways of using the automatic test tool:
 
 Additional Flags
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This tool also provides several flags to limit the type of tests that will be run.
+This tool also provides several flags for different reasons.
+
 
