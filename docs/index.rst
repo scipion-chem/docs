@@ -222,6 +222,7 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     :caption: Scipion Chem enviroment
 
     objects/index
+    tools/automatic-tests/index
 
   .. toctree::
     :maxdepth: 1
