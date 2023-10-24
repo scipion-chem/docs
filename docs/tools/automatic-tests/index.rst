@@ -28,7 +28,7 @@ There are usually two ways of using the automatic test tool.
 
     .. image:: ../../../_static/images/tools/automatic-tests/pwchem_modulename.png
         :alt: Pwchem module name
-        :height: 400
+        :height: 300
         :align: center
 
     |
@@ -69,10 +69,7 @@ There are usually two ways of using the automatic test tool.
 
         For example:
 
-        .. parsed-literal::
-
-            conda activate scipion3
-            python /home/chemuser/software/scipion-chem-autodock/autodock/runTests.py /home/chemuser/software/scipion/scipion3 rosetta
+        ``conda activate scipion3 && python /home/chemuser/software/scipion-chem-autodock/autodock/runTests.py /home/chemuser/software/scipion/scipion3 rosetta``
 
         This command would run all tests for ``scipion-chem-rosetta`` plugin.
 
