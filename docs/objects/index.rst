@@ -12,61 +12,43 @@ used in Virtual Drug Screening.
 General
 =======================
 
-DatabaseID
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-database-id`: 
 
-SetOfDatabaseID
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-set-of-database-id`: 
 
-SequenceChem
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-sequence-chem`: 
 
-SetOfSequencesChem
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-set-of-sequence-chem`: 
 
-SequenceVariants
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-sequence-variants`: 
 
-SmallMolecule
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-small-molecule`: 
 
-SetOfSmallMolecules
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-set-of-small-molecules`: 
 
-BindingSite
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-binding-site`: 
 
-SetOfBindingSites
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-set-of-binding-sites`: 
 
-SequenceROI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-sequence-roi`: 
 
-SetOfSequenceROIs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-set-of-sequence-rois`: 
 
-StructROI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-struct-roi`: 
 
-SetOfStructROIs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-set-of-struct-rois`: 
 
-ProteinAtom
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-protein-atom`: 
 
-ProteinResidue
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-protein-residue`: 
 
-MDSystem
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-md-system`: 
 
-PharmFeature
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-pharm-feature`: 
 
-PharmacophoreChem
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- :ref:`objects-pharmacophore-chem`: 
 
 Reactions
 =======================
 
-:ref:`objects-chemical-reaction`
+- :ref:`objects-chemical-reaction`: 
