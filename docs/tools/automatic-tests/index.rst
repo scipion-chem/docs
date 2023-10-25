@@ -34,8 +34,8 @@ There are usually two ways of using the automatic test tool:
 
     |
 
-Usage 1 example
-##########################################
+    **Example**
+    
     If I want to run all tests for scipion-chem plugin, my scipion-chem repository has been downloaded in the path 
     ``/home/chemuser/software``, and scipion is also in the path ``/home/chemuser/software``, the command I would need to run would be:
 
@@ -58,8 +58,8 @@ Usage 1 example
     .. warning:
         For the second way to work, it is necessary to activate ``scipion3`` conda enviroment first as shown in the command above.
 
-    Usage 2 example
-    ##########################################
+    **Example**
+
     If I want to run all tests for scipion-chem-autodock plugin, my scipion-chem-autodock repository has been downloaded in 
     the path ``/home/chemuser/software``, and scipion is also in the path ``/home/chemuser/software``, the command I would need to run would be:
 
@@ -83,16 +83,28 @@ Usage 1 example
 
 Additional Flags
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This tool also provides several flags for different reasons.
+This tool also provides several optional flags for different reasons.
 
-General
-##########################################
+- ``-testData``: *Optional only deppending on the plugin*. This param defines the path to a ``JSON`` file containing data defined by the plugin's developer, it's default name being ``testData.json``. 
+    This file is needed to define the datasets needed by the tests, and the exclusions for tests that cannot be run in some situations, to avoid unnecessary errors.
+    Example:
 
-- ``-j`` or ``--jobs``: Defines the number of jobs to be run in parallel. If it is not set, the default value is the maximum available in the machine.
+    .. parsed-literal::
+    
+        python /home/chemuser/software/scipion-chem/pwchem/runTests.py /home/chemuser/software/scipion/scipion3 pwchem -testData=/home/chemuser/software/scipion-chem/pwchem/testData.json
 
-Test exclusion
-##########################################
-Some flags are intended to exclude some tests from the execution, because there will be cases where some tests cannot be run 
-successfully when their requisites cannot be fullfilled.
+- ``-j`` or ``--jobs``: *Optional*. Defines the number of jobs to be run in parallel. If it is not set, the default value is the maximum available in the machine.
+    Example:
+    
+    .. parsed-literal::
+    
+        python /home/chemuser/software/scipion-chem/pwchem/runTests.py /home/chemuser/software/scipion/scipion3 pwchem -j=8
 
-There are several cases 
+- ``-noGPU``: 
+
+For developers
+------------------------------------------
+In order to avoid unnecessary errors for some situations, while developing the plugin's tests, a ``JSON`` will often be needed to define some 
+data regarding the tests, in the format described below:
+
+TODO
