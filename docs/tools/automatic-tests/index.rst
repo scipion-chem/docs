@@ -154,6 +154,7 @@ certain conditions are met, defined by the fields inside it.
     - ``name``: Name of the plugin (or python package, but intended for plugins) this test deppends on.
     - ``module``: Module name of the plugin. If instead of a plugin, it is a python package, it will likely be the same name than ``name`` field.
     - ``tests``: List of tests that have this dependency.
+    
     Here, the test tool will try to import the module defined, and, if succeeds, the tests are run normally. If it fails, they are skipped.
 
 - ``others``: This section defines a list of tests that will be skipped for different reasons than covered by the other sections. It has two sub-fields:
