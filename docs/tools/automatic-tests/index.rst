@@ -100,7 +100,12 @@ This tool also provides several optional flags for different reasons.
     
         python /home/chemuser/software/scipion-chem/pwchem/runTests.py /home/chemuser/software/scipion/scipion3 pwchem -j=8
 
-- ``-noGPU``: 
+- ``-noGPU``: *Optional*. Excludes from running all the tests that require GPU. Especially useful for enviroments where a GPU is not available.
+    Example:
+    
+    .. parsed-literal::
+    
+        python /home/chemuser/software/scipion-chem/pwchem/runTests.py /home/chemuser/software/scipion/scipion3 pwchem -noGPU
 
 For developers
 ------------------------------------------
