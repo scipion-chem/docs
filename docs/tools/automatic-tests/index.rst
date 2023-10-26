@@ -112,4 +112,37 @@ For developers
 In order to avoid unnecessary errors for some situations, while developing the plugin's tests, a ``JSON`` will often be needed to define some 
 data regarding the tests, in the format described below:
 
-TODO
+.. code-block:: JSON
+
+   {
+        "datasets": ["model_building_tutorial", "smallMolecules"],
+        "skippable": {
+            "gpu": [
+                "tests_docking.TestScoreDocking",
+                "tests_docking.TestConsensusDocking"
+            ],
+            "dependencies": [
+                {
+                    "name": "scipion-chem-autodock",
+                    "module": "autodock",
+                    "tests": [
+                        "tests_docking.TestScoreDocking",
+                        "tests_docking.TestConsensusDocking"
+                    ]
+                }
+            ],
+            "others": [
+                {
+                    "test": "tests_docking.TestScoreDocking",
+                    "reason": "It takes too long, I don't want to run it in batch."
+                }
+            ]
+        }
+    }
+
+The first and most important field to take into account is ``datasets``. This field's value is a list of the dataset names your tests need. 
+It is important to include them because, even if running a test already downloads its dataset, when several tests running in parallel try to 
+download the same datasets, it causes concurrency errors. By adding them to this field, tests will be downloaded before any test is run.
+
+The second field, ``skippable``, is the skippable test section. This section will contain all the tests that won't be run, or will be skipped if 
+certain conditions are met, defined by the fields inside it. 
