@@ -87,6 +87,7 @@ This tool also provides several optional flags for different reasons.
 
 - ``-testData``: *Optional only deppending on the plugin*. This param defines the path to a ``JSON`` file containing data defined by the plugin's developer, it's default name being ``testData.json``. 
     This file is needed to define the datasets needed by the tests, and the exclusions for tests that cannot be run in some situations, to avoid unnecessary errors.
+    
     Example:
 
     .. parsed-literal::
