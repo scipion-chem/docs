@@ -111,7 +111,9 @@ This tool also provides several optional flags for different reasons.
 For developers
 ------------------------------------------
 In order to avoid unnecessary errors for some situations, while developing the plugin's tests, a ``JSON`` will often be needed to define some 
-data regarding the tests, in the format described below:
+data regarding the tests. It is the JSON file referenced by the flag ``-testData``, and it's name should be, for standarization reasons, ``testData.json``.
+
+This JSON file should follow the format described below:
 
 .. code-block:: JSON
 
