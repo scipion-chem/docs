@@ -146,4 +146,17 @@ It is important to include them because, even if running a test already download
 download the same datasets, it causes concurrency errors. By adding them to this field, tests will be downloaded before any test is run.
 
 The second field, ``skippable``, is the skippable test section. This section will contain all the tests that won't be run, or will be skipped if 
-certain conditions are met, defined by the fields inside it. 
+certain conditions are met, defined by the fields inside it.
+
+- ``gpu``: It defines a list of tests that will be skipped if the ``-noGPU`` flag is used.
+- ``dependencies``: It defines a list of dependencies, each one with their own tests. It is devided in three sub-fields:
+    
+    - ``name``: Name of the plugin (or python package, but intended for plugins) this test deppends on.
+    - ``module``: Module name of the plugin. If instead of a plugin, it is a python package, it will likely be the same name than ``name`` field.
+    - ``tests``: List of tests that have this dependency.
+    Here, the test tool will try to import the module defined, and, if succeeds, the tests are run normally. If it fails, they are skipped.
+
+- ``others``: This section defines a list of tests that will be skipped for different reasons than covered by the other sections. It has two sub-fields:
+
+    - ``test``: The test that will be skipped.
+    - ``reason``: Reason why that test is being skipped. This is used to print a message when skipping the test that will show the reason.
