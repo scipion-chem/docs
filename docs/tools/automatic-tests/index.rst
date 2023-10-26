@@ -85,6 +85,13 @@ Additional Flags
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This tool also provides several optional flags for different reasons.
 
+- ``-h`` or ``--help``: *Optional*. Prints the help message of the script, where all the flags and usage is explained, and exits without running tests.
+    Example:
+
+    .. parsed-literal::
+    
+        python /home/chemuser/software/scipion-chem/pwchem/runTests.py -h
+
 - ``-testData``: *Optional only deppending on the plugin*. This param defines the path to a ``JSON`` file containing data defined by the plugin's developer, it's default name being ``testData.json``. 
     This file is needed to define the datasets needed by the tests, and the exclusions for tests that cannot be run in some situations, to avoid unnecessary errors.
     
@@ -99,7 +106,7 @@ This tool also provides several optional flags for different reasons.
     
     .. parsed-literal::
     
-        python /home/chemuser/software/scipion-chem/pwchem/runTests.py /home/chemuser/software/scipion/scipion3 pwchem -j=8
+        python /home/chemuser/software/scipion-chem/pwchem/runTests.py /home/chemuser/software/scipion/scipion3 pwchem -j 8
 
 - ``-noGPU``: *Optional*. Excludes from running all the tests that require GPU. Especially useful for enviroments where a GPU is not available.
     Example:
