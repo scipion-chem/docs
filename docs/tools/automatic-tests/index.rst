@@ -163,3 +163,11 @@ certain conditions are met, defined by the fields inside it.
 
     - ``test``: The test that will be skipped.
     - ``reason``: Reason why that test is being skipped. This is used to print a message when skipping the test that will show the reason.
+
+.. note::
+    All tests should also follow the naming convention shown in the example. It is just a shorter version of the full test found 
+    with ``scipion3 test --grep ...`` command.
+
+    For example, test ``pwchem.tests.tests_sequences.TestPairwiseAlign`` would be written ``tests_sequences.TestPairwiseAlign``, since 
+    the rest is not needed (``pwchem`` is the module name which we already know since it's an argument, and ``tests`` is redundant, 
+    so the tool autocompletes this info for you).
