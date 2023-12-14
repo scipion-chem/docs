@@ -204,17 +204,18 @@ easily downloading NCBI data (protein/nucleotide sequences or small molecules) f
     :caption: Plugins
 
     plugins/pwchem/index
-    plugins/fpocket/index
-    plugins/p2rank/index
-    plugins/autodock/index
-    plugins/lephar/index
-    plugins/rosetta/index
-    plugins/gromacs/index
-    plugins/schrodinger/index
-    plugins/modeller/index
-    plugins/blast/index
-    plugins/openmm/index
     plugins/amber/index
+    plugins/autodock/index
+    plugins/blast/index
+    plugins/durrantlab/index
+    plugins/fpocket/index
+    plugins/gromacs/index
+    plugins/lephar/index
+    plugins/modeller/index
+    plugins/openmm/index
+    plugins/p2rank/index
+    plugins/rosetta/index
+    plugins/schrodinger/index
   
   .. toctree::
     :maxdepth: 1
