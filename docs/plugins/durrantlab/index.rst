@@ -29,4 +29,6 @@ B) Installation steps
 Protocols
 ==========================================
 
-- :ref:`amber-md-simulation`: Defines and executes a Amber MD simulation. 
+- :ref:`durrantlab-autogrow4`: `AutoGrow <https://durrantlab.pitt.edu/autogrow4/>`_ for docking and lead optimization.
+- :ref:`durrantlab-deepfrag`: `DeepFrag <https://durrantlab.pitt.edu/deepfragmodel/>`_ lead optimization.
+- :ref:`durrantlab-gypsum-dl`: Executes `Gypsum-DL <https://durrantlab.pitt.edu/gypsum-dl/>`_ for ligand preparation.
