@@ -192,12 +192,10 @@ would look like this:
 
 .. code-block:: JSON
 
-   {
-        "test-dependencies": {
-            "B": ["A"],
-            "C": ["B"],
-            "D": ["A", "C"]
-        }
+    "test-dependencies": {
+        "B": ["A"],
+        "C": ["B"],
+        "D": ["A", "C"]
     }
 
 This will ensure that ``A`` will be executed first (in parallel with all of the other regular tests), then ``B``, then ``C``, and finally ``D``, 
