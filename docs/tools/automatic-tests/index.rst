@@ -147,6 +147,9 @@ This JSON file should follow the format described below:
                     "reason": "It takes too long, I don't want to run it in batch."
                 }
             ]
+        },
+        "test-dependencies": {
+            "tests_docking.TestExtractLigand": ["tests_docking.TestScoreDocking", "tests_docking.TestConsensusDocking"]
         }
     }
 
@@ -178,3 +181,24 @@ certain conditions are met, defined by the fields inside it.
 
     - ``test``: The test that will be skipped.
     - ``reason``: Reason why that test is being skipped. This is used to print a message when skipping the test that will show the reason.
+
+The third field, which is optional, is ``test-dependencies``. This fields contains a list, which will define every test that deppends 
+on other test of the same plugin. This is sometimes necessary, because if one test deppends on another one and they are run in 
+parallel, it will cause errors, so it is meant to respect an execution order between them.
+
+For example, let's say we have four tests, called ``A``, ``B``, ``C``, and ``D``. In this case, for example, ``A`` does not deppend on other tests. 
+``B`` deppends on ``A``, ``C`` deppends on ``B``, and ``D`` deppends on both ``A`` and ``C``. For the given example, the ``test-dependencies`` field 
+would look like this:
+
+.. code-block:: JSON
+
+   {
+        "test-dependencies": {
+            "B": ["A"],
+            "C": ["B"],
+            "D": ["A", "C"]
+        }
+    }
+
+This will ensure that ``A`` will be executed first (in parallel with all of the other regular tests), then ``B``, then ``C``, and finally ``D``, 
+therefore, making sure there is no concurrency between interdependent tests.
