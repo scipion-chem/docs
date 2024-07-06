@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>scipion-chem &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="scipion-chem-amber" href="../amber/index.html" />
+    <link rel="prev" title="Welcome to Scipion Chem’s documentation!" href="../../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">scipion-chem</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-requirements">A) Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-installation-steps">B) Installation steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-packages-enviroments">C) Packages &amp; enviroments</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#protocols">Protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-general">A) General</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-database">B) Database</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-sequence">C) Sequence</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#d-virtual-drug-screening">D) Virtual Drug Screening</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../autodock/index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../publications/scipion-chem_vds/index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">scipion-chem</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/plugins/pwchem/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <figure class="align-default">
+<img alt="pwchem logo" src="../../_images/logo.png" />
+</figure>
+<section id="scipion-chem">
+<span id="pwchem-index"></span><h1>scipion-chem<a class="headerlink" href="#scipion-chem" title="Link to this heading"></a></h1>
+<p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem">scipion-chem</a> is the core plugin for Virtual Drug Screening (VDS) in
+the Scipion platform (the rest of scipion-chem-* plugins). It is designed to manage and make interoperable all the the
+satellite plugins (Autodock, fpocket,…). It also includes several tools for:</p>
+<ul class="simple">
+<li><p>Managing small molecules, protein structures or molecular dynamics simulations.</p></li>
+<li><p>Consensus tools that extract the most relevant results from protein pocket search and docking.</p></li>
+<li><p>Visualization of the results for each of the VDS steps.</p></li>
+<li><p>Filter and operate the different sets obtained at each step of the workflow.</p></li>
+</ul>
+<p>To do so, scipion-chem automatically installs several util third-party software for the management and visualization of the
+tasks in a typical bioinformatics and VDS workflow. These include:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://github.com/openbabel/openbabel">OpenBabel</a> and <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a>: the main small molecule handlers and converters.</p></li>
+<li><p><a class="reference external" href="https://ccsb.scripps.edu/mgltools/">MGLTools</a>: utadditional utils for small molecules, docking, … (includes <a class="reference external" href="https://autodocksuite.scripps.edu/adt/">AutoDockTools</a>).</p></li>
+<li><p><a class="reference external" href="https://jchempaint.github.io/">JChemPaint</a>: Java program to manually draw small molecules.</p></li>
+<li><p><a class="reference external" href="https://pymol.org/2/">Pymol</a>: main viewer of Scipion Chem for small molecules and structures.</p></li>
+<li><p><a class="reference external" href="https://www.ks.uiuc.edu/Research/vmd/">VMD</a>: secondary viewer of Scipion-Chem for structures and Molecular Dynamics.</p></li>
+<li><p><a class="reference external" href="https://github.com/AliView/AliView">AliView</a>: main viewer for sequences.</p></li>
+<li><p><a class="reference external" href="https://github.com/pharmai/plip">PLIP</a>: specialized viewer for docking interactions in <a class="reference external" href="https://pymol.org/2/">Pymol</a>.</p></li>
+</ul>
+</div></blockquote>
+<p>These programs are managed through conda environments, which also includes different util Python modules.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h2>
+<section id="a-requirements">
+<h3>A) Requirements<a class="headerlink" href="#a-requirements" title="Link to this heading"></a></h3>
+<p>You will need to use <a class="reference external" href="https://scipion-em.github.io/docs/release-3.0.0/docs/scipion-modes/how-to-install.html">Scipion3</a> to
+install and run this plugin.</p>
+</section>
+<section id="b-installation-steps">
+<h3>B) Installation steps<a class="headerlink" href="#b-installation-steps" title="Link to this heading"></a></h3>
+<ul>
+<li><p><strong>Install the stable version</strong></p>
+<blockquote>
+<div><p>Through the plugin manager GUI by launching Scipion and following <strong>Others</strong> &gt;&gt; <strong>Plugin Manager</strong>, or</p>
+</div></blockquote>
+</li>
+</ul>
+<pre class="literal-block">scipion3 installp -p scipion-chem</pre>
+<ul>
+<li><p><strong>Developer’s version</strong></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Download repository:</p></li>
+</ol>
+<pre class="literal-block">git clone https://github.com/scipion-chem/scipion-chem.git</pre>
+<ol class="arabic simple" start="2">
+<li><p>Install:</p></li>
+</ol>
+<pre class="literal-block">scipion3 installp -p /path/to/scipion-chem --devel</pre>
+</div></blockquote>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Installation of the stable version through the <code class="docutils literal notranslate"><span class="pre">Plugin</span> <span class="pre">Manager</span></code> or with the command provided above is not available yet.</p>
+<p>Please install the developer version until a stable version is released, or install the latest stable version with the following steps:</p>
+<pre class="literal-block">cd /path/to/scipion-chem &amp;&amp; git checkout master &amp;&amp; scipion3 installp -p . --devel</pre>
+</div>
+</section>
+<section id="c-packages-enviroments">
+<h3>C) Packages &amp; enviroments<a class="headerlink" href="#c-packages-enviroments" title="Link to this heading"></a></h3>
+<p>Packages installed by this plugin can be located in <code class="docutils literal notranslate"><span class="pre">/path/to/scipion/software/em/</span></code>.</p>
+<p>The following packages will be created:</p>
+<ul class="simple">
+<li><p>rdkit-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+<li><p>shape-it-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+<li><p>mgltools-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+<li><p>jchempaint-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+<li><p>pymol-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+<li><p>aliview-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+<li><p>vmd-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+<li><p>mdtraj-<code class="docutils literal notranslate"><span class="pre">version</span></code></p></li>
+</ul>
+<p>Where <code class="docutils literal notranslate"><span class="pre">version</span></code> is the current version of that specific package.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These environments are used by the code in the different plugins, and we strongly
+advise not to modify them manually in order to keep their functions.</p>
+</div>
+<p><strong>TODO: COMPLETE THIS PART</strong></p>
+<p>The code inside this plugin also includes the python objects, viewers, wizards and other
+utils for the rest of the scipion-chem plugins. We give these python objects special importance since the
+interoperability of scipion-chem relies on them.</p>
+</section>
+</section>
+<section id="protocols">
+<h2>Protocols<a class="headerlink" href="#protocols" title="Link to this heading"></a></h2>
+<p>scipion-chem includes around 40 different protocols subdivided in 4 groups of protocols according to their function:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The user will notice that many protocols have a wand icon next to some of the parameters.
+We call this button <code class="docutils literal notranslate"><span class="pre">wizard</span></code> and they are designed to help the user to use the protocol.</p>
+<p>One of the most common types of wizard will help the user to fill a parameter with the proper string.</p>
+<p>We strongly recommend to use the wizards to fill these parameters (for some protocols, it is even compulsory),
+since inappropriate use of the parameters might lead the protocol to fail.</p>
+</div>
+<section id="a-general">
+<h3>A) General<a class="headerlink" href="#a-general" title="Link to this heading"></a></h3>
+<p>It includes protocols for managing the objects or files generated by Scipion.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/general/convert-structure.html#pwchem-convert-structure"><span class="std std-ref">Convert structure</span></a>: Converts the format of the files stored for a set of Small Molecules, an Atom Structure or a Molecular dynamics system.</p></li>
+<li><p><a class="reference internal" href="protocols/general/operate-set.html#pwchem-operate-set"><span class="std std-ref">Operate set</span></a>: Includes several functionalities to modify any Scipion Set inside the project.</p></li>
+<li><p><a class="reference internal" href="protocols/general/add-attribute.html#pwchem-add-attribute"><span class="std std-ref">Add attribute</span></a>: Allows the user to add an attribute to an item or set object inside Scipion.</p></li>
+<li><p><a class="reference internal" href="protocols/general/export-csv.html#pwchem-export-csv"><span class="std std-ref">Export CSV</span></a>: Allows the user to export the SQLite table of a set as a CSV file, containing the values of each attribute for each column and each item in a row.</p></li>
+</ul>
+</section>
+<section id="b-database">
+<h3>B) Database<a class="headerlink" href="#b-database" title="Link to this heading"></a></h3>
+<p>It includes protocols related to the main databases for protein sequences, structures or small molecules.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/database/import-database-ids.html#pwchem-import-database-ids"><span class="std std-ref">Import database IDs</span></a>: Imports a set of database IDs from a file and stores them as a Scipion object.</p></li>
+<li><p><a class="reference internal" href="protocols/database/identify-ligands.html#pwchem-identify-ligands"><span class="std std-ref">Identify ligands</span></a>: Tries to identify a set of Small Molecules based on the <a class="reference external" href="https://es.wikipedia.org/wiki/SMILES">SMILES</a> string for each of them.</p></li>
+<li><p><a class="reference internal" href="protocols/database/uniprot-crossref.html#pwchem-uniprot-crossref"><span class="std std-ref">UniProt CrossRef</span></a>: Searches in the <a class="reference external" href="https://www.uniprot.org/">UniProt</a> cross reference database for related entries of a set of UniProt IDs for specified databases.</p></li>
+<li><p><a class="reference internal" href="protocols/database/zinc-filter.html#pwchem-zinc-filter"><span class="std std-ref">ZINC filter</span></a>: Filters a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> by the presence/absence of each of the molecules in the specified ZINC subset(s).</p></li>
+<li><p><a class="reference internal" href="protocols/database/fetch-ligands.html#pwchem-fetch-ligands"><span class="std std-ref">Fetch ligands</span></a>: Extracts the ligands related to a <code class="docutils literal notranslate"><span class="pre">SetOfDatabaseIDs</span></code>.</p></li>
+</ul>
+</section>
+<section id="c-sequence">
+<h3>C) Sequence<a class="headerlink" href="#c-sequence" title="Link to this heading"></a></h3>
+<p>It incorporates protocols for managing biological sequences, including tools for defining sequence regions of interest.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/sequence/import-set-of-sequences.html#pwchem-import-set-of-sequences"><span class="std std-ref">Import set of sequences</span></a>: Imports a set of sequences from one or several fasta files or from a database like <a class="reference external" href="https://www.uniprot.org/">UniProt</a> using a <code class="docutils literal notranslate"><span class="pre">SetOfDatabaseIDs</span></code> as input.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/pairwise-alignment.html#pwchem-pairwise-alignment"><span class="std std-ref">Pairwise Alignment</span></a>: Performs a pairwise alignment using clustal omega over two input sequences.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/multiple-sequence-alignment.html#pwchem-multiple-sequence-alignment"><span class="std std-ref">Multiple Sequence Alignment</span></a>: Performs a multiple sequence alignment (MSA) over a set of input sequences.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/define-set-of-sequences.html#pwchem-define-set-of-sequences"><span class="std std-ref">Define set of sequences</span></a>: Allows the user to manually build a set of small molecules from individual elements.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/import-variants.html#pwchem-import-variants"><span class="std std-ref">Import variants</span></a>: Imports a set of sequence variants.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/generate-variant-sequences.html#pwchem-generate-variant-sequences"><span class="std std-ref">Generate variant sequences</span></a>: Generates a set of sequences from a list of specified variants from a <code class="docutils literal notranslate"><span class="pre">SequenceVariants</span></code> object.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/import-sequence-rois.html#pwchem-import-sequence-rois"><span class="std std-ref">Import Sequence ROIs</span></a>: Imports a <code class="docutils literal notranslate"><span class="pre">SetOfSequenceROIs</span></code>, meaning a set of Regions Of Interest (ROI) in a sequence.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/define-sequence-rois.html#pwchem-define-sequence-rois"><span class="std std-ref">Define Sequence ROIs</span></a>: Defines a <code class="docutils literal notranslate"><span class="pre">SetOfSequenceROIs</span></code> from a <code class="docutils literal notranslate"><span class="pre">Sequence</span></code> or <code class="docutils literal notranslate"><span class="pre">SequenceVariants</span></code> object.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/operate-sequence-rois.html#pwchem-operate-sequence-rois"><span class="std std-ref">Operate Sequence ROIs</span></a>: Allows the user to operate sets of sequence ROIs, similarly to the operate sets.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/extract-sequence-rois.html#pwchem-extract-sequence-rois"><span class="std std-ref">Extract Sequence ROIs</span></a>: Defines a <code class="docutils literal notranslate"><span class="pre">SetOfSequenceROIs</span></code> from an input set of sequences based on the conservation of each position in the alignment.</p></li>
+<li><p><a class="reference internal" href="protocols/sequence/map-sequence-rois.html#pwchem-map-sequence-rois"><span class="std std-ref">Map Sequence ROIs</span></a>: Maps a set of sequence ROIs to an atomic structure where the sequence can be mapped.</p></li>
+</ul>
+</section>
+<section id="d-virtual-drug-screening">
+<h3>D) Virtual Drug Screening<a class="headerlink" href="#d-virtual-drug-screening" title="Link to this heading"></a></h3>
+<p>Main group of protocols that incorporates most of the functionalities related to the VDS workflow.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/import-small-molecules.html#pwchem-import-small-molecules"><span class="std std-ref">Import Small Molecules</span></a>: Imports a set of small molecules from one or several files or from default database libraries like <a class="reference external" href="https://www.eu-openscreen.eu/services/compound-collection/european-chemical-biology-library-ecbl-diversity-library.html">ECBL</a> or <a class="reference external" href="https://zinc.docking.org/">ZINC</a>.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/extract-small-molecules.html#pwchem-extract-small-molecules"><span class="std std-ref">Extract Small Molecules</span></a>: Extract the small molecules present in a <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> object.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/draw-small-molecules.html#pwchem-draw-small-molecules"><span class="std std-ref">Draw Small Molecules</span></a>: Runs <a class="reference external" href="https://jchempaint.github.io/">JChemPaint</a> java program and allows the user to draw their own molecules.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/openbabel-prepare-small-molecules.html#pwchem-openbabel-prepare-small-molecules"><span class="std std-ref">OpenBabel Prepare Small Molecules</span></a>: Prepares a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> using <a class="reference external" href="https://github.com/openbabel/openbabel">OpenBabel</a>.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/rdkit-prepare-small-molecules.html#pwchem-rdkit-prepare-small-molecules"><span class="std std-ref">RDKit Prepare Small Molecules</span></a>: Prepares a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> using <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a>.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/prepare-receptor.html#pwchem-prepare-receptor"><span class="std std-ref">Prepare Receptor</span></a>: Provides a simple <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> preparation with <a class="reference external" href="https://biopython.org/">BioPython</a> where the user can choose different cleaning options like removing waters, heteroatoms, keep only specific chains…</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/adme-small-molecules-filter.html#pwchem-adme-small-molecules-filter"><span class="std std-ref">ADME Small Molecules filter</span></a>: uses <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a> to filter a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> by applying the <a class="reference external" href="https://en.wikipedia.org/wiki/ADME">ADME (Absortion, Distribution, Metabolism, Excretion) filter</a> to each of the small molecules stored.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/pains-small-molecules-filter.html#pwchem-pains-small-molecules-filter"><span class="std std-ref">PAINS Small Molecules filter</span></a>: Uses <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a> to filter a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> by applying the <a class="reference external" href="https://en.wikipedia.org/wiki/Pan-assay_interference_compounds">PAINS (Pan-assay interference compounds) filter</a> to each of the small molecules stored.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/shape-small-molecules-filter.html#pwchem-shape-small-molecules-filter"><span class="std std-ref">Shape Small Molecules filter</span></a>: Uses <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a> to filter a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> by applying shape filters to each of the small molecules stored.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/fingerprint-small-molecules-filter.html#pwchem-fingerprint-small-molecules-filter"><span class="std std-ref">FingerPrint Small Molecules filter</span></a>: Uses <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a> to filter a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> by applying fingerprint filters to each of the small molecules stored.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/pharmacophore-generation.html#pwchem-pharmacophore-generation"><span class="std std-ref">Pharmacophore generation</span></a>: Generate a <code class="docutils literal notranslate"><span class="pre">Pharmacophore</span></code> object that can be parse by <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a> from a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code>.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/pharmacophore-modification.html#pwchem-pharmacophore-modification"><span class="std std-ref">Pharmacophore modification</span></a>: Modifies the properties of the features inside a <code class="docutils literal notranslate"><span class="pre">Pharmacophore</span></code> object.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/pharmacophore-filtering.html#pwchem-pharmacophore-filtering"><span class="std std-ref">Pharmacophore filtering</span></a>: Uses <a class="reference external" href="https://github.com/rdkit/rdkit">RDKit</a> for filtering a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> by matching them with a <code class="docutils literal notranslate"><span class="pre">Pharmacophore</span></code>.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/define-structural-rois.html#pwchem-define-structural-rois"><span class="std std-ref">Define Structural ROIs</span></a>: Allows the user to manually define a <code class="docutils literal notranslate"><span class="pre">SetOfStructROIs</span></code> from <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> objects.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/consensus-structural-rois.html#pwchem-consensus-structural-rois"><span class="std std-ref">Consensus Structural ROIs</span></a>: Performs a consensus operation over several <code class="docutils literal notranslate"><span class="pre">SetOfStructROIs</span></code>, studying which of them are shared among all or a subset of the input sets.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/score-docking-positions.html#pwchem-score-docking-positions"><span class="std std-ref">Score docking positions</span></a>: Allows the user to rescore a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> docked to a receptor using several <a class="reference external" href="https://github.com/oddt/oddt">ODDT</a> scoring functions.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/rmsd-docking.html#pwchem-rmsd-docking"><span class="std std-ref">RMSD docking</span></a>: Allows the user to calculate the RMSD between a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> to a reference molecule docked to the same receptor.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/consensus-docking.html#pwchem-consensus-docking"><span class="std std-ref">Consensus docking</span></a>: Performs a consensus operation over several docked <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code>, studying which positions are shared among all or a subset of the input sets.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/sasa-calculation.html#pwchem-sasa-calculation"><span class="std std-ref">SASA calculation</span></a>: Uses <a class="reference external" href="https://biopython.org/">BioPython</a> to calculate the <a class="reference external" href="https://en.wikipedia.org/wiki/Accessible_surface_area">SASA</a> (Solvent-Accessible Surface Area) for each residue in an <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code>.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../index.html" class="btn btn-neutral float-left" title="Welcome to Scipion Chem’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../amber/index.html" class="btn btn-neutral float-right" title="scipion-chem-amber" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

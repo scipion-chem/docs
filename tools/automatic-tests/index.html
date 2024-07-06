@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automatic testing tool &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Scipion-chem VDS Data" href="../../publications/scipion-chem_vds/index.html" />
+    <link rel="prev" title="Objects" href="../../objects/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/autodock/index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../objects/index.html">Objects</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Automatic testing tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#requisites">Requisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#basic-usage">Basic usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#additional-flags">Additional Flags</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#for-developers">For developers</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../publications/scipion-chem_vds/index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Automatic testing tool</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/tools/automatic-tests/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="automatic-testing-tool">
+<h1>Automatic testing tool<a class="headerlink" href="#automatic-testing-tool" title="Link to this heading"></a></h1>
+<p>Scipion chem also integrates a tool aimed at running every test in a plugin taking advantage of the full potential of the
+machine they are being run on.</p>
+<section id="requisites">
+<h2>Requisites<a class="headerlink" href="#requisites" title="Link to this heading"></a></h2>
+<p>In order to use this tool, both <a class="reference internal" href="../../plugins/pwchem/index.html#pwchem-index"><span class="std std-ref">scipion-chem</span></a> and the plugin to be tested must be installed.</p>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading"></a></h2>
+<section id="basic-usage">
+<h3>Basic usage<a class="headerlink" href="#basic-usage" title="Link to this heading"></a></h3>
+<p>There are usually two ways of using the automatic test tool:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>The first and easiest one usually is to call the script directly from the scipion-chem directory.
+To command to use is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">/</span><span class="n">pwchem</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">modulename</span>
+</pre></div>
+</div>
+<p>Where <code class="docutils literal notranslate"><span class="pre">/path/to/scipion-chem/</span></code> is the path to your scipion-chem repository, <code class="docutils literal notranslate"><span class="pre">/path/to/scipion/</span></code> is the current path to your Scipion3 installation,
+effectively providing the script the scipion binary file to launch, and <code class="docutils literal notranslate"><span class="pre">modulename</span></code> must be replaced with the module name of the
+plugin to use. That name can be found inside Scipion, when searching for protocols of a plugin.</p>
+<p>For example, the module name for scipion-chem is <code class="docutils literal notranslate"><span class="pre">pwchem</span></code>, as shown in the image below
+(pwchem plugins are the ones that belong to scipion-chem as shown in the <a class="reference external" href="../../plugins/pwchem/index">documentation</a>):</p>
+<a class="reference internal image-reference" href="../../_images/pwchem_modulename.png"><img alt="Pwchem module name" class="align-center" src="../../_images/pwchem_modulename.png" style="height: 300px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Example</strong></p>
+<p>If I want to run all tests for scipion-chem plugin, my scipion-chem repository has been downloaded in the path
+<code class="docutils literal notranslate"><span class="pre">/home/chemuser/software</span></code>, and scipion is also in the path <code class="docutils literal notranslate"><span class="pre">/home/chemuser/software</span></code>, the command I would need to run would be:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">/</span><span class="n">pwchem</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">pwchem</span>
+</pre></div>
+</div>
+</li>
+<li><p>It is not always possible and / or easy to use the first method, specially if scipion-chem has been installed in production mode.
+So, for such reason, all plugins which deppend on scipion-chem, are bundled with a small script that imports and calls the script from scipion-chem.
+To use it, use the following commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">scipion3</span>
+<span class="n">python</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">-</span><span class="n">plugin</span><span class="o">/</span><span class="n">modulename</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">modulename</span>
+</pre></div>
+</div>
+<p>Where <code class="docutils literal notranslate"><span class="pre">/path/to/scipion-chem-plugin/modulename/</span></code> must be replaced with the path of the plugin to test, and, inside it, the folder with the module name
+of that plugin. The rest of arguments must also be replaced as explained in the previous way.</p>
+<p><strong>Example</strong></p>
+<p>If I want to run all tests for scipion-chem-autodock plugin, my scipion-chem-autodock repository has been downloaded in
+the path <code class="docutils literal notranslate"><span class="pre">/home/chemuser/software</span></code>, and scipion is also in the path <code class="docutils literal notranslate"><span class="pre">/home/chemuser/software</span></code>, the command I would need to run would be:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">scipion3</span>
+<span class="n">python</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">-</span><span class="n">autodock</span><span class="o">/</span><span class="n">autodock</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">autodock</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Take into account that, from every plugin, you can access the automatic test tool entirely, which means that you can also run tests for plugins
+other than the one you are calling it from.</p>
+<p>For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">scipion3</span>
+<span class="n">python</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">-</span><span class="n">autodock</span><span class="o">/</span><span class="n">autodock</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">rosetta</span>
+</pre></div>
+</div>
+<p>This command would run all tests for <code class="docutils literal notranslate"><span class="pre">scipion-chem-rosetta</span></code> plugin.</p>
+</div>
+</li>
+</ol>
+</div></blockquote>
+</section>
+<section id="additional-flags">
+<h3>Additional Flags<a class="headerlink" href="#additional-flags" title="Link to this heading"></a></h3>
+<p>This tool also provides several optional flags for different reasons.</p>
+<ul>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">-h</span></code> or <code class="docutils literal notranslate"><span class="pre">--help</span></code>: <em>Optional</em>. Prints the help message of the script, where all the flags and usage is explained, and exits without running tests.</dt><dd><p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">/</span><span class="n">pwchem</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">-</span><span class="n">h</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">-testData</span></code>: <em>Optional only deppending on the plugin</em>. This param defines the path to a <code class="docutils literal notranslate"><span class="pre">JSON</span></code> file containing data defined by the plugin’s developer, it’s default name being <code class="docutils literal notranslate"><span class="pre">testData.json</span></code>.</dt><dd><p>This file is needed to define the datasets needed by the tests, and the exclusions for tests that cannot be run in some situations, to avoid unnecessary errors.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">/</span><span class="n">pwchem</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">pwchem</span> <span class="o">-</span><span class="n">testData</span><span class="o">=/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">/</span><span class="n">pwchem</span><span class="o">/</span><span class="n">testData</span><span class="o">.</span><span class="n">json</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">-j</span></code> or <code class="docutils literal notranslate"><span class="pre">--jobs</span></code>: <em>Optional</em>. Defines the number of jobs to be run in parallel. If it is not set, the default value is the maximum available in the machine.</dt><dd><p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">/</span><span class="n">pwchem</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">pwchem</span> <span class="o">-</span><span class="n">j</span> <span class="mi">8</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">-noGPU</span></code>: <em>Optional</em>. Excludes from running all the tests that require GPU. Especially useful for enviroments where a GPU is not available.</dt><dd><p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">-</span><span class="n">chem</span><span class="o">/</span><span class="n">pwchem</span><span class="o">/</span><span class="n">runTests</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">chemuser</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">scipion</span><span class="o">/</span><span class="n">scipion3</span> <span class="n">pwchem</span> <span class="o">-</span><span class="n">noGPU</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+</section>
+<section id="for-developers">
+<h2>For developers<a class="headerlink" href="#for-developers" title="Link to this heading"></a></h2>
+<p>In order to avoid unnecessary errors for some situations, while developing the plugin’s tests, a <code class="docutils literal notranslate"><span class="pre">JSON</span></code> will often be needed to define some
+data regarding the tests. It is the JSON file referenced by the flag <code class="docutils literal notranslate"><span class="pre">-testData</span></code>, and it’s name should be, for standarization reasons, <code class="docutils literal notranslate"><span class="pre">testData.json</span></code>.</p>
+<p>This JSON file should follow the format described below:</p>
+<div class="highlight-JSON notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">     </span><span class="nt">&quot;datasets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;model_building_tutorial&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;smallMolecules&quot;</span><span class="p">],</span>
+<span class="w">     </span><span class="nt">&quot;skippable&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;gpu&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">             </span><span class="s2">&quot;tests_docking.TestScoreDocking&quot;</span><span class="p">,</span>
+<span class="w">             </span><span class="s2">&quot;tests_docking.TestConsensusDocking&quot;</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;dependencies&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">             </span><span class="p">{</span>
+<span class="w">                 </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scipion-chem-autodock&quot;</span><span class="p">,</span>
+<span class="w">                 </span><span class="nt">&quot;module&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;autodock&quot;</span><span class="p">,</span>
+<span class="w">                 </span><span class="nt">&quot;tests&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                     </span><span class="s2">&quot;tests_docking.TestScoreDocking&quot;</span><span class="p">,</span>
+<span class="w">                     </span><span class="s2">&quot;tests_docking.TestConsensusDocking&quot;</span>
+<span class="w">                 </span><span class="p">]</span>
+<span class="w">             </span><span class="p">}</span>
+<span class="w">         </span><span class="p">],</span>
+<span class="w">         </span><span class="nt">&quot;others&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">             </span><span class="p">{</span>
+<span class="w">                 </span><span class="nt">&quot;test&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;tests_docking.TestScoreDocking&quot;</span><span class="p">,</span>
+<span class="w">                 </span><span class="nt">&quot;reason&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;It takes too long, I don&#39;t want to run it in batch.&quot;</span>
+<span class="w">             </span><span class="p">}</span>
+<span class="w">         </span><span class="p">]</span>
+<span class="w">     </span><span class="p">},</span>
+<span class="w">     </span><span class="nt">&quot;test-dependencies&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="nt">&quot;tests_docking.TestExtractLigand&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;tests_docking.TestScoreDocking&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;tests_docking.TestConsensusDocking&quot;</span><span class="p">]</span>
+<span class="w">     </span><span class="p">}</span>
+<span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All tests should also follow the naming convention shown in the example. It is just a shorter version of the full test found
+with <code class="docutils literal notranslate"><span class="pre">scipion3</span> <span class="pre">test</span> <span class="pre">--grep</span> <span class="pre">...</span></code> command.</p>
+<p>For example, test <code class="docutils literal notranslate"><span class="pre">pwchem.tests.tests_sequences.TestPairwiseAlign</span></code> would be written <code class="docutils literal notranslate"><span class="pre">tests_sequences.TestPairwiseAlign</span></code>, since
+the rest is not needed (<code class="docutils literal notranslate"><span class="pre">pwchem</span></code> is the module name which we already know since it’s an argument, and <code class="docutils literal notranslate"><span class="pre">tests</span></code> is redundant,
+so the tool autocompletes this info for you).</p>
+</div>
+<p>The first and most important field to take into account is <code class="docutils literal notranslate"><span class="pre">datasets</span></code>. This field’s value is a list of the dataset names your tests need.
+It is important to include them because, even if running a test already downloads its dataset, when several tests running in parallel try to
+download the same datasets, it causes concurrency errors. By adding them to this field, tests will be downloaded before any test is run.</p>
+<p>The second field, <code class="docutils literal notranslate"><span class="pre">skippable</span></code>, is the skippable test section. This section will contain all the tests that won’t be run, or will be skipped if
+certain conditions are met, defined by the fields inside it.</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">gpu</span></code>: It defines a list of tests that will be skipped if the <code class="docutils literal notranslate"><span class="pre">-noGPU</span></code> flag is used.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dependencies</span></code>: It defines a list of dependencies, each one with their own tests. It is devided in three sub-fields:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code>: Name of the plugin (or python package, but intended for plugins) this test deppends on.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">module</span></code>: Module name of the plugin. If instead of a plugin, it is a python package, it will likely be the same name than <code class="docutils literal notranslate"><span class="pre">name</span></code> field.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tests</span></code>: List of tests that have this dependency.</p></li>
+</ul>
+<p>Here, the test tool will try to import the module defined, and, if succeeds, the tests are run normally. If it fails, they are skipped.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">others</span></code>: This section defines a list of tests that will be skipped for different reasons than covered by the other sections. It has two sub-fields:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">test</span></code>: The test that will be skipped.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">reason</span></code>: Reason why that test is being skipped. This is used to print a message when skipping the test that will show the reason.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>The third field, which is optional, is <code class="docutils literal notranslate"><span class="pre">test-dependencies</span></code>. This fields contains a list, which will define every test that deppends
+on other test of the same plugin. This is sometimes necessary, because if one test deppends on another one and they are run in
+parallel, it will cause errors, so it is meant to respect an execution order between them.</p>
+<p>For example, let’s say we have four tests, called <code class="docutils literal notranslate"><span class="pre">A</span></code>, <code class="docutils literal notranslate"><span class="pre">B</span></code>, <code class="docutils literal notranslate"><span class="pre">C</span></code>, and <code class="docutils literal notranslate"><span class="pre">D</span></code>. In this case, for example, <code class="docutils literal notranslate"><span class="pre">A</span></code> does not deppend on other tests.
+<code class="docutils literal notranslate"><span class="pre">B</span></code> deppends on <code class="docutils literal notranslate"><span class="pre">A</span></code>, <code class="docutils literal notranslate"><span class="pre">C</span></code> deppends on <code class="docutils literal notranslate"><span class="pre">B</span></code>, and <code class="docutils literal notranslate"><span class="pre">D</span></code> deppends on both <code class="docutils literal notranslate"><span class="pre">A</span></code> and <code class="docutils literal notranslate"><span class="pre">C</span></code>. For the given example, the <code class="docutils literal notranslate"><span class="pre">test-dependencies</span></code> field
+would look like this:</p>
+<div class="highlight-JSON notranslate"><div class="highlight"><pre><span></span><span class="nt">&quot;test-dependencies&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;B&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;A&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;C&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;B&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;D&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;A&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;C&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>This will ensure that <code class="docutils literal notranslate"><span class="pre">A</span></code> will be executed first (in parallel with all of the other regular tests), then <code class="docutils literal notranslate"><span class="pre">B</span></code>, then <code class="docutils literal notranslate"><span class="pre">C</span></code>, and finally <code class="docutils literal notranslate"><span class="pre">D</span></code>,
+therefore, making sure there is no concurrency between interdependent tests.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../objects/index.html" class="btn btn-neutral float-left" title="Objects" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../publications/scipion-chem_vds/index.html" class="btn btn-neutral float-right" title="Scipion-chem VDS Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoDock4 Docking &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../publications/scipion-chem_vds/index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">AutoDock4 Docking</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/plugins/autodock/protocols/autodock4-docking.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="autodock4-docking">
+<span id="autodock-autodock4-docking"></span><h1>AutoDock4 Docking<a class="headerlink" href="#autodock4-docking" title="Link to this heading"></a></h1>
+<p>This protocol uses <a class="reference external" href="https://autodock.scripps.edu/download-autodock4/">AutoDock4:</a> tool to predict the binding poses for a set of small molecules over the receptor.</p>
+<p>The search parameters can be modified to make a full use of the AutoDock4 options.</p>
+<p>The input can either be an <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> (to perform the docking on the whole protein) or a <code class="docutils literal notranslate"><span class="pre">SetOfStructROIs</span></code> (to perform the docking only on the Structural Regions Of Interest).</p>
+<section id="input">
+<h2>Input<a class="headerlink" href="#input" title="Link to this heading"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All parameters include a help button that gives further information for each of them.</p>
+</div>
+<a class="reference internal image-reference" href="../../../_images/form_1.png"><img alt="AutoDock4 Docking form 1" class="align-center" src="../../../_images/form_1.png" style="height: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/form_2.png"><img alt="AutoDock4 Docking form 2" class="align-center" src="../../../_images/form_2.png" style="height: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The results of these protocols are a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code>, containing the predicted binding poses for the input molecules.
+The user can visualize them using <strong>Analyze Results</strong>, which will display the General SmallMolecules viewer.</p>
+<p>A section for defining flexible receptor residues is included in these docking protocols.</p>
+</section>
+<section id="test">
+<h2>Test<a class="headerlink" href="#test" title="Link to this heading"></a></h2>
+<p>This protocol has an integrated test that can be run using the following command:</p>
+<pre class="literal-block">scipion3 tests autodock.tests.test_autodock.TestAutoDock</pre>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

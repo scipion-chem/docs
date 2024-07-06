@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gromacs Molecular Dynamics (MD) Simulation &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../autodock/index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../publications/scipion-chem_vds/index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Gromacs Molecular Dynamics (MD) Simulation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/plugins/gromacs/protocols/md-simulation.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="gromacs-molecular-dynamics-md-simulation">
+<span id="gromacs-md-simulation"></span><h1>Gromacs Molecular Dynamics (MD) Simulation<a class="headerlink" href="#gromacs-molecular-dynamics-md-simulation" title="Link to this heading"></a></h1>
+<p>This protocol takes the prepared Gromacs system and use it to run a defined simulation. In the form, the user can
+define different simulation stages that the protocol will run sequentially.</p>
+<section id="input">
+<h2>Input<a class="headerlink" href="#input" title="Link to this heading"></a></h2>
+<p>The parameters of this protocol are grouped as:</p>
+<ol class="arabic simple">
+<li><p><strong>Input</strong>: The <code class="docutils literal notranslate"><span class="pre">GromacsSystem</span></code> product of the system preparation described above.</p></li>
+</ol>
+<p>Then, the user can define the different MD stages:</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Ensemble</strong>: Defines the type of simulation in the current stage. The user can choose from energy minimization, NVT or NPT. Then, for each of them other parameters will appear to further tune the simulation.</p></li>
+<li><p><strong>Simulation time</strong>: Defines the length of the simulation in number of steps for the minimization and in time for NVT and NPT. In the case of NVT and NPT, the user can also specify whether the trajectory from the stage should be saved.</p></li>
+<li><p><strong>Restraints</strong>: Energetic restraints can be defined during the stage for the principal groups of atoms present in the system (Protein, Backbone, C-alpha…)</p></li>
+</ol>
+<p>Then, the defined stage can be inserted into the workflow, whose summary is shown below.</p>
+<ol class="arabic simple" start="5">
+<li><p><strong>Summary</strong>: A summary of the added stages is shown. However, this list is just a summary and manual modifications will not yield changes. In order to modify the stages, the user need to use the wizards in order to add, delete or watch the parameters of the desired stages, which can be specified in the wizard text input.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All parameters include a help button that gives further information for each of them.</p>
+</div>
+<a class="reference internal image-reference" href="../../../_images/form16.png"><img alt="Gromacs Molecular Dynamics form" class="align-center" src="../../../_images/form16.png" style="height: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The result of this protocol is a <code class="docutils literal notranslate"><span class="pre">GromacsSystem</span></code>, this time also containing the concatenated trajectory of the
+last saved stages (If stages 2, 4 and 5 were saved, since we should not concatenate 2 to 4, only 4 and 5 will be saved).
+Using <strong>Analyze Results</strong>, a form with different visualization options will be displayed, where the user can:</p>
+<img alt="Gromacs Molecular Dynamics output 1" class="align-center" src="../../../_images/output_1.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li><p><strong>Open Gromacs System</strong>: Display the system (without trajectory) using PyMol</p></li>
+<li><p><strong>Open MD simulation</strong>: Inspect the system trajectories of the different stages saved using either PyMol (not recommended for long trajectories) or VMD. To facilitate the visualization, only the waters closer to the structure (in the first frame) will be shown.</p></li>
+</ol>
+<img alt="Gromacs Molecular Dynamics output 2" class="align-center" src="../../../_images/output_2.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p><strong>Gromacs Analysis</strong>: Perform different <a class="reference external" href="https://manual.gromacs.org/current/reference-manual/analysis.html">analysis of the trajectories</a> using Gromacs, which will be displayed with matplotlib. Among these analysis we included the variation of RMSD, SASA, Gyration… of the different atom groups through the trajectory.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../../_images/output_3.png"><img alt="Gromacs Molecular Dynamics output 3" class="align-center" src="../../../_images/output_3.png" style="height: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="test">
+<h2>Test<a class="headerlink" href="#test" title="Link to this heading"></a></h2>
+<p>This protocol has an integrated test that can be run using the following command:</p>
+<pre class="literal-block">scipion3 tests gromacs.tests.tests.TestGromacsRunSimulation</pre>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

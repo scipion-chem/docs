@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>scipion-chem-autodock &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="scipion-chem-blast" href="../blast/index.html" />
+    <link rel="prev" title="scipion-chem-amber" href="../amber/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">scipion-chem-autodock</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-requirements">A) Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-installation-steps">B) Installation steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-packages-enviroments">C) Packages &amp; enviroments</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#protocols">Protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-receptor-preparation">A) Receptor preparation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-ligand-preparation">B) Ligand preparation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-grid-generation">C) Grid generation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#d-binding-site-identification">D) Binding site identification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#e-pharmacophore-generation">E) Pharmacophore generation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#f-docking">F) Docking</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#g-docking-rescoring">G) Docking Rescoring</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../publications/scipion-chem_vds/index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">scipion-chem-autodock</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/plugins/autodock/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <figure class="align-default">
+<img alt="autodock logo" src="../../_images/logo2.png" />
+</figure>
+<section id="scipion-chem-autodock">
+<span id="autodock-index"></span><h1>scipion-chem-autodock<a class="headerlink" href="#scipion-chem-autodock" title="Link to this heading"></a></h1>
+<p><a class="reference external" href="https://autodocksuite.scripps.edu/adt/">AutoDock</a> is a suite of automated docking tools. It is designed to predict how
+small molecules, such as substrates or drug candidates, bind to a receptor of known 3D structure. Over the years, it has
+been modified and improved to add new functionalities, and multiple engines have been developed.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h2>
+<section id="a-requirements">
+<h3>A) Requirements<a class="headerlink" href="#a-requirements" title="Link to this heading"></a></h3>
+<p>In order to use this plugin, you need to install first <a class="reference internal" href="../pwchem/index.html#pwchem-index"><span class="std std-ref">scipion-chem</span></a>.</p>
+</section>
+<section id="b-installation-steps">
+<h3>B) Installation steps<a class="headerlink" href="#b-installation-steps" title="Link to this heading"></a></h3>
+<ul>
+<li><p><strong>Install the stable version</strong></p>
+<blockquote>
+<div><p>Through the plugin manager GUI by launching Scipion and following <strong>Others</strong> &gt;&gt; <strong>Plugin Manager</strong>, or</p>
+</div></blockquote>
+</li>
+</ul>
+<pre class="literal-block">scipion3 installp -p scipion-chem-autodock</pre>
+<ul>
+<li><p><strong>Developer’s version</strong></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Download repository:</p></li>
+</ol>
+<pre class="literal-block">git clone https://github.com/scipion-chem/scipion-chem-autodock.git</pre>
+<ol class="arabic simple" start="2">
+<li><p>Install:</p></li>
+</ol>
+<pre class="literal-block">scipion3 installp -p /path/to/scipion-chem-autodock --devel</pre>
+</div></blockquote>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Installation of the stable version through the <code class="docutils literal notranslate"><span class="pre">Plugin</span> <span class="pre">Manager</span></code> or with the command provided above is not available yet.</p>
+<p>Please install the developer version until a stable version is released, or install the latest stable version with the following steps:</p>
+<pre class="literal-block">cd /path/to/scipion-chem-autodock &amp;&amp; git checkout master &amp;&amp; scipion3 installp -p . --devel</pre>
+</div>
+</section>
+<section id="c-packages-enviroments">
+<h3>C) Packages &amp; enviroments<a class="headerlink" href="#c-packages-enviroments" title="Link to this heading"></a></h3>
+<p>Packages installed by this plugin can be located in <code class="docutils literal notranslate"><span class="pre">/path/to/scipion/software/em/</span></code>.</p>
+<p>The following packages will be created:</p>
+<p><strong>TODO: COMPLETE THIS PART</strong></p>
+<p>Where <code class="docutils literal notranslate"><span class="pre">version</span></code> is the current version of that specific package.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These environments are used by the code in the different plugins, and we strongly
+advise not to modify them manually in order to keep their functions.</p>
+</div>
+</section>
+</section>
+<section id="protocols">
+<h2>Protocols<a class="headerlink" href="#protocols" title="Link to this heading"></a></h2>
+<section id="a-receptor-preparation">
+<h3>A) Receptor preparation<a class="headerlink" href="#a-receptor-preparation" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/receptor-preparation.html#autodock-receptor-preparation"><span class="std std-ref">Receptor preparation</span></a>: Prepares an <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> object containing a protein file to make it ready for <a class="reference external" href="https://autodocksuite.scripps.edu/adt/">AutoDock tools</a>, such as docking with AutoDock or Vina.</p></li>
+</ul>
+</section>
+<section id="b-ligand-preparation">
+<h3>B) Ligand preparation<a class="headerlink" href="#b-ligand-preparation" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/ligand-prep.html#autodock-ligand-preparation"><span class="std std-ref">Ligand preparation (prepare_ligand4.py)</span></a>: Uses the script <em>prepare_ligand4.py</em> in the utilities of AutoDock Tools to prepare a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code>.</p></li>
+<li><p><a class="reference internal" href="protocols/ligand-prep-meeko.html#autodock-ligand-preparation-meeko"><span class="std std-ref">Ligand preparation Meeko</span></a>: Uses the new <a class="reference external" href="https://github.com/forlilab/Meeko">Meeko</a> functionality as a Python module to prepare a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code>.</p></li>
+</ul>
+</section>
+<section id="c-grid-generation">
+<h3>C) Grid generation<a class="headerlink" href="#c-grid-generation" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/grid-generation.html#autodock-grid-generation"><span class="std std-ref">Grid generation</span></a>: Generates the grids used by the different AutoDock programs using autogrid4.</p></li>
+</ul>
+</section>
+<section id="d-binding-site-identification">
+<h3>D) Binding site identification<a class="headerlink" href="#d-binding-site-identification" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/roi-autoligand.html#autodock-roi-autoligand"><span class="std std-ref">AutoLigand Binding Site prediction</span></a>: Uses <a class="reference external" href="https://autodock.scripps.edu/resources/autoligand/">AutoLigand</a> tool to predict the binding sites on a protein receptor.</p></li>
+<li><p><a class="reference internal" href="protocols/roi-autosite.html#autodock-roi-autosite"><span class="std std-ref">AutoSite Binding Site prediction</span></a>: Uses <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5048065/">AutoSite</a> tool to predict the binding sites on a protein receptor.</p></li>
+</ul>
+</section>
+<section id="e-pharmacophore-generation">
+<h3>E) Pharmacophore generation<a class="headerlink" href="#e-pharmacophore-generation" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/pharmacophore-generation.html#autodock-pharmacophore-generation"><span class="std std-ref">AutoSite Pharmacophore Generation</span></a>: Generates a Pharmacophore object RDKit compatible from a resulting binding site of <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5048065/">AutoSite</a>.</p></li>
+</ul>
+</section>
+<section id="f-docking">
+<h3>F) Docking<a class="headerlink" href="#f-docking" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/autodock4-docking.html#autodock-autodock4-docking"><span class="std std-ref">AutoDock4 Docking</span></a>: Uses <a class="reference external" href="https://autodock.scripps.edu/download-autodock4/">AutoDock4:</a> tool to predict the binding poses for a set of small molecules over the receptor.</p></li>
+<li><p><a class="reference internal" href="protocols/autodockGPU-docking.html#autodock-autodockgpu-docking"><span class="std std-ref">AutoDock-GPU Docking</span></a>: Uses <a class="reference external" href="https://github.com/ccsb-scripps/AutoDock-GPU">AutoDock-GPU:</a>, the GPU implementation of AutoDock.</p></li>
+<li><p><a class="reference internal" href="protocols/vina-docking.html#autodock-vina-docking"><span class="std std-ref">Vina Docking</span></a>: Uses <a class="reference external" href="https://vina.scripps.edu/">AutoDock Vina:</a> docking engine to predict the binding poses for a set of small molecules over the receptor.</p></li>
+</ul>
+</section>
+<section id="g-docking-rescoring">
+<h3>G) Docking Rescoring<a class="headerlink" href="#g-docking-rescoring" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/autodock4-dock-scoring.html#autodock-autodock4-dock-scoring"><span class="std std-ref">AutoDock4 Dock Rescoring</span></a>: Scores a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> that has been already docked by any docking program using <a class="reference external" href="https://autodock.scripps.edu/download-autodock4/">AutoDock4:</a> scoring function.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../amber/index.html" class="btn btn-neutral float-left" title="scipion-chem-amber" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../blast/index.html" class="btn btn-neutral float-right" title="scipion-chem-blast" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

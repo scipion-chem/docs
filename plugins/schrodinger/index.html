@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>scipion-chem-schrodinger &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Objects" href="../../objects/index.html" />
+    <link rel="prev" title="scipion-chem-rosetta" href="../rosetta/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../autodock/index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">scipion-chem-schrodinger</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-requirements">A) Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-installation-steps">B) Installation steps</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#protocols">Protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-virtual-drug-screening">A) Virtual Drug Screening</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-molecular-dynamics">B) Molecular Dynamics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-utils">C) Utils</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../publications/scipion-chem_vds/index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">scipion-chem-schrodinger</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/plugins/schrodinger/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <figure class="align-default" id="docs-chem-schrodinger">
+<img alt="schrodinger logo" src="../../_images/logo10.png" />
+</figure>
+<section id="scipion-chem-schrodinger">
+<h1>scipion-chem-schrodinger<a class="headerlink" href="#scipion-chem-schrodinger" title="Link to this heading"></a></h1>
+<p><a class="reference external" href="https://www.schrodinger.com/">Schrodinger</a> is a platform that platform leverages a deep understanding of physics,
+chemistry, and predictive modeling to accelerate innovation. It contains numerous tools for molecular modelling,
+including drug discovery and molecular dynamics.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h2>
+<section id="a-requirements">
+<h3>A) Requirements<a class="headerlink" href="#a-requirements" title="Link to this heading"></a></h3>
+<p>In order to use this plugin, you need to install first <a class="reference internal" href="../pwchem/index.html#pwchem-index"><span class="std std-ref">scipion-chem</span></a>.</p>
+</section>
+<section id="b-installation-steps">
+<h3>B) Installation steps<a class="headerlink" href="#b-installation-steps" title="Link to this heading"></a></h3>
+<ul>
+<li><p><strong>Install the stable version</strong></p>
+<blockquote>
+<div><p>Through the plugin manager GUI by launching Scipion and following <strong>Others</strong> &gt;&gt; <strong>Plugin Manager</strong>, or</p>
+</div></blockquote>
+</li>
+</ul>
+<pre class="literal-block">scipion3 installp -p scipion-chem-schrodinger</pre>
+<ul>
+<li><p><strong>Developer’s version</strong></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Download repository:</p></li>
+</ol>
+<pre class="literal-block">git clone https://github.com/scipion-chem/scipion-chem-schrodinger.git</pre>
+<ol class="arabic simple" start="2">
+<li><p>Install:</p></li>
+</ol>
+<pre class="literal-block">scipion3 installp -p /path/to/scipion-chem-schrodinger --devel</pre>
+</div></blockquote>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Installation of the stable version through the <code class="docutils literal notranslate"><span class="pre">Plugin</span> <span class="pre">Manager</span></code> or with the command provided above is not available yet.</p>
+<p>Please install the developer version until a stable version is released, or install the latest stable version with the following steps:</p>
+<pre class="literal-block">cd /path/to/scipion-chem-schrodinger &amp;&amp; git checkout master &amp;&amp; scipion3 installp -p . --devel</pre>
+</div>
+<p>Notice that Schrodinger is a licensed software, so from Scipion Chem we only provide tools for using their programs,
+but we do not provide the software itself, which must be separately installed by the user.</p>
+</section>
+</section>
+<section id="protocols">
+<h2>Protocols<a class="headerlink" href="#protocols" title="Link to this heading"></a></h2>
+<section id="a-virtual-drug-screening">
+<h3>A) Virtual Drug Screening<a class="headerlink" href="#a-virtual-drug-screening" title="Link to this heading"></a></h3>
+<p>It includes several tools from Schrodinger for Virtual Drug Screening.
+The user will be able to prepare both the target and the ligands, predict or define the binding sites and perform a docking analysis.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/receptor-preparation.html#schrodinger-receptor-preparation"><span class="std std-ref">Schrödinger Receptor Preparation</span></a>: Prepares an <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> object containing a protein file to make it ready for Schrodinger tools using the <a class="reference external" href="https://www.schrodinger.com/science-articles/protein-preparation-wizard">Prepwizard</a> Schrodinger utility.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/ligand-preparation.html#schrodinger-ligand-preparation"><span class="std std-ref">Schrödinger Ligand Preparation</span></a>: Prepares a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> to make it ready for Schrodinger tools using the <a class="reference external" href="https://www.schrodinger.com/products/ligprep">Ligprep</a> Schrodinger program.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/binding-site-prediction.html#schrodinger-binding-site-prediction"><span class="std std-ref">Schrödinger Binding Site Prediction (SiteMap)</span></a>: Predicts the most promising binding sites on the structure using <a class="reference external" href="https://www.schrodinger.com/products/sitemap">SiteMap</a> .</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/grid-preparation.html#schrodinger-grid-preparation"><span class="std std-ref">Grid Preparation</span></a>: Generates the grids used by the docking Schrodinger program: <a class="reference external" href="https://www.schrodinger.com/products/glide">Glide</a>.</p></li>
+<li><p><a class="reference internal" href="protocols/virtual-drug-screening/glide-docking.html#schrodinger-glide-docking"><span class="std std-ref">Schrödinger Glide Docking</span></a>: Uses <a class="reference external" href="https://www.schrodinger.com/products/glide">Glide</a> for docking a set of ligands to a receptor.</p></li>
+</ul>
+</section>
+<section id="b-molecular-dynamics">
+<h3>B) Molecular Dynamics<a class="headerlink" href="#b-molecular-dynamics" title="Link to this heading"></a></h3>
+<p>It includes protocols able to handle Molecular Dynamics simulations in Schrodinger.</p>
+<p>The following protocols allow the user to prepare, run and analyze these simulations.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/molecular-dynamics/system-preparation.html#schrodinger-system-preparation"><span class="std std-ref">Schrödinger System Preparation (Desmond)</span></a>: Prepares a Schrodinger MD system using <a class="reference external" href="https://www.schrodinger.com/products/desmond">Desmond</a> prior to its simulation from a <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> or a <code class="docutils literal notranslate"><span class="pre">SmallMolecule</span></code> object.</p></li>
+<li><p><a class="reference internal" href="protocols/molecular-dynamics/desmond-md-simulation.html#schrodinger-desmond-md-simulation"><span class="std std-ref">Schrödinger MD Simulation (Desmond)</span></a>: Takes the prepared Schrodinger system and uses <a class="reference external" href="https://www.schrodinger.com/products/desmond">Desmond</a> to run a defined simulation.</p></li>
+</ul>
+</section>
+<section id="c-utils">
+<h3>C) Utils<a class="headerlink" href="#c-utils" title="Link to this heading"></a></h3>
+<p>It includes other util protocols that can be used in any of the previous fields.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="protocols/utils/format-conversion.html#schrodinger-format-conversion"><span class="std std-ref">Schrödinger Format Conversion</span></a>: Uses Schrodinger scripts to convert an <code class="docutils literal notranslate"><span class="pre">AtomStruct</span></code> or a <code class="docutils literal notranslate"><span class="pre">SetOfSmallMolecules</span></code> to the desired format.</p></li>
+<li><p><a class="reference internal" href="protocols/utils/fix-structure.html#schrodinger-fix-structure"><span class="std std-ref">Schrödinger Fix Structure</span></a>: Allows the user to use <a class="reference external" href="https://www.schrodinger.com/products/prime">Prime</a> for fixing an atomic structure.</p></li>
+<li><p><a class="reference internal" href="protocols/utils/split-structure.html#schrodinger-split-structure"><span class="std std-ref">Schrödinger Split Structure</span></a>: Allows the user to use the <em>split_structure.py</em> script from Schrodinger mmShare.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../rosetta/index.html" class="btn btn-neutral float-left" title="scipion-chem-rosetta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../objects/index.html" class="btn btn-neutral float-right" title="Objects" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Drug Screening workflow example (4erf_workflow) &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/autodock/index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Virtual Drug Screening workflow example (4erf_workflow)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/publications/scipion-chem_vds/workflows/4erf/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="virtual-drug-screening-workflow-example-4erf-workflow">
+<span id="docs-vds-4erf"></span><h1>Virtual Drug Screening workflow example (4erf_workflow)<a class="headerlink" href="#virtual-drug-screening-workflow-example-4erf-workflow" title="Link to this heading"></a></h1>
+<p>Example shown in “Virtual Drug Screening workflow” section for <a class="reference external" href="https://www.rcsb.org/structure/4ERF">4ERF</a> PDB structure, using data from the <a class="reference external" href="https://data.mendeley.com/datasets/8czn4rxz68/1">D-COID</a> database.
+The example can be divided into 4 subworkflows, which are examples of useful tasks discussed in the paper.
+The protocols related to each of these subworkflows can be identified by their labels in the GUI, which have the form:</p>
+<p>&lt;Subworkflow number&gt; ) &lt;Plugin&gt; - &lt;Task performed&gt;</p>
+<p>Images are added in this document to localize the subworkflows, but note that the protocols might appear disordered.</p>
+<p>These subworkflows are:</p>
+<section id="main-vds-workflow">
+<h2>1) Main VDS workflow<a class="headerlink" href="#main-vds-workflow" title="Link to this heading"></a></h2>
+<p>Principal workflow that includes protocols following the “Virtual Drug Screening workflow” section:</p>
+<img alt="vds workflow 4erf" src="../../../../_images/subworkflow1_4erf.png" />
+<ol class="arabic">
+<li><dl class="simple">
+<dt><strong>Molecules import</strong></dt><dd><ul class="simple">
+<li><p><a class="reference external" href="https://scipion-em.github.io/docs/release-3.0.0/api/pwem/pwem.protocols.protocol_import.volumes.html#pwem.protocols.protocol_import.volumes.ProtImportSetOfAtomStructs">Receptor import</a>: 4ERF structure from PDB web, a ligase from Homo Sapiens</p></li>
+<li><p><a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/import-small-molecules.html#pwchem-import-small-molecules"><span class="std std-ref">Import Small Molecules</span></a>: 4 ZINC small molecule structures are imported from local “mol2” files
+(included in this repository).</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Molecules preparation</strong></dt><dd><ul class="simple">
+<li><p><a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/prepare-receptor.html#pwchem-prepare-receptor"><span class="std std-ref">Prepare Receptor</span></a>: we used LePro protein preparation (from LePhar) to prepare the receptor, removing
+the ligand included in the structure and other heteroatoms and extracting only chain A.</p></li>
+<li><p><a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/openbabel-prepare-small-molecules.html#pwchem-openbabel-prepare-small-molecules"><span class="std std-ref">OpenBabel Prepare Small Molecules</span></a>: we used OpenBabel ligand preparation in order to add charges to the imported
+small molecules and generating up to 2 conformers for each of them.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Molecules filtering</strong></dt><dd><ul class="simple">
+<li><p><strong>Regions Of Interest definition</strong>: set of protocols that tries to find the most promising regions of the
+receptor for interacting with the ligand. We did so by, first, independently predicting these receptor
+pockets with <a class="reference external" href="https://github.com/scipion-chem/docs/blob/main/docs/plugins/fpocket/index.rst">FPocket</a>, <a class="reference external" href="https://github.com/scipion-chem/docs/blob/main/docs/plugins/p2rank/index.rst">P2Rank</a> and <a class="reference external" href="https://github.com/scipion-chem/docs/blob/main/docs/plugins/autodock/index.rst">AutoSite</a>. Then, the results of each software are combined using the
+<a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/consensus-structural-rois.html#pwchem-consensus-structural-rois"><span class="std std-ref">Consensus Structural ROIs</span></a> as explained in the paper.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p><strong>Docking</strong></p>
+<p>Prepared small molecules are docked onto the consensus ROIs. This task is performed independently using
+LeDock, AutoDock-GPU and Vina, with default parameters. Then, as explained in the paper, the results of
+these protocols are rescored using ODDT Vina and RFScore_v3. Finally, the rescored docking poses are
+combined and the most promising ones are extracted using the consensus protocol.</p>
+</li>
+<li><p><strong>Molecular dynamics</strong></p>
+<p>The best scored docking pose from the consensus docking protocol (ZINC1453, according to the ODDT Vina score)
+is used as input for the Molecular dynamics simulation example. To do so, we used Desmond, from Schrödinger.
+We used this commercial software because of the advanced trajectory analysis and the automatic ligand
+parametrization they provide.</p>
+<ul class="simple">
+<li><p>System preparation: the docked molecule (together with the receptor) is surrounded by a water box
+(with 5A buffer) with the SPC water model. Na+ and Cl- are added to reach 0.15M concentration and
+neutralizing the system. S-OPLS main force field is used to parametrize the system.</p></li>
+<li><p>Simulation: the prepared system is simulated in this protocol using Desmond. First, the system is
+minimized and equilibrated following the default Desmond procedure. Then, a small production simulation
+is executed, enlarging the trajectory with 24ps of unrestricted simulations.</p></li>
+<li><p>Production simulation: a second simulation protocol is executed to generate a larger production simulation
+of 5000ps of unrestricted simulation at native conditions, generating a trajectory that could be analyzed.</p></li>
+</ul>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="structural-rois-definition">
+<h2>2) Structural ROIs definition<a class="headerlink" href="#structural-rois-definition" title="Link to this heading"></a></h2>
+<p>This Scipion project also includes several examples on how to determine the structural ROIs discussed in the paper.</p>
+<img alt="rois workflow 4erf" src="../../../../_images/subworkflow2_4erf.png" />
+<ol class="arabic">
+<li><p><a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/define-structural-rois.html#pwchem-define-structural-rois"><span class="std std-ref">Define Structural ROIs</span></a></p>
+<blockquote>
+<div><p>We show a manual structural ROI definition in the 4ERF-A structure based on the area of its own ligand.</p>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="../../../../plugins/pwchem/protocols/sequence/map-sequence-rois.html#pwchem-map-sequence-rois"><span class="std std-ref">Map Sequence ROIs</span></a></p>
+<blockquote>
+<div><p>Similarly to structural ROIs, Scipion-chem includes several ways to define Regions Of Interest over sequences. In this
+example, we manually define two sequence ROIs on residues 1-4 and 22-25, which are then mapped to the structure in
+order to define structural ROIs.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Based on target characteristics</strong></p>
+<blockquote>
+<div><p>As explained in the paper, another option to define structural ROIs is based on target characteristics. In this
+example, the SASA (Solvent-Accessible Surface Area) is calculated over the 4ERF-A structure with <a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/sasa-calculation.html#pwchem-sasa-calculation"><span class="std std-ref">SASA calculation</span></a>. From it, the sequence ROIs containing higher values of SASA are extracted and these are mapped to structural ROIs using <a class="reference internal" href="../../../../plugins/pwchem/protocols/sequence/extract-sequence-rois.html#pwchem-extract-sequence-rois"><span class="std std-ref">Extract Sequence ROIs</span></a>.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Predicted pockets</strong></p>
+<blockquote>
+<div><p>From the previous subworkflow, we have already shown an example of how structural ROIs can be defined using programs
+that predict these protein concavities we call pockets.</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="pharmacophore-based-workflow">
+<h2>3) Pharmacophore-based workflow<a class="headerlink" href="#pharmacophore-based-workflow" title="Link to this heading"></a></h2>
+<p>As described in the paper, Scipion-chem includes some features to perform pharmacophore-based virtual screening. In this
+project, an example is shown.</p>
+<img alt="pharmacophore workflow 4erf" src="../../../../_images/subworkflow3_4erf.png" />
+<p>To do so, the actual ligand of 4ERF is first extracted using <a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/extract-small-molecules.html#pwchem-extract-small-molecules"><span class="std std-ref">Extract Small Molecules</span></a> and a pharmacophore is generated from it with protocol <a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/pharmacophore-generation.html#pwchem-pharmacophore-generation"><span class="std std-ref">Pharmacophore generation</span></a>. This resulting
+pharmacophore is slightly modified to be more flexible using another Scipion-chem protocol (<a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/pharmacophore-modification.html#pwchem-pharmacophore-modification"><span class="std std-ref">Pharmacophore modification</span></a>), and this modified
+pharmacophore is finally used as a filter for out set of 4 small molecules with <a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/pharmacophore-filtering.html#pwchem-pharmacophore-filtering"><span class="std std-ref">Pharmacophore filtering</span></a>. In this example, as the pharmacophore
+features are built using RDKit, we prepared the small molecules using RDKit too (<a class="reference internal" href="../../../../plugins/pwchem/protocols/virtual-drug-screening/rdkit-prepare-small-molecules.html#pwchem-rdkit-prepare-small-molecules"><span class="std std-ref">RDKit Prepare Small Molecules</span></a>). The position of ZINC1099, fitted into
+the pharmacophore, is shown in the figure of the paper related to this section.</p>
+<p>We prepared the molecules using RDKit because, unfortunately, the full
+interoperability is not yet achieved in Scipion-chem, and this is an example of it. Sometimes, small molecules
+prepared with OpenBabel would not be parsed properly with RDKit and the protocols would fail.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="molecular-dynamics-md">
+<h2>4) Molecular dynamics (MD)<a class="headerlink" href="#molecular-dynamics-md" title="Link to this heading"></a></h2>
+<p>Finally, this demo project also includes several examples of molecular dynamics simulations.</p>
+<img alt="md workflow 4erf" src="../../../../_images/subworkflow4_4erf.png" />
+<ol class="arabic">
+<li><p><strong>On a docked molecule</strong></p>
+<blockquote>
+<div><p>As described in the “Main VDS workflow” section, a molecular dynamics simulation is
+performed using Desmond over the most promising docked molecule.</p>
+</div></blockquote>
+</li>
+<li><p><strong>On the original complex</strong></p>
+<blockquote>
+<div><p>The project includes an example the performs a MD simulation on the actual ligand of
+4ERF (OR3) together with its receptor. This simulation is again performed on Desmond, since MD simulations with ligands
+are not yet supported in gromacs or amber (they will hopefully come soon).</p>
+</div></blockquote>
+</li>
+<li><p><strong>Only on the receptor</strong></p>
+<blockquote>
+<div><p>Finally, a MD simulation is performed on the receptor only, this time using Gromacs. As for
+the previous cases, a first protocol is used to define the system, with the water box, ions and force fields; and a
+second protocol actually executes the simulation, which can be visualized using PyMol or VMD (recommended). Moreover,
+several Gromacs trajectory analysis can be executed from the Scipion GUI in the Analyze results option.</p>
+<p>Note that the receptor file used for this subworkflow comes from a local file (4erf_prepared.pdb, included in this
+repository). This file was obtained using PDBFixer, a software from OpenMM, using scipion-chem-scipionOpenmm, a plugin
+not yet released. We use this because Gromacs needs a deep preparation of the input receptor in order to run.</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

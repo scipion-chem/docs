@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Show case (FABP4_workflow) &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/autodock/index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../plugins/schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Scipion-chem VDS Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Show case (FABP4_workflow)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/publications/scipion-chem_vds/workflows/fabp4/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="show-case-fabp4-workflow">
+<span id="docs-vds-fabp4"></span><h1>Show case (FABP4_workflow)<a class="headerlink" href="#show-case-fabp4-workflow" title="Link to this heading"></a></h1>
+<p>This workflow correspond to the “Show case” section in the VDS Scipion-chem publication.
+In this example, a bigger dataset extracted from the database <a class="reference external" href="https://dude.docking.org/">DUD-E</a> is used to validate
+our workflow engine. The specific dataset used is <a class="reference external" href="https://dude.docking.org/targets/fabp4">FABP4</a> , corresponding to
+the PDB structure <a class="reference external" href="https://www.rcsb.org/structure/2nnq">2NNQ</a>).
+The files contained the receptor structure plus an original set of 47 active molecules and around 50 decoys per
+active, accounting for a total of 2749 decoy molecules.</p>
+<p>As described in the paper, a similar workflow than the one used for 4ERF is run over this new, bigger dataset, as an
+example of Scipion-chem and to validate its VDS tools. Below, we will explain step by step the protocols contained in
+this workflow, together with their corresponding inputs, outputs and intermediate viewers.</p>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt><strong>Import</strong></dt><dd><p>The initial receptor and ligand structures can be imported in several ways, as we explained in the previous workflow.
+In this example, we imported the structures directly from the pdb files (for the receptor, corresponding to PDB
+<a class="reference external" href="https://www.rcsb.org/structure/2nnq">2NNQ</a>) and sdf files (for the ligands) files provided by DUD-E.
+The forms provided by Scipion (in the images below) allow the user to choose the origin of the structure and,
+in the case of the small molecules, the molecule handler (RDKit or OpenBabel) to use and if a 3D reconstruction is needed.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../../../../_images/formImportReceptor_fabp4.png"><img alt="../../../../_images/formImportReceptor_fabp4.png" src="../../../../_images/formImportReceptor_fabp4.png" style="height: 325px;" /></a>
+<figcaption>
+<p><span class="caption-text">Import receptor form</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+<td><figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../../../../_images/formImportMols_fabp4.png"><img alt="../../../../_images/formImportMols_fabp4.png" src="../../../../_images/formImportMols_fabp4.png" style="height: 325px;" /></a>
+<figcaption>
+<p><span class="caption-text">Import active molecules form</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="2">
+<li><dl class="simple">
+<dt><strong>Preparation</strong></dt><dd><p>Once the structures are imported into the Scipion workflow, separate preparation steps are performed
+for the receptor and the ligand libraries. In this case, we used the protein preparation protocol in the OpenMM plugin,
+which uses PDBFixer for the receptor protein; and RDKit for the preparation of the ligands. In each of the forms,
+the user is asked about the preparation parameters desired, such as to removing undesired atoms (waters and other non-protein
+entities) or reconstructing missing atoms in the receptor; or which force fields to use and whether to generate conformers
+in the parametrization of the ligands.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id4">
+<a class="reference internal image-reference" href="../../../../_images/formProtPrep_fabp4.png"><img alt="../../../../_images/formProtPrep_fabp4.png" src="../../../../_images/formProtPrep_fabp4.png" style="height: 375px;" /></a>
+<figcaption>
+<p><span class="caption-text">Receptor preparation form</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+<td><figure class="align-default" id="id5">
+<a class="reference internal image-reference" href="../../../../_images/formLigPrep_fabp4.png"><img alt="../../../../_images/formLigPrep_fabp4.png" src="../../../../_images/formLigPrep_fabp4.png" style="height: 375px;" /></a>
+<figcaption>
+<p><span class="caption-text">Ligands preparation form</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="3">
+<li><dl class="simple">
+<dt><strong>ROI definition</strong></dt><dd><p>In this particular example, P2Rank is used to predict the most promising pockets in our receptor,
+which will become those ROIs where we will direct the docking processes. In this step, the main P2Rank protocol is followed by
+a filter protocol to extract only the 2 best pockets predicted, in order to speed up the downstream workflow.
+The forms for both protocols are shown, where the corresponding parameters are defined.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id6">
+<a class="reference internal image-reference" href="../../../../_images/formP2Rank_fabp4.png"><img alt="../../../../_images/formP2Rank_fabp4.png" src="../../../../_images/formP2Rank_fabp4.png" style="height: 325px;" /></a>
+<figcaption>
+<p><span class="caption-text">P2Rank ROI prediction form</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+<td><figure class="align-default" id="id7">
+<a class="reference internal image-reference" href="../../../../_images/formFilterROI_fabp4.png"><img alt="../../../../_images/formFilterROI_fabp4.png" src="../../../../_images/formFilterROI_fabp4.png" style="height: 325px;" /></a>
+<figcaption>
+<p><span class="caption-text">Filter top 2 predicted ROIs form</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="4">
+<li><dl class="simple">
+<dt><strong>Ligand-based filtering</strong></dt><dd><p>On the ligands side, a first filtering step is used by passing 1 ligand-based filter protocol
+to our active and decoy molecules. This is the ADME filter, which we described in the previous section.
+The parameters defined in the form determine the specific rules to follow in ADME execution.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id8">
+<a class="reference internal image-reference" href="../../../../_images/formADME_fabp4.png"><img alt="../../../../_images/formADME_fabp4.png" src="../../../../_images/formADME_fabp4.png" style="height: 350px;" /></a>
+<figcaption>
+<p><span class="caption-text">ADME ligand-based filter form</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="5">
+<li><dl class="simple">
+<dt><strong>Docking</strong></dt><dd><p>This steps involves the execution of 3 independent docking programs (AutoDock-GPU, AutoDock Vina and LeDock)
+over the 2 defined ROIs and both the active and decoy prepared libraries. In practise, this is the slowest step of the workflow,
+and therefore becomes the usual bottleneck in its execution, so it is important to choose appropriate resources for them.
+In our case, the forms allow us to define the number of threads and GPUs (only for AutoDock-GPU)
+to allocate for each of them. Moreover, as the previous cases, the forms also include the parameters that the user can tweak
+to define the docking processes, such as the number of docking poses to generate for each of the molecule conformers.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id9">
+<a class="reference internal image-reference" href="../../../../_images/formADGPU_fabp4.png"><img alt="../../../../_images/formADGPU_fabp4.png" src="../../../../_images/formADGPU_fabp4.png" style="height: 450px;" /></a>
+<figcaption>
+<p><span class="caption-text">AutoDock-GPU docking form</span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+<tr class="row-even"><td><figure class="align-default" id="id10">
+<a class="reference internal image-reference" href="../../../../_images/formLeDock_fabp4.png"><img alt="../../../../_images/formLeDock_fabp4.png" src="../../../../_images/formLeDock_fabp4.png" style="height: 350px;" /></a>
+<figcaption>
+<p><span class="caption-text">LeDock docking form</span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default" id="id11">
+<a class="reference internal image-reference" href="../../../../_images/formVina_fabp4.png"><img alt="../../../../_images/formVina_fabp4.png" src="../../../../_images/formVina_fabp4.png" style="height: 450px;" /></a>
+<figcaption>
+<p><span class="caption-text">Vina docking form</span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="6">
+<li><dl class="simple">
+<dt><strong>Rescoring</strong></dt><dd><p>In order to combine and compare the docking poses generated by each of the software, we need to first evaluate
+those poses using the same scoring function. In this case, we use the ODDT score protocol to rescore all the docking poses with
+its Vina score function.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id12">
+<a class="reference internal image-reference" href="../../../../_images/formRescore_fabp4.png"><img alt="../../../../_images/formRescore_fabp4.png" src="../../../../_images/formRescore_fabp4.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-text">ODDT docking rescoring form</span><a class="headerlink" href="#id12" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="7">
+<li><dl class="simple">
+<dt><strong>Filter and consensus</strong></dt><dd><p>Finally, the rescored poses can be combined, ranked and the consensus protocol can be applied
+to cluster and extract the most promising docking positions. The forms shown below refer to the filter and
+consensus protocols and their parameters, which are described below. In our example, different combinations of ranking
+filters and consensus parameters were used in order to evaluate the results. Nine different filtered subsets of our docked
+molecules containing the 0.01, 0.05, 0.1, 0.5, 1, 5, 10, 50 and 100 % of the highest scored poses were generated to be used in the
+consensus protocol.
+Then, for each of these subsets, 2 consensus protocols were executed with a difference in a vital parameter. First, both
+consensus runs will produce the same pose clusters; however, one of the consensus executions will only consider sufficient
+those clusters containing at least one pose from each of the 3 docking software (N3) while the other, more permissive one,
+will consider sufficient those that contain at least poses from 2 docking software (N2). This way, we intend to generate sets
+enriched in active molecules and smaller than the original set of 2796 molecules.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id13">
+<a class="reference internal image-reference" href="../../../../_images/formScoreFilter_fabp4.png"><img alt="../../../../_images/formScoreFilter_fabp4.png" src="../../../../_images/formScoreFilter_fabp4.png" style="height: 325px;" /></a>
+<figcaption>
+<p><span class="caption-text">Top scoring filter form</span><a class="headerlink" href="#id13" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+<td><figure class="align-default" id="id14">
+<a class="reference internal image-reference" href="../../../../_images/formConsensus_fabp4.png"><img alt="../../../../_images/formConsensus_fabp4.png" src="../../../../_images/formConsensus_fabp4.png" style="height: 425px;" /></a>
+<figcaption>
+<p><span class="caption-text">Consensus docking form</span><a class="headerlink" href="#id14" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The results of this experiment comparing the filtering vs N2 consensus are contained in Fig. ref{fig:ConsResN2},
+where we can observe the enrichment of actives vs decoys of the output subsets and the total number of molecules
+kept for each of them. Subsets labeled %x show the enrichment for the sets generated only passing the score-filter,
+while those labeled %x_N2 represents the corresponding set generated after passing the score filter plus consensus protocol.
+A similar image with the results for the N3 consensus, which gave similar results, can be found in the supplementary material.</p>
+<p>As we can infer from the graphs, both strategies lead to a considerable enrichment of the original dataset as the percentage of actives
+(blue bars) is generally enhanced, while the number of total molecules in the subset (red line) is reduced. For our FABP4 example,
+from the original 2796 (47 actives to 2749 decoys) molecules (1.68% of actives); we got considerable enrichment in both the
+filtered and filter plus consensus subsets. For instance, we obtained a subset of 64 molecules where 11 actives were kept
+(17.19%) for the 0.1% filtered subset or, once this same subset is passed through the N2 consensus, we further enriched
+it to keep 7 actives out of just 24 molecules (29.17%).</p>
+<p>Therefore, we were able to reduce the total number of molecules of the original set while significantly enhancing the
+proportion of actives. However, the user must be careful not to reduce too much the number of docking poses with the
+score filter since we can observe that subsets below 0.05% lose all or most of the active molecules.</p>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id15">
+<img alt="consensus N2 results fabp4" src="../../../../_images/bestScoredVSConsN2_molecules_fabp4.png" />
+<figcaption>
+<p><span class="caption-text">Scipion-chem consensus N2 protocol enrichment. The graph shows the percentage of actives (in blue bars) and the total
+number of molecules (red dots) for each of the subsets generated in the workflow. The subset ‘Original’ represents
+the original set imported from DUD-E; ‘%100’ the subset of molecules remaining after the described ligand-based
+filtering (which slightly improves the enrichment) and then each of the consensus subset generated by applying a
+best ODDT score ranking filter for the top %x and consensus docking with parameter N2.</span><a class="headerlink" href="#id15" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+<tr class="row-even"><td><figure class="align-default" id="id16">
+<img alt="consensus N3 results fabp4" src="../../../../_images/bestScoredVSConsN3_molecules_fabp4.png" />
+<figcaption>
+<p><span class="caption-text">Suplementary Scipion-chem consensus N3 protocol enrichment. The graph shows the percentage of actives (in blue bars) and the total
+number of molecules (red dots) for each of the subsets generated in the workflow. The subset ‘Original’ represents
+the original set imported from DUD-E; ‘%100’ the subset of molecules remaining after the described ligand-based
+filtering (which slightly improves the enrichment) and then each of the consensus subset generated by applying a
+best ODDT score ranking filter for the top %x and consensus docking with parameter N3.</span><a class="headerlink" href="#id16" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Additionally, the figure below represents the experimental values for the interaction of the active molecules and the receptor.
+Each of the points represent an active molecule, placed depending on their experimental value (either Ki in blue or IC50 in red)
+and their best pose ODDTScore. Those points with a yellow star correspond to the active molecules present in the best resulting
+consensus dataset (%0.1_N2). As we can observe, the ODDTScore seems to correlate relatively well, and most of the highest ODDTScores
+represent the best experimental affinities, which are captured in the consensus.</p>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="align-default" id="id17">
+<img alt="consensus N2 0.1% experimental affinities" src="../../../../_images/activesExpAffinities_InConsensus_0.1_n2.png" />
+<figcaption>
+<p><span class="caption-text">Experimental values of actives against ODDTScore. Yellow stars specify actives found in the best consensus set.</span><a class="headerlink" href="#id17" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

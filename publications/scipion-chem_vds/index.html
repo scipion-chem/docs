@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scipion-chem VDS Data &mdash; Scipion Chem 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=f327017f" />
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Contact us" href="../../contact.html" />
+    <link rel="prev" title="Automatic testing tool" href="../../tools/automatic-tests/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Scipion Chem
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/pwchem/index.html">scipion-chem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/amber/index.html">scipion-chem-amber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/autodock/index.html">scipion-chem-autodock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/blast/index.html">scipion-chem-blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/durrantlab/index.html">scipion-chem-durrantlab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/fpocket/index.html">scipion-chem-fpocket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/gromacs/index.html">scipion-chem-gromacs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/lephar/index.html">scipion-chem-lephar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/modeller/index.html">scipion-chem-modeller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/openmm/index.html">scipion-chem-openmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/p2rank/index.html">scipion-chem-p2rank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/rosetta/index.html">scipion-chem-rosetta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins/schrodinger/index.html">scipion-chem-schrodinger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Scipion Chem enviroment</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../objects/index.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools/automatic-tests/index.html">Automatic testing tool</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Scipion-chem VDS Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#workflows">Workflows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-import-workflow">A) <strong>Import workflow</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-import-project">B) <strong>Import project</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-analysis">Data Analysis</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#data-extraction">1) Data extraction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#analysis">2) Analysis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#software-availability">Software availability</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contact.html">Contact us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Scipion Chem</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Scipion-chem VDS Data</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/publications/scipion-chem_vds/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <figure class="align-default">
+<img alt="pwchem logo" src="../../_images/logo.png" />
+</figure>
+<section id="scipion-chem-vds-data">
+<span id="scipion-chem-vds-index"></span><h1>Scipion-chem VDS Data<a class="headerlink" href="#scipion-chem-vds-data" title="Link to this heading"></a></h1>
+<p>This documentation contains all the data discussed in the Scipion-chem paper.</p>
+<section id="workflows">
+<h2>Workflows<a class="headerlink" href="#workflows" title="Link to this heading"></a></h2>
+<p>The following sections contain further explanations about the workflows discussed in the VDS Scipion-chem publication.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="workflows/4erf/index.html#docs-vds-4erf"><span class="std std-ref">Virtual Drug Screening workflow example (4erf_workflow)</span></a>: main VDS workflow discussed in “Virtual Drug Screening workflow” section for <a class="reference external" href="https://www.rcsb.org/structure/4ERF">4ERF</a> PDB structure, using <a class="reference external" href="https://data.mendeley.com/datasets/8czn4rxz68/1">D-COID</a> database.</p></li>
+<li><p><a class="reference internal" href="workflows/fabp4/index.html#docs-vds-fabp4"><span class="std std-ref">Show case (FABP4_workflow)</span></a>: bigger VDS workflow discussed in “Show case” section using <a class="reference external" href="https://dude.docking.org/targets/fabp4">FABP4</a> dataset from <a class="reference external" href="https://dude.docking.org/">DUD-E</a> database.</p></li>
+<li><p><a class="reference internal" href="workflows/1a28/index.html#docs-vds-1a28"><span class="std std-ref">Supplementary workflow (1a28_workflow)</span></a>: supplementary workflow example similar to 4ERF, with data from <a class="reference external" href="https://www.rcsb.org/structure/1A28">1A28</a> PDB structure, using <a class="reference external" href="https://data.mendeley.com/datasets/8czn4rxz68/1">D-COID</a> database.</p></li>
+</ul>
+<p>The following workflows are available to download:</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 40.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Dataset</p></th>
+<th class="head"><p>Workflow</p></th>
+<th class="head"><p>Input files</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>4erf</p></td>
+<td><p><a class="reference download internal" download="" href="../../_downloads/f57985ed88978fd7680ae65451300a4a/4erf.json"><code class="xref download docutils literal notranslate"><span class="pre">4erf.json</span></code></a></p></td>
+<td><p><a class="reference download internal" download="" href="../../_downloads/9e38b58c4eff1686a1008b245ccd3915/4erf.zip"><code class="xref download docutils literal notranslate"><span class="pre">4erf.zip</span></code></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>fabp4</p></td>
+<td><p><a class="reference download internal" download="" href="../../_downloads/6acd632d9afdc9a9b75aa912cf564eeb/fabp4.json"><code class="xref download docutils literal notranslate"><span class="pre">fabp4.json</span></code></a></p></td>
+<td><p><a class="reference download internal" download="" href="../../_downloads/6a3c96446e2dd0c4b766a1691b843e18/fabp4.zip"><code class="xref download docutils literal notranslate"><span class="pre">fabp4.zip</span></code></a></p></td>
+</tr>
+<tr class="row-even"><td><p>1a28</p></td>
+<td><p><a class="reference download internal" download="" href="../../_downloads/413ab8a702afd575d1c5821774068412/1a28.json"><code class="xref download docutils literal notranslate"><span class="pre">1a28.json</span></code></a></p></td>
+<td><p><a class="reference download internal" download="" href="../../_downloads/644b09e7bd1b9d5ddac67f96fe2b7913/1a28.zip"><code class="xref download docutils literal notranslate"><span class="pre">1a28.zip</span></code></a></p></td>
+</tr>
+</tbody>
+</table>
+<section id="a-import-workflow">
+<h3>A) <strong>Import workflow</strong><a class="headerlink" href="#a-import-workflow" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>The workflows are directly importable by Scipion, although, to make them functional, you will need to have all the used plugins installed.
+Because of storage limitations in this GitHub repo, these workflows are data empty, so the protocols are defined but
+not run, and the results are yet missing. We provide this workflows in case you are interested in rerunning them, either
+as they are or with any modification.
+To do so, you can import the workflow from a scipion3 project, using “Project -&gt; Import workflow” and selecting the json file.</p>
+<figure class="align-default">
+<img alt="import workflow" src="../../_images/importWorkflow.png" />
+</figure>
+<p>Once you have imported the workflow, remember to redirect the input protocols to the actual paths of the input files contained in this repository.
+For example, the pdb file imported in the “Import PDB” protocols or the sdf or mol2 files in the “Import Small Mols” protocols.</p>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="b-import-project">
+<h3>B) <strong>Import project</strong><a class="headerlink" href="#b-import-project" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>The corresponding workflows with the data discussed in the paper, full projects, can be found separatedly in our server:</p>
+<p><a class="reference external" href="https://scipion.cnb.csic.es/downloads/scipion/data/tutorials/VirtualDrugScreening/projects/">https://scipion.cnb.csic.es/downloads/scipion/data/tutorials/VirtualDrugScreening/projects/</a></p>
+<p>Scipion can directly recognize the structure of the downloaded folders (once unzipped), so you can directly import the project
+from the project manager window (the one to appear when using the command “scipion3”) using the “Import project” button and
+selecting the project folder i.e: 1a28_workflow</p>
+<figure class="align-default">
+<img alt="import project" src="../../_images/importProject.png" />
+</figure>
+<p>In this case, the project is self contained, so all the inputs are included and there is no need to change the paths for the input files.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="data-analysis">
+<h2>Data Analysis<a class="headerlink" href="#data-analysis" title="Link to this heading"></a></h2>
+<p>The results of the “Show case” section for FABP4 workflow are subjected to further analysis outside Scipion in order to obtain the results commented in the publication.
+<a class="reference external" href="https://github.com/scipion-chem/docs/tree/main/docs/publications/scipion-chem_vds/workflows">Here</a>, you can find the Python scripts used to parse and analyze the results in the Scipion project.</p>
+<p>This folder section contains the Python scripts used to analyze the results of the VDS workflow described in section “Show case”, regarding the FABP4 dataset.</p>
+<section id="data-extraction">
+<h3>1) Data extraction<a class="headerlink" href="#data-extraction" title="Link to this heading"></a></h3>
+<p>First, we extract the results from Scipion in a Pandas DataFrame object, which contains each of the docked poses as rows with information about its original molecule, whether it is an active or a decoy, the docking software that generated it and a column for each of the consensus docking protocols in the project determining if it is or not included in it.
+The user must follow the convention names in the FABP4 workflow provided in order for it to work as expected.</p>
+<p>Usage:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">scipion3</span> <span class="n">python</span> <span class="n">extractData</span><span class="o">.</span><span class="n">py</span> <span class="o">&lt;</span><span class="n">projectName</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>Output:</dt><dd><p>The output generated is a CSV file containing the DataFrame information.</p>
+</dd>
+</dl>
+</section>
+<section id="analysis">
+<h3>2) Analysis<a class="headerlink" href="#analysis" title="Link to this heading"></a></h3>
+<p>Separately, we code a Jupyter notebook that is configured to open and analyze the results extracted in the previous section.
+In there, the user can visualize several pieces of information extracted from the DataFrame, and the figures in the paper are plotted.</p>
+<p>Usage:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">scipion3</span> <span class="o">&amp;&amp;</span> <span class="n">jupyter</span> <span class="n">notebook</span> <span class="n">analyzeData</span><span class="o">.</span><span class="n">ipynb</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="software-availability">
+<h2>Software availability<a class="headerlink" href="#software-availability" title="Link to this heading"></a></h2>
+<p>All the commented Scipion-chem plugins are built on the Scipion workflow engine, which can be found in
+<a class="reference external" href="https://scipion.i2pc.es/">https://scipion.i2pc.es/</a> .</p>
+<p>As stated in the paper, <a class="reference external" href="https://github.com/scipion-chem">scipion-chem</a> integrates a set of bioinformatic tools and
+software inside the platform.
+Most of this tools are open, and no license is required for their use, so Scipion-chem installs it automatically,
+taking care of properly referencing all the sources.</p>
+<p>In the case of the few licensed software, the user must install
+either the programs or the license by themselves and tell Scipion-chem where the software is installed. More detailed
+guides on how to proceed with the installations can be found in the repositories of each of the plugins.</p>
+<p>A complete list of these software, organized by the plugins they are installed on, is described below. The versions
+refer to the moment this document is being written, but updates are constantly being made.</p>
+<ol class="arabic">
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem">scipion-chem:</a> as the core plugin, it installs a wide set of tools.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>OpenBabel 2.2 (conda)</p></li>
+<li><p>RDKit 2021.09.4 (conda)</p></li>
+<li><p>MGLTools 1.5.7 (<a class="reference external" href="https://ccsb.scripps.edu">https://ccsb.scripps.edu</a>)</p></li>
+<li><p>Shape-it 2.0.0 (<a class="reference external" href="https://github.com/rdkit/shape-it.git">https://github.com/rdkit/shape-it.git</a>)</p></li>
+<li><p>JChemPaint 3.2.0 (<a class="reference external" href="https://sourceforge.net/projects/cdk/files/JChemPaint">https://sourceforge.net/projects/cdk/files/JChemPaint</a>)</p></li>
+<li><p>PyMol 2.5.5 (<a class="reference external" href="https://pymol.org/installers">https://pymol.org/installers</a>)</p></li>
+<li><p>AliView 1.28 (<a class="reference external" href="https://ormbunkar.se/aliview">https://ormbunkar.se/aliview</a>)</p></li>
+<li><p>VMD 1.9.3 (conda)</p></li>
+<li><p>MDTraj 1.9.8 (conda)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-amber">scipion-chem-amber:</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>AmberTools 21 (conda)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-autodock">scipion-chem-autodock:</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>AutoDockSuite 4.2.6 (<a class="reference external" href="https://autodock.scripps.edu">https://autodock.scripps.edu</a>)</p></li>
+<li><p>AutoDock-GPU (<a class="reference external" href="https://github.com/ccsb-scripps/AutoDock-GPU.git">https://github.com/ccsb-scripps/AutoDock-GPU.git</a> as in 2023/04/14)</p></li>
+<li><p>Vina 1.2.3 (<a class="reference external" href="https://github.com/ccsb-scripps/AutoDock-Vina.git">https://github.com/ccsb-scripps/AutoDock-Vina.git</a>)</p></li>
+<li><p>ADFRSuite 1.0 (<a class="reference external" href="https://ccsb.scripps.edu/adfr">https://ccsb.scripps.edu/adfr</a>)</p></li>
+<li><p>Meeko 0.3.3 (pip)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-blast">scipion-chem-blast:</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>BLAST+ 2.12.0 (<a class="reference external" href="https://ftp.ncbi.nlm.nih.gov/blast">https://ftp.ncbi.nlm.nih.gov/blast</a>)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-fpocket">scipion-chem-fpocket:</a></p>
+<ul class="simple">
+<li><p>FPocket 3.0 (conda)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-gromacs">scipion-chem-gromacs:</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Gromacs 2021.5 (<a class="reference external" href="https://ftp.gromacs.org/gromacs">https://ftp.gromacs.org/gromacs</a>)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-lephar">scipion-chem-lephar:</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>LeDock - (<a class="reference external" href="http://www.lephar.com">http://www.lephar.com</a> as in 2023/04/14)</p></li>
+<li><p>LePro - (<a class="reference external" href="http://www.lephar.com">http://www.lephar.com</a> as in 2023/04/14)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-modeller">scipion-chem-modeller:</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Modeller 10.4 (conda) *License Key needed</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-p2rank">scipion-chem-p2rank:</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>P2Rank 2.3 (<a class="reference external" href="https://github.com/rdk/p2rank">https://github.com/rdk/p2rank</a>)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-rosetta">scipion-chem-rosetta:</a></p>
+<ul class="simple">
+<li><p>Rosetta 3.12 (-) *Need user installation</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/scipion-chem/scipion-chem-pwchemSchrodinger">scipion-chem-pwchemSchrodinger:</a></p>
+<ul class="simple">
+<li><p>Schrödinger Suite 2021-3 (-) *Need user installation and key</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../tools/automatic-tests/index.html" class="btn btn-neutral float-left" title="Automatic testing tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../contact.html" class="btn btn-neutral float-right" title="Contact us" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Scipion Chem team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
